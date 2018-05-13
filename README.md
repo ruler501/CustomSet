@@ -7,7 +7,10 @@ With 120 commons, 100 uncommons, 60 rares, and 30 commanders
 With primary themes of spells in graveyards mattering and enchantments mattering.
 
 *New Mechanics*
+Original Saga Design - Board game movement along the card.
 
+*Returning Mechanics*
+Flashback - Alternate cost to cast from graveyard for instant and sorceries.
 
 *Cycles*
 
