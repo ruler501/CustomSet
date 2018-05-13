@@ -4,6 +4,9 @@ stylesheet: m15
 set info:
 	symbol: 
 	masterpiece symbol: 
+	automatic reminder text: old, expert, pseudo, action, custom
+	sort multicolor in pairs: yes
+	sort hybrid in pairs: yes
 styling:
 	magic-m15:
 		text box mana symbols: magic-mana-small.mse-symbol-font
@@ -30,31 +33,8 @@ card:
 card:
 	has styling: false
 	notes: 
-	time created: 2018-05-12 21:33:35
-	time modified: 2018-05-12 21:36:36
-	name: Animate Dead
-	casting cost: 1B
-	image: 
-	super type: <word-list-type>Enchantment</word-list-type>
-	sub type: <word-list-enchantment>Aura</word-list-enchantment><soft> </soft><word-list-enchantment></word-list-enchantment>
-	rarity: uncommon
-	rule text:
-		<kw-a><nospellcheck>Enchant <param-name>creature card in a graveyard</param-name></nospellcheck></kw-a>
-		When Animate Dead enters the battlefield, if it’s on the battlefield, it loses “<kw-a><nospellcheck>enchant <param-name>creature card in a graveyard” and gains “enchant creature put onto the battlefield with Animate Dead</param-name></nospellcheck></kw-a>.” Return enchanted creature card to the battlefield under your control and attach Animate Dead to it. When Animate Dead leaves the battlefield, that creature’s controller sacrifices it.
-		Enchanted creature gets -1/-0.
-	flavor text: <i-flavor></i-flavor>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
 	time created: 2018-05-12 21:38:02
-	time modified: 2018-05-12 21:38:49
+	time modified: 2018-05-12 22:17:16
 	name: Counterspell
 	casting cost: UU
 	image: 
@@ -128,6 +108,1877 @@ card:
 	copyright 3: 
 	mainframe image: 
 	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-12 22:22:11
+	time modified: 2018-05-12 22:25:17
+	name: Cascade Bluffs
+	image: 
+	super type: <word-list-type>Land</word-list-type>
+	sub type: <word-list-land></word-list-land>
+	rule text:
+		<sym-auto>T</sym-auto>: Add <sym-auto>C</sym-auto>.
+		<sym-auto>U/R</sym-auto>, <sym-auto>T</sym-auto>: Add <sym-auto>UU</sym-auto>, <sym-auto>UR</sym-auto>, or <sym>RR</sym>.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-12 22:25:25
+	time modified: 2018-05-12 22:26:29
+	name: Fetid Heath
+	image: 
+	super type: <word-list-type>Land</word-list-type>
+	sub type: <word-list-land></word-list-land>
+	rule text:
+		<sym-auto>T</sym-auto>: Add <sym-auto>C</sym-auto>.
+		<sym-auto>W/B</sym-auto>, <sym-auto>T</sym-auto>: Add <sym-auto>WW</sym-auto>, <sym-auto>WB</sym-auto>, or <sym>BB</sym>.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-12 22:35:00
+	time modified: 2018-05-12 22:35:41
+	name: Abzan Advantage
+	casting cost: 1W
+	image: 
+	super type: <word-list-type>Instant</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rule text: Target player sacrifices an enchantment. <kw-1><nospellcheck>Bolster <param-number>1</param-number></nospellcheck>.<atom-reminder-action> <i-auto>(Choose a creature with the least toughness among creatures you control and put <param-number>a</param-number> +1/+1 counter on it.)</i-auto></atom-reminder-action></kw-1>
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-12 22:37:01
+	time modified: 2018-05-12 22:37:46
+	name: Map the Wastes
+	casting cost: 2G
+	image: 
+	super type: <word-list-type>Sorcery</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rule text: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library. <kw-1><nospellcheck>Bolster <param-number>1</param-number></nospellcheck>.<atom-reminder-action> <i-auto>(Choose a creature with the least toughness among creatures you control and put <param-number>a</param-number> +1/+1 counter on it.)</i-auto></atom-reminder-action></kw-1>
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-12 22:40:35
+	time modified: 2018-05-12 22:43:51
+	name: Sign in Counters
+	casting cost: 3B
+	image: 
+	super type: <word-list-type>Instant</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rule text: Target players draws 2 cards and lose 2 life. <kw-1><nospellcheck>Bolster <param-number>1</param-number></nospellcheck>.<atom-reminder-action> <i-auto>(Choose a creature with the least toughness among creatures you control and put <param-number>a</param-number> +1/+1 counter on it.)</i-auto></atom-reminder-action></kw-1>
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-12 22:43:13
+	time modified: 2018-05-12 22:44:28
+	name: Bounce with Counters
+	casting cost: 1U
+	image: 
+	super type: <word-list-type>Sorcery</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rule text: Return target creature to its owner’s hand. <kw-1><nospellcheck>Bolster <param-number>1</param-number></nospellcheck>.<atom-reminder-action> <i-auto>(Choose a creature with the least toughness among creatures you control and put <param-number>a</param-number> +1/+1 counter on it.)</i-auto></atom-reminder-action></kw-1>
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-12 22:44:17
+	time modified: 2018-05-12 22:46:03
+	name: Burn for Counters
+	casting cost: 3R
+	image: 
+	super type: <word-list-type>Instant</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rarity: uncommon
+	rule text: <kw-a><nospellcheck>Bolster <param-number>3</param-number></nospellcheck></kw-a> then deal damage to any target equal to the number of counters amongst creatures you control.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-12 22:46:10
+	time modified: 2018-05-12 22:46:58
+	name: Steal with Counters
+	casting cost: 3R
+	image: 
+	super type: <word-list-type>Sorcery</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rule text: Gain control of target creature until end of turn, that creatures gains <kw-a><nospellcheck>haste</nospellcheck></kw-a>. <kw-1><nospellcheck>Bolster <param-number>1</param-number></nospellcheck>.<atom-reminder-action> <i-auto>(Choose a creature with the least toughness among creatures you control and put <param-number>a</param-number> +1/+1 counter on it.)</i-auto></atom-reminder-action></kw-1>
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: Creature
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:46:26
+	name: CW10
+	casting cost: W
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: Creature
+	time created: 2018-05-13 07:43:18
+	time modified: 2018-05-13 07:45:41
+	name: CW04
+	casting cost: W
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: Creature
+	time created: 2018-05-13 07:43:18
+	time modified: 2018-05-13 07:45:52
+	name: CW05
+	casting cost: W
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: Creature
+	time created: 2018-05-13 07:43:18
+	time modified: 2018-05-13 07:46:08
+	name: CW08
+	casting cost: W
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: Creature
+	time created: 2018-05-13 07:43:18
+	time modified: 2018-05-13 07:46:14
+	name: CW09
+	casting cost: W
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: Creature
+	time created: 2018-05-13 07:43:18
+	time modified: 2018-05-13 07:46:03
+	name: CW07
+	casting cost: W
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: Creature
+	time created: 2018-05-13 07:43:18
+	time modified: 2018-05-13 07:45:58
+	name: CW06
+	casting cost: W
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: Creature
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:46:31
+	name: CW11
+	casting cost: W
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: Creature
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:46:35
+	name: CW12
+	casting cost: W
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: Creature
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:46:39
+	name: CW13
+	casting cost: W
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: Creature
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:46:42
+	name: CW14
+	casting cost: W
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: Creature
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:46:45
+	name: CW15
+	casting cost: W
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: Creature
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:46:48
+	name: CW16
+	casting cost: W
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:46:51
+	name: CW17
+	casting cost: W
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:47:14
+	name: CW18
+	casting cost: W
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:47:17
+	name: CW19
+	casting cost: W
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:47:22
+	name: CW20
+	casting cost: W
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: Creature
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:43:13
+	name: CW03
+	casting cost: W
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:49:17
+	name: CU20
+	casting cost: U
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:48:57
+	name: CU15
+	casting cost: U
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:49:01
+	name: CU16
+	casting cost: U
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:49:05
+	name: CU17
+	casting cost: U
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:49:10
+	name: CU18
+	casting cost: U
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:48:54
+	name: CU14
+	casting cost: U
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:48:50
+	name: CU13
+	casting cost: U
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:48:45
+	name: CU12
+	casting cost: U
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:48:41
+	name: CU11
+	casting cost: U
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: Creature
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:48:36
+	name: CU10
+	casting cost: U
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: Creature
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:48:29
+	name: CU09
+	casting cost: U
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:49:14
+	name: CU19
+	casting cost: U
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: Creature
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:48:24
+	name: CU08
+	casting cost: U
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: Creature
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:48:21
+	name: CU07
+	casting cost: U
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: Creature
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:48:16
+	name: CU06
+	casting cost: U
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: Creature
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:48:11
+	name: CU05
+	casting cost: U
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: Creature
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:47:42
+	name: CU03
+	casting cost: U
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: Creature
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:48:06
+	name: CU04
+	casting cost: U
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: Creature
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:50:08
+	name: CB06
+	casting cost: B
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: Creature
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:50:12
+	name: CB07
+	casting cost: B
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: Creature
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:50:15
+	name: CB08
+	casting cost: B
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: Creature
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:50:19
+	name: CB09
+	casting cost: B
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: Creature
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:50:29
+	name: CB11
+	casting cost: B
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: Creature
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:50:35
+	name: CB12
+	casting cost: B
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: Creature
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:50:41
+	name: CB13
+	casting cost: B
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: Creature
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:50:45
+	name: CB14
+	casting cost: B
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:50:57
+	name: CB16
+	casting cost: B
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: Creature
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:49:57
+	name: CB04
+	casting cost: B
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: Creature
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:50:23
+	name: CB10
+	casting cost: B
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:50:52
+	name: CB15
+	casting cost: B
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:51:06
+	name: CB18
+	casting cost: B
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:51:11
+	name: CB19
+	casting cost: B
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:51:15
+	name: CB20
+	casting cost: B
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: Creature
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:49:32
+	name: CB03
+	casting cost: B
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:51:02
+	name: CB17
+	casting cost: B
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: Creature
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:50:00
+	name: CB05
+	casting cost: B
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:52:49
+	name: CR14
+	casting cost: R
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:52:53
+	name: CR15
+	casting cost: R
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:52:57
+	name: CR16
+	casting cost: R
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:53:01
+	name: CR17
+	casting cost: R
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:53:05
+	name: CR18
+	casting cost: R
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:53:09
+	name: CR19
+	casting cost: R
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:53:12
+	name: CR20
+	casting cost: R
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:52:45
+	name: CR13
+	casting cost: R
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: Creature
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:52:42
+	name: CR12
+	casting cost: R
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: Creature
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:52:39
+	name: CR11
+	casting cost: R
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: Creature
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:52:36
+	name: CR10
+	casting cost: R
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: Creature
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:52:32
+	name: CR09
+	casting cost: R
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: Creature
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:55:53
+	name: CG04
+	casting cost: G
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: Creature
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:52:28
+	name: CR08
+	casting cost: R
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: Creature
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:52:24
+	name: CR07
+	casting cost: R
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: Creature
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:52:20
+	name: CR06
+	casting cost: R
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: Creature
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:52:17
+	name: CR05
+	casting cost: R
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: Creature
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:52:13
+	name: CR04
+	casting cost: R
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: Creature
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:51:37
+	name: CR03
+	casting cost: R
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: Creature
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:56:07
+	name: CG06
+	casting cost: G
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: Creature
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:55:59
+	name: CG05
+	casting cost: G
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: Creature
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:56:10
+	name: CG07
+	casting cost: G
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: Creature
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:56:13
+	name: CG08
+	casting cost: G
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: Creature
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:56:15
+	name: CG09
+	casting cost: G
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: Creature
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:56:21
+	name: CG11
+	casting cost: G
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: Creature
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:56:27
+	name: CG12
+	casting cost: G
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: Creature
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:56:32
+	name: CG13
+	casting cost: G
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: Creature
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:56:36
+	name: CG14
+	casting cost: G
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:56:39
+	name: CG15
+	casting cost: G
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:56:43
+	name: CG16
+	casting cost: G
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:56:47
+	name: CG17
+	casting cost: G
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:56:51
+	name: CG18
+	casting cost: G
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:56:56
+	name: CG19
+	casting cost: G
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:57:02
+	name: CG20
+	casting cost: G
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: Creature
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:55:37
+	name: CG03
+	casting cost: G
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: Creature
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 07:56:18
+	name: CG10
+	casting cost: G
+	image: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 08:14:30
+	name: CA07
+	casting cost: C
+	image: 
+	super type: <word-list-type>Artifact</word-list-type>
+	sub type: <word-list-artifact></word-list-artifact>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 08:14:33
+	name: CA08
+	casting cost: C
+	image: 
+	super type: <word-list-type>Artifact</word-list-type>
+	sub type: <word-list-artifact></word-list-artifact>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 08:14:36
+	name: CA09
+	casting cost: C
+	image: 
+	super type: <word-list-type>Artifact</word-list-type>
+	sub type: <word-list-artifact></word-list-artifact>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 08:13:38
+	name: CA01
+	casting cost: C
+	image: 
+	super type: <word-list-type>Artifact</word-list-type>
+	sub type: <word-list-artifact></word-list-artifact>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 08:15:06
+	name: CA15
+	casting cost: C
+	image: 
+	super type: <word-list-type>Artifact</word-list-type>
+	sub type: <word-list-artifact></word-list-artifact>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 08:14:40
+	name: CA10
+	casting cost: C
+	image: 
+	super type: <word-list-type>Artifact</word-list-type>
+	sub type: <word-list-artifact></word-list-artifact>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 08:14:48
+	name: CA12
+	casting cost: C
+	image: 
+	super type: <word-list-type>Artifact</word-list-type>
+	sub type: <word-list-artifact></word-list-artifact>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 08:14:55
+	name: CA13
+	casting cost: C
+	image: 
+	super type: <word-list-type>Artifact</word-list-type>
+	sub type: <word-list-artifact></word-list-artifact>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 08:14:44
+	name: CA11
+	casting cost: C
+	image: 
+	super type: <word-list-type>Artifact</word-list-type>
+	sub type: <word-list-artifact></word-list-artifact>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 08:15:02
+	name: CA14
+	casting cost: C
+	image: 
+	super type: <word-list-type>Artifact</word-list-type>
+	sub type: <word-list-artifact></word-list-artifact>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 08:14:25
+	name: CA05
+	casting cost: C
+	image: 
+	super type: <word-list-type>Artifact</word-list-type>
+	sub type: <word-list-artifact></word-list-artifact>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 08:14:22
+	name: CA04
+	casting cost: C
+	image: 
+	super type: <word-list-type>Artifact</word-list-type>
+	sub type: <word-list-artifact></word-list-artifact>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 08:14:19
+	name: CA03
+	casting cost: C
+	image: 
+	super type: <word-list-type>Artifact</word-list-type>
+	sub type: <word-list-artifact></word-list-artifact>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 08:13:59
+	name: CA02
+	casting cost: C
+	image: 
+	super type: <word-list-type>Artifact</word-list-type>
+	sub type: <word-list-artifact></word-list-artifact>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 08:14:27
+	name: CA06
+	casting cost: C
+	image: 
+	super type: <word-list-type>Artifact</word-list-type>
+	sub type: <word-list-artifact></word-list-artifact>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-13 08:15:17
+	time modified: 2018-05-13 08:21:44
+	name: CL02
+	image: 
+	super type: <word-list-type>Land</word-list-type>
+	sub type: <word-list-land></word-list-land>
+	rule text:
+		<atom-cardname><nospellcheck>CL02</nospellcheck></atom-cardname> enters the battlefield tapped.
+		<sym-auto>T</sym-auto>: Add <sym-auto>U</sym-auto>
+		<sym-auto>1UU</sym-auto>: <atom-cardname><nospellcheck>CL02</nospellcheck></atom-cardname> becomes a 2/2 blue enchantment creature with <kw-a><nospellcheck>flying</nospellcheck></kw-a> until end of turn. It’s still a land.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-13 08:15:17
+	time modified: 2018-05-13 08:23:28
+	name: CL04
+	image: 
+	super type: <word-list-type>Land</word-list-type>
+	sub type: <word-list-land></word-list-land>
+	rule text:
+		<atom-cardname><nospellcheck>CL04</nospellcheck></atom-cardname> enters the battlefield tapped.
+		<sym-auto>T</sym-auto>: Add <sym-auto>R</sym-auto>
+		<sym-auto>1RR</sym-auto>: <atom-cardname><nospellcheck>CL04</nospellcheck></atom-cardname> becomes a 2/1 red enchantment creature with <kw-a><nospellcheck>double strike</nospellcheck></kw-a> until end of turn. It’s still a land.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-13 08:15:17
+	time modified: 2018-05-13 08:21:09
+	name: CL03
+	image: 
+	super type: <word-list-type>Land</word-list-type>
+	sub type: <word-list-land></word-list-land>
+	rule text:
+		<atom-cardname><nospellcheck>CL03</nospellcheck></atom-cardname> enters the battlefield tapped.
+		<sym-auto>T</sym-auto>: Add <sym-auto>B</sym-auto>
+		<sym-auto>1BB</sym-auto>: <atom-cardname><nospellcheck>CL03</nospellcheck></atom-cardname> becomes a 1/3 black enchantment creature with <kw-a><nospellcheck>deathtouch</nospellcheck></kw-a> until end of turn. It’s still a land.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-13 08:15:17
+	time modified: 2018-05-13 08:24:26
+	name: CL05
+	image: 
+	super type: <word-list-type>Land</word-list-type>
+	sub type: <word-list-land></word-list-land>
+	rule text:
+		<atom-cardname><nospellcheck>CL05</nospellcheck></atom-cardname> enters the battlefield tapped.
+		<sym-auto>T</sym-auto>: Add <sym-auto>G</sym-auto>
+		<sym-auto>2GG</sym-auto>: <atom-cardname><nospellcheck>CL05</nospellcheck></atom-cardname> becomes a 5/5 green enchantment creature with <kw-a><nospellcheck>trample</nospellcheck></kw-a> until end of turn. It’s still a land.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-13 08:15:17
+	time modified: 2018-05-13 08:23:39
+	name: CL01
+	image: 
+	super type: <word-list-type>Land</word-list-type>
+	sub type: <word-list-land></word-list-land>
+	rule text:
+		<atom-cardname><nospellcheck>CL01</nospellcheck></atom-cardname> enters the battlefield tapped.
+		<sym-auto>T</sym-auto>: Add <sym-auto>W</sym-auto>
+		<sym-auto>1WW</sym-auto>: <atom-cardname><nospellcheck>CL01</nospellcheck></atom-cardname> becomes a 3/2 white enchantment creature with <kw-a><nospellcheck>first strike</nospellcheck></kw-a> until end of turn. It’s still a land.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+keyword:
+	keyword: Counterfall
+	match: Counterfall <atom-param>number</atom-param>
+	reminder: 
+	rules: Counterfall number> — Whenever one or more counters are placed on a creature you control, if there are number> or more counters on that creature, [effect].
+	mode: pseudo
 version control:
 	type: none
 apprentice code: 
