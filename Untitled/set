@@ -46,6 +46,37 @@ card:
 	copyright 3: 
 	mainframe image: 
 	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-12 21:11:43
+	time modified: 2018-05-12 21:12:11
+	name: Test Card
+	casting cost: 1UU
+	image: 
+	super type: <word-list-type>Sorcery</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rule text: Create two 1/1 Pirate tokens.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-12 21:11:48
+	time modified: 2018-05-12 21:11:48
+	image: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
 version control:
 	type: none
 apprentice code: 
