@@ -30,14 +30,96 @@ card:
 card:
 	has styling: false
 	notes: 
-	time created: 2018-05-12 21:00:20
-	time modified: 2018-05-12 21:00:59
-	name: Gideon’s Reproach
-	casting cost: 1W
+	time created: 2018-05-12 21:33:35
+	time modified: 2018-05-12 21:36:36
+	name: Animate Dead
+	casting cost: 1B
+	image: 
+	super type: <word-list-type>Enchantment</word-list-type>
+	sub type: <word-list-enchantment>Aura</word-list-enchantment><soft> </soft><word-list-enchantment></word-list-enchantment>
+	rarity: uncommon
+	rule text:
+		<kw-a><nospellcheck>Enchant <param-name>creature card in a graveyard</param-name></nospellcheck></kw-a>
+		When Animate Dead enters the battlefield, if it’s on the battlefield, it loses “<kw-a><nospellcheck>enchant <param-name>creature card in a graveyard” and gains “enchant creature put onto the battlefield with Animate Dead</param-name></nospellcheck></kw-a>.” Return enchanted creature card to the battlefield under your control and attach Animate Dead to it. When Animate Dead leaves the battlefield, that creature’s controller sacrifices it.
+		Enchanted creature gets -1/-0.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-12 21:38:02
+	time modified: 2018-05-12 21:38:49
+	name: Counterspell
+	casting cost: UU
 	image: 
 	super type: <word-list-type>Instant</word-list-type>
 	sub type: <word-list-spell></word-list-spell>
-	rule text: Gideon’s Reproach deals 4 damage to target attacking or blocking creature.
+	rule text: Counter target spell.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-12 21:38:55
+	time modified: 2018-05-12 21:40:09
+	name: Naturalize
+	casting cost: 1G
+	image: 
+	super type: <word-list-type>Instant</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rule text: Destroy target artifact or enchantment.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-12 21:40:18
+	time modified: 2018-05-12 21:40:58
+	name: Doom Blade
+	casting cost: 1B
+	image: 
+	super type: <word-list-type>Instant</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rule text: Destroy target nonblack creature.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-12 21:41:45
+	time modified: 2018-05-12 21:42:43
+	name: Pacifism
+	casting cost: 1W
+	image: 
+	super type: <word-list-type>Enchantment</word-list-type>
+	sub type: <word-list-enchantment>Aura</word-list-enchantment><soft> </soft><word-list-enchantment></word-list-enchantment>
+	rule text:
+		<kw-a><nospellcheck>Enchant <param-name>creature</param-name></nospellcheck></kw-a>
+		Enchanted creature can’t attack or block.
 	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
