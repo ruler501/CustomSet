@@ -1,0 +1,51 @@
+﻿mse version: 0.3.8
+game: magic
+stylesheet: m15
+set info:
+	symbol: 
+	masterpiece symbol: 
+styling:
+	magic-m15:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-12 20:47:35
+	time modified: 2018-05-12 20:58:52
+	name: Lightning Bolt
+	casting cost: R
+	image: 
+	super type: <word-list-type>Instant</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rule text: Lightning Bolt deals 3 damage to any target.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-12 21:00:20
+	time modified: 2018-05-12 21:00:59
+	name: Gideon’s Reproach
+	casting cost: 1W
+	image: 
+	super type: <word-list-type>Instant</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rule text: Gideon’s Reproach deals 4 damage to target attacking or blocking creature.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+version control:
+	type: none
+apprentice code: 
