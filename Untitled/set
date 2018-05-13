@@ -11,15 +11,17 @@ styling:
 card:
 	has styling: false
 	notes: 
-	time created: 2018-05-12 20:47:35
-	time modified: 2018-05-12 20:58:52
-	name: Lightning Bolt
-	casting cost: R
+	time created: 2018-05-12 22:34:32
+	time modified: 2018-05-12 22:50:58
+	name: Counterfall Reanimator
+	casting cost: 2B
 	image: 
-	super type: <word-list-type>Instant</word-list-type>
-	sub type: <word-list-spell></word-list-spell>
-	rule text: Lightning Bolt deals 3 damage to any target.
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Cleric</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rule text: <error-spelling:en_us:/magic.mse-game/magic-words>Counterfall</error-spelling:en_us:/magic.mse-game/magic-words> 3 <error-spelling:en_us:/magic.mse-game/magic-words>-</error-spelling:en_us:/magic.mse-game/magic-words> Whenever one or more +1/+1 counters are placed on a creature you control, if it has 3 or more +1/+1 counters on it, return target creature from your graveyard to your hand.
 	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 2
 	card code text: 
 	copyright: 
 	image 2: 
@@ -30,15 +32,20 @@ card:
 card:
 	has styling: false
 	notes: 
-	time created: 2018-05-12 21:00:20
-	time modified: 2018-05-12 21:00:59
-	name: Gideon’s Reproach
-	casting cost: 1W
+	time created: 2018-05-12 22:36:13
+	time modified: 2018-05-12 22:50:40
+	name: Counterfall First Striker
+	casting cost: 3W
 	image: 
-	super type: <word-list-type>Instant</word-list-type>
-	sub type: <word-list-spell></word-list-spell>
-	rule text: Gideon’s Reproach deals 4 damage to target attacking or blocking creature.
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Bird</word-list-race> <word-list-class>Warrior</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: common
+	rule text:
+		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>
+		<error-spelling:en_us:/magic.mse-game/magic-words>Counterfall</error-spelling:en_us:/magic.mse-game/magic-words> 1 <error-spelling:en_us:/magic.mse-game/magic-words>-</error-spelling:en_us:/magic.mse-game/magic-words> Whenever one or more +1/+1 counters are placed on a creature you control, if it has one or more +1/+1 counters on it, it gains <kw-a><nospellcheck>first strike</nospellcheck></kw-a> until end of turn
 	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 3
 	card code text: 
 	copyright: 
 	image 2: 
@@ -49,15 +56,17 @@ card:
 card:
 	has styling: false
 	notes: 
-	time created: 2018-05-12 21:11:43
-	time modified: 2018-05-12 21:12:11
-	name: Test Card
-	casting cost: 1UU
+	time created: 2018-05-12 22:43:37
+	time modified: 2018-05-12 22:45:21
+	name: Counterfall Menacer
+	casting cost: 2R
 	image: 
-	super type: <word-list-type>Sorcery</word-list-type>
-	sub type: <word-list-spell></word-list-spell>
-	rule text: Create two 1/1 Pirate tokens.
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Goblin</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: <error-spelling:en_us:/magic.mse-game/magic-words>Counterfall</error-spelling:en_us:/magic.mse-game/magic-words> 1 <error-spelling:en_us:/magic.mse-game/magic-words>-</error-spelling:en_us:/magic.mse-game/magic-words> Whenever one or more +1/+1 counters are placed on <atom-cardname><nospellcheck>Counterfall Menacer</nospellcheck></atom-cardname>, if it has one or more +1/+1 counters on it, it gains <kw-a><nospellcheck>menace</nospellcheck></kw-a> until end of turn
 	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 1
 	card code text: 
 	copyright: 
 	image 2: 
@@ -68,9 +77,14 @@ card:
 card:
 	has styling: false
 	notes: 
-	time created: 2018-05-12 21:11:48
-	time modified: 2018-05-12 21:11:48
+	time created: 2018-05-12 22:45:36
+	time modified: 2018-05-12 22:51:17
+	name: Counterfall Trampler
+	casting cost: 2G
 	image: 
+	rule text: <error-spelling:en_us:/magic.mse-game/magic-words>Counterfall</error-spelling:en_us:/magic.mse-game/magic-words> 1 <error-spelling:en_us:/magic.mse-game/magic-words>-</error-spelling:en_us:/magic.mse-game/magic-words> Whenever one or more +1/+1 counters are placed on a creature you control, if it has one or more +1/+1 counters on it, it gains <kw-a><nospellcheck>menace</nospellcheck></kw-a> until end of turn
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
 	copyright: 
 	image 2: 
 	copyright 2: 
