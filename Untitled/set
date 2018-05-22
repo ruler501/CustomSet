@@ -2553,6 +2553,96 @@ card:
 	copyright 3: 
 	mainframe image: 
 	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 10:01:38
+	name: UA02
+	casting cost: C
+	image: 
+	super type: <word-list-type>Artifact</word-list-type>
+	sub type: <word-list-artifact></word-list-artifact>
+	rarity: uncommon
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 10:01:42
+	name: UA03
+	casting cost: C
+	image: 
+	super type: <word-list-type>Artifact</word-list-type>
+	sub type: <word-list-artifact></word-list-artifact>
+	rarity: uncommon
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 10:01:45
+	name: UA04
+	casting cost: C
+	image: 
+	super type: <word-list-type>Artifact</word-list-type>
+	sub type: <word-list-artifact></word-list-artifact>
+	rarity: uncommon
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 10:01:48
+	name: UA05
+	casting cost: C
+	image: 
+	super type: <word-list-type>Artifact</word-list-type>
+	sub type: <word-list-artifact></word-list-artifact>
+	rarity: uncommon
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-13 10:01:27
+	name: UA01
+	casting cost: C
+	image: 
+	super type: <word-list-type>Artifact</word-list-type>
+	sub type: <word-list-artifact></word-list-artifact>
+	rarity: uncommon
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
 keyword:
 	keyword: Counterfall
 	match: Counterfall <atom-param>number</atom-param>
