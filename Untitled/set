@@ -33,7 +33,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-12 22:36:13
-	time modified: 2018-05-12 22:50:40
+	time modified: 2018-05-13 19:32:56
 	name: Counterfall First Striker
 	casting cost: 3W
 	image: 
@@ -42,7 +42,7 @@ card:
 	rarity: common
 	rule text:
 		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>
-		<error-spelling:en_us:/magic.mse-game/magic-words>Counterfall</error-spelling:en_us:/magic.mse-game/magic-words> 1 <error-spelling:en_us:/magic.mse-game/magic-words>-</error-spelling:en_us:/magic.mse-game/magic-words> Whenever one or more +1/+1 counters are placed on a creature you control, if it has one or more +1/+1 counters on it, it gains <kw-a><nospellcheck>first strike</nospellcheck></kw-a> until end of turn
+		<error-spelling:en_us:/magic.mse-game/magic-words>Counterfall</error-spelling:en_us:/magic.mse-game/magic-words> 1 <error-spelling:en_us:/magic.mse-game/magic-words>-</error-spelling:en_us:/magic.mse-game/magic-words> Whenever one or more +1/+1 counters are placed on a creature you control, if it has one or more +1/+1 counters on it, it gains <kw-a><nospellcheck>first strike</nospellcheck></kw-a> until end of turn.
 	flavor text: <i-flavor></i-flavor>
 	power: 2
 	toughness: 3
@@ -57,13 +57,13 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-12 22:43:37
-	time modified: 2018-05-12 22:45:21
+	time modified: 2018-05-13 19:32:51
 	name: Counterfall Menacer
 	casting cost: 2R
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
 	sub type: <word-list-race>Goblin</word-list-race><soft> </soft><word-list-class></word-list-class>
-	rule text: <error-spelling:en_us:/magic.mse-game/magic-words>Counterfall</error-spelling:en_us:/magic.mse-game/magic-words> 1 <error-spelling:en_us:/magic.mse-game/magic-words>-</error-spelling:en_us:/magic.mse-game/magic-words> Whenever one or more +1/+1 counters are placed on <atom-cardname><nospellcheck>Counterfall Menacer</nospellcheck></atom-cardname>, if it has one or more +1/+1 counters on it, it gains <kw-a><nospellcheck>menace</nospellcheck></kw-a> until end of turn
+	rule text: <error-spelling:en_us:/magic.mse-game/magic-words>Counterfall</error-spelling:en_us:/magic.mse-game/magic-words> 1 <error-spelling:en_us:/magic.mse-game/magic-words>-</error-spelling:en_us:/magic.mse-game/magic-words> Whenever one or more +1/+1 counters are placed on a creature you control, if it has one or more +1/+1 counters on it, it gains <kw-a><nospellcheck>menace</nospellcheck></kw-a> until end of turn.
 	flavor text: <i-flavor></i-flavor>
 	power: 2
 	toughness: 1
@@ -78,11 +78,11 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-12 22:45:36
-	time modified: 2018-05-12 22:51:17
+	time modified: 2018-05-13 19:33:00
 	name: Counterfall Trampler
 	casting cost: 2G
 	image: 
-	rule text: <error-spelling:en_us:/magic.mse-game/magic-words>Counterfall</error-spelling:en_us:/magic.mse-game/magic-words> 1 <error-spelling:en_us:/magic.mse-game/magic-words>-</error-spelling:en_us:/magic.mse-game/magic-words> Whenever one or more +1/+1 counters are placed on a creature you control, if it has one or more +1/+1 counters on it, it gains <kw-a><nospellcheck>menace</nospellcheck></kw-a> until end of turn
+	rule text: <error-spelling:en_us:/magic.mse-game/magic-words>Counterfall</error-spelling:en_us:/magic.mse-game/magic-words> 2 <error-spelling:en_us:/magic.mse-game/magic-words>-</error-spelling:en_us:/magic.mse-game/magic-words> Whenever one or more +1/+1 counters are placed on a creature you control, if it has two or more +1/+1 counters on it, it gains <kw-a><nospellcheck>trample</nospellcheck></kw-a> until end of turn.
 	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
