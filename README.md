@@ -1,8 +1,8 @@
 **Untitled**
 
-A custom set of cards for a commander draft format at or above the power level and complexity of masters sets. Intended to be drafted as 3 packs with 20 cards: 12 commons, 5 uncommons, 1 rare, 1 commander, and 1 land. Two cards should be taken with every pick.
+A custom set of cards for a commander draft format at or above the power level and complexity of masters sets. Intended to be drafted as 4 packs with 16 cards: 10 commons, 3 uncommons, 1 rare, 1 commander, and 1 land. Two cards should be taken with every pick.
 
-With 120 commons, 100 uncommons, 40 rares, 40 commanders, and 20 lands
+With 100 commons, 60 uncommons, 40 rares, 40 commanders, and 20 lands
 
 With primary themes of +1/+1 counters mattering and enchantments mattering.
 
