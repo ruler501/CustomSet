@@ -1439,12 +1439,14 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-13 08:14:30
-	name: CA07
-	casting cost: C
+	time modified: 2018-05-23 08:43:55
+	name: Izzet Signet
+	casting cost: 2
 	image: 
 	super type: <word-list-type>Artifact</word-list-type>
 	sub type: <word-list-artifact></word-list-artifact>
+	rule text: <sym-auto>1</sym-auto>, <sym-auto>T</sym-auto>: Add <sym-auto>UR</sym-auto>.
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
@@ -1456,12 +1458,14 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-13 08:14:33
-	name: CA08
-	casting cost: C
+	time modified: 2018-05-23 08:44:01
+	name: Golgari Signet
+	casting cost: 2
 	image: 
 	super type: <word-list-type>Artifact</word-list-type>
 	sub type: <word-list-artifact></word-list-artifact>
+	rule text: <sym-auto>1</sym-auto>, <sym-auto>T</sym-auto>: Add <sym-auto>BG</sym-auto>.
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
@@ -1473,12 +1477,14 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-13 08:14:36
-	name: CA09
-	casting cost: C
+	time modified: 2018-05-23 08:44:16
+	name: Boros Signet
+	casting cost: 2
 	image: 
 	super type: <word-list-type>Artifact</word-list-type>
 	sub type: <word-list-artifact></word-list-artifact>
+	rule text: <sym-auto>1</sym-auto>, <sym-auto>T</sym-auto>: Add <sym-auto>RW</sym-auto>.
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
@@ -1490,12 +1496,14 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-13 09:31:10
-	name: CA01
-	casting cost: C
+	time modified: 2018-05-23 08:44:19
+	name: Azorious Signet
+	casting cost: 2
 	image: 
 	super type: <word-list-type>Artifact Creature</word-list-type>
 	sub type: <word-list-race></word-list-race>
+	rule text: <sym-auto>1</sym-auto>, <sym-auto>T</sym-auto>: Add <sym-auto>WU</sym-auto>.
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
@@ -1524,12 +1532,14 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-13 08:14:40
-	name: CA10
-	casting cost: C
+	time modified: 2018-05-23 08:43:26
+	name: Simic Signet
+	casting cost: 2
 	image: 
 	super type: <word-list-type>Artifact</word-list-type>
 	sub type: <word-list-artifact></word-list-artifact>
+	rule text: <sym-auto>1</sym-auto>, <sym-auto>T</sym-auto>: Add <sym-auto>GU</sym-auto>.
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
@@ -1609,12 +1619,14 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-13 09:31:39
-	name: CA05
-	casting cost: C
+	time modified: 2018-05-23 08:43:48
+	name: Selesnya Signet
+	casting cost: 2
 	image: 
 	super type: <word-list-type>Artifact Creature</word-list-type>
 	sub type: <word-list-race></word-list-race>
+	rule text: <sym-auto>1</sym-auto>, <sym-auto>T</sym-auto>: Add <sym-auto>GW</sym-auto>.
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
@@ -1626,12 +1638,14 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-13 09:31:29
-	name: CA04
-	casting cost: C
+	time modified: 2018-05-23 08:43:58
+	name: Gruul Signet
+	casting cost: 2
 	image: 
 	super type: <word-list-type>Artifact Creature</word-list-type>
 	sub type: <word-list-race></word-list-race>
+	rule text: <sym-auto>1</sym-auto>, <sym-auto>T</sym-auto>: Add <sym-auto>RG</sym-auto>.
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
@@ -1643,12 +1657,14 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-13 09:31:25
-	name: CA03
-	casting cost: C
+	time modified: 2018-05-23 08:43:46
+	name: Rakdos Signet
+	casting cost: 2
 	image: 
 	super type: <word-list-type>Artifact Creature</word-list-type>
 	sub type: <word-list-race></word-list-race>
+	rule text: <sym-auto>1</sym-auto>, <sym-auto>T</sym-auto>: Add <sym-auto>BR</sym-auto>.
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
@@ -1660,12 +1676,14 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-13 09:31:18
-	name: CA02
-	casting cost: C
+	time modified: 2018-05-23 08:44:09
+	name: Dimir Signet
+	casting cost: 2
 	image: 
 	super type: <word-list-type>Artifact Creature</word-list-type>
 	sub type: <word-list-race></word-list-race>
+	rule text: <sym-auto>1</sym-auto>, <sym-auto>T</sym-auto>: Add <sym-auto>UB</sym-auto>.
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
@@ -1677,12 +1695,14 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-13 08:14:27
-	name: CA06
-	casting cost: C
+	time modified: 2018-05-23 08:43:52
+	name: Orzhov Signet
+	casting cost: 2
 	image: 
 	super type: <word-list-type>Artifact</word-list-type>
 	sub type: <word-list-artifact></word-list-artifact>
+	rule text: <sym-auto>1</sym-auto>, <sym-auto>T</sym-auto>: Add <sym-auto>WB</sym-auto>.
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
@@ -2555,13 +2575,17 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-13 10:01:38
-	name: UA02
-	casting cost: C
+	time modified: 2018-05-23 08:36:58
+	name: Commander’s Sphere
+	casting cost: 3
 	image: 
 	super type: <word-list-type>Artifact</word-list-type>
 	sub type: <word-list-artifact></word-list-artifact>
 	rarity: uncommon
+	rule text:
+		<sym-auto>T</sym-auto>: Add one mana of any color in your commander’s color identity.
+		Sacrifice <atom-cardname><nospellcheck>Commander’s Sphere</nospellcheck></atom-cardname>: Draw a card.
+	flavor text: <i-flavor></i>It harmonizes with the essence of its master.<i></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
@@ -2573,13 +2597,15 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-13 10:01:42
-	name: UA03
-	casting cost: C
+	time modified: 2018-05-23 08:43:38
+	name: Thran Dynamo
+	casting cost: 3
 	image: 
 	super type: <word-list-type>Artifact</word-list-type>
 	sub type: <word-list-artifact></word-list-artifact>
 	rarity: uncommon
+	rule text: <sym-auto>T</sym-auto>: Add <sym-auto>CCCC</sym-auto>.
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
@@ -2627,13 +2653,15 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-13 10:01:27
-	name: UA01
-	casting cost: C
+	time modified: 2018-05-23 08:34:39
+	name: Fellwar Stone
+	casting cost: 2
 	image: 
 	super type: <word-list-type>Artifact</word-list-type>
 	sub type: <word-list-artifact></word-list-artifact>
 	rarity: uncommon
+	rule text: <sym-auto>T</sym-auto>: Add one mana of any color a land your opponents control could produce
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
@@ -3225,13 +3253,15 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:11:24
-	time modified: 2018-05-22 21:11:58
-	name: RA01
+	time modified: 2018-05-23 08:44:50
+	name: Sol Ring
 	casting cost: 1
 	image: 
 	super type: <word-list-type>Artifact</word-list-type>
 	sub type: <word-list-artifact></word-list-artifact>
 	rarity: rare
+	rule text: <sym-auto>T</sym-auto>: Add <sym-auto>CC</sym-auto>.
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
