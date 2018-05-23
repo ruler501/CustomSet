@@ -3875,7 +3875,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:27:34
-	time modified: 2018-05-22 21:28:25
+	time modified: 2018-05-22 21:52:02
 	name: ComWB01
 	casting cost: WB
 	image: 
@@ -3968,6 +3968,618 @@ card:
 	time modified: 2018-05-22 21:31:08
 	name: ComGU01
 	casting cost: GU
+	image: 
+	super type: <word-list-type>Legendary Creature</word-list-type>
+	sub type: <word-list-race></word-list-race>
+	rarity: mythic rare
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:42:52
+	time modified: 2018-05-22 21:43:23
+	name: ComRG01
+	casting cost: RG
+	image: 
+	super type: <word-list-type>Legendary Creature</word-list-type>
+	sub type: <word-list-race></word-list-race>
+	rarity: mythic rare
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:43:25
+	time modified: 2018-05-22 21:44:11
+	name: ComUB01
+	casting cost: UB
+	image: 
+	super type: <word-list-type>Legendary Creature</word-list-type>
+	sub type: <word-list-race></word-list-race>
+	rarity: mythic rare
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:43:46
+	time modified: 2018-05-22 21:44:03
+	name: ComBR01
+	casting cost: BR
+	image: 
+	super type: <word-list-type>Legendary Creature</word-list-type>
+	sub type: <word-list-race></word-list-race>
+	rarity: mythic rare
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:44:15
+	time modified: 2018-05-22 21:44:38
+	name: ComUR01
+	casting cost: UR
+	image: 
+	super type: <word-list-type>Legendary Creature</word-list-type>
+	sub type: <word-list-race></word-list-race>
+	rarity: mythic rare
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:44:48
+	time modified: 2018-05-22 21:45:09
+	name: ComWB02
+	casting cost: WB
+	image: 
+	super type: <word-list-type>Legendary Creature</word-list-type>
+	sub type: <word-list-race></word-list-race>
+	rarity: mythic rare
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:45:12
+	time modified: 2018-05-22 21:47:41
+	name: ComWU02
+	casting cost: WU
+	image: 
+	super type: <word-list-type>Legendary Creature</word-list-type>
+	sub type: <word-list-race></word-list-race>
+	rarity: mythic rare
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:45:51
+	time modified: 2018-05-22 21:46:24
+	name: ComGW02
+	casting cost: GW
+	image: 
+	super type: <word-list-type>Legendary Creature</word-list-type>
+	sub type: <word-list-race></word-list-race>
+	rarity: mythic rare
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:47:15
+	time modified: 2018-05-22 21:47:37
+	name: ComRW02
+	casting cost: RW
+	image: 
+	super type: <word-list-type>Legendary Creature</word-list-type>
+	sub type: <word-list-race></word-list-race>
+	rarity: mythic rare
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:49:59
+	time modified: 2018-05-22 21:51:01
+	name: ComBG02
+	casting cost: BG
+	image: 
+	super type: <word-list-type>Legendary Creature</word-list-type>
+	sub type: <word-list-race></word-list-race>
+	rarity: mythic rare
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:51:09
+	time modified: 2018-05-22 21:51:34
+	name: ComGU02
+	casting cost: GU
+	image: 
+	super type: <word-list-type>Legendary Creature</word-list-type>
+	sub type: <word-list-race></word-list-race>
+	rarity: mythic rare
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:52:10
+	time modified: 2018-05-22 21:52:28
+	name: ComRG02
+	casting cost: RG
+	image: 
+	super type: <word-list-type>Legendary Creature</word-list-type>
+	sub type: <word-list-race></word-list-race>
+	rarity: mythic rare
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:52:31
+	time modified: 2018-05-22 21:52:52
+	name: ComUB02
+	casting cost: UB
+	image: 
+	super type: <word-list-type>Legendary Creature</word-list-type>
+	sub type: <word-list-race></word-list-race>
+	rarity: mythic rare
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:52:55
+	time modified: 2018-05-22 21:53:17
+	name: ComBR02
+	casting cost: BR
+	image: 
+	super type: <word-list-type>Legendary Creature</word-list-type>
+	sub type: <word-list-race></word-list-race>
+	rarity: mythic rare
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:53:26
+	time modified: 2018-05-22 21:53:42
+	name: ComUR02
+	casting cost: UR
+	image: 
+	super type: <word-list-type>Legendary Creature</word-list-type>
+	sub type: <word-list-race></word-list-race>
+	rarity: mythic rare
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:53:47
+	time modified: 2018-05-22 21:54:30
+	name: ComGWU01
+	casting cost: GWU
+	image: 
+	super type: <word-list-type>Legendary Creature</word-list-type>
+	sub type: <word-list-race></word-list-race>
+	rarity: mythic rare
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:54:35
+	time modified: 2018-05-22 21:54:52
+	name: ComGWU02
+	casting cost: GWU
+	image: 
+	super type: <word-list-type>Legendary Creature</word-list-type>
+	sub type: <word-list-race></word-list-race>
+	rarity: mythic rare
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:54:54
+	time modified: 2018-05-22 21:55:29
+	name: ComBGW01
+	casting cost: BGW
+	image: 
+	super type: <word-list-type>Legendary Creature</word-list-type>
+	sub type: <word-list-race></word-list-race>
+	rarity: mythic rare
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:55:32
+	time modified: 2018-05-22 21:55:49
+	name: ComBGW02
+	casting cost: BGW
+	image: 
+	super type: <word-list-type>Legendary Creature</word-list-type>
+	sub type: <word-list-race></word-list-race>
+	rarity: mythic rare
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:55:58
+	time modified: 2018-05-22 21:56:48
+	name: ComGUB01
+	casting cost: GUB
+	image: 
+	super type: <word-list-type>Legendary Creature</word-list-type>
+	sub type: <word-list-race></word-list-race>
+	rarity: mythic rare
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:56:54
+	time modified: 2018-05-22 21:57:07
+	name: ComGUB02
+	casting cost: GUB
+	image: 
+	super type: <word-list-type>Legendary Creature</word-list-type>
+	sub type: <word-list-race></word-list-race>
+	rarity: mythic rare
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:57:10
+	time modified: 2018-05-22 21:57:42
+	name: ComRWU01
+	casting cost: RWU
+	image: 
+	super type: <word-list-type>Legendary Creature</word-list-type>
+	sub type: <word-list-race></word-list-race>
+	rarity: mythic rare
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:57:45
+	time modified: 2018-05-22 21:58:02
+	name: ComRWU02
+	casting cost: RWU
+	image: 
+	super type: <word-list-type>Legendary Creature</word-list-type>
+	sub type: <word-list-race></word-list-race>
+	rarity: mythic rare
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:58:15
+	time modified: 2018-05-22 21:59:53
+	name: ComRGW01
+	casting cost: RGW
+	image: 
+	super type: <word-list-type>Legendary Creature</word-list-type>
+	sub type: <word-list-race></word-list-race>
+	rarity: mythic rare
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:59:58
+	time modified: 2018-05-22 22:00:15
+	name: ComRGW02
+	casting cost: RGW
+	image: 
+	super type: <word-list-type>Legendary Creature</word-list-type>
+	sub type: <word-list-race></word-list-race>
+	rarity: mythic rare
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 22:00:18
+	time modified: 2018-05-22 22:00:51
+	name: ComWUB01
+	casting cost: WUB
+	image: 
+	super type: <word-list-type>Legendary Creature</word-list-type>
+	sub type: <word-list-race></word-list-race>
+	rarity: mythic rare
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 22:00:55
+	time modified: 2018-05-22 22:01:14
+	name: ComWUB02
+	casting cost: WUB
+	image: 
+	super type: <word-list-type>Legendary Creature</word-list-type>
+	sub type: <word-list-race></word-list-race>
+	rarity: mythic rare
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 22:01:26
+	time modified: 2018-05-22 22:02:12
+	name: ComUBR01
+	casting cost: UBR
+	image: 
+	super type: <word-list-type>Legendary Creature</word-list-type>
+	sub type: <word-list-race></word-list-race>
+	rarity: mythic rare
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 22:01:49
+	time modified: 2018-05-22 22:02:20
+	name: ComUBR02
+	casting cost: UBR
+	image: 
+	super type: <word-list-type>Legendary Creature</word-list-type>
+	sub type: <word-list-race></word-list-race>
+	rarity: mythic rare
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 22:02:47
+	time modified: 2018-05-22 22:03:07
+	name: ComBRG01
+	casting cost: BRG
+	image: 
+	super type: <word-list-type>Legendary Creature</word-list-type>
+	sub type: <word-list-race></word-list-race>
+	rarity: mythic rare
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 22:03:09
+	time modified: 2018-05-22 22:03:25
+	name: ComBRG02
+	casting cost: BRG
+	image: 
+	super type: <word-list-type>Legendary Creature</word-list-type>
+	sub type: <word-list-race></word-list-race>
+	rarity: mythic rare
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 22:03:39
+	time modified: 2018-05-22 22:04:38
+	name: ComWRB01
+	casting cost: WBR
+	image: 
+	super type: <word-list-type>Legendary Creature</word-list-type>
+	sub type: <word-list-race></word-list-race>
+	rarity: mythic rare
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 22:04:40
+	time modified: 2018-05-22 22:05:01
+	name: ComWRB02
+	casting cost: WBR
+	image: 
+	super type: <word-list-type>Legendary Creature</word-list-type>
+	sub type: <word-list-race></word-list-race>
+	rarity: mythic rare
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 22:05:31
+	time modified: 2018-05-22 22:05:48
+	name: ComUGR01
+	casting cost: URG
+	image: 
+	super type: <word-list-type>Legendary Creature</word-list-type>
+	sub type: <word-list-race></word-list-race>
+	rarity: mythic rare
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 22:05:52
+	time modified: 2018-05-22 22:06:12
+	name: ComUGR02
+	casting cost: URG
 	image: 
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race></word-list-race>
