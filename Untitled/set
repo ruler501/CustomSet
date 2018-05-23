@@ -473,9 +473,7 @@ card:
 	mainframe image 2: 
 card:
 	has styling: false
-	notes:
-		
-
+	notes: 
 	time created: 2018-05-13 07:43:01
 	time modified: 2018-05-13 09:43:51
 	name: CW16
@@ -2636,6 +2634,692 @@ card:
 	super type: <word-list-type>Artifact</word-list-type>
 	sub type: <word-list-artifact></word-list-artifact>
 	rarity: uncommon
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 20:40:34
+	time modified: 2018-05-22 20:54:38
+	name: UG01
+	casting cost: G
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race>
+	rarity: uncommon
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 20:53:51
+	time modified: 2018-05-22 20:55:02
+	name: UG02
+	casting cost: G
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race>
+	rarity: uncommon
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 20:55:06
+	time modified: 2018-05-22 20:55:42
+	name: UG03
+	casting cost: G
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race>
+	rarity: uncommon
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 20:55:48
+	time modified: 2018-05-22 20:56:03
+	name: UG04
+	casting cost: G
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race>
+	rarity: uncommon
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 20:56:09
+	time modified: 2018-05-22 20:56:28
+	name: UG05
+	casting cost: G
+	image: 
+	rarity: uncommon
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 20:56:37
+	time modified: 2018-05-22 20:56:46
+	name: UG06
+	casting cost: G
+	image: 
+	rarity: uncommon
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 20:56:48
+	time modified: 2018-05-22 20:57:02
+	name: UG07
+	casting cost: G
+	image: 
+	rarity: uncommon
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 20:57:24
+	time modified: 2018-05-22 20:57:58
+	name: UW01
+	casting cost: W
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race>
+	rarity: uncommon
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 20:58:03
+	time modified: 2018-05-22 20:58:17
+	name: UW02
+	casting cost: W
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race>
+	rarity: uncommon
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 20:58:21
+	time modified: 2018-05-22 20:58:42
+	name: UW03
+	casting cost: W
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race>
+	rarity: uncommon
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 20:58:53
+	time modified: 2018-05-22 20:59:07
+	name: UW04
+	casting cost: W
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race>
+	rarity: uncommon
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 20:59:13
+	time modified: 2018-05-22 20:59:47
+	name: UW05
+	casting cost: W
+	image: 
+	super type: <word-list-type></word-list-type>
+	sub type: 
+	rarity: uncommon
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 20:59:53
+	time modified: 2018-05-22 21:00:13
+	name: UW06
+	casting cost: W
+	image: 
+	super type: <word-list-type></word-list-type>
+	sub type: 
+	rarity: uncommon
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:00:16
+	time modified: 2018-05-22 21:00:26
+	name: UW07
+	casting cost: W
+	image: 
+	rarity: uncommon
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:00:36
+	time modified: 2018-05-22 21:00:48
+	name: UB01
+	casting cost: B
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race>
+	rarity: uncommon
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:00:53
+	time modified: 2018-05-22 21:01:05
+	name: UB02
+	casting cost: B
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race>
+	rarity: uncommon
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:01:08
+	time modified: 2018-05-22 21:01:24
+	name: UB03
+	casting cost: B
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race>
+	rarity: uncommon
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:01:32
+	time modified: 2018-05-22 21:02:40
+	name: UB04
+	casting cost: B
+	image: 
+	rarity: uncommon
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:02:45
+	time modified: 2018-05-22 21:02:52
+	name: UB05
+	casting cost: B
+	image: 
+	rarity: uncommon
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:02:59
+	time modified: 2018-05-22 21:03:08
+	name: UB06
+	casting cost: B
+	image: 
+	rarity: uncommon
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:03:12
+	time modified: 2018-05-22 21:03:23
+	name: UB07
+	casting cost: B
+	image: 
+	rarity: uncommon
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:03:32
+	time modified: 2018-05-22 21:03:45
+	name: UR01
+	casting cost: R
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race>
+	rarity: uncommon
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:03:51
+	time modified: 2018-05-22 21:04:06
+	name: UR02
+	casting cost: R
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race>
+	rarity: uncommon
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:04:20
+	time modified: 2018-05-22 21:04:34
+	name: UR03
+	casting cost: R
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race>
+	rarity: uncommon
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:04:39
+	time modified: 2018-05-22 21:04:51
+	name: UR04
+	casting cost: R
+	image: 
+	rarity: uncommon
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:04:55
+	time modified: 2018-05-22 21:05:01
+	name: UR05
+	casting cost: R
+	image: 
+	rarity: uncommon
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:05:07
+	time modified: 2018-05-22 21:05:14
+	name: UR06
+	casting cost: R
+	image: 
+	rarity: uncommon
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:08:50
+	time modified: 2018-05-22 21:09:08
+	name: UU01
+	casting cost: U
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race>
+	rarity: uncommon
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:09:10
+	time modified: 2018-05-22 21:09:25
+	name: UU02
+	casting cost: U
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race>
+	rarity: uncommon
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:09:40
+	time modified: 2018-05-22 21:09:47
+	name: UU03
+	casting cost: U
+	image: 
+	rarity: uncommon
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:09:50
+	time modified: 2018-05-22 21:09:57
+	name: UU04
+	casting cost: U
+	image: 
+	rarity: uncommon
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:10:01
+	time modified: 2018-05-22 21:10:10
+	name: UU05
+	casting cost: U
+	image: 
+	rarity: uncommon
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:10:12
+	time modified: 2018-05-22 21:10:18
+	name: UU06
+	casting cost: U
+	image: 
+	rarity: uncommon
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:10:21
+	time modified: 2018-05-22 21:10:28
+	name: UU07
+	casting cost: U
+	image: 
+	rarity: uncommon
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:11:24
+	time modified: 2018-05-22 21:11:58
+	name: RA01
+	casting cost: 1
+	image: 
+	super type: <word-list-type>Artifact</word-list-type>
+	sub type: <word-list-artifact></word-list-artifact>
+	rarity: rare
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:12:05
+	time modified: 2018-05-22 21:12:29
+	name: RA02
+	casting cost: 1
+	image: 
+	super type: <word-list-type>Artifact</word-list-type>
+	sub type: <word-list-artifact></word-list-artifact>
+	rarity: rare
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:12:34
+	time modified: 2018-05-22 21:12:50
+	name: RA03
+	casting cost: 1
+	image: 
+	super type: <word-list-type>Artifact</word-list-type>
+	sub type: <word-list-artifact></word-list-artifact>
+	rarity: rare
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:12:52
+	time modified: 2018-05-22 21:13:10
+	name: RA04
+	casting cost: 1
+	image: 
+	super type: <word-list-type>Artifact</word-list-type>
+	sub type: <word-list-artifact></word-list-artifact>
+	rarity: rare
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:13:13
+	time modified: 2018-05-22 21:13:25
+	name: RA05
+	casting cost: 1
+	image: 
+	super type: <word-list-type>Artifact</word-list-type>
+	sub type: <word-list-artifact></word-list-artifact>
+	rarity: rare
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:14:05
+	time modified: 2018-05-22 21:14:16
+	name: RWB01
+	casting cost: WB
+	image: 
+	rarity: rare
 	card code text: 
 	copyright: 
 	image 2: 
