@@ -12,13 +12,13 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-12 22:34:32
-	time modified: 2018-05-12 22:50:58
+	time modified: 2018-05-22 18:56:52
 	name: Counterfall Reanimator
 	casting cost: 2B
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Cleric</word-list-class><soft> </soft><word-list-class></word-list-class>
-	rule text: <error-spelling:en_us:/magic.mse-game/magic-words>Counterfall</error-spelling:en_us:/magic.mse-game/magic-words> 3 <error-spelling:en_us:/magic.mse-game/magic-words>-</error-spelling:en_us:/magic.mse-game/magic-words> Whenever one or more +1/+1 counters are placed on a creature you control, if it has 3 or more +1/+1 counters on it, return target creature from your graveyard to your hand.
+	rule text: <error-spelling:en_us:/magic.mse-game/magic-words>Counterfall</error-spelling:en_us:/magic.mse-game/magic-words> 3 <error-spelling:en_us:/magic.mse-game/magic-words>-</error-spelling:en_us:/magic.mse-game/magic-words> Whenever one or more +1/+1 counters are placed on a creature you control, if it has 3 or more +1/+1 counters on it, return target creature card from your graveyard to your hand.
 	flavor text: <i-flavor></i-flavor>
 	power: 1
 	toughness: 2
@@ -33,16 +33,16 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-12 22:36:13
-	time modified: 2018-05-13 19:32:56
+	time modified: 2018-05-22 18:57:36
 	name: Counterfall First Striker
 	casting cost: 3W
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
 	sub type: <word-list-race>Bird</word-list-race> <word-list-class>Warrior</word-list-class><soft> </soft><word-list-class></word-list-class>
-	rarity: common
+	rarity: uncommon
 	rule text:
 		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>
-		<error-spelling:en_us:/magic.mse-game/magic-words>Counterfall</error-spelling:en_us:/magic.mse-game/magic-words> 1 <error-spelling:en_us:/magic.mse-game/magic-words>-</error-spelling:en_us:/magic.mse-game/magic-words> Whenever one or more +1/+1 counters are placed on a creature you control, if it has one or more +1/+1 counters on it, it gains <kw-a><nospellcheck>first strike</nospellcheck></kw-a> until end of turn.
+		<error-spelling:en_us:/magic.mse-game/magic-words>Counterfall</error-spelling:en_us:/magic.mse-game/magic-words> 1 <error-spelling:en_us:/magic.mse-game/magic-words>-</error-spelling:en_us:/magic.mse-game/magic-words> Whenever one or more +1/+1 counters are placed on a creature you control, if it has one or more +1/+1 counters on it, it gains <kw-a><nospellcheck>first strike</nospellcheck></kw-a> until end of turn
 	flavor text: <i-flavor></i-flavor>
 	power: 2
 	toughness: 3
@@ -57,7 +57,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-12 22:43:37
-	time modified: 2018-05-13 19:32:51
+	time modified: 2018-05-22 18:54:51
 	name: Counterfall Menacer
 	casting cost: 2R
 	image: 
@@ -78,12 +78,121 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-12 22:45:36
-	time modified: 2018-05-13 19:33:00
+	time modified: 2018-05-22 18:51:51
 	name: Counterfall Trampler
 	casting cost: 2G
 	image: 
-	rule text: <error-spelling:en_us:/magic.mse-game/magic-words>Counterfall</error-spelling:en_us:/magic.mse-game/magic-words> 2 <error-spelling:en_us:/magic.mse-game/magic-words>-</error-spelling:en_us:/magic.mse-game/magic-words> Whenever one or more +1/+1 counters are placed on a creature you control, if it has two or more +1/+1 counters on it, it gains <kw-a><nospellcheck>trample</nospellcheck></kw-a> until end of turn.
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Elephant</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: <error-spelling:en_us:/magic.mse-game/magic-words>Counterfall</error-spelling:en_us:/magic.mse-game/magic-words> 1 <error-spelling:en_us:/magic.mse-game/magic-words>-</error-spelling:en_us:/magic.mse-game/magic-words> Whenever one or more +1/+1 counters are placed on a creature you control, if it has one or more +1/+1 counters on it, it gains <kw-a><nospellcheck>trample</nospellcheck></kw-a> until end of turn.
 	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 1
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 18:48:12
+	time modified: 2018-05-22 18:54:39
+	name: Counterfall Must-be-blocked
+	casting cost: 2R
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Giant</word-list-race> <word-list-class>Wizard</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rule text: 
+	flavor text: <i-flavor></i><error-spelling:en_us>Counterfall</error-spelling:en_us> 1 <error-spelling:en_us>-</error-spelling:en_us> Whenever one or more <error-spelling:en_us>+1/+1</error-spelling:en_us> counters are placed on a creature you control, if it has one or more <error-spelling:en_us>+1/+1</error-spelling:en_us> counters on it, target creature must be blocked this turn if able.<i></i-flavor>
+	power: 2
+	toughness: 1
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 18:55:06
+	time modified: 2018-05-22 19:05:35
+	name: Counterfall Can’t-Be-Countered
+	casting cost: 3G
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Naga</word-list-race> <word-list-class>Cleric</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: uncommon
+	rule text:
+		<atom-cardname><nospellcheck>Counterfall Can’t-Be-Countered</nospellcheck></atom-cardname> can’t be countered.
+		<error-spelling:en_us:/magic.mse-game/magic-words>Counterfall</error-spelling:en_us:/magic.mse-game/magic-words> 2 <error-spelling:en_us:/magic.mse-game/magic-words>-</error-spelling:en_us:/magic.mse-game/magic-words> Whenever one or more +1/+1 counters are placed on a creature you control, if it has two or more +1/+1 counters on it, it gains <kw-a><nospellcheck>hexproof</nospellcheck></kw-a> until end of turn.
+	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 3
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 18:58:15
+	time modified: 2018-05-22 19:02:05
+	name: Counterfall Robot
+	casting cost: 2
+	image: 
+	super type: <word-list-type>Artifact Creature</word-list-type>
+	sub type: <word-list-race>Construct</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rarity: uncommon
+	rule text:
+		<sym-auto>T</sym-auto>: Put a +1/+1 counter on target creature you control.
+		<error-spelling:en_us:/magic.mse-game/magic-words>Counterfall</error-spelling:en_us:/magic.mse-game/magic-words> 1 <error-spelling:en_us:/magic.mse-game/magic-words>-</error-spelling:en_us:/magic.mse-game/magic-words> Whenever one or more +1/+1 counters are placed on a creature you control, if it has one or more +1/+1 counters on it, tap target creature.
+	flavor text: <i-flavor></i-flavor>
+	power: 0
+	toughness: 1
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 19:02:10
+	time modified: 2018-05-22 19:25:08
+	name: Counterfall Tapper
+	casting cost: 1UU
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Naga</word-list-race> <word-list-class>Cleric</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rule text: <error-spelling:en_us:/magic.mse-game/magic-words>Counterfall</error-spelling:en_us:/magic.mse-game/magic-words> 2 <error-spelling:en_us:/magic.mse-game/magic-words>-</error-spelling:en_us:/magic.mse-game/magic-words> Whenever one or more +1/+1 counters are placed on a creature you control, if it has two or more +1/+1 counters on it, tap target creature. It doesn’t untap during its controller’s next untap step.
+	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 3
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 19:04:24
+	time modified: 2018-05-22 19:04:42
+	name: Counterfall Miller
+	casting cost: 1U
+	image: 
 	card code text: 
 	copyright: 
 	image 2: 
