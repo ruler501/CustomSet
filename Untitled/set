@@ -2691,13 +2691,17 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 20:53:51
-	time modified: 2018-05-22 20:55:02
+	time modified: 2018-05-23 18:07:12
 	name: UG02
 	casting cost: G
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
 	sub type: <word-list-race></word-list-race>
 	rarity: uncommon
+	rule text: 
+	flavor text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
 	card code text: 
 	copyright: 
 	image 2: 
@@ -2727,13 +2731,17 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 20:55:48
-	time modified: 2018-05-22 20:56:03
-	name: UG04
-	casting cost: G
+	time modified: 2018-05-23 18:07:20
+	name: Stacking Bolsterer
+	casting cost: 2G
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
 	sub type: <word-list-race></word-list-race>
 	rarity: uncommon
+	rule text: At the beginning of your upkeep you may pay <sym-auto>1</sym-auto>, if you do create an Aura Enchantment with “<kw-a><nospellcheck>Enchant <param-name>creature</param-name></nospellcheck></kw-a>. Whenever enchanted creature deals combat damage to a player you may <kw-A><nospellcheck>bolster <param-number>2</param-number></nospellcheck>.”<atom-reminder-action> <i-auto>(Choose a creature with the least toughness among creatures you control and put <param-number>two</param-number> +1/+1 counters on it.)</i-auto></atom-reminder-action></kw-A>
+	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 2
 	card code text: 
 	copyright: 
 	image 2: 
@@ -2847,13 +2855,17 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 20:58:53
-	time modified: 2018-05-22 20:59:07
-	name: UW04
-	casting cost: W
+	time modified: 2018-05-23 18:06:08
+	name: Stacking Lifegainer
+	casting cost: 2W
 	image: 
-	super type: <word-list-type>Creature</word-list-type>
+	super type: <word-list-type>Enchantment Creature</word-list-type>
 	sub type: <word-list-race></word-list-race>
 	rarity: uncommon
+	rule text: At the beginning of your upkeep you may pay <sym-auto>1</sym-auto>, if you do create an Aura Enchantment with “<kw-a><nospellcheck>Enchant <param-name>creature</param-name></nospellcheck></kw-a>. Whenever enchanted creature deals combat damage to a player you may gain 3 life.”
+	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 2
 	card code text: 
 	copyright: 
 	image 2: 
@@ -2935,13 +2947,15 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:00:53
-	time modified: 2018-05-22 21:01:05
+	time modified: 2018-05-23 17:52:42
 	name: UB02
 	casting cost: B
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
 	sub type: <word-list-race></word-list-race>
 	rarity: uncommon
+	rule text: 
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
@@ -2953,13 +2967,17 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:01:08
-	time modified: 2018-05-22 21:01:24
-	name: UB03
-	casting cost: B
+	time modified: 2018-05-23 17:55:41
+	name: Stacking Recurrer
+	casting cost: 2B
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
 	sub type: <word-list-race></word-list-race>
 	rarity: uncommon
+	rule text: At the beginning of your upkeep you may pay <sym-auto>1</sym-auto>, if you do create an Aura Enchantment with “<kw-a><nospellcheck>Enchant <param-name>creature</param-name></nospellcheck></kw-a>. Whenever enchanted creature deals combat damage to a player you may return target creature card from your graveyard to your hand.”
+	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 2
 	card code text: 
 	copyright: 
 	image 2: 
@@ -3071,13 +3089,15 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:04:20
-	time modified: 2018-05-22 21:04:34
+	time modified: 2018-05-23 17:56:26
 	name: UR03
 	casting cost: R
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
 	sub type: <word-list-race></word-list-race>
 	rarity: uncommon
+	rule text: At the beginning of your upkeep you may pay <sym-auto>1</sym-auto>, if you do create an Aura Enchantment with “<kw-a><nospellcheck>Enchant <param-name>creature</param-name></nospellcheck></kw-a>. Whenever enchanted creature deals combat damage to a player it deals 1 damage to any target.”
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
@@ -3155,13 +3175,17 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:09:10
-	time modified: 2018-05-22 21:09:25
-	name: UU02
-	casting cost: U
+	time modified: 2018-05-23 17:52:29
+	name: Stacking Drawer
+	casting cost: 2U
 	image: 
-	super type: <word-list-type>Creature</word-list-type>
+	super type: <word-list-type>Enchantment Creature</word-list-type>
 	sub type: <word-list-race></word-list-race>
 	rarity: uncommon
+	rule text: At the beginning of your upkeep you may pay <sym-auto>1</sym-auto>, if you do create an Aura Enchantment with “<kw-a><nospellcheck>Enchant <param-name>creature</param-name></nospellcheck></kw-a>. Whenever enchanted creature deals combat damage to a player you may draw a card.”
+	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 2
 	card code text: 
 	copyright: 
 	image 2: 
