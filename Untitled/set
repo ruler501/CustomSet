@@ -3327,6 +3327,658 @@ card:
 	copyright 3: 
 	mainframe image: 
 	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:15:20
+	time modified: 2018-05-22 21:15:32
+	name: RWU01
+	casting cost: WU
+	image: 
+	rarity: rare
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:15:38
+	time modified: 2018-05-22 21:18:18
+	name: RGW01
+	casting cost: GW
+	image: 
+	rarity: rare
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:15:52
+	time modified: 2018-05-22 21:18:13
+	name: RRW01
+	casting cost: RW
+	image: 
+	rarity: rare
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:16:16
+	time modified: 2018-05-22 21:18:07
+	name: RBG01
+	casting cost: BG
+	image: 
+	rarity: rare
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:16:34
+	time modified: 2018-05-22 21:16:45
+	name: RGU01
+	casting cost: GU
+	image: 
+	rarity: rare
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:17:03
+	time modified: 2018-05-22 21:17:57
+	name: RRG01
+	casting cost: RG
+	image: 
+	rarity: rare
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:17:23
+	time modified: 2018-05-22 21:17:50
+	name: RUB01
+	casting cost: UB
+	image: 
+	rarity: rare
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:18:35
+	time modified: 2018-05-22 21:18:47
+	name: RBR01
+	casting cost: BR
+	image: 
+	rarity: rare
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:19:30
+	time modified: 2018-05-22 21:19:42
+	name: RUR01
+	casting cost: UR
+	image: 
+	rarity: rare
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:20:35
+	time modified: 2018-05-22 21:20:44
+	name: RR01
+	casting cost: R
+	image: 
+	rarity: rare
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:20:49
+	time modified: 2018-05-22 21:20:56
+	name: RR02
+	casting cost: R
+	image: 
+	rarity: rare
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:21:00
+	time modified: 2018-05-22 21:21:08
+	name: RR03
+	casting cost: R
+	image: 
+	rarity: rare
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:21:10
+	time modified: 2018-05-22 21:21:17
+	name: RR04
+	casting cost: R
+	image: 
+	rarity: rare
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:21:20
+	time modified: 2018-05-22 21:21:29
+	name: RR05
+	casting cost: R
+	image: 
+	rarity: rare
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:21:32
+	time modified: 2018-05-22 21:21:41
+	name: RU01
+	casting cost: U
+	image: 
+	rarity: rare
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:21:45
+	time modified: 2018-05-22 21:21:56
+	name: RU02
+	casting cost: U
+	image: 
+	rarity: rare
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:22:00
+	time modified: 2018-05-22 21:22:10
+	name: RU03
+	casting cost: U
+	image: 
+	rarity: rare
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:22:21
+	time modified: 2018-05-22 21:22:28
+	name: RU04
+	casting cost: U
+	image: 
+	rarity: rare
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:22:31
+	time modified: 2018-05-22 21:22:40
+	name: RU05
+	casting cost: U
+	image: 
+	rarity: rare
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:22:43
+	time modified: 2018-05-22 21:23:01
+	name: RB01
+	casting cost: B
+	image: 
+	rarity: rare
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:23:06
+	time modified: 2018-05-22 21:23:12
+	name: RB02
+	casting cost: B
+	image: 
+	rarity: rare
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:23:15
+	time modified: 2018-05-22 21:23:23
+	name: RB03
+	casting cost: B
+	image: 
+	rarity: rare
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:23:25
+	time modified: 2018-05-22 21:23:32
+	name: RB04
+	casting cost: B
+	image: 
+	rarity: rare
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:23:36
+	time modified: 2018-05-22 21:23:52
+	name: Death Grips
+	casting cost: B
+	image: 
+	rarity: rare
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:24:06
+	time modified: 2018-05-22 21:24:21
+	name: RG01
+	casting cost: G
+	image: 
+	rarity: rare
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:24:28
+	time modified: 2018-05-22 21:24:37
+	name: RG02
+	casting cost: G
+	image: 
+	rarity: rare
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:24:42
+	time modified: 2018-05-22 21:24:51
+	name: RG03
+	casting cost: G
+	image: 
+	rarity: rare
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:24:58
+	time modified: 2018-05-22 21:25:09
+	name: RG04
+	casting cost: G
+	image: 
+	rarity: rare
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:25:26
+	time modified: 2018-05-22 21:25:38
+	name: RG05
+	casting cost: G
+	image: 
+	rarity: rare
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:25:51
+	time modified: 2018-05-22 21:25:57
+	name: RW01
+	casting cost: W
+	image: 
+	rarity: rare
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:25:59
+	time modified: 2018-05-22 21:26:13
+	name: RW02
+	casting cost: W
+	image: 
+	rarity: rare
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:26:18
+	time modified: 2018-05-22 21:26:26
+	name: RW03
+	casting cost: W
+	image: 
+	rarity: rare
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:26:55
+	time modified: 2018-05-22 21:27:03
+	name: RW04
+	casting cost: W
+	image: 
+	rarity: rare
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:27:08
+	time modified: 2018-05-22 21:27:18
+	name: RW05
+	casting cost: W
+	image: 
+	rarity: rare
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:27:34
+	time modified: 2018-05-22 21:28:25
+	name: ComWB01
+	casting cost: WB
+	image: 
+	super type: <word-list-type>Legendary Creature</word-list-type>
+	sub type: <word-list-race></word-list-race>
+	rarity: mythic rare
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:28:05
+	time modified: 2018-05-22 21:29:37
+	name: ComWU01
+	casting cost: WU
+	image: 
+	super type: <word-list-type>Legendary Creature</word-list-type>
+	sub type: <word-list-race></word-list-race>
+	rarity: mythic rare
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:28:44
+	time modified: 2018-05-22 21:29:48
+	name: ComGW01
+	casting cost: GW
+	image: 
+	super type: <word-list-type>Legendary Creature</word-list-type>
+	sub type: <word-list-race></word-list-race>
+	rarity: mythic rare
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:29:00
+	time modified: 2018-05-22 21:29:55
+	name: ComRW01
+	casting cost: RW
+	image: 
+	super type: <word-list-type>Legendary Creature</word-list-type>
+	sub type: <word-list-race></word-list-race>
+	rarity: mythic rare
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:30:03
+	time modified: 2018-05-22 21:30:23
+	name: ComBG01
+	casting cost: BG
+	image: 
+	super type: <word-list-type>Legendary Creature</word-list-type>
+	sub type: <word-list-race></word-list-race>
+	rarity: mythic rare
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-22 21:30:49
+	time modified: 2018-05-22 21:31:08
+	name: ComGU01
+	casting cost: GU
+	image: 
+	super type: <word-list-type>Legendary Creature</word-list-type>
+	sub type: <word-list-race></word-list-race>
+	rarity: mythic rare
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
 keyword:
 	keyword: Counterfall
 	match: Counterfall <atom-param>number</atom-param>
