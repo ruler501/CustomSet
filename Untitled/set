@@ -93,8 +93,8 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-12 21:41:45
-	time modified: 2018-05-12 21:42:43
-	name: Pacifism
+	time modified: 2018-05-26 20:33:18
+	name: CW02-Pacifism
 	casting cost: 1W
 	image: 
 	super type: <word-list-type>Enchantment</word-list-type>
@@ -156,8 +156,8 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-12 22:35:00
-	time modified: 2018-05-12 22:35:41
-	name: Abzan Advantage
+	time modified: 2018-05-26 20:33:06
+	name: CW01-Abzan Advantage
 	casting cost: 1W
 	image: 
 	super type: <word-list-type>Instant</word-list-type>
@@ -288,12 +288,14 @@ card:
 	has styling: false
 	notes: Creature
 	time created: 2018-05-13 07:43:18
-	time modified: 2018-05-13 09:19:34
-	name: CW04
+	time modified: 2018-05-26 20:33:50
+	name: CW03-Tragic Poet
 	casting cost: W
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
-	sub type: <word-list-race></word-list-race>
+	sub type: <word-list-race>Human</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: <sym-auto>T</sym-auto>, Sacrifice <atom-cardname><nospellcheck>CW03-Tragic Poet</nospellcheck></atom-cardname>: Return target enchantment card from your graveyard to your hand.
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
@@ -305,12 +307,18 @@ card:
 	has styling: false
 	notes: Creature
 	time created: 2018-05-13 07:43:18
-	time modified: 2018-05-13 09:19:36
-	name: CW05
-	casting cost: W
+	time modified: 2018-05-26 20:32:29
+	name: CW05-Flying Disciple
+	casting cost: 2W
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
 	sub type: <word-list-race></word-list-race>
+	rule text:
+		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>, <kw-a><nospellcheck>First Strike</nospellcheck></kw-a>
+		Whenever you cast an enchantment spell put a +1/+1 counter on <atom-cardname><nospellcheck>CW05-Flying Disciple</nospellcheck></atom-cardname>.
+	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 1
 	card code text: 
 	copyright: 
 	image 2: 
@@ -373,12 +381,14 @@ card:
 	has styling: false
 	notes: Creature
 	time created: 2018-05-13 07:43:18
-	time modified: 2018-05-13 09:19:46
-	name: CW06
-	casting cost: W
+	time modified: 2018-05-26 20:37:51
+	name: Harvestguard Alseids
+	casting cost: 2W
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
 	sub type: <word-list-race></word-list-race>
+	rule text: <kw-A><i-auto><nospellcheck>Constellation</nospellcheck></i-auto></kw-A> — Whenever <atom-cardname><nospellcheck>Harvestguard Alseids</nospellcheck></atom-cardname> or another enchantment enters the battlefield under your control, prevent all damage that would be dealt to target creature this turn.
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
@@ -492,8 +502,8 @@ card:
 	has styling: false
 	notes: Creature
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-26 19:28:59
-	name: CW03
+	time modified: 2018-05-26 20:32:23
+	name: CW04-Counterfall Lifegainer
 	casting cost: 4W
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
@@ -728,12 +738,16 @@ card:
 	has styling: false
 	notes: Creature
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-13 09:20:15
-	name: CU04
+	time modified: 2018-05-26 20:06:00
+	name: Thassa’s Devourer
 	casting cost: U
 	image: 
-	super type: <word-list-type>Creature</word-list-type>
-	sub type: <word-list-race></word-list-race>
+	super type: <word-list-type>Enchantment Creature</word-list-type>
+	sub type: <word-list-race>Elemental</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: <kw-A><i-auto><nospellcheck>Constellation</nospellcheck></i-auto></kw-A> — Whenever <atom-cardname><nospellcheck>Thassa’s Devourer</nospellcheck></atom-cardname> or another enchantment enters the battlefield under your control, target player puts the top two cards of their library into their graveyard
+	flavor text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
 	card code text: 
 	copyright: 
 	image 2: 
@@ -896,12 +910,16 @@ card:
 	has styling: false
 	notes: Creature
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-13 09:20:37
-	name: CB04
-	casting cost: B
+	time modified: 2018-05-26 20:04:21
+	name: Grim Guardian
+	casting cost: 2B
 	image: 
-	super type: <word-list-type>Creature</word-list-type>
-	sub type: <word-list-race></word-list-race>
+	super type: <word-list-type>Enchantment Creature</word-list-type>
+	sub type: <word-list-race>Zombie</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: <kw-A><i-auto><nospellcheck>Constellation</nospellcheck></i-auto></kw-A> — Whenever <atom-cardname><nospellcheck>Grim Guardian</nospellcheck></atom-cardname> or another enchantment enters the battlefield under your control, each opponent loses 1 life.
+	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 4
 	card code text: 
 	copyright: 
 	image 2: 
@@ -1271,6 +1289,10 @@ card:
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
 	sub type: <word-list-race></word-list-race>
+	rule text: 
+	flavor text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
 	card code text: 
 	copyright: 
 	image 2: 
@@ -1373,6 +1395,8 @@ card:
 	image: 
 	super type: <word-list-type></word-list-type>
 	sub type: 
+	rule text: 
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
@@ -2843,8 +2867,8 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 20:57:24
-	time modified: 2018-05-26 19:31:29
-	name: UW01
+	time modified: 2018-05-26 20:32:53
+	name: UW01-Counterfall First-striker
 	casting cost: 3W
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
@@ -2984,6 +3008,10 @@ card:
 	super type: <word-list-type>Creature</word-list-type>
 	sub type: <word-list-race></word-list-race>
 	rarity: uncommon
+	rule text: 
+	flavor text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
 	card code text: 
 	copyright: 
 	image 2: 
@@ -3212,6 +3240,10 @@ card:
 	super type: <word-list-type>Creature</word-list-type>
 	sub type: <word-list-race></word-list-race>
 	rarity: uncommon
+	rule text: 
+	flavor text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
 	card code text: 
 	copyright: 
 	image 2: 
