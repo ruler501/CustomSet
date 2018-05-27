@@ -17,8 +17,8 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-12 20:47:35
-	time modified: 2018-05-12 20:58:52
-	name: Lightning Bolt
+	time modified: 2018-05-26 20:48:27
+	name: CR02-Lightning Bolt
 	casting cost: R
 	image: 
 	super type: <word-list-type>Instant</word-list-type>
@@ -36,8 +36,8 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-12 21:38:02
-	time modified: 2018-05-12 22:17:16
-	name: Counterspell
+	time modified: 2018-05-26 20:47:03
+	name: CU02-Counterspell
 	casting cost: UU
 	image: 
 	super type: <word-list-type>Instant</word-list-type>
@@ -55,8 +55,8 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-12 21:38:55
-	time modified: 2018-05-12 21:40:09
-	name: Naturalize
+	time modified: 2018-05-26 20:49:17
+	name: CG02-Naturalize
 	casting cost: 1G
 	image: 
 	super type: <word-list-type>Instant</word-list-type>
@@ -175,8 +175,8 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-12 22:37:01
-	time modified: 2018-05-12 22:37:46
-	name: Map the Wastes
+	time modified: 2018-05-26 20:49:10
+	name: CG01-Map the Wastes
 	casting cost: 2G
 	image: 
 	super type: <word-list-type>Sorcery</word-list-type>
@@ -213,8 +213,8 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-12 22:43:13
-	time modified: 2018-05-12 22:44:28
-	name: Bounce with Counters
+	time modified: 2018-05-26 20:46:51
+	name: CU01-Bounce with Counters
 	casting cost: 1U
 	image: 
 	super type: <word-list-type>Sorcery</word-list-type>
@@ -252,8 +252,8 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-12 22:46:10
-	time modified: 2018-05-12 22:46:58
-	name: Steal with Counters
+	time modified: 2018-05-26 20:48:39
+	name: CR01-Steal with Counters
 	casting cost: 3R
 	image: 
 	super type: <word-list-type>Sorcery</word-list-type>
@@ -271,12 +271,14 @@ card:
 	has styling: false
 	notes: Creature
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-13 09:19:54
-	name: CW10
-	casting cost: W
+	time modified: 2018-05-26 20:59:13
+	name: CW10-Lagonna-Band Elder
+	casting cost: 2W
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
 	sub type: <word-list-race></word-list-race>
+	rule text: When <atom-cardname><nospellcheck>CW10-Lagonna-Band Elder</nospellcheck></atom-cardname> enters the battlefield, if you control an enchantment, you gain 3 life.
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
@@ -330,12 +332,16 @@ card:
 	has styling: false
 	notes: Creature
 	time created: 2018-05-13 07:43:18
-	time modified: 2018-05-13 09:19:49
-	name: CW08
-	casting cost: W
+	time modified: 2018-05-26 20:55:02
+	name: CW08-Nyx Fleece Ram
+	casting cost: 1W
 	image: 
-	super type: <word-list-type>Creature</word-list-type>
-	sub type: <word-list-race></word-list-race>
+	super type: <word-list-type>Enchantment Creature</word-list-type>
+	sub type: <word-list-race>Sheep</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: At the beginning of your upkeep, you gain 1 life.
+	flavor text: <i-flavor></i-flavor>
+	power: 0
+	toughness: 5
 	card code text: 
 	copyright: 
 	image 2: 
@@ -347,47 +353,13 @@ card:
 	has styling: false
 	notes: Creature
 	time created: 2018-05-13 07:43:18
-	time modified: 2018-05-13 09:19:52
-	name: CW09
-	casting cost: W
-	image: 
-	super type: <word-list-type>Creature</word-list-type>
-	sub type: <word-list-race></word-list-race>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: Creature
-	time created: 2018-05-13 07:43:18
-	time modified: 2018-05-13 09:19:47
-	name: CW07
-	casting cost: W
-	image: 
-	super type: <word-list-type>Creature</word-list-type>
-	sub type: <word-list-race></word-list-race>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: Creature
-	time created: 2018-05-13 07:43:18
-	time modified: 2018-05-26 20:37:51
-	name: Harvestguard Alseids
+	time modified: 2018-05-26 20:56:41
+	name: CW09-Auramancer
 	casting cost: 2W
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
-	sub type: <word-list-race></word-list-race>
-	rule text: <kw-A><i-auto><nospellcheck>Constellation</nospellcheck></i-auto></kw-A> — Whenever <atom-cardname><nospellcheck>Harvestguard Alseids</nospellcheck></atom-cardname> or another enchantment enters the battlefield under your control, prevent all damage that would be dealt to target creature this turn.
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Wizard</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rule text: When <atom-cardname><nospellcheck>CW09-Auramancer</nospellcheck></atom-cardname> enters the battlefield you may return target enchantment card from your graveyard to your hand.
 	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
@@ -399,13 +371,38 @@ card:
 card:
 	has styling: false
 	notes: Creature
-	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-13 09:19:56
-	name: CW11
-	casting cost: W
+	time created: 2018-05-13 07:43:18
+	time modified: 2018-05-26 20:46:35
+	name: CW07-Enchant Honor Guard
+	casting cost: 1W
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
-	sub type: <word-list-race></word-list-race>
+	sub type: <word-list-race>Knight</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: <atom-cardname><nospellcheck>CW07-Enchant Honor Guard</nospellcheck></atom-cardname> gets +1/+0 for each enchantment you control
+	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 2
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: Creature
+	time created: 2018-05-13 07:43:18
+	time modified: 2018-05-26 20:42:02
+	name: CW06-Harvestguard Alseids
+	casting cost: 2W
+	image: 
+	super type: <word-list-type>Enchantment Creature</word-list-type>
+	sub type: <word-list-race>Nymph</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: <kw-A><i-auto><nospellcheck>Constellation</nospellcheck></i-auto></kw-A> — Whenever <atom-cardname><nospellcheck>CW06-Harvestguard Alseids</nospellcheck></atom-cardname> or another enchantment enters the battlefield under your control, prevent all damage that would be dealt to target creature this turn.
+	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 3
 	card code text: 
 	copyright: 
 	image 2: 
@@ -417,12 +414,19 @@ card:
 	has styling: false
 	notes: Creature
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-13 09:19:58
-	name: CW12
-	casting cost: W
+	time modified: 2018-05-26 21:03:19
+	name: CW11-Custodi Squire
+	casting cost: 4W
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
-	sub type: <word-list-race></word-list-race>
+	sub type: <word-list-race>Spirit</word-list-race> <word-list-class>Cleric</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rule text:
+		<kw-a><nospellcheck>Flying</nospellcheck></kw-a><error-spelling>
+		</error-spelling>
+		<kw-A><i-auto><nospellcheck>Will of the council</nospellcheck></i-auto></kw-A> — When <atom-cardname><nospellcheck>CW11-Custodi Squire</nospellcheck></atom-cardname> enters the battlefield, starting with you, each player votes for an artifact, creature, or enchantment card in your graveyard. Return each card with the most votes or tied for most votes to your hand.
+	flavor text: <i-flavor></i-flavor>
+	power: 3
+	toughness: 3
 	card code text: 
 	copyright: 
 	image 2: 
@@ -434,12 +438,39 @@ card:
 	has styling: false
 	notes: Creature
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-13 09:20:00
-	name: CW13
-	casting cost: W
+	time modified: 2018-05-26 21:04:59
+	name: CW12-Better Luminid
+	casting cost: 3WW
+	image: 
+	super type: <word-list-type>Enchantment Creature</word-list-type>
+	sub type: <word-list-race>Elemental</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: <kw-a><nospellcheck>Flying</nospellcheck></kw-a>
+	flavor text: <i-flavor></i-flavor>
+	power: 4
+	toughness: 
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: Creature
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-26 21:13:03
+	name: CW13-Flying Bolster
+	casting cost: 4W
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
 	sub type: <word-list-race></word-list-race>
+	rule text:
+		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>
+		<kw-1><nospellcheck>Bolster <param-number>2</param-number></nospellcheck>.<atom-reminder-action> <i-auto>(Choose a creature with the least toughness among creatures you control and put <param-number>two</param-number> +1/+1 counters on it.)</i-auto></atom-reminder-action></kw-1>
+	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 3
 	card code text: 
 	copyright: 
 	image 2: 
@@ -451,12 +482,14 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-13 09:44:04
-	name: CW14
-	casting cost: W
+	time modified: 2018-05-26 21:13:38
+	name: CW14-Blessed Light
+	casting cost: 4W
 	image: 
-	super type: <word-list-type></word-list-type>
-	sub type: 
+	super type: <word-list-type>Instant</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rule text: Exile target creature or enchantment.
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
@@ -468,12 +501,14 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-13 09:44:00
-	name: CW15
-	casting cost: W
+	time modified: 2018-05-26 21:08:18
+	name: CW15-Gideon’s Reproach
+	casting cost: 1W
 	image: 
 	super type: <word-list-type></word-list-type>
 	sub type: 
+	rule text: <atom-cardname><nospellcheck>CW15-Gideon’s Reproach</nospellcheck></atom-cardname> deals 4 damage to target attacking or blocking creature.
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
@@ -485,12 +520,14 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-13 09:43:51
-	name: CW16
-	casting cost: W
+	time modified: 2018-05-26 20:41:50
+	name: CW16-Rewarding honor
+	casting cost: 1W
 	image: 
-	super type: <word-list-type></word-list-type>
-	sub type: 
+	super type: <word-list-type>Instant</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rule text: You gain 4 life, if you control an enchantment, <kw-A><nospellcheck>bolster <param-number>2</param-number></nospellcheck>.<atom-reminder-action> <i-auto>(Choose a creature with the least toughness among creatures you control and put <param-number>two</param-number> +1/+1 counters on it.)</i-auto></atom-reminder-action></kw-A>
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
@@ -717,8 +754,8 @@ card:
 	has styling: false
 	notes: Creature
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-26 19:23:45
-	name: Counterfall Tapper
+	time modified: 2018-05-26 20:47:12
+	name: CU03-Counterfall Tapper
 	casting cost: 1UU
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
@@ -738,13 +775,13 @@ card:
 	has styling: false
 	notes: Creature
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-26 20:06:00
-	name: Thassa’s Devourer
+	time modified: 2018-05-26 20:47:42
+	name: CU04-Thassa’s Devourer
 	casting cost: U
 	image: 
 	super type: <word-list-type>Enchantment Creature</word-list-type>
 	sub type: <word-list-race>Elemental</word-list-race><soft> </soft><word-list-class></word-list-class>
-	rule text: <kw-A><i-auto><nospellcheck>Constellation</nospellcheck></i-auto></kw-A> — Whenever <atom-cardname><nospellcheck>Thassa’s Devourer</nospellcheck></atom-cardname> or another enchantment enters the battlefield under your control, target player puts the top two cards of their library into their graveyard
+	rule text: <kw-A><i-auto><nospellcheck>Constellation</nospellcheck></i-auto></kw-A> — Whenever <atom-cardname><nospellcheck>CU04-Thassa’s Devourer</nospellcheck></atom-cardname> or another enchantment enters the battlefield under your control, target player puts the top two cards of their library into their graveyard
 	flavor text: <i-flavor></i-flavor>
 	power: 
 	toughness: 
@@ -1224,8 +1261,8 @@ card:
 	has styling: false
 	notes: Creature
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-26 19:18:05
-	name: Counterfall Must-be-blocked
+	time modified: 2018-05-26 20:48:12
+	name: CR04-Counterfall Must-be-blocked
 	casting cost: 2R
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
@@ -1245,8 +1282,8 @@ card:
 	has styling: false
 	notes: Creature
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-26 19:14:30
-	name: Counterfall Menacer
+	time modified: 2018-05-26 20:48:06
+	name: CR03-Counterfall Menacer
 	casting cost: 1R
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
@@ -1455,8 +1492,8 @@ card:
 	has styling: false
 	notes: Creature
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-26 19:24:53
-	name: Counterfall Trampler
+	time modified: 2018-05-26 20:49:03
+	name: CG03-Counterfall Trampler
 	casting cost: 2G
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
@@ -2733,15 +2770,15 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 20:40:34
-	time modified: 2018-05-26 19:30:54
-	name: Counterfall No Countering
+	time modified: 2018-05-26 20:49:39
+	name: UG02-Counterfall No Countering
 	casting cost: 3G
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
 	sub type: <word-list-race></word-list-race>
 	rarity: uncommon
 	rule text:
-		<atom-cardname><nospellcheck>Counterfall No Countering</nospellcheck></atom-cardname> can’t be countered.
+		<atom-cardname><nospellcheck>UG02-Counterfall No Countering</nospellcheck></atom-cardname> can’t be countered.
 		<kw-A><i-auto><nospellcheck>Counterfall <param-number>1</param-number></nospellcheck></i-auto></kw-A> <error-spelling:en_us:/magic.mse-game/magic-words>-</error-spelling:en_us:/magic.mse-game/magic-words> Whenever one or more +1/+1 counters are placed on a creature you control, if it has 1 or more +1/+1 counters on it, it gains <kw-a><nospellcheck>hexproof</nospellcheck></kw-a> until end of turn.
 	flavor text: <i-flavor></i-flavor>
 	power: 3
@@ -2757,17 +2794,17 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 20:53:51
-	time modified: 2018-05-26 19:37:04
-	name: Big Boy
+	time modified: 2018-05-26 20:51:30
+	name: UG04-Big Boy
 	casting cost: 4GG
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
 	sub type: <word-list-race>Snake</word-list-race> <word-list-class>Mutant</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: uncommon
-	rule text: <kw-a><nospellcheck>Deathtouch</nospellcheck></kw-a>, <kw-a><nospellcheck>Trample</nospellcheck></kw-a>
+	rule text: <kw-a><nospellcheck>Deathtouch</nospellcheck></kw-a>, <kw-a><nospellcheck>Reach</nospellcheck></kw-a>
 	flavor text: <i-flavor></i-flavor>
-	power: 5
-	toughness: 5
+	power: 3
+	toughness: 6
 	card code text: 
 	copyright: 
 	image 2: 
@@ -2797,8 +2834,8 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 20:55:48
-	time modified: 2018-05-23 18:07:20
-	name: Stacking Bolsterer
+	time modified: 2018-05-26 20:49:31
+	name: UG01-Stacking Bolsterer
 	casting cost: 2G
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
