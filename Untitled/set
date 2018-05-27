@@ -766,7 +766,7 @@ card:
 	has styling: false
 	notes: Creature
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-26 22:01:12
+	time modified: 2018-05-26 22:01:32
 	name: CB07-Attack Beetle
 	casting cost: 2B
 	image: 
@@ -3793,11 +3793,17 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:23:15
-	time modified: 2018-05-22 21:23:23
-	name: RB03
-	casting cost: B
+	time modified: 2018-05-26 22:05:29
+	name: RB03-Cruel Reality
+	casting cost: 5BB
 	image: 
+	super type: <word-list-type>Enchantment</word-list-type>
+	sub type: <word-list-enchantment>Aura</word-list-enchantment> <word-list-enchantment>Curse</word-list-enchantment><soft> </soft><word-list-enchantment></word-list-enchantment>
 	rarity: rare
+	rule text:
+		<kw-a><nospellcheck>Enchant <param-name>Player</param-name></nospellcheck></kw-a>
+		At the beginning of enchanted player’s upkeep, that player sacrifices a creature or player. If the player can’t, they lose 5 life.
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
