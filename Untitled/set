@@ -4635,13 +4635,15 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 22:01:49
-	time modified: 2018-05-26 22:21:47
+	time modified: 2018-05-26 22:46:50
 	name: ComUBR02-The Simurgh
 	casting cost: UBR
 	image: 
 	super type: <word-list-type>Legendary Creature</word-list-type>
-	sub type: <word-list-race></word-list-race>
+	sub type: <word-list-race>Endbringer</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rarity: mythic rare
+	rule text: <kw-a><nospellcheck>Flying</nospellcheck></kw-a>
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
