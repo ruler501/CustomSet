@@ -783,12 +783,18 @@ card:
 	has styling: false
 	notes: Creature
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-13 09:20:48
-	name: CB08
-	casting cost: B
+	time modified: 2018-05-26 21:54:23
+	name: CB08-Culling Clown
+	casting cost: 4BB
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
-	sub type: <word-list-race></word-list-race>
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Clown</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rule text:
+		<kw-a><nospellcheck>Menace</nospellcheck></kw-a>
+		When <atom-cardname><nospellcheck>CB08-Culling Clown</nospellcheck></atom-cardname> enters the battlefield, <kw-A><nospellcheck>bolster <param-number>3</param-number></nospellcheck>.<atom-reminder-action> <i-auto>(Choose a creature with the least toughness among creatures you control and put <param-number>three</param-number> +1/+1 counters on it.)</i-auto></atom-reminder-action></kw-A>
+	flavor text: <i-flavor></i-flavor>
+	power: 4
+	toughness: 4
 	card code text: 
 	copyright: 
 	image 2: 
@@ -3003,15 +3009,17 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:00:53
-	time modified: 2018-05-23 17:52:42
-	name: UB02
-	casting cost: B
+	time modified: 2018-05-26 21:44:58
+	name: UB02-Lorekeeper of Bolas
+	casting cost: 3B
 	image: 
-	super type: <word-list-type>Creature</word-list-type>
-	sub type: <word-list-race></word-list-race>
+	super type: <word-list-type>Enchantment Creature</word-list-type>
+	sub type: <word-list-race>Elf</word-list-race> <word-list-class>Cleric</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: uncommon
-	rule text: 
+	rule text: <kw-A><i-auto><nospellcheck><error-spelling:en_us:/magic.mse-game/magic-words>Constellation</nospellcheck></i-auto></kw-A>-</error-spelling:en_us:/magic.mse-game/magic-words> Whenever <atom-cardname><nospellcheck>UB02-Lorekeeper of Bolas</nospellcheck></atom-cardname> or another enchantment enters the battlefield under your control, you draw a card and you lose 1 life.
 	flavor text: <i-flavor></i-flavor>
+	power: 3
+	toughness: 4
 	card code text: 
 	copyright: 
 	image 2: 
