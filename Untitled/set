@@ -766,12 +766,16 @@ card:
 	has styling: false
 	notes: Creature
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-13 09:20:45
-	name: CB07
-	casting cost: B
+	time modified: 2018-05-26 22:01:12
+	name: CB07-Attack Beetle
+	casting cost: 2B
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
-	sub type: <word-list-race></word-list-race>
+	sub type: <word-list-race>Insect</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: As long as you control an enchantment, <atom-cardname><nospellcheck>CB07-Attack Beetle</nospellcheck></atom-cardname> has <kw-a><nospellcheck>deathtouch</nospellcheck></kw-a>.<error-spelling> </error-spelling>
+	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 3
 	card code text: 
 	copyright: 
 	image 2: 
