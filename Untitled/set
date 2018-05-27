@@ -745,12 +745,16 @@ card:
 	has styling: false
 	notes: Creature
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-13 09:20:42
-	name: CB06
-	casting cost: B
+	time modified: 2018-05-26 21:39:08
+	name: CB06-Eye of Ultimate Evil
+	casting cost: 4B
 	image: 
-	super type: <word-list-type>Creature</word-list-type>
-	sub type: <word-list-race></word-list-race>
+	super type: <word-list-type>Enchantment Creature</word-list-type>
+	sub type: <word-list-race>Eye</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: <kw-1><i-auto><nospellcheck><error-spelling:en_us:/magic.mse-game/magic-words>Constellation</nospellcheck></i-auto></kw-1>-</error-spelling:en_us:/magic.mse-game/magic-words> When <atom-cardname><nospellcheck>CB06-Eye of Ultimate Evil</nospellcheck></atom-cardname> or another enchantment enters the battlefield under your control, target creature gets -1/-1 until end of turn.
+	flavor text: <i-flavor></i-flavor>
+	power: 4
+	toughness: 4
 	card code text: 
 	copyright: 
 	image 2: 
@@ -930,10 +934,14 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-13 07:50:52
-	name: CB15
-	casting cost: B
+	time modified: 2018-05-26 21:34:48
+	name: CB15-Sneaky Sneaky Extra-Cheeky
+	casting cost: 1B
 	image: 
+	super type: <word-list-type>Instant</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rule text: Put a +1/+1 counter on target creature. Another target creature gets -1/-1 until end of turn.
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
@@ -1526,8 +1534,8 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-23 08:44:19
-	name: Azorious Signet
+	time modified: 2018-05-26 21:22:51
+	name: Azorius Signet
 	casting cost: 2
 	image: 
 	super type: <word-list-type>Artifact Creature</word-list-type>
