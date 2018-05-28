@@ -1212,12 +1212,18 @@ card:
 	has styling: false
 	notes: Creature
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-27 20:47:15
-	name: CR09-
-	casting cost: R
+	time modified: 2018-05-27 21:05:02
+	name: CR09-Clown Mobster
+	casting cost: 2R
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
-	sub type: <word-list-race></word-list-race>
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Clown</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rule text:
+		As long as you control an enchantment, <atom-cardname><nospellcheck>CR09-Clown Mobster</nospellcheck></atom-cardname> has +1/+1 and <kw-a><nospellcheck>haste</nospellcheck></kw-a>.
+		“<error-spelling:en_us:/magic.mse-game/magic-words>Honkboss</error-spelling:en_us:/magic.mse-game/magic-words> Tony said to break your knees in for squealing.”
+	flavor text: <i-flavor></i-flavor>
+	power: 3
+	toughness: 2
 	card code text: 
 	copyright: 
 	image 2: 
@@ -4480,13 +4486,19 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:52:55
-	time modified: 2018-05-22 21:53:17
-	name: ComBR02
-	casting cost: BR
+	time modified: 2018-05-27 21:12:57
+	name: ComBR02-Honkboss Tony
+	casting cost: 3BR
 	image: 
 	super type: <word-list-type>Legendary Creature</word-list-type>
-	sub type: <word-list-race></word-list-race>
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Clown</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: mythic rare
+	rule text:
+		<kw-a><nospellcheck>First Strike</nospellcheck></kw-a><error-spelling>
+		</error-spelling>
+	flavor text: <i-flavor></i-flavor>
+	power: 4
+	toughness: 4
 	card code text: 
 	copyright: 
 	image 2: 
