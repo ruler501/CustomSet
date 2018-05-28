@@ -1095,16 +1095,13 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-27 21:33:21
-	name: CR14-Hammerhand
-	casting cost: R
+	time modified: 2018-05-27 22:09:00
+	name: CR14-Ping Anthem
+	casting cost: 2R
 	image: 
 	super type: <word-list-type>Enchantment</word-list-type>
-	sub type: <word-list-enchantment>Aura</word-list-enchantment><soft> </soft><word-list-enchantment></word-list-enchantment>
-	rule text:
-		<kw-a><nospellcheck>Enchant <param-name>creature</param-name></nospellcheck></kw-a>
-		When <atom-cardname><nospellcheck>CR14-Hammerhand</nospellcheck></atom-cardname> enters the battlefield, target creature can’t block this turn.<error-spelling> </error-spelling>
-		Enchanted creature gets +1/+1 and has <kw-a><nospellcheck>haste</nospellcheck></kw-a>.
+	sub type: <word-list-enchantment></word-list-enchantment>
+	rule text: Whenever a creature you control with a +1/+1 counter on it attacks <atom-cardname><nospellcheck>CR14-Ping Anthem</nospellcheck></atom-cardname> deals one damage to target player.
 	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
@@ -1117,15 +1114,15 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-27 21:58:11
-	name: CR15-Curse of the Nightly Hunt
-	casting cost: 2R
+	time modified: 2018-05-27 22:01:26
+	name: CR15-Curse of the Pierced Heart
+	casting cost: 1R
 	image: 
 	super type: <word-list-type>Enchantment</word-list-type>
 	sub type: <word-list-enchantment>Aura</word-list-enchantment> <word-list-enchantment>Curse</word-list-enchantment><soft> </soft><word-list-enchantment></word-list-enchantment>
 	rule text:
 		<kw-a><nospellcheck>Enchant <param-name>Player</param-name></nospellcheck></kw-a>
-		Creatures enchanted player controls attack each turn if able.
+		At the beginning of enchanted player’s upkeep, <atom-cardname><nospellcheck>CR15-Curse of the Pierced Heart</nospellcheck></atom-cardname> deals 1 damage to that player.
 	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
@@ -1138,10 +1135,14 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-27 21:38:00
-	name: CR16-Wake Up
-	casting cost: R
+	time modified: 2018-05-27 22:12:23
+	name: CR16-Blocking Shift
+	casting cost: 2R
 	image: 
+	super type: <word-list-type></word-list-type>
+	sub type: 
+	rule text: Up to two target creatures can’t block this turn. <kw-a><nospellcheck>Bolster <param-number>1</param-number></nospellcheck></kw-a>. <kw-1><nospellcheck>Bolster <param-number>1</param-number></nospellcheck>.<atom-reminder-action> <i-auto>(Choose a creature with the least toughness among creatures you control and put <param-number>a</param-number> +1/+1 counter on it.)</i-auto></atom-reminder-action></kw-1>
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
