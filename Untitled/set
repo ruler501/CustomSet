@@ -1212,8 +1212,8 @@ card:
 	has styling: false
 	notes: Creature
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-13 09:21:27
-	name: CR09
+	time modified: 2018-05-27 20:47:15
+	name: CR09-
 	casting cost: R
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
@@ -1792,12 +1792,12 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-23 08:43:48
+	time modified: 2018-05-27 20:56:15
 	name: Selesnya Signet
 	casting cost: 2
 	image: 
-	super type: <word-list-type>Artifact Creature</word-list-type>
-	sub type: <word-list-race></word-list-race>
+	super type: <word-list-type>Artifact</word-list-type>
+	sub type: <word-list-artifact></word-list-artifact>
 	rule text: <sym-auto>1</sym-auto>, <sym-auto>T</sym-auto>: Add <sym-auto>GW</sym-auto>.
 	flavor text: <i-flavor></i-flavor>
 	card code text: 
@@ -1811,12 +1811,12 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-23 08:43:58
+	time modified: 2018-05-27 20:56:20
 	name: Gruul Signet
 	casting cost: 2
 	image: 
-	super type: <word-list-type>Artifact Creature</word-list-type>
-	sub type: <word-list-race></word-list-race>
+	super type: <word-list-type>Artifact</word-list-type>
+	sub type: <word-list-artifact></word-list-artifact>
 	rule text: <sym-auto>1</sym-auto>, <sym-auto>T</sym-auto>: Add <sym-auto>RG</sym-auto>.
 	flavor text: <i-flavor></i-flavor>
 	card code text: 
@@ -1830,12 +1830,12 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-23 08:43:46
+	time modified: 2018-05-27 20:56:29
 	name: Rakdos Signet
 	casting cost: 2
 	image: 
-	super type: <word-list-type>Artifact Creature</word-list-type>
-	sub type: <word-list-race></word-list-race>
+	super type: <word-list-type>Artifact</word-list-type>
+	sub type: <word-list-artifact></word-list-artifact>
 	rule text: <sym-auto>1</sym-auto>, <sym-auto>T</sym-auto>: Add <sym-auto>BR</sym-auto>.
 	flavor text: <i-flavor></i-flavor>
 	card code text: 
@@ -1849,12 +1849,12 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-23 08:44:09
+	time modified: 2018-05-27 20:56:25
 	name: Dimir Signet
 	casting cost: 2
 	image: 
-	super type: <word-list-type>Artifact Creature</word-list-type>
-	sub type: <word-list-race></word-list-race>
+	super type: <word-list-type>Artifact</word-list-type>
+	sub type: <word-list-artifact></word-list-artifact>
 	rule text: <sym-auto>1</sym-auto>, <sym-auto>T</sym-auto>: Add <sym-auto>UB</sym-auto>.
 	flavor text: <i-flavor></i-flavor>
 	card code text: 
@@ -3250,13 +3250,17 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:03:32
-	time modified: 2018-05-22 21:03:45
-	name: UR01
-	casting cost: R
+	time modified: 2018-05-27 20:49:54
+	name: UR01-Counterfall Shocker
+	casting cost: 1R
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
-	sub type: <word-list-race></word-list-race>
+	sub type: <word-list-race>Vampire</word-list-race> <word-list-class>Clown</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: uncommon
+	rule text: <kw-A><i-auto><nospellcheck>Counterfall <param-number>2</param-number></nospellcheck></i-auto></kw-A> <error-spelling:en_us:/magic.mse-game/magic-words>-</error-spelling:en_us:/magic.mse-game/magic-words> Whenever one or more +1/+1 counters are placed on a creature you control, if it has 1 or more +1/+1 counters on it, <atom-cardname><nospellcheck>UR01-Counterfall Shocker</nospellcheck></atom-cardname> deals 2 damage to any target.
+	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 1
 	card code text: 
 	copyright: 
 	image 2: 
@@ -3738,11 +3742,19 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:20:35
-	time modified: 2018-05-22 21:20:44
-	name: RR01
-	casting cost: R
+	time modified: 2018-05-27 20:54:00
+	name: RR01-Counterfall Firebreather
+	casting cost: 4RR
 	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Dragon</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
+	rule text:
+		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>
+		<kw-A><i-auto><nospellcheck>Counterfall <param-number>1</param-number></nospellcheck></i-auto></kw-A> <error-spelling:en_us:/magic.mse-game/magic-words>-</error-spelling:en_us:/magic.mse-game/magic-words> Whenever one or more +1/+1 counters are placed on a creature you control, if it has 1 or more +1/+1 counters on it, creatures you control get +1/+0 until end of turn.
+	flavor text: <i-flavor></i-flavor>
+	power: 5
+	toughness: 5
 	card code text: 
 	copyright: 
 	image 2: 
