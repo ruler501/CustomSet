@@ -1250,12 +1250,19 @@ card:
 	has styling: false
 	notes: Creature
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-13 09:21:23
-	name: CR08
-	casting cost: R
+	time modified: 2018-05-27 20:44:27
+	name: CR08-Blood Ogre
+	casting cost: 2R
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
-	sub type: <word-list-race></word-list-race>
+	sub type: <word-list-race>Ogre</word-list-race> <word-list-class>Warrior</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rule text:
+		<kw-A><nospellcheck>Bloodthirst <param-number>1</param-number></nospellcheck><atom-reminder-expert> <i-auto>(If an opponent was dealt damage this turn, this creature enters the battlefield with <param-number>a</param-number> +1/+1 counter on it.)</i-auto></atom-reminder-expert></kw-A>
+		<kw-a><nospellcheck>First strike</nospellcheck></kw-a>
+		“What are you doing in my swamp?”
+	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 2
 	card code text: 
 	copyright: 
 	image 2: 
@@ -1267,12 +1274,18 @@ card:
 	has styling: false
 	notes: Creature
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-13 09:21:21
-	name: CR07
-	casting cost: R
+	time modified: 2018-05-27 20:44:17
+	name: CR07-Grenzo’s Cutthroat
+	casting cost: 1R
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
-	sub type: <word-list-race></word-list-race>
+	sub type: <word-list-race>Goblin</word-list-race> <word-list-class>Rogue</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rule text:
+		<kw-a><nospellcheck>First strike</nospellcheck></kw-a>
+		<kw-A><nospellcheck>Dethrone</nospellcheck><atom-reminder-expert> <i-auto>(Whenever this creature attacks the player with the most life or tied for most life, put a +1/+1 counter on it.)</i-auto></atom-reminder-expert></kw-A>
+	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 1
 	card code text: 
 	copyright: 
 	image 2: 
@@ -1284,12 +1297,18 @@ card:
 	has styling: false
 	notes: Creature
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-13 09:21:18
-	name: CR06
-	casting cost: R
+	time modified: 2018-05-27 20:36:46
+	name: CR06-Stingmoggie
+	casting cost: 3R
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
-	sub type: <word-list-race></word-list-race>
+	sub type: <word-list-race>Elemental</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text:
+		<atom-cardname><nospellcheck>CR06-Stingmoggie</nospellcheck></atom-cardname> comes into play with two +1/+1 counters on it.
+		<sym-auto>3R</sym-auto>, Remove a +1/+1 counter from <atom-cardname><nospellcheck>CR06-Stingmoggie</nospellcheck></atom-cardname>: Destroy target artifact or land.
+	flavor text: <i-flavor></i-flavor>
+	power: 0
+	toughness: 0
 	card code text: 
 	copyright: 
 	image 2: 
@@ -1301,12 +1320,18 @@ card:
 	has styling: false
 	notes: Creature
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-13 09:21:16
-	name: CR05
+	time modified: 2018-05-27 20:30:15
+	name: CR05- Skitter of Lizards
 	casting cost: R
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
-	sub type: <word-list-race></word-list-race>
+	sub type: <word-list-race>Lizard</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: <kw-A><nospellcheck>Multikicker <param-cost><sym-auto>1R</sym-auto></param-cost></nospellcheck><atom-reminder-expert> <i-auto>(You may pay an additional <param-mana><sym-auto>1R</sym-auto></param-mana> any number of times as you cast this spell.)</i-auto></atom-reminder-expert></kw-A>
+	flavor text:
+		<i-flavor>Haste
+		<error-spelling:en_us>CARDNAME</error-spelling:en_us> enters the battlefield with a <error-spelling:en_us>+1/+1</error-spelling:en_us> counter on it for each time it was kicked.</i-flavor>
+	power: 1
+	toughness: 1
 	card code text: 
 	copyright: 
 	image 2: 
@@ -1339,12 +1364,12 @@ card:
 	has styling: false
 	notes: Creature
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-26 20:48:06
+	time modified: 2018-05-27 20:35:24
 	name: CR03-Counterfall Menacer
 	casting cost: 1R
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
-	sub type: <word-list-race>Goblin</word-list-race><soft> </soft><word-list-class></word-list-class>
+	sub type: <word-list-race>Goblin</word-list-race> <word-list-class>Clown</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rule text: <kw-A><i-auto><nospellcheck>Counterfall <param-number>1</param-number></nospellcheck></i-auto></kw-A> <error-spelling:en_us:/magic.mse-game/magic-words>-</error-spelling:en_us:/magic.mse-game/magic-words> Whenever one or more +1/+1 counters are placed on a creature you control, if it has 1 or more +1/+1 counters on it, it gains <kw-a><nospellcheck>menace</nospellcheck></kw-a> until end of turn
 	flavor text: <i-flavor></i-flavor>
 	power: 2
