@@ -1095,12 +1095,17 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-13 09:21:56
-	name: CR14
+	time modified: 2018-05-27 21:33:21
+	name: CR14-Hammerhand
 	casting cost: R
 	image: 
-	super type: <word-list-type></word-list-type>
-	sub type: 
+	super type: <word-list-type>Enchantment</word-list-type>
+	sub type: <word-list-enchantment>Aura</word-list-enchantment><soft> </soft><word-list-enchantment></word-list-enchantment>
+	rule text:
+		<kw-a><nospellcheck>Enchant <param-name>creature</param-name></nospellcheck></kw-a>
+		When <atom-cardname><nospellcheck>CR14-Hammerhand</nospellcheck></atom-cardname> enters the battlefield, target creature can’t block this turn.<error-spelling> </error-spelling>
+		Enchanted creature gets +1/+1 and has <kw-a><nospellcheck>haste</nospellcheck></kw-a>.
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
@@ -1129,8 +1134,8 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-13 07:52:57
-	name: CR16
+	time modified: 2018-05-27 21:38:00
+	name: CR16-Wake Up
 	casting cost: R
 	image: 
 	card code text: 
@@ -1144,12 +1149,17 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-13 09:22:00
-	name: CR13
+	time modified: 2018-05-27 21:43:19
+	name: CR13-Cartouche of Zeal
 	casting cost: R
 	image: 
-	super type: <word-list-type></word-list-type>
-	sub type: 
+	super type: <word-list-type>Enchantment</word-list-type>
+	sub type: <word-list-enchantment>Aura</word-list-enchantment> <word-list-enchantment>Cartouche</word-list-enchantment><soft> </soft><word-list-enchantment></word-list-enchantment>
+	rule text:
+		<kw-a><nospellcheck>Enchant <param-name>creature you control</param-name></nospellcheck></kw-a>
+		When <atom-cardname><nospellcheck>CR13-Cartouche of Zeal</nospellcheck></atom-cardname> enters the battlefield, target creature can’t block this turn.
+		Enchanted creature gets +1/+1 and has <kw-a><nospellcheck>haste</nospellcheck></kw-a>.
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
@@ -1161,12 +1171,14 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-13 09:42:42
-	name: CR12
-	casting cost: R
+	time modified: 2018-05-27 21:41:57
+	name: CR12-Wake Up
+	casting cost: 1R
 	image: 
-	super type: <word-list-type></word-list-type>
-	sub type: 
+	super type: <word-list-type>Instant</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rule text: Target creature you control with one or more +1/+1 counters on it or enchanted with an Aura gains <kw-a><nospellcheck>double strike</nospellcheck></kw-a> until end of turn.
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
