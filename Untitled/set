@@ -1117,12 +1117,16 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-13 09:21:54
-	name: CR15
-	casting cost: R
+	time modified: 2018-05-27 21:58:11
+	name: CR15-Curse of the Nightly Hunt
+	casting cost: 2R
 	image: 
-	super type: <word-list-type></word-list-type>
-	sub type: 
+	super type: <word-list-type>Enchantment</word-list-type>
+	sub type: <word-list-enchantment>Aura</word-list-enchantment> <word-list-enchantment>Curse</word-list-enchantment><soft> </soft><word-list-enchantment></word-list-enchantment>
+	rule text:
+		<kw-a><nospellcheck>Enchant <param-name>Player</param-name></nospellcheck></kw-a>
+		Creatures enchanted player controls attack each turn if able.
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
@@ -1149,7 +1153,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-27 21:43:19
+	time modified: 2018-05-27 21:43:00
 	name: CR13-Cartouche of Zeal
 	casting cost: R
 	image: 
@@ -1157,8 +1161,7 @@ card:
 	sub type: <word-list-enchantment>Aura</word-list-enchantment> <word-list-enchantment>Cartouche</word-list-enchantment><soft> </soft><word-list-enchantment></word-list-enchantment>
 	rule text:
 		<kw-a><nospellcheck>Enchant <param-name>creature you control</param-name></nospellcheck></kw-a>
-		When <atom-cardname><nospellcheck>CR13-Cartouche of Zeal</nospellcheck></atom-cardname> enters the battlefield, target creature can’t block this turn.
-		Enchanted creature gets +1/+1 and has <kw-a><nospellcheck>haste</nospellcheck></kw-a>.
+		When <atom-cardname><nospellcheck>CR13-Cartouche of Zeal</nospellcheck></atom-cardname> enters the battlefield, target creature can’t block this turn,<error-spelling> </error-spelling>
 	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
@@ -3338,11 +3341,18 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:04:39
-	time modified: 2018-05-22 21:04:51
-	name: UR04
+	time modified: 2018-05-27 21:55:34
+	name: UR04-Subjugglator’s Verdict
 	casting cost: R
 	image: 
+	super type: <word-list-type>Enchantment</word-list-type>
+	sub type: <word-list-enchantment>Aura</word-list-enchantment> <word-list-enchantment>Curse</word-list-enchantment><soft> </soft><word-list-enchantment></word-list-enchantment>
 	rarity: uncommon
+	rule text:
+		<kw-a><nospellcheck>Enchant <param-name>player</param-name></nospellcheck></kw-a>
+		Whenever a creature you control deals damage to target player, you may pay <sym-auto>2</sym-auto>. If you do, discard a card, then draw a card.
+		The grim honking echoed through the halls, signaling another execution.
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
