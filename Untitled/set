@@ -1885,12 +1885,18 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-13 08:14:55
-	name: CA13
-	casting cost: C
+	time modified: 2018-05-28 19:55:00
+	name: CA13-Crystal Chimes
+	casting cost: 3
 	image: 
 	super type: <word-list-type>Artifact</word-list-type>
 	sub type: <word-list-artifact></word-list-artifact>
+	rule text:
+		<sym-auto>3</sym-auto>, <sym-auto>T</sym-auto>, Sacrifice Crystal Chimes: Return all enchantment cards from your graveyard to your hand.
+		No relation to the Apocalypse Chime.<error-spelling> </error-spelling>
+	flavor text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
 	card code text: 
 	copyright: 
 	image 2: 
@@ -3426,13 +3432,17 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:03:51
-	time modified: 2018-05-22 21:04:06
-	name: UR02
-	casting cost: R
+	time modified: 2018-05-28 19:57:51
+	name: UR02-Curse of the Nightly Hunt
+	casting cost: 2R
 	image: 
-	super type: <word-list-type>Creature</word-list-type>
-	sub type: <word-list-race></word-list-race>
+	super type: <word-list-type>Enchantment</word-list-type>
+	sub type: <word-list-enchantment>Aura</word-list-enchantment> <word-list-enchantment>Curse</word-list-enchantment><soft> </soft><word-list-enchantment></word-list-enchantment>
 	rarity: uncommon
+	rule text:
+		<kw-a><nospellcheck>Enchant <param-name>Player</param-name></nospellcheck></kw-a>
+		Creatures enchanted player controls attack each turn if able.
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
@@ -3466,7 +3476,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:04:39
-	time modified: 2018-05-27 21:55:34
+	time modified: 2018-05-28 19:59:48
 	name: UR04-Subjugglator’s Verdict
 	casting cost: R
 	image: 
@@ -3475,7 +3485,7 @@ card:
 	rarity: uncommon
 	rule text:
 		<kw-a><nospellcheck>Enchant <param-name>player</param-name></nospellcheck></kw-a>
-		Whenever a creature you control deals damage to target player, you may pay <sym-auto>2</sym-auto>. If you do, discard a card, then draw a card.
+		Whenever one or more creatures you control deals damage to enchanted player, you may pay <sym-auto>1</sym-auto>. If you do, discard a card, then draw a card.
 		The grim honking echoed through the halls, signaling another execution.
 	flavor text: <i-flavor></i-flavor>
 	card code text: 
@@ -3489,11 +3499,19 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:04:55
-	time modified: 2018-05-22 21:05:01
-	name: UR05
-	casting cost: R
+	time modified: 2018-05-28 20:05:25
+	name: UR05-Fireball Juggler
+	casting cost: 2RR
 	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Dragon</word-list-race> <word-list-class>Clown</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: uncommon
+	rule text:
+		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>
+		<sym-auto>R</sym-auto>: <atom-cardname><nospellcheck>UR05-Fireball Juggler</nospellcheck></atom-cardname> gets +1/+0 and <kw-a><nospellcheck>haste</nospellcheck></kw-a> until end of turn. Activate this ability only if you control an enchantment.
+	flavor text: <i-flavor></i-flavor>
+	power: 3
+	toughness: 2
 	card code text: 
 	copyright: 
 	image 2: 
@@ -3505,11 +3523,19 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:05:07
-	time modified: 2018-05-22 21:05:14
-	name: UR06
-	casting cost: R
+	time modified: 2018-05-28 20:12:59
+	name: UR06-Clownstrosity
+	casting cost: 3RR
 	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Beast</word-list-race> <word-list-class>Clown</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: uncommon
+	rule text:
+		<kw-a><nospellcheck>Haste</nospellcheck></kw-a>, <kw-a><nospellcheck>Menace</nospellcheck></kw-a>
+		Whenever <atom-cardname><nospellcheck>UR06-Clownstrosity</nospellcheck></atom-cardname> deals combat damage to a player, <kw-A><nospellcheck>bolster <param-number>2</param-number></nospellcheck>.<atom-reminder-action> <i-auto>(Choose a creature with the least toughness among creatures you control and put <param-number>two</param-number> +1/+1 counters on it.)</i-auto></atom-reminder-action></kw-A>
+	flavor text: <i-flavor></i-flavor>
+	power: 4
+	toughness: 3
 	card code text: 
 	copyright: 
 	image 2: 
@@ -3931,11 +3957,17 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:20:49
-	time modified: 2018-05-22 21:20:56
-	name: RR02
-	casting cost: R
+	time modified: 2018-05-28 20:15:12
+	name: RR02-Menacing Ogre
+	casting cost: 3RR
 	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Ogre</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
+	rule text:
+		<kw-a><nospellcheck>Trample</nospellcheck></kw-a>, <kw-a><nospellcheck>Haste</nospellcheck></kw-a>
+		When <atom-cardname><nospellcheck>RR02-Menacing Ogre</nospellcheck></atom-cardname> enters the battlefield, each player secretly chooses a number. Then those numbers are revealed. Each player with the highest number loses that much life. If you are one of those players, put two +1/+1 counters on <atom-cardname><nospellcheck>RR02-Menacing Ogre</nospellcheck></atom-cardname>.
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
