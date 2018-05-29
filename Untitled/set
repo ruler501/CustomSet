@@ -3462,7 +3462,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:04:39
-	time modified: 2018-05-27 21:55:34
+	time modified: 2018-05-28 19:59:48
 	name: UR04-Subjugglator’s Verdict
 	casting cost: R
 	image: 
@@ -3471,7 +3471,7 @@ card:
 	rarity: uncommon
 	rule text:
 		<kw-a><nospellcheck>Enchant <param-name>player</param-name></nospellcheck></kw-a>
-		Whenever a creature you control deals damage to target player, you may pay <sym-auto>2</sym-auto>. If you do, discard a card, then draw a card.
+		Whenever one or more creatures you control deals damage to enchanted player, you may pay <sym-auto>1</sym-auto>. If you do, discard a card, then draw a card.
 		The grim honking echoed through the halls, signaling another execution.
 	flavor text: <i-flavor></i-flavor>
 	card code text: 
@@ -3501,10 +3501,12 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:05:07
-	time modified: 2018-05-22 21:05:14
+	time modified: 2018-05-28 19:58:00
 	name: UR06
 	casting cost: R
 	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race>
 	rarity: uncommon
 	card code text: 
 	copyright: 
