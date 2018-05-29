@@ -3943,11 +3943,17 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:20:49
-	time modified: 2018-05-22 21:20:56
-	name: RR02
-	casting cost: R
+	time modified: 2018-05-28 20:15:12
+	name: RR02-Menacing Ogre
+	casting cost: 3RR
 	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Ogre</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
+	rule text:
+		<kw-a><nospellcheck>Trample</nospellcheck></kw-a>, <kw-a><nospellcheck>Haste</nospellcheck></kw-a>
+		When <atom-cardname><nospellcheck>RR02-Menacing Ogre</nospellcheck></atom-cardname> enters the battlefield, each player secretly chooses a number. Then those numbers are revealed. Each player with the highest number loses that much life. If you are one of those players, put two +1/+1 counters on <atom-cardname><nospellcheck>RR02-Menacing Ogre</nospellcheck></atom-cardname>.
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
