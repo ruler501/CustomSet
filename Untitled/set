@@ -1877,12 +1877,18 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-13 08:14:55
-	name: CA13
-	casting cost: C
+	time modified: 2018-05-28 19:55:00
+	name: CA13-Crystal Chimes
+	casting cost: 3
 	image: 
 	super type: <word-list-type>Artifact</word-list-type>
 	sub type: <word-list-artifact></word-list-artifact>
+	rule text:
+		<sym-auto>3</sym-auto>, <sym-auto>T</sym-auto>, Sacrifice Crystal Chimes: Return all enchantment cards from your graveyard to your hand.
+		No relation to the Apocalypse Chime.<error-spelling> </error-spelling>
+	flavor text: <i-flavor></i-flavor>
+	power: 
+	toughness: 
 	card code text: 
 	copyright: 
 	image 2: 
