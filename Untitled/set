@@ -1293,16 +1293,18 @@ card:
 	has styling: false
 	notes: Creature
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-13 09:22:18
-	name: CG04
-	casting cost: G
+	time modified: 2018-05-27 20:44:07
+	name: CG04-Tuskguard Captain
+	casting cost: 2G
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
-	sub type: <word-list-race></word-list-race>
-	rule text: 
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Warrior</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rule text:
+		<kw-A><nospellcheck>Outlast <param-cost><sym-auto>G</sym-auto></param-cost></nospellcheck><atom-reminder-expert> <i-auto>(<param-cost><sym-auto>G</sym-auto></param-cost>, <sym>T</sym>: Put a +1/+1 counter on this creature. Outlast only as a sorcery.)</i-auto></atom-reminder-expert></kw-A>
+		Each creature you control with a +1/+1 counter on it has <kw-a><nospellcheck>trample</nospellcheck></kw-a>.
 	flavor text: <i-flavor></i-flavor>
-	power: 
-	toughness: 
+	power: 2
+	toughness: 3
 	card code text: 
 	copyright: 
 	image 2: 
@@ -1424,33 +1426,16 @@ card:
 	has styling: false
 	notes: Creature
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-13 09:22:24
-	name: CG06
+	time modified: 2018-05-27 20:43:52
+	name: CG06-Llanowar Elves
 	casting cost: G
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
-	sub type: <word-list-race></word-list-race>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: Creature
-	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-13 09:22:20
-	name: CG05
-	casting cost: G
-	image: 
-	super type: <word-list-type>Creature</word-list-type>
-	sub type: <word-list-race></word-list-race>
-	rule text: 
+	sub type: <word-list-race>Elf</word-list-race> <word-list-class>Druid</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rule text: <sym-auto>T</sym-auto>: Add <sym-auto>G</sym-auto>.
 	flavor text: <i-flavor></i-flavor>
-	power: 
-	toughness: 
+	power: 1
+	toughness: 1
 	card code text: 
 	copyright: 
 	image 2: 
@@ -1462,12 +1447,16 @@ card:
 	has styling: false
 	notes: Creature
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-13 09:22:27
-	name: CG07
-	casting cost: G
+	time modified: 2018-05-27 20:33:14
+	name: CG05-Protector
+	casting cost: 3G
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
 	sub type: <word-list-race></word-list-race>
+	rule text: As long as you control an enchantment <atom-cardname><nospellcheck>CG05-Protector</nospellcheck></atom-cardname> must be blocked.
+	flavor text: <i-flavor></i-flavor>
+	power: 4
+	toughness: 4
 	card code text: 
 	copyright: 
 	image 2: 
@@ -1479,12 +1468,19 @@ card:
 	has styling: false
 	notes: Creature
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-13 09:22:29
-	name: CG08
-	casting cost: G
+	time modified: 2018-05-27 20:48:18
+	name: CG07-Obsessive Skinner
+	casting cost: 1G
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
-	sub type: <word-list-race></word-list-race>
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Rogue</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rule text:
+		When Obsessive Skinner enters the battlefield, put a +1/+1 counter on target creature.<error-spelling>
+		</error-spelling>
+		<kw-A><i-auto><nospellcheck>Delirium</nospellcheck></i-auto></kw-A> — At the beginning of each opponent’s upkeep, if there are four or more card types among cards in your graveyard, put a +1/+1 counter on target creature.
+	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 1
 	card code text: 
 	copyright: 
 	image 2: 
@@ -1496,12 +1492,16 @@ card:
 	has styling: false
 	notes: Creature
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-13 09:22:31
-	name: CG09
-	casting cost: G
+	time modified: 2018-05-27 20:49:07
+	name: CG08-Adaptive Snapjaw
+	casting cost: 4G
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
-	sub type: <word-list-race></word-list-race>
+	sub type: <word-list-race>Lizard</word-list-race> <word-list-class>Beast</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rule text: <kw-A><nospellcheck>Evolve</nospellcheck><atom-reminder-expert> <i-auto>(Whenever a creature enters the battlefield under your control, if that creature has greater power or toughness than this creature, put a +1/+1 counter on this creature.)</i-auto></atom-reminder-expert></kw-A>
+	flavor text: <i-flavor></i-flavor>
+	power: 6
+	toughness: 2
 	card code text: 
 	copyright: 
 	image 2: 
@@ -1513,47 +1513,13 @@ card:
 	has styling: false
 	notes: Creature
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-13 09:22:36
-	name: CG11
-	casting cost: G
+	time modified: 2018-05-27 20:51:33
+	name: CG09-Bramble Elemental
+	casting cost: 3GG
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
-	sub type: <word-list-race></word-list-race>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: Creature
-	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-13 09:22:38
-	name: CG12
-	casting cost: G
-	image: 
-	super type: <word-list-type>Creature</word-list-type>
-	sub type: <word-list-race></word-list-race>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-13 09:42:16
-	name: CG13
-	casting cost: G
-	image: 
-	super type: <word-list-type></word-list-type>
-	sub type: 
-	rule text: 
+	sub type: <word-list-race>Elemental</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: Whenever an Aura becomes attached to Bramble Elemental, create two 1/1 green Saproling creature tokens.
 	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
@@ -1564,14 +1530,37 @@ card:
 	mainframe image 2: 
 card:
 	has styling: false
-	notes: 
+	notes: Creature
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-13 09:42:13
-	name: CG14
+	time modified: 2018-05-27 20:58:43
+	name: CG11-Orchard Elemental
+	casting cost: 5G
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Elemental</word-list-race><soft> </soft><word-list-class></word-list-class>
+	rule text: Council’s dilemma — When Orchard Elemental enters the battlefield, starting with you, each player votes for sprout or harvest. Put two +1/+1 counters on Orchard Elemental for each sprout vote. You gain 3 life for each harvest vote.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: Creature
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-27 21:01:46
+	name: CG12-Ainok Survivalists
 	casting cost: G
 	image: 
-	super type: <word-list-type></word-list-type>
-	sub type: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race>
+	rule text:
+		<kw-A><nospellcheck>Megamorph <param-cost><sym-auto>1G</sym-auto></param-cost></nospellcheck><atom-reminder-expert> <i-auto>(You may cast this face down as a 2/2 creature for <sym>3</sym>. Turn it face up any time for its <error-spelling:en_us:/magic.mse-game/magic-words>megamorph</error-spelling:en_us:/magic.mse-game/magic-words> cost and put a +1/+1 counter on it.)</i-auto></atom-reminder-expert></kw-A>
+		When <error-spelling:en_us:/magic.mse-game/magic-words>Ainok</error-spelling:en_us:/magic.mse-game/magic-words> Survivalist is turned face up, destroy target artifact or enchantment an opponent controls.
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
@@ -1583,10 +1572,17 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-13 07:56:39
-	name: CG15
-	casting cost: G
+	time modified: 2018-05-27 21:03:30
+	name: CG13-Karametra’s Favor
+	casting cost: 2G
 	image: 
+	super type: <word-list-type>Enchantment</word-list-type>
+	sub type: <word-list-enchantment>Aura</word-list-enchantment><soft> </soft><word-list-enchantment></word-list-enchantment>
+	rule text:
+		<kw-a><nospellcheck>Enchant <param-name>creature</param-name></nospellcheck></kw-a>
+		When <error-spelling:en_us:/magic.mse-game/magic-words>Karametra’s</error-spelling:en_us:/magic.mse-game/magic-words> Favor enters the battlefield draw a card.
+		Enchanted creature has “<sym-auto>T</sym-auto>: Add one mana of any color”
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
@@ -1598,10 +1594,52 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-13 07:56:43
-	name: CG16
+	time modified: 2018-05-27 20:47:48
+	name: CG14-Vessel of Nascency
 	casting cost: G
 	image: 
+	super type: <word-list-type>Enchantment</word-list-type>
+	sub type: <word-list-enchantment></word-list-enchantment>
+	rule text: <sym-auto>1G</sym-auto>, Sacrifice <atom-cardname><nospellcheck>CG14-Vessel of Nascency</nospellcheck></atom-cardname>: Reveal the top four cards of your library. You may put an artifact, creature, enchantment, land, or planeswalker card from among them into your hand. Put the rest into your graveyard.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-27 21:03:19
+	name: CG15-Hunt the Weak
+	casting cost: 3G
+	image: 
+	super type: <word-list-type>Sorcery</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rule text: Put a +1/+1 counter on target creature you control. Then that creature fights target creature you don’t control. <i-auto>(Each deals damage equal to its power to the other.)</i-auto>
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-13 07:43:01
+	time modified: 2018-05-27 20:20:37
+	name: CG16-Better Feast
+	casting cost: 2G
+	image: 
+	super type: <word-list-type>Sorcery</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rule text: Destroy up to one target creature with <kw-a><nospellcheck>flying</nospellcheck></kw-a>. <kw-a><nospellcheck>Bolster <param-number>2</param-number></nospellcheck></kw-a>.
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
@@ -1634,12 +1672,16 @@ card:
 	has styling: false
 	notes: Creature
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-13 09:22:33
-	name: CG10
-	casting cost: G
+	time modified: 2018-05-27 20:54:04
+	name: CG10-Bolster Tapper
+	casting cost: 2GG
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
 	sub type: <word-list-race></word-list-race>
+	rule text: <sym-auto>2G</sym-auto>, <sym-auto>T</sym-auto>: <kw-1><nospellcheck>Bolster <param-number>2</param-number></nospellcheck>.<atom-reminder-action> <i-auto>(Choose a creature with the least toughness among creatures you control and put <param-number>two</param-number> +1/+1 counters on it.)</i-auto></atom-reminder-action></kw-1>
+	flavor text: <i-flavor></i-flavor>
+	power: 3
+	toughness: 3
 	card code text: 
 	copyright: 
 	image 2: 
@@ -2937,13 +2979,17 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 20:55:06
-	time modified: 2018-05-22 20:55:42
-	name: UG03
+	time modified: 2018-05-27 20:17:15
+	name: UG03-Scute Mob
 	casting cost: G
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
 	sub type: <word-list-race></word-list-race>
 	rarity: uncommon
+	rule text: At the beginning of your upkeep, if you control five or more lands, put four +1/+1 counters on <atom-cardname><nospellcheck>UG03-Scute Mob</nospellcheck></atom-cardname>
+	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 1
 	card code text: 
 	copyright: 
 	image 2: 
@@ -4027,8 +4073,8 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:24:06
-	time modified: 2018-05-22 21:24:21
-	name: RG01
+	time modified: 2018-05-27 20:26:54
+	name: RG01-Death’s Presence
 	casting cost: G
 	image: 
 	rarity: rare
