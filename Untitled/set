@@ -3485,11 +3485,19 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:04:55
-	time modified: 2018-05-22 21:05:01
-	name: UR05
-	casting cost: R
+	time modified: 2018-05-28 20:05:25
+	name: UR05-Fireball Juggler
+	casting cost: 2RR
 	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Dragon</word-list-race> <word-list-class>Clown</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: uncommon
+	rule text:
+		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>
+		<sym-auto>R</sym-auto>: <atom-cardname><nospellcheck>UR05-Fireball Juggler</nospellcheck></atom-cardname> gets +1/+0 and <kw-a><nospellcheck>haste</nospellcheck></kw-a> until end of turn. Activate this ability only if you control an enchantment.
+	flavor text: <i-flavor></i-flavor>
+	power: 3
+	toughness: 2
 	card code text: 
 	copyright: 
 	image 2: 
