@@ -1805,12 +1805,12 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-28 19:48:28
+	time modified: 2018-05-29 16:27:58
 	name: CA01-Azorius Signet
 	casting cost: 2
 	image: 
-	super type: <word-list-type>Artifact Creature</word-list-type>
-	sub type: <word-list-race></word-list-race>
+	super type: <word-list-type>Artifact</word-list-type>
+	sub type: <word-list-artifact></word-list-artifact>
 	rule text: <sym-auto>1</sym-auto>, <sym-auto>T</sym-auto>: Add <sym-auto>WU</sym-auto>.
 	flavor text: <i-flavor></i-flavor>
 	card code text: 
@@ -1830,7 +1830,7 @@ card:
 	image: 
 	super type: <word-list-type>Artifact Creature</word-list-type>
 	sub type: <word-list-race>Hydra</word-list-race> <word-list-class>Construct</word-list-class><soft> </soft><word-list-class></word-list-class>
-	rule text: <kw-A><nospellcheck>Graft <param-number>X</param-number></nospellcheck><atom-reminder-expert> <i-auto>(This permanent enters the battlefield with <param-number>X</param-number> +1/+1 counters on it. Whenever a creature enters the battlefield, you may move a +1/+1 counter from this permanent onto it.)</i-auto></atom-reminder-expert></kw-A>
+	rule text: <kw-A><nospellcheck>Graft <param-number>X</param-number></nospellcheck><atom-reminder-expert> <i-auto>(This creature enters the battlefield with <param-number>X</param-number> +1/+1 counters on it. Whenever another creature enters the battlefield, you may move a +1/+1 counter from this creature onto it.)</i-auto></atom-reminder-expert></kw-A>
 	flavor text: <i-flavor></i-flavor>
 	power: 1
 	toughness: 1
@@ -1908,12 +1908,12 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-28 19:41:36
+	time modified: 2018-05-29 16:28:14
 	name: CA11-Sparring Construct
 	casting cost: 1
 	image: 
-	super type: <word-list-type>Artifact</word-list-type>
-	sub type: <word-list-artifact>Construct</word-list-artifact><soft> </soft><word-list-artifact></word-list-artifact>
+	super type: <word-list-type>Artifact Creature</word-list-type>
+	sub type: <word-list-race>Construct</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rule text: When <atom-cardname><nospellcheck>CA11-Sparring Construct</nospellcheck></atom-cardname> dies, put a +1/+1 counter on target creature you control.
 	flavor text: <i-flavor></i-flavor>
 	card code text: 
@@ -2184,14 +2184,18 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 08:32:58
-	time modified: 2018-05-13 09:27:18
+	time modified: 2018-05-29 16:44:56
 	card color: white, blue, hybrid, horizontal
-	name: UWU02
-	casting cost: WU
+	name: UWU02-Detention Sphere
+	casting cost: 1WU
 	image: 
-	super type: <word-list-type></word-list-type>
-	sub type: 
+	super type: <word-list-type>Enchantment</word-list-type>
+	sub type: <word-list-enchantment></word-list-enchantment>
 	rarity: uncommon
+	rule text:
+		When <atom-cardname><nospellcheck>UWU02-Detention Sphere</nospellcheck></atom-cardname> enters the battlefield, you may exile target nonland permanent not named <atom-cardname><nospellcheck>UWU02-Detention Sphere</nospellcheck></atom-cardname> and all other permanents with the same name as that permanent.
+		When <atom-cardname><nospellcheck>UWU02-Detention Sphere</nospellcheck></atom-cardname> leaves the battlefield, return the exiled cards to the battlefield under their owner’s control.
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
@@ -2203,14 +2207,20 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 08:32:58
-	time modified: 2018-05-13 09:26:57
+	time modified: 2018-05-29 16:43:43
 	card color: white, blue, hybrid, horizontal
-	name: UWU01
+	name: UWU01-Walking Archive
 	casting cost: WU
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
 	sub type: <word-list-race></word-list-race>
 	rarity: uncommon
+	rule text:
+		<kw-a><nospellcheck>Defender</nospellcheck></kw-a> <i-auto>(This creature can’t attack.)</i-auto>
+		<atom-cardname><nospellcheck>UWU01-Walking Archive</nospellcheck></atom-cardname> enters the battlefield with a +1/+1 counter on it.
+		At the beginning of each player’s upkeep, that player draws a card for each +1/+1 counter on <atom-cardname><nospellcheck>UWU01-Walking Archive</nospellcheck></atom-cardname>.
+		<sym-auto>2WU</sym-auto>: Put a +1/+1 counter on <atom-cardname><nospellcheck>UWU01-Walking Archive</nospellcheck></atom-cardname>.
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
@@ -2279,10 +2289,10 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 08:32:58
-	time modified: 2018-05-13 09:27:34
+	time modified: 2018-05-29 15:53:37
 	card color: black, red, hybrid, horizontal
 	name: UBR01
-	casting cost: BR
+	casting cost: 2BR
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
 	sub type: <word-list-race></word-list-race>
@@ -2946,18 +2956,19 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-28 19:49:00
-	name: UA04-Counterfall Robot
-	casting cost: 3
+	time modified: 2018-05-29 16:23:25
+	name: UA04-Crystalline Crawler
+	casting cost: 4
 	image: 
 	super type: <word-list-type>Artifact Creature</word-list-type>
 	sub type: <word-list-race>Construct</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rarity: uncommon
 	rule text:
-		<sym-auto>T</sym-auto>: <kw-a><nospellcheck>Bolster <param-number>1</param-number></nospellcheck></kw-a>.
-		<kw-A><i-auto><nospellcheck>Counterfall <param-number>2</param-number></nospellcheck></i-auto></kw-A> <error-spelling:en_us:/magic.mse-game/magic-words>-</error-spelling:en_us:/magic.mse-game/magic-words> Whenever 1 or more +1/+1 counters are placed on a creature you control, if it has 2 or more +1/+1 counters on it, you may tap target creature.
+		<kw-A><i-auto><nospellcheck>Converge</nospellcheck></i-auto></kw-A> — Crystalline Crawler enters the battlefield with a +1/+1 counter on it for each color of mana spent to cast it.
+		Remove a +1/+1 counter from Crystalline Crawler: Add one mana of any color.
+		<sym-auto>T</sym-auto>: Put a +1/+1 counter on Crystalline Crawler.
 	flavor text: <i-flavor></i-flavor>
-	power: 0
+	power: 1
 	toughness: 1
 	card code text: 
 	copyright: 
@@ -2988,15 +2999,20 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-28 19:49:22
-	name: UA03-Fellwar Stone
-	casting cost: 2
+	time modified: 2018-05-29 16:29:55
+	name: UA03-Clockwork Hydra
+	casting cost: 5
 	image: 
 	super type: <word-list-type>Artifact</word-list-type>
 	sub type: <word-list-artifact></word-list-artifact>
 	rarity: uncommon
-	rule text: <sym-auto>T</sym-auto>: Add one mana of any color a land your opponents control could produce
+	rule text:
+		<atom-cardname><nospellcheck>UA03-Clockwork Hydra</nospellcheck></atom-cardname> enters the battlefield with four +1/+1 counters on it.
+		Whenever <atom-cardname><nospellcheck>UA03-Clockwork Hydra</nospellcheck></atom-cardname> attacks or blocks, remove a +1/+1 counter from it. If you do, <atom-cardname><nospellcheck>UA03-Clockwork Hydra</nospellcheck></atom-cardname> deals 1 damage to any target.
+		<sym-auto>T</sym-auto>: Put a +1/+1 counter on <atom-cardname><nospellcheck>UA03-Clockwork Hydra</nospellcheck></atom-cardname>.
 	flavor text: <i-flavor></i-flavor>
+	power: 0
+	toughness: 0
 	card code text: 
 	copyright: 
 	image 2: 
@@ -3170,13 +3186,19 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 20:58:03
-	time modified: 2018-05-22 20:58:17
-	name: UW02
-	casting cost: W
+	time modified: 2018-05-29 16:13:10
+	name: UW02-Counterfall Tapper
+	casting cost: WW
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
 	sub type: <word-list-race></word-list-race>
 	rarity: uncommon
+	rule text:
+		<sym-auto>T</sym-auto>: <kw-a><nospellcheck>Bolster <param-number>1</param-number></nospellcheck></kw-a>.
+		<kw-A><i-auto><nospellcheck>Counterfall <param-number>2</param-number></nospellcheck></i-auto></kw-A> <error-spelling:en_us:/magic.mse-game/magic-words>-</error-spelling:en_us:/magic.mse-game/magic-words> Whenever 1 or more +1/+1 counters are placed on a creature you control, if it has 2 or more +1/+1 counters on it, you may tap target creature.
+	flavor text: <i-flavor></i-flavor>
+	power: 0
+	toughness: 1
 	card code text: 
 	copyright: 
 	image 2: 
@@ -3701,13 +3723,20 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:12:05
-	time modified: 2018-05-22 21:12:29
-	name: RA02
-	casting cost: 1
+	time modified: 2018-05-29 16:24:36
+	name: RA02-Hangarback Walker
+	casting cost: XX
 	image: 
-	super type: <word-list-type>Artifact</word-list-type>
-	sub type: <word-list-artifact></word-list-artifact>
+	super type: <word-list-type>Artifact Creature</word-list-type>
+	sub type: <word-list-race>Construct</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
+	rule text:
+		<atom-cardname><nospellcheck>RA02-Hangarback Walker</nospellcheck></atom-cardname> enters the battlefield with X +1/+1 counters on it.
+		When <atom-cardname><nospellcheck>RA02-Hangarback Walker</nospellcheck></atom-cardname> dies, create a 1/1 colorless Thopter artifact creature token with <kw-a><nospellcheck>flying</nospellcheck></kw-a> for each +1/+1 counter on <atom-cardname><nospellcheck>RA02-Hangarback Walker</nospellcheck></atom-cardname>.
+		<sym-auto>1</sym-auto>, Tap: Put a +1/+1 counter on <atom-cardname><nospellcheck>RA02-Hangarback Walker</nospellcheck></atom-cardname>.
+	flavor text: <i-flavor></i-flavor>
+	power: 0
+	toughness: 0
 	card code text: 
 	copyright: 
 	image 2: 
@@ -3719,13 +3748,15 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:12:34
-	time modified: 2018-05-22 21:12:50
-	name: RA03
+	time modified: 2018-05-29 16:27:43
+	name: RA03-Steel Overseer
 	casting cost: 1
 	image: 
-	super type: <word-list-type>Artifact</word-list-type>
-	sub type: <word-list-artifact></word-list-artifact>
+	super type: <word-list-type>Artifact Creature</word-list-type>
+	sub type: <word-list-race>Construct</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
+	rule text: <sym-auto>T</sym-auto>: Put a +1/+1 counter on each artifact creature you control
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
@@ -3737,13 +3768,20 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:12:52
-	time modified: 2018-05-22 21:13:10
-	name: RA04
-	casting cost: 1
+	time modified: 2018-05-29 16:32:18
+	name: RA04-Walking Ballista
+	casting cost: XX
 	image: 
 	super type: <word-list-type>Artifact</word-list-type>
-	sub type: <word-list-artifact></word-list-artifact>
+	sub type: <word-list-artifact>Construct</word-list-artifact><soft> </soft><word-list-artifact></word-list-artifact>
 	rarity: rare
+	rule text:
+		<atom-cardname><nospellcheck>RA04-Walking Ballista</nospellcheck></atom-cardname> enters the battlefield with X +1/+1 counters on it.
+		<sym-auto>4</sym-auto>: Put a +1/+1 counter on <atom-cardname><nospellcheck>RA04-Walking Ballista</nospellcheck></atom-cardname>.
+		Remove a +1/+1 counter from <atom-cardname><nospellcheck>RA04-Walking Ballista</nospellcheck></atom-cardname>: It deals 1 damage to any target.
+	flavor text: <i-flavor></i-flavor>
+	power: 0
+	toughness: 0
 	card code text: 
 	copyright: 
 	image 2: 
@@ -3773,7 +3811,8 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:14:05
-	time modified: 2018-05-22 21:14:16
+	time modified: 2018-05-29 16:07:45
+	card color: white, black, hybrid, horizontal
 	name: RWB01
 	casting cost: WB
 	image: 
@@ -3789,7 +3828,8 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:15:20
-	time modified: 2018-05-22 21:15:32
+	time modified: 2018-05-29 16:07:04
+	card color: white, blue, hybrid, horizontal
 	name: RWU01
 	casting cost: WU
 	image: 
@@ -3805,7 +3845,8 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:15:38
-	time modified: 2018-05-22 21:18:18
+	time modified: 2018-05-29 16:07:35
+	card color: white, green, hybrid, horizontal
 	name: RGW01
 	casting cost: GW
 	image: 
@@ -3821,7 +3862,8 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:15:52
-	time modified: 2018-05-22 21:18:13
+	time modified: 2018-05-29 16:08:15
+	card color: white, red, hybrid, horizontal
 	name: RRW01
 	casting cost: RW
 	image: 
@@ -3837,7 +3879,8 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:16:16
-	time modified: 2018-05-22 21:18:07
+	time modified: 2018-05-29 16:08:08
+	card color: black, green, hybrid, horizontal
 	name: RBG01
 	casting cost: BG
 	image: 
@@ -3853,7 +3896,8 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:16:34
-	time modified: 2018-05-22 21:16:45
+	time modified: 2018-05-29 16:08:30
+	card color: blue, green, hybrid, horizontal
 	name: RGU01
 	casting cost: GU
 	image: 
@@ -3869,7 +3913,8 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:17:03
-	time modified: 2018-05-22 21:17:57
+	time modified: 2018-05-29 16:07:27
+	card color: red, green, hybrid, horizontal
 	name: RRG01
 	casting cost: RG
 	image: 
@@ -3885,7 +3930,8 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:17:23
-	time modified: 2018-05-22 21:17:50
+	time modified: 2018-05-29 16:07:13
+	card color: blue, black, hybrid, horizontal
 	name: RUB01
 	casting cost: UB
 	image: 
@@ -3901,11 +3947,21 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:18:35
-	time modified: 2018-05-22 21:18:47
-	name: RBR01
-	casting cost: BR
+	time modified: 2018-05-29 15:56:52
+	card color: black, red, hybrid, horizontal
+	name: ComBR01-Exava, Rakdos Blood Witch
+	casting cost: 2BR
 	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race>
 	rarity: rare
+	rule text:
+		<kw-a><nospellcheck>First strike</nospellcheck></kw-a>, <kw-a><nospellcheck>haste</nospellcheck></kw-a>
+		<kw-A><nospellcheck>Unleash</nospellcheck><atom-reminder-expert> <i-auto>(You may have this creature enter the battlefield with a +1/+1 counter on it. It can’t block as long as it has a +1/+1 counter on it.)</i-auto></atom-reminder-expert></kw-A>
+		Each other creature you control with a +1/+1 counter on it has <kw-a><nospellcheck>haste</nospellcheck></kw-a>.
+	flavor text: <i-flavor></i-flavor>
+	power: 3
+	toughness: 3
 	card code text: 
 	copyright: 
 	image 2: 
@@ -3917,7 +3973,8 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:19:30
-	time modified: 2018-05-22 21:19:42
+	time modified: 2018-05-29 16:07:57
+	card color: blue, red, hybrid, horizontal
 	name: RUR01
 	casting cost: UR
 	image: 
@@ -4209,11 +4266,17 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:24:28
-	time modified: 2018-05-22 21:24:37
-	name: RG02
-	casting cost: G
+	time modified: 2018-05-29 16:34:23
+	name: RG02-Verduous Gearhulk
+	casting cost: 4GG
 	image: 
+	super type: <word-list-type>Artifact Creature</word-list-type>
+	sub type: <word-list-race>Construct</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
+	rule text:
+		<kw-a><nospellcheck>Trample</nospellcheck></kw-a>
+		When <atom-cardname><nospellcheck>RG02-Verduous Gearhulk</nospellcheck></atom-cardname> enters the battlefield, distribute four +1/+1 counters among any number of target creatures you control.
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
@@ -4353,15 +4416,23 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:27:34
-	time modified: 2018-05-22 21:52:02
-	name: ComWB01
-	casting cost: WB
+	time modified: 2018-05-29 16:07:42
+	card color: white, black, hybrid, horizontal
+	name: ComWB01-Athreos, God of Passage
+	casting cost: 1WB
 	image: 
 	super type: <word-list-type>Legendary Creature</word-list-type>
-	sub type: <word-list-race></word-list-race>
+	sub type: <word-list-race>God</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rarity: mythic rare
+	rule text:
+		<kw-a><nospellcheck>Indestructible</nospellcheck></kw-a>
+		As long as your <kw-0><nospellcheck>devotion to <param-action>white and black is less than seven, <atom-cardname><nospellcheck>ComWB01-Athreos, God of Passage</nospellcheck></atom-cardname> isn’t a creature</param-action></nospellcheck></kw-0>
+		Whenever another creature you own dies, return it to your hand unless target opponent pays 3 life.
+	flavor text: <i-flavor></i-flavor>
+	power: 5
+	toughness: 4
 	card code text: 
-	copyright: 
+	copyright: 4
 	image 2: 
 	copyright 2: 
 	copyright 3: 
@@ -4371,13 +4442,16 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:28:05
-	time modified: 2018-05-22 21:29:37
-	name: ComWU01
+	time modified: 2018-05-29 16:40:37
+	card color: white, blue, hybrid, horizontal
+	name: ComWU01-Hanna, Ship’s Navigator
 	casting cost: WU
 	image: 
 	super type: <word-list-type>Legendary Creature</word-list-type>
-	sub type: <word-list-race></word-list-race>
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Artificer</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: mythic rare
+	rule text: <sym-auto>1WU</sym-auto>, <sym-auto>T</sym-auto>: Return target artifact or enchantment card from your graveyard to your hand.
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
@@ -4389,7 +4463,8 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:28:44
-	time modified: 2018-05-22 21:29:48
+	time modified: 2018-05-29 16:07:32
+	card color: white, green, hybrid, horizontal
 	name: ComGW01
 	casting cost: GW
 	image: 
@@ -4407,13 +4482,22 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:29:00
-	time modified: 2018-05-22 21:29:55
-	name: ComRW01
-	casting cost: RW
+	time modified: 2018-05-29 16:06:42
+	card color: white, red, hybrid, horizontal
+	name: ComRW01-Iroas, God of Victory
+	casting cost: 2RW
 	image: 
 	super type: <word-list-type>Legendary Creature</word-list-type>
-	sub type: <word-list-race></word-list-race>
+	sub type: <word-list-race>God</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rarity: mythic rare
+	rule text:
+		<kw-a><nospellcheck>Indestructible</nospellcheck></kw-a>
+		As long as your <kw-0><nospellcheck>devotion to <param-action>red and white is less than seven, <atom-cardname><nospellcheck>ComRW01-Iroas, God of Victory</nospellcheck></atom-cardname> isn’t a creature</param-action>.</nospellcheck></kw-0>
+		Creatures you control have <kw-a><nospellcheck>menace</nospellcheck></kw-a>.
+		Prevent all damage that would be dealt to attacking creatures you control.
+	flavor text: <i-flavor></i-flavor>
+	power: 7
+	toughness: 4
 	card code text: 
 	copyright: 
 	image 2: 
@@ -4425,7 +4509,8 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:30:03
-	time modified: 2018-05-22 21:30:23
+	time modified: 2018-05-29 16:08:04
+	card color: black, green, hybrid, horizontal
 	name: ComBG01
 	casting cost: BG
 	image: 
@@ -4443,13 +4528,20 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:30:49
-	time modified: 2018-05-22 21:31:08
-	name: ComGU01
-	casting cost: GU
+	time modified: 2018-05-29 16:08:26
+	card color: blue, green, hybrid, horizontal
+	name: ComGU01-Grafter
+	casting cost: 2GU
 	image: 
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race></word-list-race>
 	rarity: mythic rare
+	rule text:
+		<kw-A><nospellcheck>Graft <param-number>3</param-number></nospellcheck><atom-reminder-expert> <i-auto>(This creature enters the battlefield with <param-number>three</param-number> +1/+1 counters on it. Whenever another creature enters the battlefield, you may move a +1/+1 counter from this creature onto it.)</i-auto></atom-reminder-expert></kw-A>
+		Other creatures you control have <kw-a><nospellcheck>graft <param-number>1</param-number></nospellcheck></kw-a>.
+	flavor text: <i-flavor></i-flavor>
+	power: 0
+	toughness: 1
 	card code text: 
 	copyright: 
 	image 2: 
@@ -4461,7 +4553,8 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:42:52
-	time modified: 2018-05-22 21:43:23
+	time modified: 2018-05-29 16:07:24
+	card color: red, green, hybrid, horizontal
 	name: ComRG01
 	casting cost: RG
 	image: 
@@ -4479,7 +4572,8 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:43:25
-	time modified: 2018-05-22 21:44:11
+	time modified: 2018-05-29 16:06:57
+	card color: blue, black, hybrid, horizontal
 	name: ComUB01
 	casting cost: UB
 	image: 
@@ -4496,176 +4590,20 @@ card:
 card:
 	has styling: false
 	notes: 
-	time created: 2018-05-22 21:43:46
-	time modified: 2018-05-22 21:44:03
-	name: ComBR01
-	casting cost: BR
-	image: 
-	super type: <word-list-type>Legendary Creature</word-list-type>
-	sub type: <word-list-race></word-list-race>
-	rarity: mythic rare
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
 	time created: 2018-05-22 21:44:15
-	time modified: 2018-05-22 21:44:38
-	name: ComUR01
+	time modified: 2018-05-29 16:07:52
+	card color: blue, red, hybrid, horizontal
+	name: ComUR01-Keranos, God of Storms
 	casting cost: UR
 	image: 
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race></word-list-race>
 	rarity: mythic rare
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2018-05-22 21:44:48
-	time modified: 2018-05-22 21:45:09
-	name: ComWB02
-	casting cost: WB
-	image: 
-	super type: <word-list-type>Legendary Creature</word-list-type>
-	sub type: <word-list-race></word-list-race>
-	rarity: mythic rare
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2018-05-22 21:45:12
-	time modified: 2018-05-22 21:47:41
-	name: ComWU02
-	casting cost: WU
-	image: 
-	super type: <word-list-type>Legendary Creature</word-list-type>
-	sub type: <word-list-race></word-list-race>
-	rarity: mythic rare
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2018-05-22 21:45:51
-	time modified: 2018-05-22 21:46:24
-	name: ComGW02
-	casting cost: GW
-	image: 
-	super type: <word-list-type>Legendary Creature</word-list-type>
-	sub type: <word-list-race></word-list-race>
-	rarity: mythic rare
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2018-05-22 21:47:15
-	time modified: 2018-05-22 21:47:37
-	name: ComRW02
-	casting cost: RW
-	image: 
-	super type: <word-list-type>Legendary Creature</word-list-type>
-	sub type: <word-list-race></word-list-race>
-	rarity: mythic rare
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2018-05-22 21:49:59
-	time modified: 2018-05-22 21:51:01
-	name: ComBG02
-	casting cost: BG
-	image: 
-	super type: <word-list-type>Legendary Creature</word-list-type>
-	sub type: <word-list-race></word-list-race>
-	rarity: mythic rare
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2018-05-22 21:51:09
-	time modified: 2018-05-22 21:51:34
-	name: ComGU02
-	casting cost: GU
-	image: 
-	super type: <word-list-type>Legendary Creature</word-list-type>
-	sub type: <word-list-race></word-list-race>
-	rarity: mythic rare
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2018-05-22 21:52:10
-	time modified: 2018-05-22 21:52:28
-	name: ComRG02
-	casting cost: RG
-	image: 
-	super type: <word-list-type>Legendary Creature</word-list-type>
-	sub type: <word-list-race></word-list-race>
-	rarity: mythic rare
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2018-05-22 21:52:31
-	time modified: 2018-05-22 21:52:52
-	name: ComUB02
-	casting cost: UB
-	image: 
-	super type: <word-list-type>Legendary Creature</word-list-type>
-	sub type: <word-list-race></word-list-race>
-	rarity: mythic rare
+	rule text:
+		<kw-a><nospellcheck>Indestructible</nospellcheck></kw-a>
+		As long as your <kw-0><nospellcheck>devotion to <param-action>blue and red is less than seven, <atom-cardname><nospellcheck>ComUR01-Keranos, God of Storms</nospellcheck></atom-cardname> isn’t a creature</param-action>.</nospellcheck></kw-0>
+		Reveal the first card you draw on each of your turns. Whenever you reveal a land card this way, draw a card. Whenever you reveal a nonland card this way, <atom-cardname><nospellcheck>ComUR01-Keranos, God of Storms</nospellcheck></atom-cardname> deals 3 damage to any target.
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
@@ -4677,8 +4615,9 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:52:55
-	time modified: 2018-05-27 21:23:58
-	name: ComBR02-Honkboss Tony
+	time modified: 2018-05-29 16:06:51
+	card color: black, red, hybrid, horizontal
+	name: RBR01-Honkboss Tony
 	casting cost: 3BR
 	image: 
 	super type: <word-list-type>Legendary Creature</word-list-type>
@@ -4702,26 +4641,9 @@ card:
 card:
 	has styling: false
 	notes: 
-	time created: 2018-05-22 21:53:26
-	time modified: 2018-05-22 21:53:42
-	name: ComUR02
-	casting cost: UR
-	image: 
-	super type: <word-list-type>Legendary Creature</word-list-type>
-	sub type: <word-list-race></word-list-race>
-	rarity: mythic rare
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
 	time created: 2018-05-22 21:53:47
-	time modified: 2018-05-22 21:54:30
+	time modified: 2018-05-29 16:09:43
+	card color: white, blue, green, hybrid, horizontal
 	name: ComGWU01
 	casting cost: GWU
 	image: 
@@ -4739,7 +4661,8 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:54:35
-	time modified: 2018-05-22 21:54:52
+	time modified: 2018-05-29 16:09:46
+	card color: white, blue, green, hybrid, horizontal
 	name: ComGWU02
 	casting cost: GWU
 	image: 
@@ -4757,7 +4680,8 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:54:54
-	time modified: 2018-05-22 21:55:29
+	time modified: 2018-05-29 16:09:04
+	card color: white, black, green, hybrid, horizontal
 	name: ComBGW01
 	casting cost: BGW
 	image: 
@@ -4775,7 +4699,8 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:55:32
-	time modified: 2018-05-22 21:55:49
+	time modified: 2018-05-29 16:09:13
+	card color: white, black, green, hybrid, horizontal
 	name: ComBGW02
 	casting cost: BGW
 	image: 
@@ -4793,7 +4718,8 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:55:58
-	time modified: 2018-05-22 21:56:48
+	time modified: 2018-05-29 16:09:30
+	card color: blue, black, green, hybrid, horizontal
 	name: ComGUB01
 	casting cost: GUB
 	image: 
@@ -4811,7 +4737,8 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:56:54
-	time modified: 2018-05-22 21:57:07
+	time modified: 2018-05-29 16:09:39
+	card color: blue, black, green, hybrid, horizontal
 	name: ComGUB02
 	casting cost: GUB
 	image: 
@@ -4829,7 +4756,8 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:57:10
-	time modified: 2018-05-22 21:57:42
+	time modified: 2018-05-29 16:10:01
+	card color: white, blue, red, hybrid, horizontal
 	name: ComRWU01
 	casting cost: RWU
 	image: 
@@ -4847,7 +4775,8 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:57:45
-	time modified: 2018-05-22 21:58:02
+	time modified: 2018-05-29 16:10:05
+	card color: white, blue, red, hybrid, horizontal
 	name: ComRWU02
 	casting cost: RWU
 	image: 
@@ -4865,7 +4794,8 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:58:15
-	time modified: 2018-05-22 21:59:53
+	time modified: 2018-05-29 16:09:52
+	card color: white, red, green, hybrid, horizontal
 	name: ComRGW01
 	casting cost: RGW
 	image: 
@@ -4883,7 +4813,8 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:59:58
-	time modified: 2018-05-22 22:00:15
+	time modified: 2018-05-29 16:09:58
+	card color: white, red, green, hybrid, horizontal
 	name: ComRGW02
 	casting cost: RGW
 	image: 
@@ -4901,7 +4832,8 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 22:00:18
-	time modified: 2018-05-22 22:00:51
+	time modified: 2018-05-29 16:10:34
+	card color: white, blue, black, hybrid, horizontal
 	name: ComWUB01
 	casting cost: WUB
 	image: 
@@ -4919,7 +4851,8 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 22:00:55
-	time modified: 2018-05-22 22:01:14
+	time modified: 2018-05-29 16:10:37
+	card color: white, blue, black, hybrid, horizontal
 	name: ComWUB02
 	casting cost: WUB
 	image: 
@@ -4937,7 +4870,8 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 22:01:26
-	time modified: 2018-05-22 22:02:12
+	time modified: 2018-05-29 16:10:10
+	card color: blue, black, red, hybrid, horizontal
 	name: ComUBR01
 	casting cost: UBR
 	image: 
@@ -4955,7 +4889,8 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 22:01:49
-	time modified: 2018-05-26 22:46:50
+	time modified: 2018-05-29 16:10:13
+	card color: blue, black, red, hybrid, horizontal
 	name: ComUBR02-The Simurgh
 	casting cost: UBR
 	image: 
@@ -4975,7 +4910,8 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 22:02:47
-	time modified: 2018-05-27 17:48:52
+	time modified: 2018-05-29 16:09:19
+	card color: black, red, green, hybrid, horizontal
 	name: ComBRG01-Kresh the Bloodbraided
 	casting cost: 2BRG
 	image: 
@@ -4997,7 +4933,8 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 22:03:09
-	time modified: 2018-05-22 22:03:25
+	time modified: 2018-05-29 16:09:25
+	card color: black, red, green, hybrid, horizontal
 	name: ComBRG02
 	casting cost: BRG
 	image: 
@@ -5015,7 +4952,8 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 22:03:39
-	time modified: 2018-05-22 22:04:38
+	time modified: 2018-05-29 16:10:26
+	card color: white, black, red, hybrid, horizontal
 	name: ComWRB01
 	casting cost: WBR
 	image: 
@@ -5033,7 +4971,8 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 22:04:40
-	time modified: 2018-05-22 22:05:01
+	time modified: 2018-05-29 16:10:29
+	card color: white, black, red, hybrid, horizontal
 	name: ComWRB02
 	casting cost: WBR
 	image: 
@@ -5051,7 +4990,8 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 22:05:31
-	time modified: 2018-05-22 22:05:48
+	time modified: 2018-05-29 16:10:17
+	card color: blue, red, green, hybrid, horizontal
 	name: ComUGR01
 	casting cost: URG
 	image: 
@@ -5069,7 +5009,8 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 22:05:52
-	time modified: 2018-05-22 22:06:12
+	time modified: 2018-05-29 16:10:21
+	card color: blue, red, green, hybrid, horizontal
 	name: ComUGR02
 	casting cost: URG
 	image: 
