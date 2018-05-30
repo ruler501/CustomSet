@@ -3990,7 +3990,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:14:05
-	time modified: 2018-05-30 09:56:56
+	time modified: 2018-05-30 18:18:46
 	card color: white, black, hybrid, horizontal
 	name: ComWB01-Daxos the Returned
 	casting cost: WB
@@ -4002,6 +4002,8 @@ card:
 		Whenever you cast an enchantment spell, you get an experience counter.
 		<sym-auto>1WB</sym-auto>: Create a white and black Spirit enchantment creature token. It has “This creature’s power and toughness are each equal to the number of experience counters you have.”
 	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 2
 	card code text: 
 	copyright: 
 	image 2: 
@@ -4697,20 +4699,20 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:28:44
-	time modified: 2018-05-30 15:53:37
+	time modified: 2018-05-30 18:36:35
 	card color: white, green, hybrid, horizontal
 	name: ComGW01-Ajani, Mentor of Heroes
-	casting cost: GW
+	casting cost: 3GW
 	image: 
-	super type: <word-list-type>Legendary Planeswlaker</word-list-type>
-	sub type: Ajani
+	super type: <word-list-type>Legendary Planeswalker</word-list-type>
+	sub type: <word-list-planeswalker>Ajani</word-list-planeswalker><soft> </soft><word-list-planeswalker></word-list-planeswalker>
 	rarity: mythic rare
 	rule text:
-		Distribute three +1/+1 counters among one, two, or three target creatures you control.<error-spelling>
-		</error-spelling>
+		Distribute three +1/+1 counters among one, two, or three target creatures you control.
 		Look at the top four cards of your library. You may reveal an Aura, creature, or planeswalker card from among them and put it into your hand. Put the rest on the bottom of your library in any order.
 		You gain 100 life.
 	flavor text: <i-flavor></i-flavor>
+	loyalty: 4
 	loyalty cost 1: +1
 	loyalty cost 2: +1
 	loyalty cost 3: -8
@@ -4752,7 +4754,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:30:03
-	time modified: 2018-05-30 12:58:23
+	time modified: 2018-05-30 18:33:59
 	card color: black, green, hybrid, horizontal
 	name: ComBG01-Reyhan, Last of the Abzan
 	casting cost: 1BG
@@ -4765,6 +4767,8 @@ card:
 		Whenever a creature you control dies or is put into the command zone, if it had one or more +1/+1 counters on it, you may put that many +1/+1 counters on target creature.
 		<kw-0><nospellcheck>Partner</nospellcheck></kw-0>
 	flavor text: <i-flavor></i-flavor>
+	power: 0
+	toughness: 0
 	card code text: 
 	copyright: 
 	image 2: 
@@ -4839,7 +4843,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:44:15
-	time modified: 2018-05-29 16:07:52
+	time modified: 2018-05-30 18:28:00
 	card color: blue, red, hybrid, horizontal
 	name: ComUR01-Keranos, God of Storms
 	casting cost: UR
@@ -4852,6 +4856,8 @@ card:
 		As long as your <kw-0><nospellcheck>devotion to <param-action>blue and red is less than seven, <atom-cardname><nospellcheck>ComUR01-Keranos, God of Storms</nospellcheck></atom-cardname> isn’t a creature</param-action>.</nospellcheck></kw-0>
 		Reveal the first card you draw on each of your turns. Whenever you reveal a land card this way, draw a card. Whenever you reveal a nonland card this way, <atom-cardname><nospellcheck>ComUR01-Keranos, God of Storms</nospellcheck></atom-cardname> deals 3 damage to any target.
 	flavor text: <i-flavor></i-flavor>
+	power: 6
+	toughness: 5
 	card code text: 
 	copyright: 
 	image 2: 
@@ -4890,14 +4896,21 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:53:47
-	time modified: 2018-05-29 18:39:42
+	time modified: 2018-05-30 18:32:55
 	card color: white, blue, green, hybrid, horizontal
-	name: ComGWU01-Endbringer
-	casting cost: GWU
+	name: ComGWU01-Utopia, Endbringer
+	casting cost: 4GWU
 	image: 
-	super type: <word-list-type>Legendary Creature</word-list-type>
-	sub type: <word-list-race></word-list-race>
+	super type: <word-list-type>Legendary Enchantment Creature</word-list-type>
+	sub type: <word-list-race>God</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rarity: mythic rare
+	rule text:
+		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>, <kw-a><nospellcheck>Indestructible</nospellcheck></kw-a>
+		As long as your <kw-0><nospellcheck>devotion to <param-action>green, white and blue is less than ten, <atom-cardname><nospellcheck>ComGWU01-Utopia, Endbringer</nospellcheck></atom-cardname> isn’t a creature</param-action>.</nospellcheck></kw-0>
+		<sym-auto>GWU</sym-auto>: Starting with you, each player votes for a nonland permanent you don’t control. Exile each permanent with the most votes or tied for most votes. Each of those permanents’ controllers draws a card.
+	flavor text: <i-flavor></i-flavor>
+	power: 10
+	toughness: 10
 	card code text: 
 	copyright: 
 	image 2: 
@@ -4932,7 +4945,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:54:54
-	time modified: 2018-05-30 12:58:20
+	time modified: 2018-05-30 18:34:42
 	card color: white, black, green, hybrid, horizontal
 	name: ComBGW01-Ghave, Guru of Spores
 	casting cost: 2BGW
@@ -4942,10 +4955,11 @@ card:
 	rarity: mythic rare
 	rule text:
 		<atom-cardname><nospellcheck>ComBGW01-Ghave, Guru of Spores</nospellcheck></atom-cardname> enters the battlefield with five +1/+1 counters on it.
-		<sym-auto>1</sym-auto>, Remove a +1/+1 counter from a creature you control: Create a 1/1 green Saproling creature token.<error-spelling>
-		</error-spelling>
+		<sym-auto>1</sym-auto>, Remove a +1/+1 counter from a creature you control: Create a 1/1 green Saproling creature token.
 		<sym-auto>1</sym-auto>, Sacrifice a creature: Put a +1/+1 counter on target creature.
 	flavor text: <i-flavor></i-flavor>
+	power: 0
+	toughness: 0
 	card code text: 
 	copyright: 
 	image 2: 
@@ -5094,14 +5108,21 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:59:58
-	time modified: 2018-05-29 17:25:19
+	time modified: 2018-05-30 18:22:02
 	card color: white, red, green, hybrid, horizontal
 	name: ComRGW02-Hadayosh, Endbringer
-	casting cost: RGW
+	casting cost: 4RGW
 	image: 
 	super type: <word-list-type>Legendary Enchantment Creature</word-list-type>
 	sub type: <word-list-race>God</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rarity: mythic rare
+	rule text:
+		<kw-a><nospellcheck>Trample</nospellcheck></kw-a>, <kw-a><nospellcheck>Indestructible</nospellcheck></kw-a>
+		As long as your <kw-0><nospellcheck>devotion to <param-action>red, green and white is less than ten, <atom-cardname><nospellcheck>ComRGW02-Hadayosh, Endbringer</nospellcheck></atom-cardname> isn’t a creature</param-action>.</nospellcheck></kw-0>
+		Tap three untapped creatures you control: Create a 5/5 green Beast creature token.
+	flavor text: <i-flavor></i-flavor>
+	power: 10
+	toughness: 10
 	card code text: 
 	copyright: 
 	image 2: 
@@ -5113,16 +5134,23 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 22:00:18
-	time modified: 2018-05-29 17:24:14
+	time modified: 2018-05-30 18:26:32
 	card color: white, blue, black, hybrid, horizontal
 	name: ComWUB01-Khonsu, Endbringer
-	casting cost: WUB
+	casting cost: 4WUB
 	image: 
 	super type: <word-list-type>Legendary Enchantment Creature</word-list-type>
 	sub type: <word-list-race>God</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rarity: mythic rare
+	rule text:
+		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>, <kw-a><nospellcheck>Indestructible</nospellcheck></kw-a>
+		As long as your <kw-0><nospellcheck>devotion to <param-action>white, blue, and black is less than ten, <atom-cardname><nospellcheck>ComWUB01-Khonsu, Endbringer</nospellcheck></atom-cardname> isn’t a creature</param-action>.</nospellcheck></kw-0>
+		<sym>WUB</sym>: Exile target enchantment you control, then return it to the battlefield under its owner’s control.
+	flavor text: <i-flavor></i-flavor>
+	power: 10
+	toughness: 10
 	card code text: 
-	copyright: 
+	copyright: 10/10
 	image 2: 
 	copyright 2: 
 	copyright 3: 
@@ -5132,20 +5160,24 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 22:00:55
-	time modified: 2018-05-30 13:12:40
+	time modified: 2018-05-30 18:16:37
 	card color: white, blue, black, hybrid, horizontal
-	name: ComWUB02-Nathan
-	casting cost: WUB
+	name: ComWUB02-Nathan, The Traveller
+	casting cost: 3WUB
 	image: 
 	super type: <word-list-type>Legendary Creature</word-list-type>
-	sub type: <word-list-race></word-list-race>
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Wizard</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: mythic rare
 	rule text:
-		Enchantment spells you own have <kw-a><nospellcheck>flash</nospellcheck></kw-a>
-		Whenever you cast an enchantment spell you may pay <sym-auto>1UB</sym-auto>, if you do, counter target spell unless its controller pays <sym-auto>3</sym-auto>
+		<kw-a><nospellcheck>Flash</nospellcheck></kw-a>
+		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>
+		Enchantment spells you own have <kw-a><nospellcheck>flash</nospellcheck></kw-a>.
+		Whenever you cast an enchantment spell, you may pay <sym-auto>1UB</sym-auto>. If you do, counter target spell unless its controller pays <sym-auto>3</sym-auto>.
 	flavor text: <i-flavor></i-flavor>
+	power: 4
+	toughness: 4
 	card code text: 
-	copyright: 
+	copyright: 4/4
 	image 2: 
 	copyright 2: 
 	copyright 3: 
@@ -5174,16 +5206,22 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 22:01:49
-	time modified: 2018-05-29 17:24:50
+	time modified: 2018-05-30 18:09:11
 	card color: blue, black, red, hybrid, horizontal
 	name: ComUBR02-Simurgh, Endbringer
-	casting cost: UBR
+	casting cost: 4UBR
 	image: 
 	super type: <word-list-type>Legendary Enchantment Creature</word-list-type>
 	sub type: <word-list-race>God</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rarity: mythic rare
-	rule text: <kw-a><nospellcheck>Flying</nospellcheck></kw-a>
+	rule text:
+		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>, <kw-a><nospellcheck>Indestructible</nospellcheck></kw-a>
+		As long as your <kw-0><nospellcheck>devotion to <param-action>red, blue and black is less than ten, <atom-cardname><nospellcheck>ComUBR02-Simurgh, Endbringer</nospellcheck></atom-cardname> isn’t a creature</param-action>.</nospellcheck></kw-0>
+		<sym-auto>1R</sym-auto>: <atom-cardname><nospellcheck>ComUBR02-Simurgh, Endbringer</nospellcheck></atom-cardname> deals 1 damage to target creature. That creature becomes an enchantment in addition to its other types.
+		<sym-auto>4UB</sym-auto>: Gain control of target enchantment creature.
 	flavor text: <i-flavor></i-flavor>
+	power: 10
+	toughness: 10
 	card code text: 
 	copyright: 
 	image 2: 
@@ -5218,14 +5256,22 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 22:03:09
-	time modified: 2018-05-29 17:26:43
+	time modified: 2018-05-30 18:25:38
 	card color: black, red, green, hybrid, horizontal
 	name: ComBRG02-Tohu and Bohu, Endbringer
-	casting cost: BRG
+	casting cost: 4BRG
 	image: 
 	super type: <word-list-type>Legendary Enchantment Creature</word-list-type>
 	sub type: <word-list-race>God</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rarity: mythic rare
+	rule text:
+		<kw-a><nospellcheck>Menace</nospellcheck></kw-a>, <kw-a><nospellcheck>Indestructible</nospellcheck></kw-a>
+		As long as your <kw-0><nospellcheck>devotion to <param-action>black, red and green is less than ten, <atom-cardname><nospellcheck>ComBRG02-Tohu and Bohu, Endbringer</nospellcheck></atom-cardname> isn’t a creature</param-action>.</nospellcheck></kw-0>
+		Creatures you control have “<sym-auto>T</sym-auto>: <kw-a><nospellcheck>Bolster <param-number>1</param-number></nospellcheck></kw-a>.”
+		<sym-auto>1</sym-auto>, Remove a +1/+1 counter from a creature you control: Choose <error-spelling:en_us:/magic.mse-game/magic-words>one-</error-spelling:en_us:/magic.mse-game/magic-words> Create a 1/1 red Goblin creature token; or add two mana of any one color.
+	flavor text: <i-flavor></i-flavor>
+	power: 10
+	toughness: 10
 	card code text: 
 	copyright: 
 	image 2: 
