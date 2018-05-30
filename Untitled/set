@@ -3990,7 +3990,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:14:05
-	time modified: 2018-05-30 09:56:56
+	time modified: 2018-05-30 18:18:46
 	card color: white, black, hybrid, horizontal
 	name: ComWB01-Daxos the Returned
 	casting cost: WB
@@ -4002,6 +4002,8 @@ card:
 		Whenever you cast an enchantment spell, you get an experience counter.
 		<sym-auto>1WB</sym-auto>: Create a white and black Spirit enchantment creature token. It has “This creature’s power and toughness are each equal to the number of experience counters you have.”
 	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 2
 	card code text: 
 	copyright: 
 	image 2: 
@@ -5120,7 +5122,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 22:00:18
-	time modified: 2018-05-29 17:24:14
+	time modified: 2018-05-30 18:20:31
 	card color: white, blue, black, hybrid, horizontal
 	name: ComWUB01-Khonsu, Endbringer
 	casting cost: WUB
@@ -5128,8 +5130,15 @@ card:
 	super type: <word-list-type>Legendary Enchantment Creature</word-list-type>
 	sub type: <word-list-race>God</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rarity: mythic rare
+	rule text:
+		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>, <kw-a><nospellcheck>Indestructible</nospellcheck></kw-a>
+		As long as your <kw-0><nospellcheck>devotion to <param-action>white, blue, and black is less than ten, ComRGW02-Hadayosh, Endbringer isn’t a creature</param-action>.</nospellcheck></kw-0>
+		<sym>WUB</sym>: Exile target enchantment you control, then return it to the battlefield under its owner’s control.
+	flavor text: <i-flavor></i-flavor>
+	power: 10
+	toughness: 10
 	card code text: 
-	copyright: 
+	copyright: 10/10
 	image 2: 
 	copyright 2: 
 	copyright 3: 
