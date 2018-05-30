@@ -4754,7 +4754,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:30:03
-	time modified: 2018-05-30 12:58:23
+	time modified: 2018-05-30 18:33:59
 	card color: black, green, hybrid, horizontal
 	name: ComBG01-Reyhan, Last of the Abzan
 	casting cost: 1BG
@@ -4767,6 +4767,8 @@ card:
 		Whenever a creature you control dies or is put into the command zone, if it had one or more +1/+1 counters on it, you may put that many +1/+1 counters on target creature.
 		<kw-0><nospellcheck>Partner</nospellcheck></kw-0>
 	flavor text: <i-flavor></i-flavor>
+	power: 0
+	toughness: 0
 	card code text: 
 	copyright: 
 	image 2: 
