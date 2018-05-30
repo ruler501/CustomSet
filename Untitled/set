@@ -3210,9 +3210,9 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 20:56:37
-	time modified: 2018-05-30 13:48:07
+	time modified: 2018-05-30 16:07:36
 	name: UG06-Exolyte Refraction
-	casting cost: G
+	casting cost: 3G
 	image: 
 	super type: <word-list-type>Enchantment</word-list-type>
 	sub type: <word-list-enchantment>Aura</word-list-enchantment><soft> </soft><word-list-enchantment></word-list-enchantment>
@@ -3302,13 +3302,17 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 20:58:21
-	time modified: 2018-05-22 20:58:42
-	name: UW03
-	casting cost: W
+	time modified: 2018-05-30 16:29:14
+	name: UW03-Constellation Soldier
+	casting cost: 3WW
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
 	sub type: <word-list-race></word-list-race>
 	rarity: uncommon
+	rule text: <kw-A><i-auto><nospellcheck>Constellation</nospellcheck></i-auto></kw-A> — Whenever <atom-cardname><nospellcheck>UW03-Constellation Soldier</nospellcheck></atom-cardname> or another enchantment enters the battlefield under your control create 2 1/1 soldier creature tokens
+	flavor text: <i-flavor></i-flavor>
+	power: 3
+	toughness: 2
 	card code text: 
 	copyright: 
 	image 2: 
@@ -3342,13 +3346,17 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 20:59:13
-	time modified: 2018-05-22 20:59:47
-	name: UW05
-	casting cost: W
+	time modified: 2018-05-30 16:29:52
+	name: UW05-Mesa Enchantress
+	casting cost: 1WW
 	image: 
-	super type: <word-list-type></word-list-type>
-	sub type: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Druid</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: uncommon
+	rule text: Whenever you cast an enchantment spell, you may draw a card.
+	flavor text: <i-flavor></i-flavor>
+	power: 0
+	toughness: 2
 	card code text: 
 	copyright: 
 	image 2: 
@@ -3360,13 +3368,15 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 20:59:53
-	time modified: 2018-05-22 21:00:13
-	name: UW06
-	casting cost: W
+	time modified: 2018-05-30 16:33:19
+	name: UW06-Ghostly Prison
+	casting cost: 2W
 	image: 
-	super type: <word-list-type></word-list-type>
-	sub type: 
+	super type: <word-list-type>Enchantment</word-list-type>
+	sub type: <word-list-enchantment></word-list-enchantment>
 	rarity: uncommon
+	rule text: Creatures can’t attack you unless their controller pays 2 for each creature they control that’s attacking you.
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
@@ -3378,11 +3388,16 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:00:16
-	time modified: 2018-05-22 21:00:26
-	name: UW07
+	time modified: 2018-05-30 16:34:30
+	name: UW07-Cast Out
 	casting cost: W
 	image: 
 	rarity: uncommon
+	rule text:
+		<kw-a><nospellcheck>Flash</nospellcheck></kw-a>
+		When <atom-cardname><nospellcheck>UW07-Cast Out</nospellcheck></atom-cardname> enters the battlefield, exile target nonland permanent an opponent controls until <atom-cardname><nospellcheck>UW07-Cast Out</nospellcheck></atom-cardname> leaves the battlefield.
+		<kw-A><nospellcheck>Cycling <param-cost><sym-auto>W</sym-auto></param-cost></nospellcheck><atom-reminder-expert> <i-auto>(<param-cost><sym-auto>W</sym-auto></param-cost>, Discard this card: Draw a card.)</i-auto></atom-reminder-expert></kw-A>
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
@@ -3773,11 +3788,15 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:10:12
-	time modified: 2018-05-22 21:10:18
-	name: UU06
-	casting cost: U
+	time modified: 2018-05-30 16:08:34
+	name: UU06-Counterfreeze
+	casting cost: 2UU
 	image: 
+	super type: <word-list-type>Instant</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
 	rarity: uncommon
+	rule text: Counter target spell. If you control an enchantment tap up to two target creatures, they don’t untap during their controller’s next untap step.
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
@@ -3789,11 +3808,18 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:10:21
-	time modified: 2018-05-22 21:10:28
-	name: UU07
+	time modified: 2018-05-30 16:23:30
+	name: UU07-In Bolas’s Clutches
 	casting cost: U
 	image: 
+	super type: <word-list-type>Enchantment</word-list-type>
+	sub type: <word-list-enchantment>Aura</word-list-enchantment><soft> </soft><word-list-enchantment></word-list-enchantment>
 	rarity: uncommon
+	rule text:
+		<kw-a><nospellcheck>Enchant <param-name>permanent</param-name></nospellcheck></kw-a>
+		You control enchanted permanent.
+		Enchanted permanent is legendary.
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
@@ -4220,11 +4246,16 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:21:32
-	time modified: 2018-05-22 21:21:41
-	name: RU01
+	time modified: 2018-05-30 16:41:50
+	name: RU01-Thassa, God of the Sea
 	casting cost: U
 	image: 
 	rarity: rare
+	rule text:
+		As long as your <kw-0><nospellcheck>devotion to <param-action>blue is less than five, Thassa isn’t a creature</param-action>.</nospellcheck></kw-0>
+		At the beginning of your upkeep, <kw-a><nospellcheck>scry <param-number>1</param-number></nospellcheck></kw-a>.
+		<sym-auto>1U</sym-auto>: Target creature you control can’t be blocked this turn.
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
@@ -4370,11 +4401,19 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:23:36
-	time modified: 2018-05-26 21:39:19
+	time modified: 2018-05-30 16:39:44
 	name: RB05-Death Grips
-	casting cost: B
+	casting cost: 2B
 	image: 
+	super type: <word-list-type>Enchantment</word-list-type>
+	sub type: <word-list-enchantment>Aura</word-list-enchantment><soft> </soft><word-list-enchantment></word-list-enchantment>
 	rarity: rare
+	rule text:
+		<kw-a><nospellcheck>Enchant <param-name>creature</param-name></nospellcheck></kw-a>
+		At the beginning of each upkeep put a asphyxiation counter on <atom-cardname><nospellcheck>RB05-Death Grips</nospellcheck></atom-cardname>.
+		Enchanted creature gets -1/-1 for each asphyxiation counter on <atom-cardname><nospellcheck>RB05-Death Grips</nospellcheck></atom-cardname>.
+		When <atom-cardname><nospellcheck>RB05-Death Grips</nospellcheck></atom-cardname> is put into a graveyard from the battlefield return <atom-cardname><nospellcheck>RB05-Death Grips</nospellcheck></atom-cardname> to its owner’s hand.
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
@@ -4472,11 +4511,18 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:25:51
-	time modified: 2018-05-22 21:25:57
-	name: RW01
+	time modified: 2018-05-30 16:27:48
+	name: RW01-Heliod, God of the Sun
 	casting cost: W
 	image: 
+	super type: <word-list-type>Legendary Enchantment Creature</word-list-type>
+	sub type: <word-list-race>God</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
+	rule text:
+		As long as your <kw-0><nospellcheck>devotion to <param-action>white is less than five, Heliod isn’t a creature</param-action>.</nospellcheck></kw-0>
+		Other creatures you control have <kw-a><nospellcheck>vigilance</nospellcheck></kw-a>.
+		<sym-auto>2WW</sym-auto>: Create a 2/1 white Cleric enchantment creature token.
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
