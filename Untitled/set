@@ -3394,14 +3394,14 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:00:36
-	time modified: 2018-05-22 21:00:48
-	name: UB01
+	time modified: 2018-05-30 16:10:47
+	name: UB01-Dread Harlequin
 	casting cost: B
 	image: 
-	super type: <word-list-type>Creature</word-list-type>
-	sub type: <word-list-race></word-list-race>
+	super type: <word-list-type>Enchantment Creature</word-list-type>
+	sub type: <word-list-race>Zombie</word-list-race> <word-list-class>Clown</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: uncommon
-	rule text: 
+	rule text: <kw-A><i-auto><nospellcheck><error-spelling:en_us:/magic.mse-game/magic-words>Constellation</nospellcheck></i-auto></kw-A>-</error-spelling:en_us:/magic.mse-game/magic-words> Whenever <atom-cardname><nospellcheck>UB01-Dread Harlequin</nospellcheck></atom-cardname> or another enchantment enters the battlefield under your control, each opponent loses 1 life. You gain life equal to the life lost this way.
 	flavor text: <i-flavor></i-flavor>
 	power: 
 	toughness: 
@@ -3438,14 +3438,14 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:01:08
-	time modified: 2018-05-30 09:17:59
-	name: UB03-Stacking Recurrer
+	time modified: 2018-05-30 16:12:49
+	name: UB03-Midnight Crew
 	casting cost: 2B
 	image: 
-	super type: <word-list-type>Enchantment Creature</word-list-type>
-	sub type: <word-list-race></word-list-race>
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Rogue</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: uncommon
-	rule text: At the beginning of your upkeep you may pay <sym-auto>1</sym-auto>, if you do create an Aura Enchantment token with “<kw-a><nospellcheck>Enchant <param-name>creature</param-name></nospellcheck></kw-a>. Whenever enchanted creature deals combat damage to a player you may return target creature card from your graveyard to your hand.”
+	rule text: At the beginning of your upkeep, you may pay <sym-auto>1</sym-auto>. If you do, create an Aura Enchantment token with <kw-a><nospellcheck>Enchant <param-name>creature and “Whenever enchanted creature deals combat damage to a player, you may return target creature card from your graveyard to your hand</param-name></nospellcheck></kw-a>.”
 	flavor text: <i-flavor></i-flavor>
 	power: 2
 	toughness: 2
