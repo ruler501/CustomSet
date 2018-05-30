@@ -3484,11 +3484,15 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:02:45
-	time modified: 2018-05-22 21:02:52
-	name: UB05
-	casting cost: B
+	time modified: 2018-05-30 16:28:44
+	name: UB05-Postmodern Necromancy
+	casting cost: 4B
 	image: 
+	super type: <word-list-type>Sorcery</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
 	rarity: uncommon
+	rule text: Put target creature card from a graveyard onto the battlefield under<error-spelling> </error-spelling> your <error-spelling:en_us:/magic.mse-game/magic-words>countrol</error-spelling:en_us:/magic.mse-game/magic-words>. If you control two or more enchantments, that creature enters the battlefield with two additional +1/+1 counters on it.
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
