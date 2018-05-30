@@ -13,6 +13,9 @@ styling:
 		text box mana symbols: magic-mana-small.mse-symbol-font
 		center text: short text only
 		overlay: 
+	magic-m15-mainframe-planeswalker:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
 card:
 	has styling: false
 	notes: 
@@ -2175,12 +2178,16 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 08:32:58
-	time modified: 2018-05-13 09:28:29
+	time modified: 2018-05-30 15:32:10
 	card color: blue, red, hybrid, horizontal
-	name: UUR02
+	name: UUR02-Dack’s Duplicate
 	casting cost: UR
 	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Shapeshifter</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rarity: uncommon
+	rule text: You may have <atom-cardname><nospellcheck>UUR02-Dack’s Duplicate</nospellcheck></atom-cardname> enter the battlefield as a copy of any creature on the battlefield, except it gains <kw-a><nospellcheck>haste</nospellcheck></kw-a> and <kw-a><nospellcheck>dethrone</nospellcheck></kw-a>.
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
@@ -3722,13 +3729,19 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:09:50
-	time modified: 2018-05-26 21:41:47
-	name: UU03
-	casting cost: U
+	time modified: 2018-05-30 16:02:31
+	name: UU03-Constellation Trickster
+	casting cost: 2UU
 	image: 
-	super type: <word-list-type>Creature</word-list-type>
+	super type: <word-list-type>Enchantment Creature</word-list-type>
 	sub type: <word-list-race></word-list-race>
 	rarity: uncommon
+	rule text:
+		<kw-a><nospellcheck>Flash</nospellcheck></kw-a>
+		<kw-A><i-auto><nospellcheck>Constellation</nospellcheck></i-auto></kw-A> — Whenever <atom-cardname><nospellcheck>UU03-Constellation Trickster</nospellcheck></atom-cardname> or another enchantment enters the battlefield under your control target creature loses all abilities and becomes a 0/1 until your next turn.
+	flavor text: <i-flavor></i-flavor>
+	power: 3
+	toughness: 3
 	card code text: 
 	copyright: 
 	image 2: 
@@ -3942,12 +3955,18 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:15:38
-	time modified: 2018-05-29 16:07:35
+	time modified: 2018-05-30 15:56:18
 	card color: white, green, hybrid, horizontal
-	name: RGW01
+	name: RGW01-Dromoka, the Eternal
 	casting cost: GW
 	image: 
+	super type: <word-list-type>Legendary Creature</word-list-type>
+	sub type: <word-list-race>Dragon</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
+	rule text:
+		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>
+		Whenever a Dragon you control attacks, <kw-A><nospellcheck>bolster <param-number>2</param-number></nospellcheck>.<atom-reminder-action> <i-auto>(Choose a creature with the least toughness among creatures you control and put <param-number>two</param-number> +1/+1 counters on it.)</i-auto></atom-reminder-action></kw-A>
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
@@ -4577,17 +4596,27 @@ card:
 	mainframe image: 
 	mainframe image 2: 
 card:
+	stylesheet: m15-mainframe-planeswalker
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:28:44
-	time modified: 2018-05-29 16:07:32
+	time modified: 2018-05-30 15:53:37
 	card color: white, green, hybrid, horizontal
-	name: ComGW01
+	name: ComGW01-Ajani, Mentor of Heroes
 	casting cost: GW
 	image: 
-	super type: <word-list-type>Legendary Creature</word-list-type>
-	sub type: <word-list-race></word-list-race>
+	super type: <word-list-type>Legendary Planeswlaker</word-list-type>
+	sub type: Ajani
 	rarity: mythic rare
+	rule text:
+		Distribute three +1/+1 counters among one, two, or three target creatures you control.<error-spelling>
+		</error-spelling>
+		Look at the top four cards of your library. You may reveal an Aura, creature, or planeswalker card from among them and put it into your hand. Put the rest on the bottom of your library in any order.
+		You gain 100 life.
+	flavor text: <i-flavor></i-flavor>
+	loyalty cost 1: +1
+	loyalty cost 2: +1
+	loyalty cost 3: -8
 	card code text: 
 	copyright: 
 	image 2: 
