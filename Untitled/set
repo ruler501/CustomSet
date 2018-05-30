@@ -3394,14 +3394,14 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:00:36
-	time modified: 2018-05-30 16:10:47
+	time modified: 2018-05-30 16:18:16
 	name: UB01-Dread Harlequin
-	casting cost: B
+	casting cost: 4B
 	image: 
 	super type: <word-list-type>Enchantment Creature</word-list-type>
 	sub type: <word-list-race>Zombie</word-list-race> <word-list-class>Clown</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: uncommon
-	rule text: <kw-A><i-auto><nospellcheck><error-spelling:en_us:/magic.mse-game/magic-words>Constellation</nospellcheck></i-auto></kw-A>-</error-spelling:en_us:/magic.mse-game/magic-words> Whenever <atom-cardname><nospellcheck>UB01-Dread Harlequin</nospellcheck></atom-cardname> or another enchantment enters the battlefield under your control, each opponent loses 1 life. You gain life equal to the life lost this way.
+	rule text: <kw-A><i-auto><nospellcheck><error-spelling:en_us:/magic.mse-game/magic-words>Constellation</nospellcheck></i-auto></kw-A>-</error-spelling:en_us:/magic.mse-game/magic-words> Whenever <atom-cardname><nospellcheck>UB01-Dread Harlequin</nospellcheck></atom-cardname> or another enchantment enters the battlefield under your control, target creature gets -X/-X until end of turn, where X is the number of enchantments you control.
 	flavor text: <i-flavor></i-flavor>
 	power: 
 	toughness: 
