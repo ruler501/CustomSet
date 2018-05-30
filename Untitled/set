@@ -114,12 +114,12 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-12 22:22:11
-	time modified: 2018-05-28 20:03:35
-	name: UL17-Cascade Bluffs
+	time modified: 2018-05-30 13:30:19
+	name: SL17-Cascade Bluffs
 	image: 
 	super type: <word-list-type>Land</word-list-type>
 	sub type: <word-list-land></word-list-land>
-	rarity: uncommon
+	rarity: special
 	rule text:
 		<sym-auto>T</sym-auto>: Add <sym-auto>C</sym-auto>.
 		<sym-auto>U/R</sym-auto>, <sym-auto>T</sym-auto>: Add <sym-auto>UU</sym-auto>, <sym-auto>UR</sym-auto>, or <sym>RR</sym>.
@@ -135,12 +135,12 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-12 22:25:25
-	time modified: 2018-05-28 20:07:56
-	name: UL16-Fetid Heath
+	time modified: 2018-05-30 13:30:24
+	name: SL16-Fetid Heath
 	image: 
 	super type: <word-list-type>Land</word-list-type>
 	sub type: <word-list-land></word-list-land>
-	rarity: uncommon
+	rarity: special
 	rule text:
 		<sym-auto>T</sym-auto>: Add <sym-auto>C</sym-auto>.
 		<sym-auto>W/B</sym-auto>, <sym-auto>T</sym-auto>: Add <sym-auto>WW</sym-auto>, <sym-auto>WB</sym-auto>, or <sym>BB</sym>.
@@ -271,14 +271,16 @@ card:
 	has styling: false
 	notes: Creature
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-26 20:59:13
+	time modified: 2018-05-30 13:57:50
 	name: CW10-Lagonna-Band Elder
 	casting cost: 2W
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
-	sub type: <word-list-race></word-list-race>
+	sub type: <word-list-race>Centaur</word-list-race> <word-list-class>Advisor</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rule text: When <atom-cardname><nospellcheck>CW10-Lagonna-Band Elder</nospellcheck></atom-cardname> enters the battlefield, if you control an enchantment, you gain 3 life.
 	flavor text: <i-flavor></i-flavor>
+	power: 3
+	toughness: 2
 	card code text: 
 	copyright: 
 	image 2: 
@@ -414,15 +416,14 @@ card:
 	has styling: false
 	notes: Creature
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-26 21:03:19
+	time modified: 2018-05-30 13:57:57
 	name: CW11-Custodi Squire
 	casting cost: 4W
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
 	sub type: <word-list-race>Spirit</word-list-race> <word-list-class>Cleric</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rule text:
-		<kw-a><nospellcheck>Flying</nospellcheck></kw-a><error-spelling>
-		</error-spelling>
+		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>
 		<kw-A><i-auto><nospellcheck>Will of the council</nospellcheck></i-auto></kw-A> — When <atom-cardname><nospellcheck>CW11-Custodi Squire</nospellcheck></atom-cardname> enters the battlefield, starting with you, each player votes for an artifact, creature, or enchantment card in your graveyard. Return each card with the most votes or tied for most votes to your hand.
 	flavor text: <i-flavor></i-flavor>
 	power: 3
@@ -459,11 +460,11 @@ card:
 	has styling: false
 	notes: Creature
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-26 21:13:03
+	time modified: 2018-05-30 09:15:51
 	name: CW13-Flying Bolster
 	casting cost: 4W
 	image: 
-	super type: <word-list-type>Creature</word-list-type>
+	super type: <word-list-type>Enchantment Creature</word-list-type>
 	sub type: <word-list-race></word-list-race>
 	rule text:
 		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>
@@ -539,11 +540,11 @@ card:
 	has styling: false
 	notes: Creature
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-27 17:33:26
+	time modified: 2018-05-30 09:15:05
 	name: CW04-Counterfall Lifegainer
 	casting cost: 4W
 	image: 
-	super type: <word-list-type>Creature</word-list-type>
+	super type: <word-list-type>Enchantment Creature</word-list-type>
 	sub type: <word-list-race>Warrior</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rule text:
 		<kw-a><nospellcheck>Reach</nospellcheck></kw-a>
@@ -583,13 +584,16 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-27 19:56:35
+	time modified: 2018-05-29 21:06:22
 	name: CU16-Deep Freeze
-	casting cost: U
+	casting cost: 3U
 	image: 
+	super type: <word-list-type>Enchantment</word-list-type>
+	sub type: <word-list-enchantment>Aura</word-list-enchantment><soft> </soft><word-list-enchantment></word-list-enchantment>
 	rule text:
+		<kw-a><nospellcheck>Flash</nospellcheck></kw-a>
 		<kw-a><nospellcheck>Enchant <param-name>creature</param-name></nospellcheck></kw-a>
-		Enchanted creature has base power and toughness <sym-auto>0/4</sym-auto>, has <kw-a><nospellcheck>defender</nospellcheck></kw-a>, loses all other abilities, and is a blue Wall in addition to its other colors and types.
+		Enchanted creature has base power and toughness 0/2 has <kw-a><nospellcheck>defender</nospellcheck></kw-a>, loses all other abilities, and is a blue Wall in addition to its other colors and types.
 	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
@@ -750,7 +754,7 @@ card:
 	has styling: false
 	notes: Creature
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-27 20:10:43
+	time modified: 2018-05-30 09:14:33
 	name: CU07-Flashy Flier
 	casting cost: 4U
 	image: 
@@ -773,12 +777,12 @@ card:
 	has styling: false
 	notes: Creature
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-27 20:06:26
+	time modified: 2018-05-30 09:14:21
 	name: CU06-Big Defender
 	casting cost: 5U
 	image: 
-	super type: <word-list-type>Creature</word-list-type>
-	sub type: <word-list-race></word-list-race>
+	super type: <word-list-type>Enchantment Creature</word-list-type>
+	sub type: <word-list-race>Turtle</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rule text:
 		<kw-a><nospellcheck>Defender</nospellcheck></kw-a>, <kw-a><nospellcheck>Hexproof</nospellcheck></kw-a>
 		As long as you control an enchantment <atom-cardname><nospellcheck>CU06-Big Defender</nospellcheck></atom-cardname></nospellcheck></kw-a> gets +3/+2 and loses <kw-a><nospellcheck>defender</nospellcheck></kw-a>.
@@ -818,11 +822,11 @@ card:
 	has styling: false
 	notes: Creature
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-26 20:47:12
+	time modified: 2018-05-30 09:14:00
 	name: CU03-Counterfall Tapper
 	casting cost: 1UU
 	image: 
-	super type: <word-list-type>Creature</word-list-type>
+	super type: <word-list-type>Enchantment Creature</word-list-type>
 	sub type: <word-list-race>Naga</word-list-race> <word-list-class>Cleric</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rule text: <kw-A><i-auto><nospellcheck>Counterfall <param-number>2</param-number></nospellcheck></i-auto></kw-A> <error-spelling:en_us:/magic.mse-game/magic-words>-</error-spelling:en_us:/magic.mse-game/magic-words> Whenever one or more +1/+1 counters are placed on a creature you control, if it has two or more +1/+1 counters on it, tap target creature. It doesn’t untap during it’s controller’s next untap step.
 	flavor text: <i-flavor></i-flavor>
@@ -902,11 +906,11 @@ card:
 	has styling: false
 	notes: Creature
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-27 17:57:48
+	time modified: 2018-05-30 09:09:16
 	name: CB08-Culling Clown
 	casting cost: 4BB
 	image: 
-	super type: <word-list-type>Creature</word-list-type>
+	super type: <word-list-type>Enchantment Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Clown</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rule text:
 		<kw-a><nospellcheck>Menace</nospellcheck></kw-a>
@@ -948,11 +952,11 @@ card:
 	has styling: false
 	notes: Creature
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-27 18:04:39
+	time modified: 2018-05-30 09:09:49
 	name: CB11-Boxing Brawler
 	casting cost: 3B
 	image: 
-	super type: <word-list-type>Creature</word-list-type>
+	super type: <word-list-type>Enchantment Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Warrior</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rule text:
 		<kw-a><nospellcheck>Menace</nospellcheck></kw-a>
@@ -971,7 +975,7 @@ card:
 	has styling: false
 	notes: Creature
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-26 22:32:54
+	time modified: 2018-05-30 09:10:29
 	name: CB12-Brain-Clubber
 	casting cost: BB
 	image: 
@@ -1075,11 +1079,11 @@ card:
 		
 		Uncommon shift?
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-27 18:00:28
+	time modified: 2018-05-30 09:09:30
 	name: CB10-Diamond Defiler
 	casting cost: 1B
 	image: 
-	super type: <word-list-type>Creature</word-list-type>
+	super type: <word-list-type>Enchantment Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Rogue</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rule text: <kw-A><i-auto><nospellcheck>Counterfall <param-number>2</param-number></nospellcheck></i-auto></kw-A> <error-spelling:en_us:/magic.mse-game/magic-words>-</error-spelling:en_us:/magic.mse-game/magic-words> Whenever 1 or more +1/+1 counters are placed on a creature you control, if it has 2 or more +1/+1 counters on it, each opponent loses 2 life and you gain 2 life.
 	flavor text: <i-flavor></i-flavor>
@@ -1115,11 +1119,11 @@ card:
 	has styling: false
 	notes: Creature
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-26 22:08:06
+	time modified: 2018-05-30 09:08:46
 	name: CB03-Counterfall Reanimator
 	casting cost: 2B
 	image: 
-	super type: <word-list-type>Creature</word-list-type>
+	super type: <word-list-type>Enchantment Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Cleric</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rule text: <kw-A><i-auto><nospellcheck>Counterfall <param-number>3</param-number></nospellcheck></i-auto></kw-A> <error-spelling:en_us:/magic.mse-game/magic-words>-</error-spelling:en_us:/magic.mse-game/magic-words> Whenever one or more +1/+1 counters are placed on a creature you control, if it has three or more +1/+1 counters on it, return target creature card from your graveyard to your hand.
 	flavor text: <i-flavor></i-flavor>
@@ -1279,11 +1283,11 @@ card:
 	has styling: false
 	notes: Creature
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-27 21:21:22
+	time modified: 2018-05-30 09:13:26
 	name: CR10-Enraged Honkbrother
 	casting cost: 5R
 	image: 
-	super type: <word-list-type>Creature</word-list-type>
+	super type: <word-list-type>Enchantment Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Clown</word-list-class> <word-list-class>Warrior</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rule text: As long as <atom-cardname><nospellcheck>CR10-Enraged Honkbrother</nospellcheck></atom-cardname> has one or more +1/+1 counters on it, it has <kw-a><nospellcheck>menace</nospellcheck></kw-a>.
 	flavor text: <i-flavor></i-flavor>
@@ -1300,11 +1304,11 @@ card:
 	has styling: false
 	notes: Creature
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-27 21:05:02
+	time modified: 2018-05-30 09:13:11
 	name: CR09-Clown Mobster
 	casting cost: 2R
 	image: 
-	super type: <word-list-type>Creature</word-list-type>
+	super type: <word-list-type>Enchantment Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Clown</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rule text:
 		As long as you control an enchantment, <atom-cardname><nospellcheck>CR09-Clown Mobster</nospellcheck></atom-cardname> has +1/+1 and <kw-a><nospellcheck>haste</nospellcheck></kw-a>.
@@ -1323,7 +1327,7 @@ card:
 	has styling: false
 	notes: Creature
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-27 20:44:07
+	time modified: 2018-05-30 09:11:34
 	name: CG04-Tuskguard Captain
 	casting cost: 2G
 	image: 
@@ -1439,11 +1443,11 @@ card:
 	has styling: false
 	notes: Creature
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-26 20:48:12
+	time modified: 2018-05-30 09:12:52
 	name: CR04-Counterfall Must-be-blocked
 	casting cost: 2R
 	image: 
-	super type: <word-list-type>Creature</word-list-type>
+	super type: <word-list-type>Enchantment Creature</word-list-type>
 	sub type: <word-list-race>Giant</word-list-race> <word-list-class>Wizard</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rule text: <kw-A><i-auto><nospellcheck>Counterfall <param-number>1</param-number></nospellcheck></i-auto></kw-A> <error-spelling:en_us:/magic.mse-game/magic-words>-</error-spelling:en_us:/magic.mse-game/magic-words> Whenever one or more +1/+1 counters are placed on a creature you control, if it has 1 or more +1/+1 counters on it, target creature must be blocked this turn if able.
 	flavor text: <i-flavor></i-flavor>
@@ -1460,11 +1464,11 @@ card:
 	has styling: false
 	notes: Creature
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-27 20:35:24
+	time modified: 2018-05-30 09:12:39
 	name: CR03-Counterfall Menacer
 	casting cost: 1R
 	image: 
-	super type: <word-list-type>Creature</word-list-type>
+	super type: <word-list-type>Enchantment Creature</word-list-type>
 	sub type: <word-list-race>Goblin</word-list-race> <word-list-class>Clown</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rule text: <kw-A><i-auto><nospellcheck>Counterfall <param-number>1</param-number></nospellcheck></i-auto></kw-A> <error-spelling:en_us:/magic.mse-game/magic-words>-</error-spelling:en_us:/magic.mse-game/magic-words> Whenever one or more +1/+1 counters are placed on a creature you control, if it has 1 or more +1/+1 counters on it, it gains <kw-a><nospellcheck>menace</nospellcheck></kw-a> until end of turn
 	flavor text: <i-flavor></i-flavor>
@@ -1706,11 +1710,11 @@ card:
 	has styling: false
 	notes: Creature
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-26 20:49:03
+	time modified: 2018-05-30 09:11:14
 	name: CG03-Counterfall Trampler
 	casting cost: 2G
 	image: 
-	super type: <word-list-type>Creature</word-list-type>
+	super type: <word-list-type>Enchantment Creature</word-list-type>
 	sub type: <word-list-race>Elephant</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rule text: <kw-A><i-auto><nospellcheck>Counterfall <param-number>1</param-number></nospellcheck></i-auto></kw-A> <error-spelling:en_us:/magic.mse-game/magic-words>-</error-spelling:en_us:/magic.mse-game/magic-words> Whenever one or more +1/+1 counters are placed on a creature you control, if it has one or more +1/+1 counters on it, it gains <kw-a><nospellcheck>trample</nospellcheck></kw-a> until end of turn.
 	flavor text: <i-flavor></i-flavor>
@@ -1727,12 +1731,12 @@ card:
 	has styling: false
 	notes: Creature
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-27 20:54:04
+	time modified: 2018-05-30 09:12:04
 	name: CG10-Bolster Tapper
 	casting cost: 2GG
 	image: 
-	super type: <word-list-type>Creature</word-list-type>
-	sub type: <word-list-race></word-list-race>
+	super type: <word-list-type>Enchantment Creature</word-list-type>
+	sub type: <word-list-race>Dryad</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rule text: <sym-auto>2G</sym-auto>, <sym-auto>T</sym-auto>: <kw-1><nospellcheck>Bolster <param-number>2</param-number></nospellcheck>.<atom-reminder-action> <i-auto>(Choose a creature with the least toughness among creatures you control and put <param-number>two</param-number> +1/+1 counters on it.)</i-auto></atom-reminder-action></kw-1>
 	flavor text: <i-flavor></i-flavor>
 	power: 3
@@ -2148,14 +2152,18 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 08:32:58
-	time modified: 2018-05-13 09:28:26
+	time modified: 2018-05-30 15:31:13
 	card color: blue, red, hybrid, horizontal
-	name: UUR01
-	casting cost: UR
+	name: UUR01-Call the Skybreaker
+	casting cost: 5U/RU/R
 	image: 
-	super type: <word-list-type>Creature</word-list-type>
-	sub type: <word-list-race></word-list-race>
+	super type: <word-list-type>Sorcery</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
 	rarity: uncommon
+	rule text:
+		Create a 5/5 blue and red Elemental creature token with <kw-a><nospellcheck>flying</nospellcheck></kw-a>
+		<kw-A><nospellcheck>Retrace</nospellcheck><atom-reminder-expert> <i-auto>(You may cast this card from your graveyard by discarding a land card in addition to paying its other costs.)</i-auto></atom-reminder-expert></kw-A>
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
@@ -2232,14 +2240,18 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 08:32:58
-	time modified: 2018-05-13 09:27:25
+	time modified: 2018-05-30 15:29:28
 	card color: blue, black, hybrid, horizontal
-	name: UUB01
-	casting cost: UB
+	name: UUB01-Constellation Duress
+	casting cost: 3UB
 	image: 
-	super type: <word-list-type>Creature</word-list-type>
+	super type: <word-list-type>Enchantment Creature</word-list-type>
 	sub type: <word-list-race></word-list-race>
 	rarity: uncommon
+	rule text: <kw-A><i-auto><nospellcheck>Constellation</nospellcheck></i-auto></kw-A> — Whenever <atom-cardname><nospellcheck>UUB01-Constellation Duress</nospellcheck></atom-cardname> or another enchantment enters the battlefield look at target opponent discards a card at random
+	flavor text: <i-flavor></i-flavor>
+	power: 3
+	toughness: 5
 	card code text: 
 	copyright: 
 	image 2: 
@@ -2251,14 +2263,18 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 08:32:58
-	time modified: 2018-05-13 09:27:38
+	time modified: 2018-05-30 13:43:45
 	card color: black, red, hybrid, horizontal
-	name: UBR02
-	casting cost: BR
+	name: UBR02-Deathbringer Thoctar
+	casting cost: 4BR
 	image: 
-	super type: <word-list-type></word-list-type>
-	sub type: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Zombie</word-list-race> <word-list-class>Beast</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: uncommon
+	rule text:
+		Whenever another creature dies, you may put a +1/+1 counter on <atom-cardname><nospellcheck>UBR02-Deathbringer Thoctar</nospellcheck></atom-cardname>.
+		Remove a +1/+1 counter from <atom-cardname><nospellcheck>UBR02-Deathbringer Thoctar</nospellcheck></atom-cardname>: <atom-cardname><nospellcheck>UBR02-Deathbringer Thoctar</nospellcheck></atom-cardname> deals 1 damage to any target.
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
@@ -2270,14 +2286,19 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 08:32:58
-	time modified: 2018-05-13 09:27:29
+	time modified: 2018-05-30 15:28:51
 	card color: blue, black, hybrid, horizontal
-	name: UUB02
-	casting cost: UB
+	name: UUB02-Soul Ransom
+	casting cost: 2UB
 	image: 
-	super type: <word-list-type></word-list-type>
-	sub type: 
+	super type: <word-list-type>Enchantment</word-list-type>
+	sub type: <word-list-enchantment>Aura</word-list-enchantment><soft> </soft><word-list-enchantment></word-list-enchantment>
 	rarity: uncommon
+	rule text:
+		<kw-a><nospellcheck>Enchant <param-name>creature</param-name></nospellcheck></kw-a>
+		You control enchanted creature.
+		Discard two cards: <atom-cardname><nospellcheck>UUB02-Soul Ransom</nospellcheck></atom-cardname>’s controller sacrifices it, then draws two cards. Only any opponent may activate this ability.
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
@@ -2289,14 +2310,18 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 08:32:58
-	time modified: 2018-05-29 15:53:37
+	time modified: 2018-05-30 13:43:52
 	card color: black, red, hybrid, horizontal
-	name: UBR01
+	name: UBR01-Anthem of Rakdos
 	casting cost: 2BR
 	image: 
-	super type: <word-list-type>Creature</word-list-type>
-	sub type: <word-list-race></word-list-race>
+	super type: <word-list-type>Enchantment</word-list-type>
+	sub type: <word-list-enchantment></word-list-enchantment>
 	rarity: uncommon
+	rule text:
+		Whenever a creature you control attacks, it gets +2/+0 until end of turn and <atom-cardname><nospellcheck>UBR01-Anthem of Rakdos</nospellcheck></atom-cardname> deals 1 damage to you.
+		<kw-A><i-auto><nospellcheck>Hellbent</nospellcheck></i-auto></kw-A> — As long as you have no cards in hand, if a source you control would deal damage to a permanent or player, it deals double that damage to that permanent or player instead.
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
@@ -2308,14 +2333,18 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 08:32:58
-	time modified: 2018-05-13 09:27:48
+	time modified: 2018-05-30 09:40:19
 	card color: red, green, hybrid, horizontal
-	name: URG02
-	casting cost: RG
+	name: URG02-Signleborn Hydra
+	casting cost: XRGG
 	image: 
-	super type: <word-list-type></word-list-type>
-	sub type: 
+	super type: <word-list-type>Enchantment Creature</word-list-type>
+	sub type: <word-list-race>Hydra</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rarity: uncommon
+	rule text:
+		<atom-cardname><nospellcheck>URG02-Signleborn Hydra</nospellcheck></atom-cardname> enters the battlefield with X +1/+1 counters on it
+		<kw-A><i-auto><nospellcheck>Counterfall <param-number>3</param-number></nospellcheck></i-auto></kw-A> — Whenever one or more +1/+1 counters are placed on a creature you control, if there are 3 or more +1/+1 counters on that creature, create an X/3 green beast where X is <atom-cardname><nospellcheck>URG02-Signleborn Hydra</nospellcheck></atom-cardname>’s power
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
@@ -2327,14 +2356,16 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 08:32:58
-	time modified: 2018-05-13 09:27:44
+	time modified: 2018-05-30 09:36:27
 	card color: red, green, hybrid, horizontal
-	name: URG01
-	casting cost: RG
+	name: URG01-Rubblebelt Raiders
+	casting cost: 1R/GR/GR/G
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
-	sub type: <word-list-race></word-list-race>
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Warrior</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: uncommon
+	rule text: Whenever <atom-cardname><nospellcheck>URG01-Rubblebelt Raiders</nospellcheck></atom-cardname> attacks, put a +1/+1 counter on it for each attacking creature you control.
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
@@ -2346,14 +2377,18 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 08:32:58
-	time modified: 2018-05-13 09:30:19
+	time modified: 2018-05-30 13:39:01
 	card color: white, red, hybrid, horizontal
-	name: URW01
-	casting cost: RW
+	name: URW01-Helix Constellation
+	casting cost: 2RW
 	image: 
-	super type: <word-list-type>Creature</word-list-type>
+	super type: <word-list-type>Enchantment Creature</word-list-type>
 	sub type: <word-list-race></word-list-race>
 	rarity: uncommon
+	rule text: <kw-A><i-auto><nospellcheck>Constellation</nospellcheck></i-auto></kw-A> — Whenever <atom-cardname><nospellcheck>URW01-Helix Constellation</nospellcheck></atom-cardname> or another enchantment enters the battlefield under your control you may pay <sym-auto>R/W</sym-auto>. If you do, <atom-cardname><nospellcheck>URW01-Helix Constellation</nospellcheck></atom-cardname> deals 3 damage to any target and you gain 3 life
+	flavor text: <i-flavor></i-flavor>
+	power: 4
+	toughness: 2
 	card code text: 
 	copyright: 
 	image 2: 
@@ -2365,14 +2400,20 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 08:32:58
-	time modified: 2018-05-13 09:27:54
+	time modified: 2018-05-30 09:05:51
 	card color: white, green, hybrid, horizontal
-	name: UGW01
+	name: UGW01-Qasali Pridemage
 	casting cost: GW
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
 	sub type: <word-list-race></word-list-race>
 	rarity: uncommon
+	rule text:
+		<kw-A><nospellcheck>Exalted</nospellcheck><atom-reminder-expert> <i-auto>(Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)</i-auto></atom-reminder-expert></kw-A>
+		<sym-auto>1</sym-auto>, Sacrifice <atom-cardname><nospellcheck>UGW01-Qasali Pridemage</nospellcheck></atom-cardname>: Destroy target artifact or enchantment.
+	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 2
 	card code text: 
 	copyright: 
 	image 2: 
@@ -2384,33 +2425,18 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 08:32:58
-	time modified: 2018-05-13 09:27:59
+	time modified: 2018-05-30 13:28:18
 	card color: white, green, hybrid, horizontal
-	name: UGW02
-	casting cost: GW
+	name: UGW02-Constellation Bolster
+	casting cost: 2GW
 	image: 
-	super type: <word-list-type></word-list-type>
-	sub type: 
-	rarity: uncommon
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2018-05-13 08:32:58
-	time modified: 2018-05-13 09:28:22
-	card color: white, black, hybrid, horizontal
-	name: UWB01
-	casting cost: WB
-	image: 
-	super type: <word-list-type>Creature</word-list-type>
+	super type: <word-list-type>Enchantment Creature</word-list-type>
 	sub type: <word-list-race></word-list-race>
 	rarity: uncommon
+	rule text: <kw-A><i-auto><nospellcheck>Constellation</nospellcheck></i-auto></kw-A> — Whenever <atom-cardname><nospellcheck>UGW02-Constellation Bolster</nospellcheck></atom-cardname> or another enchantment enters the battlefield under your control <kw-A><nospellcheck>bolster <param-number>2</param-number></nospellcheck>.<atom-reminder-action> <i-auto>(Choose a creature with the least toughness among creatures you control and put <param-number>two</param-number> +1/+1 counters on it.)</i-auto></atom-reminder-action></kw-A>
+	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 2
 	card code text: 
 	copyright: 
 	image 2: 
@@ -2422,14 +2448,41 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 08:32:58
-	time modified: 2018-05-13 09:28:05
+	time modified: 2018-05-30 09:26:19
 	card color: white, black, hybrid, horizontal
-	name: UWB02
+	name: UWB01-Blood-Cursed Knight
+	casting cost: 1WB
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Vampire</word-list-race> <word-list-class>Knight</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: uncommon
+	rule text: As long as you control an enchantment, <error-spelling:en_us:/magic.mse-game/magic-words>Blood-Cursed</error-spelling:en_us:/magic.mse-game/magic-words> Knight gets +1/+1 and has <kw-a><nospellcheck>lifelink</nospellcheck></kw-a>.
+	flavor text: <i-flavor></i-flavor>
+	power: 3
+	toughness: 2
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-13 08:32:58
+	time modified: 2018-05-30 09:58:27
+	card color: white, black, hybrid, horizontal
+	name: UWB02-Treasury Thrull
 	casting cost: WB
 	image: 
-	super type: <word-list-type></word-list-type>
+	super type: <word-list-type>Instanat</word-list-type>
 	sub type: 
 	rarity: uncommon
+	rule text:
+		<kw-0><nospellcheck>Extort</nospellcheck></kw-0>
+		Whenever <atom-cardname><nospellcheck>UWB02-Treasury Thrull</nospellcheck></atom-cardname> attacks, you may return target artifact, creature, or enchantment card from your graveyard to your hand.
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
@@ -2441,14 +2494,41 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 08:32:58
-	time modified: 2018-05-13 09:29:19
+	time modified: 2018-05-30 13:44:05
 	card color: black, green, hybrid, horizontal
-	name: UBG01
+	name: UBG01-Golgari Charm
+	casting cost: BG
+	image: 
+	super type: <word-list-type>Instant</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rarity: uncommon
+	rule text:
+		Choose one —
+		<error-spelling:en_us:/magic.mse-game/magic-words>•</error-spelling:en_us:/magic.mse-game/magic-words> All creatures get -1/-1 until end of turn.
+		<error-spelling:en_us:/magic.mse-game/magic-words>•</error-spelling:en_us:/magic.mse-game/magic-words> Destroy target enchantment.
+		<error-spelling:en_us:/magic.mse-game/magic-words>•</error-spelling:en_us:/magic.mse-game/magic-words> <kw-0><nospellcheck>Regenerate</nospellcheck></kw-0> each creature you control.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-13 08:32:58
+	time modified: 2018-05-30 13:43:59
+	card color: black, green, hybrid, horizontal
+	name: UBG02-Corpsejack Menace
 	casting cost: BG
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
 	sub type: <word-list-race></word-list-race>
 	rarity: uncommon
+	rule text: If one or more +1/+1 counters would be put on a creature you control, twice that many +1/+1 counters are put on it instead.
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
@@ -2460,33 +2540,16 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 08:32:58
-	time modified: 2018-05-13 09:29:08
-	card color: black, green, hybrid, horizontal
-	name: UBG02
-	casting cost: BG
-	image: 
-	super type: <word-list-type></word-list-type>
-	sub type: 
-	rarity: uncommon
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2018-05-13 08:32:58
-	time modified: 2018-05-13 09:30:42
+	time modified: 2018-05-30 13:45:06
 	card color: blue, green, hybrid, horizontal
-	name: UGU02
+	name: UGU02-Bred for the Hunt
 	casting cost: GU
 	image: 
-	super type: <word-list-type></word-list-type>
-	sub type: 
+	super type: <word-list-type>Enchantment</word-list-type>
+	sub type: <word-list-enchantment></word-list-enchantment>
 	rarity: uncommon
+	rule text: Whenever a creature you control with a +1/+1 counter on it deals combat damage to a player, you may draw a card.
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
@@ -2498,14 +2561,16 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 08:32:58
-	time modified: 2018-05-13 09:29:48
+	time modified: 2018-05-30 13:37:14
 	card color: white, red, hybrid, horizontal
-	name: URW02
+	name: URW02-Fight to the Death
 	casting cost: RW
 	image: 
-	super type: <word-list-type></word-list-type>
-	sub type: 
+	super type: <word-list-type>Instant</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
 	rarity: uncommon
+	rule text: Destroy all blocking creatures and all blocked creatures.
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
@@ -2517,14 +2582,18 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 08:32:58
-	time modified: 2018-05-13 09:30:55
+	time modified: 2018-05-30 14:59:33
 	card color: blue, green, hybrid, horizontal
-	name: UGU01
+	name: UGU01-Zameck Guildmage
 	casting cost: GU
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
 	sub type: <word-list-race></word-list-race>
 	rarity: uncommon
+	rule text:
+		<sym-auto>GU</sym-auto>: This turn, each creature you control enters the battlefield with an additional +1/+1 counter on it.
+		<sym-auto>GU</sym-auto>, Remove a +1/+1 counter from a creature you control: Draw a card.
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
@@ -2536,12 +2605,12 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 09:44:56
-	time modified: 2018-05-28 20:07:19
-	name: UL11-Mystic Gate
+	time modified: 2018-05-30 13:30:37
+	name: SL11-Mystic Gate
 	image: 
 	super type: <word-list-type>Land</word-list-type>
 	sub type: <word-list-land></word-list-land>
-	rarity: uncommon
+	rarity: special
 	rule text:
 		<sym-auto>T</sym-auto>: Add <sym-auto>C</sym-auto>.
 		<sym-auto>W/U</sym-auto>, <sym-auto>T</sym-auto>: Add <sym-auto>WW</sym-auto>, <sym-auto>WU</sym-auto>, or <sym>UU</sym>.
@@ -2557,12 +2626,12 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 09:46:45
-	time modified: 2018-05-28 20:02:12
-	name: UL12-Sunken Ruins
+	time modified: 2018-05-30 13:30:42
+	name: SL12-Sunken Ruins
 	image: 
 	super type: <word-list-type>Land</word-list-type>
 	sub type: <word-list-land></word-list-land>
-	rarity: uncommon
+	rarity: special
 	rule text:
 		<sym-auto>T</sym-auto>: Add <sym-auto>C</sym-auto>.
 		<sym-auto>U/B</sym-auto>, <sym-auto>T</sym-auto>: Add <sym-auto>UU</sym-auto>, <sym-auto>UB</sym-auto>, or <sym>BB</sym>.
@@ -2578,12 +2647,12 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 09:46:45
-	time modified: 2018-05-28 20:06:26
-	name: UL13-Graven Cairns
+	time modified: 2018-05-30 13:30:47
+	name: SL13-Graven Cairns
 	image: 
 	super type: <word-list-type>Land</word-list-type>
 	sub type: <word-list-land></word-list-land>
-	rarity: uncommon
+	rarity: special
 	rule text:
 		<sym-auto>T</sym-auto>: Add <sym-auto>C</sym-auto>.
 		<sym-auto>B/R</sym-auto>, <sym-auto>T</sym-auto>: Add <sym-auto>BB</sym-auto>, <sym-auto>BR</sym-auto>, or <sym>RR</sym>.
@@ -2599,12 +2668,12 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 09:46:45
-	time modified: 2018-05-28 20:06:02
-	name: UL14-Fire-lit Thicket
+	time modified: 2018-05-30 13:30:53
+	name: SL14-Fire-lit Thicket
 	image: 
 	super type: <word-list-type>Land</word-list-type>
 	sub type: <word-list-land></word-list-land>
-	rarity: uncommon
+	rarity: special
 	rule text:
 		<sym-auto>T</sym-auto>: Add <sym-auto>C</sym-auto>.
 		<sym-auto>R/G</sym-auto>, <sym-auto>T</sym-auto>: Add <sym-auto>RR</sym-auto>, <sym-auto>RG</sym-auto>, or <sym>GG</sym>.
@@ -2620,12 +2689,12 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 09:46:45
-	time modified: 2018-05-28 20:08:13
-	name: UL15-Wooded Bastion
+	time modified: 2018-05-30 13:30:32
+	name: SL15-Wooded Bastion
 	image: 
 	super type: <word-list-type>Land</word-list-type>
 	sub type: <word-list-land></word-list-land>
-	rarity: uncommon
+	rarity: special
 	rule text:
 		<sym-auto>T</sym-auto>: Add <sym-auto>C</sym-auto>.
 		<sym-auto>G/W</sym-auto>, <sym-auto>T</sym-auto>: Add <sym-auto>GG</sym-auto>, <sym-auto>GW</sym-auto>, or <sym>WW</sym>.
@@ -2641,12 +2710,12 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 09:46:45
-	time modified: 2018-05-28 20:02:34
-	name: UL18-Twilight Mire
+	time modified: 2018-05-30 13:30:13
+	name: SL18-Twilight Mire
 	image: 
 	super type: <word-list-type>Land</word-list-type>
 	sub type: <word-list-land></word-list-land>
-	rarity: uncommon
+	rarity: special
 	rule text:
 		<sym-auto>T</sym-auto>: Add <sym-auto>C</sym-auto>.
 		<sym-auto>B/G</sym-auto>, <sym-auto>T</sym-auto>: Add <sym-auto>BB</sym-auto>, <sym-auto>BG</sym-auto>, or <sym>GG</sym>.
@@ -2662,12 +2731,12 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 09:46:45
-	time modified: 2018-05-28 20:07:50
-	name: UL19-Rugged Prairie
+	time modified: 2018-05-30 13:30:09
+	name: SL19-Rugged Prairie
 	image: 
 	super type: <word-list-type>Land</word-list-type>
 	sub type: <word-list-land></word-list-land>
-	rarity: uncommon
+	rarity: special
 	rule text:
 		<sym-auto>T</sym-auto>: Add <sym-auto>C</sym-auto>.
 		<sym-auto>R/W</sym-auto>, <sym-auto>T</sym-auto>: Add <sym-auto>RR</sym-auto>, <sym-auto>RW</sym-auto>, or <sym>WW</sym>.
@@ -2683,12 +2752,12 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 09:46:45
-	time modified: 2018-05-28 20:06:15
-	name: UL20-Flooded Grove
+	time modified: 2018-05-30 13:31:04
+	name: SL20-Flooded Grove
 	image: 
 	super type: <word-list-type>Land</word-list-type>
 	sub type: <word-list-land></word-list-land>
-	rarity: uncommon
+	rarity: special
 	rule text:
 		<sym-auto>T</sym-auto>: Add <sym-auto>C</sym-auto>.
 		<sym-auto>G/U</sym-auto>, <sym-auto>T</sym-auto>: Add <sym-auto>GG</sym-auto>, <sym-auto>GU</sym-auto>, or <sym>UU</sym>.
@@ -2704,14 +2773,14 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 09:52:28
-	time modified: 2018-05-28 20:07:12
-	name: UL01-Seachrome Coast
+	time modified: 2018-05-30 13:30:57
+	name: SL01-Seachrome Coast
 	image: 
 	super type: <word-list-type>Land</word-list-type>
 	sub type: <word-list-land></word-list-land>
-	rarity: uncommon
+	rarity: special
 	rule text:
-		<atom-cardname><nospellcheck>UL01-Seachrome Coast</nospellcheck></atom-cardname> enters the battlefield tapped unless you control two or fewer other lands.
+		<atom-cardname><nospellcheck>SL01-Seachrome Coast</nospellcheck></atom-cardname> enters the battlefield tapped unless you control two or fewer other lands.
 		<sym-auto>T</sym-auto>: Add <sym-auto>W</sym-auto> or <sym-auto>U</sym-auto> to your mana pool
 	flavor text: <i-flavor></i-flavor>
 	card code text: 
@@ -2725,14 +2794,14 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 09:52:28
-	time modified: 2018-05-28 20:05:40
-	name: UL02-Darkslick Shores
+	time modified: 2018-05-30 13:31:00
+	name: SL02-Darkslick Shores
 	image: 
 	super type: <word-list-type>Land</word-list-type>
 	sub type: <word-list-land></word-list-land>
-	rarity: uncommon
+	rarity: special
 	rule text:
-		<atom-cardname><nospellcheck>UL02-Darkslick Shores</nospellcheck></atom-cardname> enters the battlefield tapped unless you control two or fewer other lands.
+		<atom-cardname><nospellcheck>SL02-Darkslick Shores</nospellcheck></atom-cardname> enters the battlefield tapped unless you control two or fewer other lands.
 		<sym-auto>T</sym-auto>: Add <sym-auto>U</sym-auto> or <sym-auto>B</sym-auto> to your mana pool
 	flavor text: <i-flavor></i-flavor>
 	card code text: 
@@ -2746,14 +2815,14 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 09:52:28
-	time modified: 2018-05-28 20:00:37
-	name: UL03-Blackcleave Cliffs
+	time modified: 2018-05-30 13:31:18
+	name: SL03-Blackcleave Cliffs
 	image: 
 	super type: <word-list-type>Land</word-list-type>
 	sub type: <word-list-land></word-list-land>
-	rarity: uncommon
+	rarity: special
 	rule text:
-		<atom-cardname><nospellcheck>UL03-Blackcleave Cliffs</nospellcheck></atom-cardname> enters the battlefield tapped unless you control two or fewer other lands.
+		<atom-cardname><nospellcheck>SL03-Blackcleave Cliffs</nospellcheck></atom-cardname> enters the battlefield tapped unless you control two or fewer other lands.
 		<sym-auto>T</sym-auto>: Add <sym-auto>B</sym-auto> or <sym-auto>R</sym-auto> to your mana pool
 	flavor text: <i-flavor></i-flavor>
 	card code text: 
@@ -2767,14 +2836,14 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 09:52:28
-	time modified: 2018-05-28 20:05:31
-	name: UL04-Copperline Gorge
+	time modified: 2018-05-30 13:31:14
+	name: SL04-Copperline Gorge
 	image: 
 	super type: <word-list-type>Land</word-list-type>
 	sub type: <word-list-land></word-list-land>
-	rarity: uncommon
+	rarity: special
 	rule text:
-		<atom-cardname><nospellcheck>UL04-Copperline Gorge</nospellcheck></atom-cardname> enters the battlefield tapped unless you control two or fewer other lands.
+		<atom-cardname><nospellcheck>SL04-Copperline Gorge</nospellcheck></atom-cardname> enters the battlefield tapped unless you control two or fewer other lands.
 		<sym-auto>T</sym-auto>: Add <sym-auto>R</sym-auto> or <sym-auto>G</sym-auto> to your mana pool
 	flavor text: <i-flavor></i-flavor>
 	card code text: 
@@ -2788,14 +2857,14 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 09:52:28
-	time modified: 2018-05-28 20:07:34
-	name: UL05-Razorverge Thicket
+	time modified: 2018-05-30 13:31:22
+	name: SL05-Razorverge Thicket
 	image: 
 	super type: <word-list-type>Land</word-list-type>
 	sub type: <word-list-land></word-list-land>
-	rarity: uncommon
+	rarity: special
 	rule text:
-		<atom-cardname><nospellcheck>UL05-Razorverge Thicket</nospellcheck></atom-cardname> enters the battlefield tapped unless you control two or fewer other lands.
+		<atom-cardname><nospellcheck>SL05-Razorverge Thicket</nospellcheck></atom-cardname> enters the battlefield tapped unless you control two or fewer other lands.
 		<sym-auto>T</sym-auto>: Add <sym-auto>G</sym-auto> or <sym-auto>W</sym-auto> to your mana pool
 	flavor text: <i-flavor></i-flavor>
 	card code text: 
@@ -2809,14 +2878,14 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 09:52:28
-	time modified: 2018-05-28 20:01:53
-	name: UL06-Concealed Courtyard
+	time modified: 2018-05-30 13:31:25
+	name: SL06-Concealed Courtyard
 	image: 
 	super type: <word-list-type>Land</word-list-type>
 	sub type: <word-list-land></word-list-land>
-	rarity: uncommon
+	rarity: special
 	rule text:
-		<atom-cardname><nospellcheck>UL06-Concealed Courtyard</nospellcheck></atom-cardname> enters the battlefield tapped unless you control two or fewer other lands.
+		<atom-cardname><nospellcheck>SL06-Concealed Courtyard</nospellcheck></atom-cardname> enters the battlefield tapped unless you control two or fewer other lands.
 		<sym-auto>T</sym-auto>: Add <sym-auto>W</sym-auto> or <sym-auto>B</sym-auto> to your mana pool
 	flavor text: <i-flavor></i-flavor>
 	card code text: 
@@ -2830,14 +2899,14 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 09:52:28
-	time modified: 2018-05-28 20:07:02
-	name: UL07-Spirebluff Canal
+	time modified: 2018-05-30 13:31:08
+	name: SL07-Spirebluff Canal
 	image: 
 	super type: <word-list-type>Land</word-list-type>
 	sub type: <word-list-land></word-list-land>
-	rarity: uncommon
+	rarity: special
 	rule text:
-		<atom-cardname><nospellcheck>UL07-Spirebluff Canal</nospellcheck></atom-cardname> enters the battlefield tapped unless you control two or fewer other lands.
+		<atom-cardname><nospellcheck>SL07-Spirebluff Canal</nospellcheck></atom-cardname> enters the battlefield tapped unless you control two or fewer other lands.
 		<sym-auto>T</sym-auto>: Add <sym-auto>U</sym-auto> or <sym-auto>R</sym-auto> to your mana pool
 	flavor text: <i-flavor></i-flavor>
 	card code text: 
@@ -2851,14 +2920,14 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 09:52:28
-	time modified: 2018-05-28 20:02:43
-	name: UL08-Blooming Marsh
+	time modified: 2018-05-30 13:29:37
+	name: SL08-Blooming Marsh
 	image: 
 	super type: <word-list-type>Land</word-list-type>
 	sub type: <word-list-land></word-list-land>
-	rarity: uncommon
+	rarity: special
 	rule text:
-		<atom-cardname><nospellcheck>UL08-Blooming Marsh</nospellcheck></atom-cardname> enters the battlefield tapped unless you control two or fewer other lands.
+		<atom-cardname><nospellcheck>SL08-Blooming Marsh</nospellcheck></atom-cardname> enters the battlefield tapped unless you control two or fewer other lands.
 		<sym-auto>T</sym-auto>: Add <sym-auto>B</sym-auto> or <sym-auto>G</sym-auto> to your mana pool
 	flavor text: <i-flavor></i-flavor>
 	card code text: 
@@ -2872,14 +2941,14 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 09:52:28
-	time modified: 2018-05-28 20:06:49
-	name: UL09-Inspiring Vantage
+	time modified: 2018-05-30 13:29:50
+	name: SL09-Inspiring Vantage
 	image: 
 	super type: <word-list-type>Land</word-list-type>
 	sub type: <word-list-land></word-list-land>
-	rarity: uncommon
+	rarity: special
 	rule text:
-		<atom-cardname><nospellcheck>UL09-Inspiring Vantage</nospellcheck></atom-cardname> enters the battlefield tapped unless you control two or fewer other lands.
+		<atom-cardname><nospellcheck>SL09-Inspiring Vantage</nospellcheck></atom-cardname> enters the battlefield tapped unless you control two or fewer other lands.
 		<sym-auto>T</sym-auto>: Add <sym-auto>R</sym-auto> or <sym-auto>W</sym-auto> to your mana pool
 	flavor text: <i-flavor></i-flavor>
 	card code text: 
@@ -2893,14 +2962,14 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 09:52:28
-	time modified: 2018-05-28 20:02:56
-	name: UL10-Botanical Sanctum
+	time modified: 2018-05-30 13:29:57
+	name: SL10-Botanical Sanctum
 	image: 
 	super type: <word-list-type>Land</word-list-type>
 	sub type: <word-list-land></word-list-land>
-	rarity: uncommon
+	rarity: special
 	rule text:
-		<atom-cardname><nospellcheck>UL10-Botanical Sanctum</nospellcheck></atom-cardname> enters the battlefield tapped unless you control two or fewer other lands.
+		<atom-cardname><nospellcheck>SL10-Botanical Sanctum</nospellcheck></atom-cardname> enters the battlefield tapped unless you control two or fewer other lands.
 		<sym-auto>T</sym-auto>: Add <sym-auto>G</sym-auto> or <sym-auto>U</sym-auto> to your mana pool
 	flavor text: <i-flavor></i-flavor>
 	card code text: 
@@ -3024,11 +3093,11 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 20:40:34
-	time modified: 2018-05-26 20:49:39
+	time modified: 2018-05-30 09:18:53
 	name: UG02-Counterfall No Countering
 	casting cost: 3G
 	image: 
-	super type: <word-list-type>Creature</word-list-type>
+	super type: <word-list-type>Enchantment Creature</word-list-type>
 	sub type: <word-list-race></word-list-race>
 	rarity: uncommon
 	rule text:
@@ -3048,11 +3117,11 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 20:53:51
-	time modified: 2018-05-26 20:51:30
+	time modified: 2018-05-30 09:19:07
 	name: UG04-Big Boy
 	casting cost: 4GG
 	image: 
-	super type: <word-list-type>Creature</word-list-type>
+	super type: <word-list-type>Enchantment Creature</word-list-type>
 	sub type: <word-list-race>Snake</word-list-race> <word-list-class>Mutant</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: uncommon
 	rule text: <kw-a><nospellcheck>Deathtouch</nospellcheck></kw-a>, <kw-a><nospellcheck>Reach</nospellcheck></kw-a>
@@ -3092,11 +3161,11 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 20:55:48
-	time modified: 2018-05-26 20:49:31
+	time modified: 2018-05-30 09:18:46
 	name: UG01-Stacking Bolsterer
 	casting cost: 2G
 	image: 
-	super type: <word-list-type>Creature</word-list-type>
+	super type: <word-list-type>Enchantment Creature</word-list-type>
 	sub type: <word-list-race></word-list-race>
 	rarity: uncommon
 	rule text: At the beginning of your upkeep you may pay <sym-auto>1</sym-auto>, if you do create an Aura Enchantment with “<kw-a><nospellcheck>Enchant <param-name>creature</param-name></nospellcheck></kw-a>. Whenever enchanted creature deals combat damage to a player you may <kw-A><nospellcheck>bolster <param-number>2</param-number></nospellcheck>.”<atom-reminder-action> <i-auto>(Choose a creature with the least toughness among creatures you control and put <param-number>two</param-number> +1/+1 counters on it.)</i-auto></atom-reminder-action></kw-A>
@@ -3114,11 +3183,15 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 20:56:09
-	time modified: 2018-05-22 20:56:28
-	name: UG05
+	time modified: 2018-05-30 09:24:39
+	name: UG05-Collective Voyage
 	casting cost: G
 	image: 
+	super type: <word-list-type>Sorcery</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
 	rarity: uncommon
+	rule text: <kw-A><i-auto><nospellcheck>Join forces</nospellcheck></i-auto></kw-A> — Starting with you, each player may pay any amount of mana. Each player searches their library for up to X basic land cards, where X is the total amount of mana paid this way, puts them onto the battlefield tapped, then shuffles their library.
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
@@ -3130,11 +3203,17 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 20:56:37
-	time modified: 2018-05-22 20:56:46
-	name: UG06
+	time modified: 2018-05-30 13:48:07
+	name: UG06-Exolyte Refraction
 	casting cost: G
 	image: 
+	super type: <word-list-type>Enchantment</word-list-type>
+	sub type: <word-list-enchantment>Aura</word-list-enchantment><soft> </soft><word-list-enchantment></word-list-enchantment>
 	rarity: uncommon
+	rule text:
+		<kw-A><i-auto><nospellcheck>Constellation</nospellcheck></i-auto></kw-A> — Whenever <atom-cardname><nospellcheck>UG06-Exolyte Refraction</nospellcheck></atom-cardname> or another enchantment enters the battlefield under your control, put 2 +1/+1 counters on enchanted creature
+		Remove a +1/+1 counter from enchanted creature: Add one mana of any color
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
@@ -3146,11 +3225,17 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 20:56:48
-	time modified: 2018-05-22 20:57:02
-	name: UG07
-	casting cost: G
+	time modified: 2018-05-30 14:03:49
+	name: UG07-Mass Fight
+	casting cost: XXGG
 	image: 
+	super type: <word-list-type>Sorcery</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
 	rarity: uncommon
+	rule text:
+		Distribute X +1/+1 counters among any number of creatures you control.
+		For each of up to X target creatures you control that creature fights target creature you don’t control
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
@@ -3162,11 +3247,11 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 20:57:24
-	time modified: 2018-05-26 20:32:53
+	time modified: 2018-05-30 09:23:08
 	name: UW01-Counterfall First-striker
 	casting cost: 3W
 	image: 
-	super type: <word-list-type>Creature</word-list-type>
+	super type: <word-list-type>Enchantment Creature</word-list-type>
 	sub type: <word-list-race></word-list-race>
 	rarity: uncommon
 	rule text:
@@ -3186,11 +3271,11 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 20:58:03
-	time modified: 2018-05-29 16:13:10
+	time modified: 2018-05-30 09:23:21
 	name: UW02-Counterfall Tapper
 	casting cost: WW
 	image: 
-	super type: <word-list-type>Creature</word-list-type>
+	super type: <word-list-type>Enchantment Creature</word-list-type>
 	sub type: <word-list-race></word-list-race>
 	rarity: uncommon
 	rule text:
@@ -3346,11 +3431,11 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:01:08
-	time modified: 2018-05-27 18:07:24
+	time modified: 2018-05-30 09:17:59
 	name: UB03-Stacking Recurrer
 	casting cost: 2B
 	image: 
-	super type: <word-list-type>Creature</word-list-type>
+	super type: <word-list-type>Enchantment Creature</word-list-type>
 	sub type: <word-list-race></word-list-race>
 	rarity: uncommon
 	rule text: At the beginning of your upkeep you may pay <sym-auto>1</sym-auto>, if you do create an Aura Enchantment token with “<kw-a><nospellcheck>Enchant <param-name>creature</param-name></nospellcheck></kw-a>. Whenever enchanted creature deals combat damage to a player you may return target creature card from your graveyard to your hand.”
@@ -3432,11 +3517,11 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:03:32
-	time modified: 2018-05-27 20:49:54
+	time modified: 2018-05-30 09:21:05
 	name: UR01-Counterfall Shocker
 	casting cost: 1R
 	image: 
-	super type: <word-list-type>Creature</word-list-type>
+	super type: <word-list-type>Enchantment Creature</word-list-type>
 	sub type: <word-list-race>Vampire</word-list-race> <word-list-class>Clown</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: uncommon
 	rule text: <kw-A><i-auto><nospellcheck>Counterfall <param-number>2</param-number></nospellcheck></i-auto></kw-A> <error-spelling:en_us:/magic.mse-game/magic-words>-</error-spelling:en_us:/magic.mse-game/magic-words> Whenever one or more +1/+1 counters are placed on a creature you control, if it has 1 or more +1/+1 counters on it, <atom-cardname><nospellcheck>UR01-Counterfall Shocker</nospellcheck></atom-cardname> deals 2 damage to any target.
@@ -3476,11 +3561,11 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:04:20
-	time modified: 2018-05-27 18:09:46
+	time modified: 2018-05-30 09:21:19
 	name: UR03-Stacking Burner
 	casting cost: 2R
 	image: 
-	super type: <word-list-type>Creature</word-list-type>
+	super type: <word-list-type>Enchantment Creature</word-list-type>
 	sub type: <word-list-race></word-list-race>
 	rarity: uncommon
 	rule text: At the beginning of your upkeep you may pay <sym-auto>1</sym-auto>, if you do create an Aura Enchantment with “<kw-a><nospellcheck>Enchant <param-name>creature</param-name></nospellcheck></kw-a>. Whenever enchanted creature deals combat damage to a player it deals 1 damage to any target.”
@@ -3521,11 +3606,11 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:04:55
-	time modified: 2018-05-28 20:05:25
+	time modified: 2018-05-30 09:21:40
 	name: UR05-Fireball Juggler
 	casting cost: 2RR
 	image: 
-	super type: <word-list-type>Creature</word-list-type>
+	super type: <word-list-type>Enchantment Creature</word-list-type>
 	sub type: <word-list-race>Dragon</word-list-race> <word-list-class>Clown</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: uncommon
 	rule text:
@@ -3545,11 +3630,11 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:05:07
-	time modified: 2018-05-28 20:12:59
+	time modified: 2018-05-30 09:21:56
 	name: UR06-Clownstrosity
 	casting cost: 3RR
 	image: 
-	super type: <word-list-type>Creature</word-list-type>
+	super type: <word-list-type>Enchantment Creature</word-list-type>
 	sub type: <word-list-race>Beast</word-list-race> <word-list-class>Clown</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: uncommon
 	rule text:
@@ -3569,11 +3654,11 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:08:50
-	time modified: 2018-05-27 19:44:18
+	time modified: 2018-05-30 09:22:37
 	name: UU01-Snapjaw Mage
 	casting cost: 3UU
 	image: 
-	super type: <word-list-type>Creature</word-list-type>
+	super type: <word-list-type>Enchantment Creature</word-list-type>
 	sub type: <word-list-race>Turtle</word-list-race> <word-list-class>Wizard</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: uncommon
 	rule text:
@@ -3655,11 +3740,15 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:10:01
-	time modified: 2018-05-22 21:10:10
-	name: UU05
+	time modified: 2018-05-30 15:02:29
+	name: UU05-Trial of Knowledge
 	casting cost: U
 	image: 
 	rarity: uncommon
+	rule text: 
+	flavor text:
+		<i-flavor>When Trial of Knowledge enters the battlefield, draw three cards, then discard a card.
+		When a <error-spelling:en_us>Cartouche</error-spelling:en_us> enters the battlefield under your control, return Trial of Knowledge to its owner’s hand.</i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
@@ -3811,12 +3900,18 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:14:05
-	time modified: 2018-05-29 16:07:45
+	time modified: 2018-05-30 09:56:56
 	card color: white, black, hybrid, horizontal
-	name: RWB01
+	name: ComWB01-Daxos the Returned
 	casting cost: WB
 	image: 
-	rarity: rare
+	super type: <word-list-type>Legendary Creature</word-list-type>
+	sub type: <word-list-race>Zombie</word-list-race> <word-list-class>Soldier</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: mythic rare
+	rule text:
+		Whenever you cast an enchantment spell, you get an experience counter.
+		<sym-auto>1WB</sym-auto>: Create a white and black Spirit enchantment creature token. It has “This creature’s power and toughness are each equal to the number of experience counters you have.”
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
@@ -3828,12 +3923,14 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:15:20
-	time modified: 2018-05-29 16:07:04
+	time modified: 2018-05-29 16:46:09
 	card color: white, blue, hybrid, horizontal
-	name: RWU01
-	casting cost: WU
+	name: RWU01-Enchanted Evening
+	casting cost: 3W/UW/U
 	image: 
 	rarity: rare
+	rule text: All permanents are enchantments in addition to their other types.
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
@@ -3862,12 +3959,16 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:15:52
-	time modified: 2018-05-29 16:08:15
+	time modified: 2018-05-30 13:34:50
 	card color: white, red, hybrid, horizontal
-	name: RRW01
+	name: RRW01-Assemble the Legion
 	casting cost: RW
 	image: 
+	super type: <word-list-type>Enchantment</word-list-type>
+	sub type: <word-list-enchantment></word-list-enchantment>
 	rarity: rare
+	rule text: At the beginning of your upkeep, put a muster counter on <atom-cardname><nospellcheck>RRW01-Assemble the Legion</nospellcheck></atom-cardname>. Then create a 1/1 red and white Soldier creature token with <kw-a><nospellcheck>haste</nospellcheck></kw-a> for each muster counter on <atom-cardname><nospellcheck>RRW01-Assemble the Legion</nospellcheck></atom-cardname>
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
@@ -3879,12 +3980,17 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:16:16
-	time modified: 2018-05-29 16:08:08
+	time modified: 2018-05-30 09:48:22
 	card color: black, green, hybrid, horizontal
-	name: RBG01
+	name: RBG01-Spiritmonger
 	casting cost: BG
 	image: 
 	rarity: rare
+	rule text:
+		Whenever <atom-cardname><nospellcheck>RBG01-Spiritmonger</nospellcheck></atom-cardname> deals damage to a creature, put a +1/+1 counter on <atom-cardname><nospellcheck>RBG01-Spiritmonger</nospellcheck></atom-cardname>.
+		<sym-auto>B</sym-auto>: <kw-0><nospellcheck>Regenerate</nospellcheck></kw-0> <atom-cardname><nospellcheck>RBG01-Spiritmonger</nospellcheck></atom-cardname>.
+		<sym-auto>G</sym-auto>: <atom-cardname><nospellcheck>RBG01-Spiritmonger</nospellcheck></atom-cardname> become s the color of your choice until end of turn.
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
@@ -3896,12 +4002,16 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:16:34
-	time modified: 2018-05-29 16:08:30
+	time modified: 2018-05-29 21:44:47
 	card color: blue, green, hybrid, horizontal
-	name: RGU01
+	name: RGU01-Fathom Mage
 	casting cost: GU
 	image: 
 	rarity: rare
+	rule text:
+		<kw-A><nospellcheck>Evolve</nospellcheck><atom-reminder-expert> <i-auto>(Whenever a creature enters the battlefield under your control, if that creature has greater power or toughness than this creature, put a +1/+1 counter on this creature.)</i-auto></atom-reminder-expert></kw-A>
+		Whenever a +1/+1 counter is put on <atom-cardname><nospellcheck>RGU01-Fathom Mage</nospellcheck></atom-cardname>, you may draw a card.
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
@@ -3913,12 +4023,17 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:17:03
-	time modified: 2018-05-29 16:07:27
+	time modified: 2018-05-30 09:41:44
 	card color: red, green, hybrid, horizontal
-	name: RRG01
-	casting cost: RG
+	name: RRG01-Savageborn Hydra
+	casting cost: XRG
 	image: 
 	rarity: rare
+	rule text:
+		<kw-a><nospellcheck>Double strike</nospellcheck></kw-a>
+		<atom-cardname><nospellcheck>RRG01-Savageborn Hydra</nospellcheck></atom-cardname> enters the battlefield with X +1/+1 counters on it.
+		<sym-auto>1R/G</sym-auto>: Put a +1/+1 counter on <atom-cardname><nospellcheck>RRG01-Savageborn Hydra</nospellcheck></atom-cardname>. Activate this ability only any time you could cast a sorcery.
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
@@ -3930,12 +4045,14 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:17:23
-	time modified: 2018-05-29 16:07:13
+	time modified: 2018-05-30 15:05:52
 	card color: blue, black, hybrid, horizontal
-	name: RUB01
+	name: RUB01-Vile Consumption
 	casting cost: UB
 	image: 
 	rarity: rare
+	rule text: All creatures have “At the beginning of your upkeep, sacrifice this creature unless you pay 1 life.”
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
@@ -3990,7 +4107,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:20:35
-	time modified: 2018-05-27 20:54:00
+	time modified: 2018-05-30 09:17:22
 	name: RR01-Counterfall Firebreather
 	casting cost: 4RR
 	image: 
@@ -4416,17 +4533,17 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:27:34
-	time modified: 2018-05-29 16:07:42
+	time modified: 2018-05-30 09:57:07
 	card color: white, black, hybrid, horizontal
-	name: ComWB01-Athreos, God of Passage
+	name: RWB01-Athreos, God of Passage
 	casting cost: 1WB
 	image: 
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>God</word-list-race><soft> </soft><word-list-class></word-list-class>
-	rarity: mythic rare
+	rarity: rare
 	rule text:
 		<kw-a><nospellcheck>Indestructible</nospellcheck></kw-a>
-		As long as your <kw-0><nospellcheck>devotion to <param-action>white and black is less than seven, <atom-cardname><nospellcheck>ComWB01-Athreos, God of Passage</nospellcheck></atom-cardname> isn’t a creature</param-action></nospellcheck></kw-0>
+		As long as your <kw-0><nospellcheck>devotion to <param-action>white and black is less than seven, <atom-cardname><nospellcheck>RWB01-Athreos, God of Passage</nospellcheck></atom-cardname> isn’t a creature</param-action></nospellcheck></kw-0>
 		Whenever another creature you own dies, return it to your hand unless target opponent pays 3 life.
 	flavor text: <i-flavor></i-flavor>
 	power: 5
@@ -4509,14 +4626,19 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:30:03
-	time modified: 2018-05-29 16:08:04
+	time modified: 2018-05-30 12:58:23
 	card color: black, green, hybrid, horizontal
-	name: ComBG01
-	casting cost: BG
+	name: ComBG01-Reyhan, Last of the Abzan
+	casting cost: 1BG
 	image: 
 	super type: <word-list-type>Legendary Creature</word-list-type>
-	sub type: <word-list-race></word-list-race>
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Warrior</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: mythic rare
+	rule text:
+		<error-spelling:en_us:/magic.mse-game/magic-words>Reyhan</error-spelling:en_us:/magic.mse-game/magic-words>, Last of the <error-spelling:en_us:/magic.mse-game/magic-words>Abzan</error-spelling:en_us:/magic.mse-game/magic-words> enters the battlefield with three +1/+1 counters on it.
+		Whenever a creature you control dies or is put into the command zone, if it had one or more +1/+1 counters on it, you may put that many +1/+1 counters on target creature.
+		<kw-0><nospellcheck>Partner</nospellcheck></kw-0>
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
@@ -4615,14 +4737,14 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:52:55
-	time modified: 2018-05-29 16:06:51
+	time modified: 2018-05-30 13:40:28
 	card color: black, red, hybrid, horizontal
 	name: RBR01-Honkboss Tony
 	casting cost: 3BR
 	image: 
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Clown</word-list-class><soft> </soft><word-list-class></word-list-class>
-	rarity: mythic rare
+	rarity: rare
 	rule text:
 		<kw-a><nospellcheck>First Strike</nospellcheck></kw-a><error-spelling>
 		</error-spelling><error-spelling>
@@ -4642,9 +4764,9 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:53:47
-	time modified: 2018-05-29 16:09:43
+	time modified: 2018-05-29 18:39:42
 	card color: white, blue, green, hybrid, horizontal
-	name: ComGWU01
+	name: ComGWU01-Endbringer
 	casting cost: GWU
 	image: 
 	super type: <word-list-type>Legendary Creature</word-list-type>
@@ -4661,14 +4783,18 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:54:35
-	time modified: 2018-05-29 16:09:46
+	time modified: 2018-05-29 20:56:19
 	card color: white, blue, green, hybrid, horizontal
-	name: ComGWU02
-	casting cost: GWU
+	name: ComGWU02-Miles
+	casting cost: 1GWU
 	image: 
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race></word-list-race>
 	rarity: mythic rare
+	rule text: <kw-A><i-auto><nospellcheck>Constellation</nospellcheck></i-auto></kw-A> — Whenever <atom-cardname><nospellcheck>ComGWU02-Miles</nospellcheck></atom-cardname> or another enchantment enters the battlefield under your control up to two target players draw a card and distribute 2 +1/+1 counters between up to two target creatures
+	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 2
 	card code text: 
 	copyright: 
 	image 2: 
@@ -4680,14 +4806,20 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:54:54
-	time modified: 2018-05-29 16:09:04
+	time modified: 2018-05-30 12:58:20
 	card color: white, black, green, hybrid, horizontal
-	name: ComBGW01
-	casting cost: BGW
+	name: ComBGW01-Ghave, Guru of Spores
+	casting cost: 2BGW
 	image: 
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race></word-list-race>
 	rarity: mythic rare
+	rule text:
+		<atom-cardname><nospellcheck>ComBGW01-Ghave, Guru of Spores</nospellcheck></atom-cardname> enters the battlefield with five +1/+1 counters on it.
+		<sym-auto>1</sym-auto>, Remove a +1/+1 counter from a creature you control: Create a 1/1 green Saproling creature token.<error-spelling>
+		</error-spelling>
+		<sym-auto>1</sym-auto>, Sacrifice a creature: Put a +1/+1 counter on target creature.
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
@@ -4699,14 +4831,18 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:55:32
-	time modified: 2018-05-29 16:09:13
+	time modified: 2018-05-30 12:58:31
 	card color: white, black, green, hybrid, horizontal
-	name: ComBGW02
-	casting cost: BGW
+	name: ComBGW02-Panharmonicon Ripoff
+	casting cost: 2BGW
 	image: 
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race></word-list-race>
 	rarity: mythic rare
+	rule text: If a permanent entering the battlefield or a counter being places on a permanent would trigger an ability instead trigger that ability twice.
+	flavor text: <i-flavor></i-flavor>
+	power: 3
+	toughness: 4
 	card code text: 
 	copyright: 
 	image 2: 
@@ -4718,14 +4854,20 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:55:58
-	time modified: 2018-05-29 16:09:30
+	time modified: 2018-05-30 12:59:03
 	card color: blue, black, green, hybrid, horizontal
-	name: ComGUB01
-	casting cost: GUB
+	name: ComGUB01-Derek, Miller
+	casting cost: 3GUB
 	image: 
-	super type: <word-list-type>Legendary Creature</word-list-type>
-	sub type: <word-list-race></word-list-race>
+	super type: <word-list-type>Legendary Enchantment Creature</word-list-type>
+	sub type: <word-list-race>Nymph</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rarity: mythic rare
+	rule text:
+		<kw-A><i-auto><nospellcheck>Constellation</nospellcheck></i-auto></kw-A> — Whenever <atom-cardname><nospellcheck>ComGUB01-Derek, Miller</nospellcheck></atom-cardname> or another enchantment enters the battlefield under your control <kw-0><nospellcheck>bolster <param-number>3</param-number></nospellcheck></kw-0>
+		Remove a +1/+1 counter from a creature you control: Target player puts the top 2 cards from the top of their library into their graveyard.
+	flavor text: <i-flavor></i-flavor>
+	power: 4
+	toughness: 4
 	card code text: 
 	copyright: 
 	image 2: 
@@ -4737,14 +4879,20 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:56:54
-	time modified: 2018-05-29 16:09:39
+	time modified: 2018-05-30 13:01:14
 	card color: blue, black, green, hybrid, horizontal
-	name: ComGUB02
-	casting cost: GUB
+	name: ComGUB02-Vorosh, the Hunter
+	casting cost: 3GUB
 	image: 
 	super type: <word-list-type>Legendary Creature</word-list-type>
-	sub type: <word-list-race></word-list-race>
+	sub type: <word-list-race>Dragon</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rarity: mythic rare
+	rule text:
+		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>
+		<error-spelling:en_us:/magic.mse-game/magic-words>Whenenver</error-spelling:en_us:/magic.mse-game/magic-words> <atom-cardname><nospellcheck>ComGUB02-Vorosh, the Hunter</nospellcheck></atom-cardname> does combat damage to a player you may pay <sym-auto>2G</sym-auto>. If you do, put six +1/+1 counters on <error-spelling:en_us:/magic.mse-game/magic-words>Vorosh</error-spelling:en_us:/magic.mse-game/magic-words>
+	flavor text: <i-flavor></i-flavor>
+	power: 6
+	toughness: 6
 	card code text: 
 	copyright: 
 	image 2: 
@@ -4756,14 +4904,21 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:57:10
-	time modified: 2018-05-29 16:10:01
+	time modified: 2018-05-29 21:34:12
 	card color: white, blue, red, hybrid, horizontal
-	name: ComRWU01
-	casting cost: RWU
+	name: ComRWU01-Ben
+	casting cost: 2RWU
 	image: 
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race></word-list-race>
 	rarity: mythic rare
+	rule text:
+		Whenever you cast an enchantment, creatures you control gain <kw-a><nospellcheck>lifelink</nospellcheck></kw-a> and <kw-a><nospellcheck>haste</nospellcheck></kw-a> until end of turn.
+		Creatures you control have <kw-a><nospellcheck>prowess</nospellcheck></kw-a>.
+		<sym-auto>1</sym-auto>, Return an enchantment you control to its owner’s hand: Target creature cannot be blocked this turn
+	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 2
 	card code text: 
 	copyright: 
 	image 2: 
@@ -4813,13 +4968,13 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:59:58
-	time modified: 2018-05-29 16:09:58
+	time modified: 2018-05-29 17:25:19
 	card color: white, red, green, hybrid, horizontal
-	name: ComRGW02
+	name: ComRGW02-Hadayosh, Endbringer
 	casting cost: RGW
 	image: 
-	super type: <word-list-type>Legendary Creature</word-list-type>
-	sub type: <word-list-race></word-list-race>
+	super type: <word-list-type>Legendary Enchantment Creature</word-list-type>
+	sub type: <word-list-race>God</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rarity: mythic rare
 	card code text: 
 	copyright: 
@@ -4832,13 +4987,13 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 22:00:18
-	time modified: 2018-05-29 16:10:34
+	time modified: 2018-05-29 17:24:14
 	card color: white, blue, black, hybrid, horizontal
-	name: ComWUB01
+	name: ComWUB01-Khonsu, Endbringer
 	casting cost: WUB
 	image: 
-	super type: <word-list-type>Legendary Creature</word-list-type>
-	sub type: <word-list-race></word-list-race>
+	super type: <word-list-type>Legendary Enchantment Creature</word-list-type>
+	sub type: <word-list-race>God</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rarity: mythic rare
 	card code text: 
 	copyright: 
@@ -4851,14 +5006,18 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 22:00:55
-	time modified: 2018-05-29 16:10:37
+	time modified: 2018-05-30 13:12:40
 	card color: white, blue, black, hybrid, horizontal
-	name: ComWUB02
+	name: ComWUB02-Nathan
 	casting cost: WUB
 	image: 
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race></word-list-race>
 	rarity: mythic rare
+	rule text:
+		Enchantment spells you own have <kw-a><nospellcheck>flash</nospellcheck></kw-a>
+		Whenever you cast an enchantment spell you may pay <sym-auto>1UB</sym-auto>, if you do, counter target spell unless its controller pays <sym-auto>3</sym-auto>
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
@@ -4870,9 +5029,9 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 22:01:26
-	time modified: 2018-05-29 16:10:10
+	time modified: 2018-05-29 17:10:05
 	card color: blue, black, red, hybrid, horizontal
-	name: ComUBR01
+	name: ComUBR01-Charles
 	casting cost: UBR
 	image: 
 	super type: <word-list-type>Legendary Creature</word-list-type>
@@ -4889,13 +5048,13 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 22:01:49
-	time modified: 2018-05-29 16:10:13
+	time modified: 2018-05-29 17:24:50
 	card color: blue, black, red, hybrid, horizontal
-	name: ComUBR02-The Simurgh
+	name: ComUBR02-Simurgh, Endbringer
 	casting cost: UBR
 	image: 
-	super type: <word-list-type>Legendary Creature</word-list-type>
-	sub type: <word-list-race>Endbringer</word-list-race><soft> </soft><word-list-class></word-list-class>
+	super type: <word-list-type>Legendary Enchantment Creature</word-list-type>
+	sub type: <word-list-race>God</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rarity: mythic rare
 	rule text: <kw-a><nospellcheck>Flying</nospellcheck></kw-a>
 	flavor text: <i-flavor></i-flavor>
@@ -4933,13 +5092,13 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 22:03:09
-	time modified: 2018-05-29 16:09:25
+	time modified: 2018-05-29 17:26:43
 	card color: black, red, green, hybrid, horizontal
-	name: ComBRG02
+	name: ComBRG02-Tohu and Bohu, Endbringer
 	casting cost: BRG
 	image: 
-	super type: <word-list-type>Legendary Creature</word-list-type>
-	sub type: <word-list-race></word-list-race>
+	super type: <word-list-type>Legendary Enchantment Creature</word-list-type>
+	sub type: <word-list-race>God</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rarity: mythic rare
 	card code text: 
 	copyright: 
