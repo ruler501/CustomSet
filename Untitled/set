@@ -3504,11 +3504,15 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:02:59
-	time modified: 2018-05-22 21:03:08
-	name: UB06
-	casting cost: B
+	time modified: 2018-05-30 16:36:58
+	name: UB06-Parting Thoughts
+	casting cost: 2B
 	image: 
+	super type: <word-list-type>Sorcery</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
 	rarity: uncommon
+	rule text: Destroy target creature. You draw X cards and lose X life, where X is the number of counters on that creature.
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
