@@ -5174,16 +5174,22 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 22:01:49
-	time modified: 2018-05-29 17:24:50
+	time modified: 2018-05-30 18:09:11
 	card color: blue, black, red, hybrid, horizontal
 	name: ComUBR02-Simurgh, Endbringer
-	casting cost: UBR
+	casting cost: 4UBR
 	image: 
 	super type: <word-list-type>Legendary Enchantment Creature</word-list-type>
 	sub type: <word-list-race>God</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rarity: mythic rare
-	rule text: <kw-a><nospellcheck>Flying</nospellcheck></kw-a>
+	rule text:
+		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>, <kw-a><nospellcheck>Indestructible</nospellcheck></kw-a>
+		As long as your <kw-0><nospellcheck>devotion to <param-action>red, blue and black is less than ten, <atom-cardname><nospellcheck>ComUBR02-Simurgh, Endbringer</nospellcheck></atom-cardname> isn’t a creature</param-action>.</nospellcheck></kw-0>
+		<sym-auto>1R</sym-auto>: <atom-cardname><nospellcheck>ComUBR02-Simurgh, Endbringer</nospellcheck></atom-cardname> deals 1 damage to target creature. That creature becomes an enchantment in addition to its other types.
+		<sym-auto>4UB</sym-auto>: Gain control of target enchantment creature.
 	flavor text: <i-flavor></i-flavor>
+	power: 10
+	toughness: 10
 	card code text: 
 	copyright: 
 	image 2: 
