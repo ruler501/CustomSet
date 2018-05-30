@@ -5237,14 +5237,16 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 22:03:39
-	time modified: 2018-05-29 16:10:26
+	time modified: 2018-05-30 18:36:51
 	card color: white, black, red, hybrid, horizontal
-	name: ComWRB01
-	casting cost: WBR
+	name: ComWRB01-Garrett
+	casting cost: 4WBR
 	image: 
-	super type: <word-list-type>Legendary Creature</word-list-type>
+	super type: <word-list-type>Legendary Enchantment Creature</word-list-type>
 	sub type: <word-list-race></word-list-race>
 	rarity: mythic rare
+	rule text: <kw-A><i-auto><nospellcheck>Constellation</nospellcheck></i-auto></kw-A> — Whenever <atom-cardname><nospellcheck>ComWRB01-Garrett</nospellcheck></atom-cardname> or another enchantment enters the battlefield under your control reveal cards from the top of your library until you reveal a nonland, nonenchantment permanent card, you may cast that card.
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
@@ -5256,14 +5258,20 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 22:04:40
-	time modified: 2018-05-29 16:10:29
+	time modified: 2018-05-30 18:33:05
 	card color: white, black, red, hybrid, horizontal
-	name: ComWRB02
+	name: ComWRB02-Zurgo Helmsmasher
 	casting cost: WBR
 	image: 
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race></word-list-race>
 	rarity: mythic rare
+	rule text:
+		<kw-a><nospellcheck>Haste</nospellcheck></kw-a>
+		<atom-cardname><nospellcheck>ComWRB02-Zurgo Helmsmasher</nospellcheck></atom-cardname> attacks each combat if able.
+		<atom-cardname><nospellcheck>ComWRB02-Zurgo Helmsmasher</nospellcheck></atom-cardname> has <kw-a><nospellcheck>indestructible</nospellcheck></kw-a> as long as it’s your turn.
+		Whenever a creature dealt damage by <atom-cardname><nospellcheck>ComWRB02-Zurgo Helmsmasher</nospellcheck></atom-cardname> this turn dies, put a +1/+1 counter on <atom-cardname><nospellcheck>ComWRB02-Zurgo Helmsmasher</nospellcheck></atom-cardname>.
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
@@ -5275,14 +5283,18 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 22:05:31
-	time modified: 2018-05-29 16:10:17
+	time modified: 2018-05-30 18:27:46
 	card color: blue, red, green, hybrid, horizontal
-	name: ComUGR01
+	name: ComUGR01-Animar, Soul of Elements
 	casting cost: URG
 	image: 
 	super type: <word-list-type>Legendary Creature</word-list-type>
-	sub type: <word-list-race></word-list-race>
+	sub type: <word-list-race>Elemental</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rarity: mythic rare
+	rule text:
+		Whenever you cast a creature spell, put a +1/+1 counter on <atom-cardname><nospellcheck>ComUGR01-Animar, Soul of Elements</nospellcheck></atom-cardname>.
+		Creature spells you cast cost <sym-auto>1</sym-auto> less to cast for each +1/+1 counter on <atom-cardname><nospellcheck>ComUGR01-Animar, Soul of Elements</nospellcheck></atom-cardname>.
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
