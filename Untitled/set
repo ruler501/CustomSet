@@ -1575,7 +1575,7 @@ card:
 	has styling: false
 	notes: Creature
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-27 20:51:33
+	time modified: 2018-05-30 17:32:03
 	name: CG09-Bramble Elemental
 	casting cost: 3GG
 	image: 
@@ -1583,6 +1583,8 @@ card:
 	sub type: <word-list-race>Elemental</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rule text: Whenever an Aura becomes attached to Bramble Elemental, create two 1/1 green Saproling creature tokens.
 	flavor text: <i-flavor></i-flavor>
+	power: 4
+	toughness: 4
 	card code text: 
 	copyright: 
 	image 2: 
@@ -1594,7 +1596,7 @@ card:
 	has styling: false
 	notes: Creature
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-27 20:58:43
+	time modified: 2018-05-30 17:31:51
 	name: CG11-Orchard Elemental
 	casting cost: 5G
 	image: 
@@ -1602,6 +1604,8 @@ card:
 	sub type: <word-list-race>Elemental</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rule text: Council’s dilemma — When Orchard Elemental enters the battlefield, starting with you, each player votes for sprout or harvest. Put two +1/+1 counters on Orchard Elemental for each sprout vote. You gain 3 life for each harvest vote.
 	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 2
 	card code text: 
 	copyright: 
 	image 2: 
@@ -1613,7 +1617,7 @@ card:
 	has styling: false
 	notes: Creature
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-27 21:01:46
+	time modified: 2018-05-30 17:32:12
 	name: CG12-Ainok Survivalists
 	casting cost: G
 	image: 
@@ -1623,6 +1627,8 @@ card:
 		<kw-A><nospellcheck>Megamorph <param-cost><sym-auto>1G</sym-auto></param-cost></nospellcheck><atom-reminder-expert> <i-auto>(You may cast this face down as a 2/2 creature for <sym>3</sym>. Turn it face up any time for its <error-spelling:en_us:/magic.mse-game/magic-words>megamorph</error-spelling:en_us:/magic.mse-game/magic-words> cost and put a +1/+1 counter on it.)</i-auto></atom-reminder-expert></kw-A>
 		When <error-spelling:en_us:/magic.mse-game/magic-words>Ainok</error-spelling:en_us:/magic.mse-game/magic-words> Survivalist is turned face up, destroy target artifact or enchantment an opponent controls.
 	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 1
 	card code text: 
 	copyright: 
 	image 2: 
@@ -2178,16 +2184,18 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 08:32:58
-	time modified: 2018-05-30 15:32:10
+	time modified: 2018-05-30 16:49:16
 	card color: blue, red, hybrid, horizontal
 	name: UUR02-Dack’s Duplicate
-	casting cost: UR
+	casting cost: 1UR
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
 	sub type: <word-list-race>Shapeshifter</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rarity: uncommon
 	rule text: You may have <atom-cardname><nospellcheck>UUR02-Dack’s Duplicate</nospellcheck></atom-cardname> enter the battlefield as a copy of any creature on the battlefield, except it gains <kw-a><nospellcheck>haste</nospellcheck></kw-a> and <kw-a><nospellcheck>dethrone</nospellcheck></kw-a>.
 	flavor text: <i-flavor></i-flavor>
+	power: 0
+	toughness: 0
 	card code text: 
 	copyright: 
 	image 2: 
@@ -2222,12 +2230,12 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 08:32:58
-	time modified: 2018-05-29 16:43:43
+	time modified: 2018-05-30 17:42:22
 	card color: white, blue, hybrid, horizontal
 	name: UWU01-Walking Archive
-	casting cost: WU
+	casting cost: 3
 	image: 
-	super type: <word-list-type>Creature</word-list-type>
+	super type: <word-list-type>Artifact Creature</word-list-type>
 	sub type: <word-list-race></word-list-race>
 	rarity: uncommon
 	rule text:
@@ -2236,6 +2244,8 @@ card:
 		At the beginning of each player’s upkeep, that player draws a card for each +1/+1 counter on <atom-cardname><nospellcheck>UWU01-Walking Archive</nospellcheck></atom-cardname>.
 		<sym-auto>2WU</sym-auto>: Put a +1/+1 counter on <atom-cardname><nospellcheck>UWU01-Walking Archive</nospellcheck></atom-cardname>.
 	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 1
 	card code text: 
 	copyright: 
 	image 2: 
@@ -2270,7 +2280,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 08:32:58
-	time modified: 2018-05-30 13:43:45
+	time modified: 2018-05-30 17:30:09
 	card color: black, red, hybrid, horizontal
 	name: UBR02-Deathbringer Thoctar
 	casting cost: 4BR
@@ -2282,6 +2292,8 @@ card:
 		Whenever another creature dies, you may put a +1/+1 counter on <atom-cardname><nospellcheck>UBR02-Deathbringer Thoctar</nospellcheck></atom-cardname>.
 		Remove a +1/+1 counter from <atom-cardname><nospellcheck>UBR02-Deathbringer Thoctar</nospellcheck></atom-cardname>: <atom-cardname><nospellcheck>UBR02-Deathbringer Thoctar</nospellcheck></atom-cardname> deals 1 damage to any target.
 	flavor text: <i-flavor></i-flavor>
+	power: 3
+	toughness: 3
 	card code text: 
 	copyright: 
 	image 2: 
@@ -2340,18 +2352,20 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 08:32:58
-	time modified: 2018-05-30 09:40:19
+	time modified: 2018-05-30 17:47:45
 	card color: red, green, hybrid, horizontal
-	name: URG02-Signleborn Hydra
-	casting cost: XRGG
+	name: URG02-Singleborn Hydra
+	casting cost: XRRGG
 	image: 
-	super type: <word-list-type>Enchantment Creature</word-list-type>
+	super type: <word-list-type>Creature</word-list-type>
 	sub type: <word-list-race>Hydra</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rarity: uncommon
 	rule text:
-		<atom-cardname><nospellcheck>URG02-Signleborn Hydra</nospellcheck></atom-cardname> enters the battlefield with X +1/+1 counters on it
-		<kw-A><i-auto><nospellcheck>Counterfall <param-number>3</param-number></nospellcheck></i-auto></kw-A> — Whenever one or more +1/+1 counters are placed on a creature you control, if there are 3 or more +1/+1 counters on that creature, create an X/3 green beast where X is <atom-cardname><nospellcheck>URG02-Signleborn Hydra</nospellcheck></atom-cardname>’s power
+		<atom-cardname><nospellcheck>URG02-Singleborn Hydra</nospellcheck></atom-cardname> enters the battlefield with X +1/+1 counters on it
+		<kw-A><i-auto><nospellcheck>Counterfall <param-number>3</param-number></nospellcheck></i-auto></kw-A> — Whenever one or more +1/+1 counters are placed on a creature you control, if there are 3 or more +1/+1 counters on that creature, create an X/1 green beast where X is <atom-cardname><nospellcheck>URG02-Singleborn Hydra</nospellcheck></atom-cardname>’s power
 	flavor text: <i-flavor></i-flavor>
+	power: 0
+	toughness: 0
 	card code text: 
 	copyright: 
 	image 2: 
@@ -2363,7 +2377,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 08:32:58
-	time modified: 2018-05-30 09:36:27
+	time modified: 2018-05-30 17:31:08
 	card color: red, green, hybrid, horizontal
 	name: URG01-Rubblebelt Raiders
 	casting cost: 1R/GR/GR/G
@@ -2373,6 +2387,8 @@ card:
 	rarity: uncommon
 	rule text: Whenever <atom-cardname><nospellcheck>URG01-Rubblebelt Raiders</nospellcheck></atom-cardname> attacks, put a +1/+1 counter on it for each attacking creature you control.
 	flavor text: <i-flavor></i-flavor>
+	power: 3
+	toughness: 3
 	card code text: 
 	copyright: 
 	image 2: 
@@ -2478,18 +2494,20 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 08:32:58
-	time modified: 2018-05-30 09:58:27
+	time modified: 2018-05-30 17:45:01
 	card color: white, black, hybrid, horizontal
 	name: UWB02-Treasury Thrull
 	casting cost: WB
 	image: 
-	super type: <word-list-type>Instanat</word-list-type>
-	sub type: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Thrull</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rarity: uncommon
 	rule text:
 		<kw-0><nospellcheck>Extort</nospellcheck></kw-0>
 		Whenever <atom-cardname><nospellcheck>UWB02-Treasury Thrull</nospellcheck></atom-cardname> attacks, you may return target artifact, creature, or enchantment card from your graveyard to your hand.
 	flavor text: <i-flavor></i-flavor>
+	power: 4
+	toughness: 4
 	card code text: 
 	copyright: 
 	image 2: 
@@ -2526,16 +2544,18 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 08:32:58
-	time modified: 2018-05-30 13:43:59
+	time modified: 2018-05-30 16:48:01
 	card color: black, green, hybrid, horizontal
 	name: UBG02-Corpsejack Menace
-	casting cost: BG
+	casting cost: 2BG
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
 	sub type: <word-list-race></word-list-race>
 	rarity: uncommon
 	rule text: If one or more +1/+1 counters would be put on a creature you control, twice that many +1/+1 counters are put on it instead.
 	flavor text: <i-flavor></i-flavor>
+	power: 4
+	toughness: 4
 	card code text: 
 	copyright: 
 	image 2: 
@@ -2547,10 +2567,10 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 08:32:58
-	time modified: 2018-05-30 13:45:06
+	time modified: 2018-05-30 16:48:19
 	card color: blue, green, hybrid, horizontal
 	name: UGU02-Bred for the Hunt
-	casting cost: GU
+	casting cost: 1GU
 	image: 
 	super type: <word-list-type>Enchantment</word-list-type>
 	sub type: <word-list-enchantment></word-list-enchantment>
@@ -2589,7 +2609,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 08:32:58
-	time modified: 2018-05-30 14:59:33
+	time modified: 2018-05-30 17:40:22
 	card color: blue, green, hybrid, horizontal
 	name: UGU01-Zameck Guildmage
 	casting cost: GU
@@ -2601,6 +2621,8 @@ card:
 		<sym-auto>GU</sym-auto>: This turn, each creature you control enters the battlefield with an additional +1/+1 counter on it.
 		<sym-auto>GU</sym-auto>, Remove a +1/+1 counter from a creature you control: Draw a card.
 	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 2
 	card code text: 
 	copyright: 
 	image 2: 
@@ -3057,13 +3079,18 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-28 19:48:06
+	time modified: 2018-05-30 17:30:37
 	name: UA05-Animation Module
-	casting cost: C
+	casting cost: 1
 	image: 
 	super type: <word-list-type>Artifact</word-list-type>
 	sub type: <word-list-artifact></word-list-artifact>
 	rarity: uncommon
+	rule text:
+		Whenever one or more +1/+1 counters are put on a permanent you control, you may pay <sym-auto>1</sym-auto>. If you do, create a 1/1 colorless Servo artifact creature token.<error-spelling>
+		</error-spelling>
+		<sym-auto>3</sym-auto>, <sym-auto>T</sym-auto>: Choose a counter on target permanent or player. Give that permanent or player another counter of that kind.
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
@@ -3388,10 +3415,12 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:00:16
-	time modified: 2018-05-30 16:34:30
+	time modified: 2018-05-30 17:40:47
 	name: UW07-Cast Out
-	casting cost: W
+	casting cost: 3W
 	image: 
+	super type: <word-list-type>Enchantment</word-list-type>
+	sub type: <word-list-enchantment></word-list-enchantment>
 	rarity: uncommon
 	rule text:
 		<kw-a><nospellcheck>Flash</nospellcheck></kw-a>
@@ -3409,7 +3438,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:00:36
-	time modified: 2018-05-30 16:18:16
+	time modified: 2018-05-30 17:28:57
 	name: UB01-Dread Harlequin
 	casting cost: 4B
 	image: 
@@ -3418,8 +3447,8 @@ card:
 	rarity: uncommon
 	rule text: <kw-A><i-auto><nospellcheck><error-spelling:en_us:/magic.mse-game/magic-words>Constellation</nospellcheck></i-auto></kw-A>-</error-spelling:en_us:/magic.mse-game/magic-words> Whenever <atom-cardname><nospellcheck>UB01-Dread Harlequin</nospellcheck></atom-cardname> or another enchantment enters the battlefield under your control, target creature gets -X/-X until end of turn, where X is the number of enchantments you control.
 	flavor text: <i-flavor></i-flavor>
-	power: 
-	toughness: 
+	power: 4
+	toughness: 4
 	card code text: 
 	copyright: 
 	image 2: 
@@ -3788,10 +3817,12 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:10:01
-	time modified: 2018-05-30 15:02:29
+	time modified: 2018-05-30 17:41:21
 	name: UU05-Trial of Knowledge
-	casting cost: U
+	casting cost: 3U
 	image: 
+	super type: <word-list-type>Enchantment</word-list-type>
+	sub type: <word-list-enchantment></word-list-enchantment>
 	rarity: uncommon
 	rule text: 
 	flavor text:
@@ -3828,9 +3859,9 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:10:21
-	time modified: 2018-05-30 16:23:30
+	time modified: 2018-05-30 16:48:56
 	name: UU07-In Bolas’s Clutches
-	casting cost: U
+	casting cost: 4UU
 	image: 
 	super type: <word-list-type>Enchantment</word-list-type>
 	sub type: <word-list-enchantment>Aura</word-list-enchantment><soft> </soft><word-list-enchantment></word-list-enchantment>
