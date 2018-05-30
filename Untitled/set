@@ -3524,11 +3524,15 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:03:12
-	time modified: 2018-05-22 21:03:23
-	name: UB07
-	casting cost: B
+	time modified: 2018-05-30 16:42:05
+	name: UB07-Mirthful Backstabbing
+	casting cost: 2B
 	image: 
+	super type: <word-list-type>Enchantment</word-list-type>
+	sub type: <word-list-enchantment></word-list-enchantment>
 	rarity: uncommon
+	rule text: Whenever one or more counters are placed on a creature an opponent controls, its controller loses 1 life.
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
