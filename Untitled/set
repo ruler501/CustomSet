@@ -5139,20 +5139,24 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 22:00:55
-	time modified: 2018-05-30 13:12:40
+	time modified: 2018-05-30 18:16:37
 	card color: white, blue, black, hybrid, horizontal
-	name: ComWUB02-Nathan
-	casting cost: WUB
+	name: ComWUB02-Nathan, The Traveller
+	casting cost: 3WUB
 	image: 
 	super type: <word-list-type>Legendary Creature</word-list-type>
-	sub type: <word-list-race></word-list-race>
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Wizard</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: mythic rare
 	rule text:
-		Enchantment spells you own have <kw-a><nospellcheck>flash</nospellcheck></kw-a>
-		Whenever you cast an enchantment spell you may pay <sym-auto>1UB</sym-auto>, if you do, counter target spell unless its controller pays <sym-auto>3</sym-auto>
+		<kw-a><nospellcheck>Flash</nospellcheck></kw-a>
+		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>
+		Enchantment spells you own have <kw-a><nospellcheck>flash</nospellcheck></kw-a>.
+		Whenever you cast an enchantment spell, you may pay <sym-auto>1UB</sym-auto>. If you do, counter target spell unless its controller pays <sym-auto>3</sym-auto>.
 	flavor text: <i-flavor></i-flavor>
+	power: 4
+	toughness: 4
 	card code text: 
-	copyright: 
+	copyright: 4/4
 	image 2: 
 	copyright 2: 
 	copyright 3: 
