@@ -3460,11 +3460,19 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:01:32
-	time modified: 2018-05-22 21:02:40
-	name: UB04
-	casting cost: B
+	time modified: 2018-05-30 16:22:13
+	name: UB04-Animate Dead
+	casting cost: 1B
 	image: 
+	super type: <word-list-type>Enchantment</word-list-type>
+	sub type: <word-list-enchantment>Aura</word-list-enchantment><soft> </soft><word-list-enchantment></word-list-enchantment>
 	rarity: uncommon
+	rule text:
+		<kw-a><nospellcheck>Enchant <param-name>creature card in a graveyard</param-name></nospellcheck></kw-a>
+		When <atom-cardname><nospellcheck>UB04-Animate <error-spelling:en_us:/magic.mse-game/magic-words>Dead</nospellcheck></atom-cardname>d</error-spelling:en_us:/magic.mse-game/magic-words> enters the battlefield, if it’s on the battlefield, it loses “<kw-a><nospellcheck>enchant <param-name>creature card in a graveyard” and gains “enchant creature put onto the battlefield with <atom-cardname><nospellcheck>UB04-Animate Dead</nospellcheck></atom-cardname></param-name></nospellcheck></kw-a>.” Return enchanted creature card to the battlefield under your control and attach <atom-cardname><nospellcheck>UB04-Animate Dead</nospellcheck></atom-cardname> to it. When <atom-cardname><nospellcheck>UB04-Animate Dead</nospellcheck></atom-cardname> leaves the battlefield, that creature’s controller sacrifices it.<error-spelling>
+		</error-spelling>
+		Enchanted creature gets -1/-0.
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
