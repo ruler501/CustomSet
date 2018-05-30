@@ -4841,7 +4841,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:44:15
-	time modified: 2018-05-29 16:07:52
+	time modified: 2018-05-30 18:28:00
 	card color: blue, red, hybrid, horizontal
 	name: ComUR01-Keranos, God of Storms
 	casting cost: UR
@@ -4854,6 +4854,8 @@ card:
 		As long as your <kw-0><nospellcheck>devotion to <param-action>blue and red is less than seven, <atom-cardname><nospellcheck>ComUR01-Keranos, God of Storms</nospellcheck></atom-cardname> isn’t a creature</param-action>.</nospellcheck></kw-0>
 		Reveal the first card you draw on each of your turns. Whenever you reveal a land card this way, draw a card. Whenever you reveal a nonland card this way, <atom-cardname><nospellcheck>ComUR01-Keranos, God of Storms</nospellcheck></atom-cardname> deals 3 damage to any target.
 	flavor text: <i-flavor></i-flavor>
+	power: 6
+	toughness: 5
 	card code text: 
 	copyright: 
 	image 2: 
@@ -4892,14 +4894,21 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:53:47
-	time modified: 2018-05-30 18:21:58
+	time modified: 2018-05-30 18:32:55
 	card color: white, blue, green, hybrid, horizontal
-	name: ComGWU01-Endbringer
+	name: ComGWU01-Utopia, Endbringer
 	casting cost: 4GWU
 	image: 
-	super type: <word-list-type>Legendary Creature</word-list-type>
-	sub type: <word-list-race></word-list-race>
+	super type: <word-list-type>Legendary Enchantment Creature</word-list-type>
+	sub type: <word-list-race>God</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rarity: mythic rare
+	rule text:
+		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>, <kw-a><nospellcheck>Indestructible</nospellcheck></kw-a>
+		As long as your <kw-0><nospellcheck>devotion to <param-action>green, white and blue is less than ten, <atom-cardname><nospellcheck>ComGWU01-Utopia, Endbringer</nospellcheck></atom-cardname> isn’t a creature</param-action>.</nospellcheck></kw-0>
+		<sym-auto>GWU</sym-auto>: Starting with you, each player votes for a nonland permanent you don’t control. Exile each permanent with the most votes or tied for most votes. Each of those permanents’ controllers draws a card.
+	flavor text: <i-flavor></i-flavor>
+	power: 10
+	toughness: 10
 	card code text: 
 	copyright: 
 	image 2: 
@@ -5122,7 +5131,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 22:00:18
-	time modified: 2018-05-30 18:21:47
+	time modified: 2018-05-30 18:26:32
 	card color: white, blue, black, hybrid, horizontal
 	name: ComWUB01-Khonsu, Endbringer
 	casting cost: 4WUB
@@ -5132,7 +5141,7 @@ card:
 	rarity: mythic rare
 	rule text:
 		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>, <kw-a><nospellcheck>Indestructible</nospellcheck></kw-a>
-		As long as your <kw-0><nospellcheck>devotion to <param-action>white, blue, and black is less than ten, ComRGW02-Hadayosh, Endbringer isn’t a creature</param-action>.</nospellcheck></kw-0>
+		As long as your <kw-0><nospellcheck>devotion to <param-action>white, blue, and black is less than ten, <atom-cardname><nospellcheck>ComWUB01-Khonsu, Endbringer</nospellcheck></atom-cardname> isn’t a creature</param-action>.</nospellcheck></kw-0>
 		<sym>WUB</sym>: Exile target enchantment you control, then return it to the battlefield under its owner’s control.
 	flavor text: <i-flavor></i-flavor>
 	power: 10
@@ -5244,7 +5253,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 22:03:09
-	time modified: 2018-05-30 18:24:34
+	time modified: 2018-05-30 18:25:38
 	card color: black, red, green, hybrid, horizontal
 	name: ComBRG02-Tohu and Bohu, Endbringer
 	casting cost: 4BRG
@@ -5254,7 +5263,7 @@ card:
 	rarity: mythic rare
 	rule text:
 		<kw-a><nospellcheck>Menace</nospellcheck></kw-a>, <kw-a><nospellcheck>Indestructible</nospellcheck></kw-a>
-		As long as your <kw-0><nospellcheck>devotion to <param-action>black, red and green is less than ten, ComRGW02-Hadayosh, Endbringer isn’t a creature</param-action>.</nospellcheck></kw-0>
+		As long as your <kw-0><nospellcheck>devotion to <param-action>black, red and green is less than ten, <atom-cardname><nospellcheck>ComBRG02-Tohu and Bohu, Endbringer</nospellcheck></atom-cardname> isn’t a creature</param-action>.</nospellcheck></kw-0>
 		Creatures you control have “<sym-auto>T</sym-auto>: <kw-a><nospellcheck>Bolster <param-number>1</param-number></nospellcheck></kw-a>.”
 		<sym-auto>1</sym-auto>, Remove a +1/+1 counter from a creature you control: Choose <error-spelling:en_us:/magic.mse-game/magic-words>one-</error-spelling:en_us:/magic.mse-game/magic-words> Create a 1/1 red Goblin creature token; or add two mana of any one color.
 	flavor text: <i-flavor></i-flavor>
