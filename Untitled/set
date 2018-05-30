@@ -4945,7 +4945,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:54:54
-	time modified: 2018-05-30 12:58:20
+	time modified: 2018-05-30 18:34:42
 	card color: white, black, green, hybrid, horizontal
 	name: ComBGW01-Ghave, Guru of Spores
 	casting cost: 2BGW
@@ -4955,10 +4955,11 @@ card:
 	rarity: mythic rare
 	rule text:
 		<atom-cardname><nospellcheck>ComBGW01-Ghave, Guru of Spores</nospellcheck></atom-cardname> enters the battlefield with five +1/+1 counters on it.
-		<sym-auto>1</sym-auto>, Remove a +1/+1 counter from a creature you control: Create a 1/1 green Saproling creature token.<error-spelling>
-		</error-spelling>
+		<sym-auto>1</sym-auto>, Remove a +1/+1 counter from a creature you control: Create a 1/1 green Saproling creature token.
 		<sym-auto>1</sym-auto>, Sacrifice a creature: Put a +1/+1 counter on target creature.
 	flavor text: <i-flavor></i-flavor>
+	power: 0
+	toughness: 0
 	card code text: 
 	copyright: 
 	image 2: 
