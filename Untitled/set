@@ -5094,7 +5094,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:59:58
-	time modified: 2018-05-29 17:25:19
+	time modified: 2018-05-30 18:12:11
 	card color: white, red, green, hybrid, horizontal
 	name: ComRGW02-Hadayosh, Endbringer
 	casting cost: RGW
@@ -5102,6 +5102,13 @@ card:
 	super type: <word-list-type>Legendary Enchantment Creature</word-list-type>
 	sub type: <word-list-race>God</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rarity: mythic rare
+	rule text:
+		<kw-a><nospellcheck>Trample</nospellcheck></kw-a>, <kw-a><nospellcheck>Indestructible</nospellcheck></kw-a>
+		As long as your <kw-0><nospellcheck>devotion to <param-action>red, green and white is less than ten, <atom-cardname><nospellcheck>ComRGW02-Hadayosh, Endbringer</nospellcheck></atom-cardname> isn’t a creature</param-action>.</nospellcheck></kw-0>
+		Tap three untapped creatures you control: Create a 5/5 green Beast creature token.
+	flavor text: <i-flavor></i-flavor>
+	power: 10
+	toughness: 10
 	card code text: 
 	copyright: 
 	image 2: 
