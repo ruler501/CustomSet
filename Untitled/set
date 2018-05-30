@@ -4699,20 +4699,20 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:28:44
-	time modified: 2018-05-30 15:53:37
+	time modified: 2018-05-30 18:36:35
 	card color: white, green, hybrid, horizontal
 	name: ComGW01-Ajani, Mentor of Heroes
-	casting cost: GW
+	casting cost: 3GW
 	image: 
-	super type: <word-list-type>Legendary Planeswlaker</word-list-type>
-	sub type: Ajani
+	super type: <word-list-type>Legendary Planeswalker</word-list-type>
+	sub type: <word-list-planeswalker>Ajani</word-list-planeswalker><soft> </soft><word-list-planeswalker></word-list-planeswalker>
 	rarity: mythic rare
 	rule text:
-		Distribute three +1/+1 counters among one, two, or three target creatures you control.<error-spelling>
-		</error-spelling>
+		Distribute three +1/+1 counters among one, two, or three target creatures you control.
 		Look at the top four cards of your library. You may reveal an Aura, creature, or planeswalker card from among them and put it into your hand. Put the rest on the bottom of your library in any order.
 		You gain 100 life.
 	flavor text: <i-flavor></i-flavor>
+	loyalty: 4
 	loyalty cost 1: +1
 	loyalty cost 2: +1
 	loyalty cost 3: -8
