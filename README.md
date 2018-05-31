@@ -1,13 +1,12 @@
 **Untitled**
 
-A custom set of cards for a commander draft format at or above the power level and complexity of masters sets. Intended to be drafted as 4 packs with 16 cards: 10 commons, 3 uncommons, 1 rare, 1 commander, and 1 land. Two cards should be taken with every pick.
+A custom set of cards for a commander draft format at or above the power level and complexity of masters sets. Intended to be drafted as 1 commander pack with 4 commanders then 3 packs with 15 cards each: 8 commons, 4 uncommons, 2 rare, and 1 land.
 
-With 100 commons, 60 uncommons, 40 rares, 40 commanders, and 20 lands
+With 120 commons, 60 uncommons, 40 rares, 20 commanders, and 20 lands
 
 With primary themes of +1/+1 counters mattering and enchantments mattering.
 
 *New Mechanics*
-Original Saga Design - Board game movement along the card.
 Counterfall N - Whenever one or more counters are placed on a creature you control if it has N or more counters on it...
 Token Auras
 

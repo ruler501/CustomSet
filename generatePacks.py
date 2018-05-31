@@ -18,7 +18,6 @@ rares = [card[1:] for card in cards if card.startswith("R")]
 lands = [card[1:] for card in cards if card.startswith("S")]
 uncommons = [card[1:] for card in cards if card.startswith("U")]
 commons = [card[1:] for card in cards if card.startswith("C") and not card.startswith("Com")]
-commons += commons
 
 shuffle(commanders)
 shuffle(rares)
@@ -32,18 +31,25 @@ print(len(lands), "Lands")
 print(len(uncommons), "Uncommons")
 print(len(commons), "Commons")
 packs = []
-for i in range(20):
+for i in range(5):
     pack = []
-    pack.append("Com" + commanders[-1])
-    commanders.pop()
-    pack.append("R" + rares[-1])
-    rares.pop()
-    pack.append("S" + lands[-1])
-    lands.pop()
-    for _ in range(3):
+    for _ in range(4):
+        pack.append("Com" + commanders[-1])
+        commanders.pop()
+    with open(str(i+1)+"-commander-pack.txt", 'w') as packFile:
+        packFile.write('\n'.join(pack))
+for i in range(15):
+    pack = []
+    for _ in range(1):
+        pack.append("S" + lands[-1])
+        lands.pop()
+    for _ in range(2):
+        pack.append("R" + rares[-1])
+        rares.pop()
+    for _ in range(4):
         pack.append("U" + uncommons[-1])
         uncommons.pop()
-    for _ in range(10):
+    for _ in range(8):
         pack.append("C" + commons[-1])
         commons.pop()
     packs.append(pack)
