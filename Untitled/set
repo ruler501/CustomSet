@@ -7,6 +7,7 @@ set info:
 	automatic reminder text: old, expert, pseudo, action, custom
 	sort multicolor in pairs: yes
 	sort hybrid in pairs: yes
+	mana cost sorting: wedge sorting
 	use gradient multicolor: yes
 styling:
 	magic-m15:
@@ -14,6 +15,9 @@ styling:
 		center text: short text only
 		overlay: 
 	magic-m15-mainframe-planeswalker:
+		text box mana symbols: magic-mana-small.mse-symbol-font
+		overlay: 
+	magic-new-doublefaced:
 		text box mana symbols: magic-mana-small.mse-symbol-font
 		overlay: 
 card:
@@ -1309,14 +1313,14 @@ card:
 	has styling: false
 	notes: Creature
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-30 09:13:11
+	time modified: 2018-05-31 11:58:57
 	name: CR09-Clown Mobster
 	casting cost: 2R
 	image: 
 	super type: <word-list-type>Enchantment Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Clown</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rule text:
-		As long as you control an enchantment, <atom-cardname><nospellcheck>CR09-Clown Mobster</nospellcheck></atom-cardname> has +1/+1 and <kw-a><nospellcheck>haste</nospellcheck></kw-a>.
+		As long as you control an enchantment, <atom-cardname><nospellcheck>CR09-Clown Mobster</nospellcheck></atom-cardname> gets +1/+1 and has <kw-a><nospellcheck>haste</nospellcheck></kw-a>.
 		“<error-spelling:en_us:/magic.mse-game/magic-words>Honkboss</error-spelling:en_us:/magic.mse-game/magic-words> Tony said to break your knees in for squealing.”
 	flavor text: <i-flavor></i-flavor>
 	power: 3
@@ -1469,16 +1473,16 @@ card:
 	has styling: false
 	notes: Creature
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-30 09:12:39
+	time modified: 2018-05-31 11:58:18
 	name: CR03-Counterfall Menacer
-	casting cost: 1R
+	casting cost: 2R
 	image: 
 	super type: <word-list-type>Enchantment Creature</word-list-type>
 	sub type: <word-list-race>Goblin</word-list-race> <word-list-class>Clown</word-list-class><soft> </soft><word-list-class></word-list-class>
-	rule text: <kw-A><i-auto><nospellcheck>Counterfall <param-number>1</param-number></nospellcheck></i-auto></kw-A> <error-spelling:en_us:/magic.mse-game/magic-words>-</error-spelling:en_us:/magic.mse-game/magic-words> Whenever one or more +1/+1 counters are placed on a creature you control, if it has 1 or more +1/+1 counters on it, it gains <kw-a><nospellcheck>menace</nospellcheck></kw-a> until end of turn
+	rule text: <kw-A><i-auto><nospellcheck>Counterfall <param-number>1</param-number></nospellcheck></i-auto></kw-A> <error-spelling:en_us:/magic.mse-game/magic-words>-</error-spelling:en_us:/magic.mse-game/magic-words> Whenever one or more +1/+1 counters are placed on a creature you control, if it has 1 or more +1/+1 counters on it, creatures you control gain <kw-a><nospellcheck>menace</nospellcheck></kw-a> until end of turn
 	flavor text: <i-flavor></i-flavor>
 	power: 2
-	toughness: 1
+	toughness: 2
 	card code text: 
 	copyright: 
 	image 2: 
@@ -2209,17 +2213,17 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 08:32:58
-	time modified: 2018-05-29 16:44:56
+	time modified: 2018-05-31 12:26:43
 	card color: white, blue, hybrid, horizontal
-	name: UWU02-Detention Sphere
+	name: CWU01-Detention Sphere
 	casting cost: 1WU
 	image: 
 	super type: <word-list-type>Enchantment</word-list-type>
 	sub type: <word-list-enchantment></word-list-enchantment>
-	rarity: uncommon
+	rarity: common
 	rule text:
-		When <atom-cardname><nospellcheck>UWU02-Detention Sphere</nospellcheck></atom-cardname> enters the battlefield, you may exile target nonland permanent not named <atom-cardname><nospellcheck>UWU02-Detention Sphere</nospellcheck></atom-cardname> and all other permanents with the same name as that permanent.
-		When <atom-cardname><nospellcheck>UWU02-Detention Sphere</nospellcheck></atom-cardname> leaves the battlefield, return the exiled cards to the battlefield under their owner’s control.
+		When <atom-cardname><nospellcheck>CWU01-Detention Sphere</nospellcheck></atom-cardname> enters the battlefield, you may exile target nonland permanent not named <atom-cardname><nospellcheck>CWU01-Detention Sphere</nospellcheck></atom-cardname> and all other permanents with the same name as that permanent.
+		When <atom-cardname><nospellcheck>CWU01-Detention Sphere</nospellcheck></atom-cardname> leaves the battlefield, return the exiled cards to the battlefield under their owner’s control.
 	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
@@ -2473,14 +2477,14 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 08:32:58
-	time modified: 2018-05-30 09:26:19
+	time modified: 2018-05-31 12:15:50
 	card color: white, black, hybrid, horizontal
-	name: UWB01-Blood-Cursed Knight
+	name: CWB01-Blood-Cursed Knight
 	casting cost: 1WB
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
 	sub type: <word-list-race>Vampire</word-list-race> <word-list-class>Knight</word-list-class><soft> </soft><word-list-class></word-list-class>
-	rarity: uncommon
+	rarity: common
 	rule text: As long as you control an enchantment, <error-spelling:en_us:/magic.mse-game/magic-words>Blood-Cursed</error-spelling:en_us:/magic.mse-game/magic-words> Knight gets +1/+1 and has <kw-a><nospellcheck>lifelink</nospellcheck></kw-a>.
 	flavor text: <i-flavor></i-flavor>
 	power: 3
@@ -2521,14 +2525,14 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 08:32:58
-	time modified: 2018-05-30 13:44:05
+	time modified: 2018-05-31 12:07:54
 	card color: black, green, hybrid, horizontal
-	name: UBG01-Golgari Charm
+	name: CBG01-Golgari Charm
 	casting cost: BG
 	image: 
 	super type: <word-list-type>Instant</word-list-type>
 	sub type: <word-list-spell></word-list-spell>
-	rarity: uncommon
+	rarity: common
 	rule text:
 		Choose one —
 		<error-spelling:en_us:/magic.mse-game/magic-words>•</error-spelling:en_us:/magic.mse-game/magic-words> All creatures get -1/-1 until end of turn.
@@ -2611,14 +2615,14 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 08:32:58
-	time modified: 2018-05-30 17:40:22
+	time modified: 2018-05-31 12:11:28
 	card color: blue, green, hybrid, horizontal
-	name: UGU01-Zameck Guildmage
+	name: CGU01-Zameck Guildmage
 	casting cost: GU
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
 	sub type: <word-list-race></word-list-race>
-	rarity: uncommon
+	rarity: common
 	rule text:
 		<sym-auto>GU</sym-auto>: This turn, each creature you control enters the battlefield with an additional +1/+1 counter on it.
 		<sym-auto>GU</sym-auto>, Remove a +1/+1 counter from a creature you control: Draw a card.
@@ -4139,19 +4143,21 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:17:03
-	time modified: 2018-05-31 10:37:16
+	time modified: 2018-05-31 12:21:07
 	card color: red, green, hybrid, horizontal
 	name: RRG01-Savageborn Hydra
 	casting cost: XRG
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
-	sub type: <word-list-race></word-list-race>
+	sub type: <word-list-race>Hydra</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
 	rule text:
 		<kw-a><nospellcheck>Double strike</nospellcheck></kw-a>
 		<atom-cardname><nospellcheck>RRG01-Savageborn Hydra</nospellcheck></atom-cardname> enters the battlefield with X +1/+1 counters on it.
 		<sym-auto>1R/G</sym-auto>: Put a +1/+1 counter on <atom-cardname><nospellcheck>RRG01-Savageborn Hydra</nospellcheck></atom-cardname>. Activate this ability only any time you could cast a sorcery.
 	flavor text: <i-flavor></i-flavor>
+	power: 0
+	toughness: 0
 	card code text: 
 	copyright: 
 	image 2: 
@@ -4835,18 +4841,18 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:53:47
-	time modified: 2018-05-30 18:32:55
+	time modified: 2018-05-31 12:52:18
 	card color: white, blue, green, hybrid, horizontal
-	name: ComGWU01-Utopia, Endbringer
-	casting cost: 4GWU
+	name: MGWU01-Utopia, Endbringer
+	casting cost: 4WGU
 	image: 
 	super type: <word-list-type>Legendary Enchantment Creature</word-list-type>
 	sub type: <word-list-race>God</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rarity: mythic rare
 	rule text:
 		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>, <kw-a><nospellcheck>Indestructible</nospellcheck></kw-a>
-		As long as your <kw-0><nospellcheck>devotion to <param-action>green, white and blue is less than ten, <atom-cardname><nospellcheck>ComGWU01-Utopia, Endbringer</nospellcheck></atom-cardname> isn’t a creature</param-action>.</nospellcheck></kw-0>
-		<sym-auto>GWU</sym-auto>: Starting with you, each player votes for a nonland permanent you don’t control. Exile each permanent with the most votes or tied for most votes. Each of those permanents’ controllers draws a card.
+		As long as your <kw-0><nospellcheck>devotion to <param-action>green, white and blue is less than ten, <atom-cardname><nospellcheck>MGWU01-Utopia, Endbringer</nospellcheck></atom-cardname> isn’t a creature</param-action>.</nospellcheck></kw-0>
+		<sym-auto>WGU</sym-auto>: Starting with you, each player votes for a nonland permanent you don’t control. Exile each permanent with the most votes or tied for most votes. Each of those permanents’ controllers draws a card.
 	flavor text: <i-flavor></i-flavor>
 	power: 10
 	toughness: 10
@@ -4861,15 +4867,15 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:54:35
-	time modified: 2018-05-29 20:56:19
+	time modified: 2018-05-31 12:52:12
 	card color: white, blue, green, hybrid, horizontal
-	name: ComGWU02-Miles
-	casting cost: 1GWU
+	name: MGWU02-Miles
+	casting cost: 1WGU
 	image: 
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race></word-list-race>
 	rarity: mythic rare
-	rule text: <kw-A><i-auto><nospellcheck>Constellation</nospellcheck></i-auto></kw-A> — Whenever <atom-cardname><nospellcheck>ComGWU02-Miles</nospellcheck></atom-cardname> or another enchantment enters the battlefield under your control up to two target players draw a card and distribute 2 +1/+1 counters between up to two target creatures
+	rule text: <kw-A><i-auto><nospellcheck>Constellation</nospellcheck></i-auto></kw-A> — Whenever <atom-cardname><nospellcheck>MGWU02-Miles</nospellcheck></atom-cardname> or another enchantment enters the battlefield under your control up to two target players draw a card and distribute 2 +1/+1 counters between up to two target creatures
 	flavor text: <i-flavor></i-flavor>
 	power: 2
 	toughness: 2
@@ -4884,16 +4890,16 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:54:54
-	time modified: 2018-05-30 18:34:42
+	time modified: 2018-05-31 12:50:56
 	card color: white, black, green, hybrid, horizontal
-	name: ComBGW01-Ghave, Guru of Spores
-	casting cost: 2BGW
+	name: MBGW01-Ghave, Guru of Spores
+	casting cost: 2WBG
 	image: 
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race></word-list-race>
 	rarity: mythic rare
 	rule text:
-		<atom-cardname><nospellcheck>ComBGW01-Ghave, Guru of Spores</nospellcheck></atom-cardname> enters the battlefield with five +1/+1 counters on it.
+		<atom-cardname><nospellcheck>MBGW01-Ghave, Guru of Spores</nospellcheck></atom-cardname> enters the battlefield with five +1/+1 counters on it.
 		<sym-auto>1</sym-auto>, Remove a +1/+1 counter from a creature you control: Create a 1/1 green Saproling creature token.
 		<sym-auto>1</sym-auto>, Sacrifice a creature: Put a +1/+1 counter on target creature.
 	flavor text: <i-flavor></i-flavor>
@@ -4910,10 +4916,10 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:55:32
-	time modified: 2018-05-30 12:58:31
+	time modified: 2018-05-31 12:52:46
 	card color: white, black, green, hybrid, horizontal
-	name: ComBGW02-Panharmonicon Ripoff
-	casting cost: 2BGW
+	name: MBGW02-Panharmonicon Ripoff
+	casting cost: 2WBG
 	image: 
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race></word-list-race>
@@ -4933,16 +4939,16 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:55:58
-	time modified: 2018-05-30 12:59:03
+	time modified: 2018-05-31 12:52:32
 	card color: blue, black, green, hybrid, horizontal
-	name: ComGUB01-Derek, Miller
-	casting cost: 3GUB
+	name: MGUB01-Derek, Miller
+	casting cost: 3BGU
 	image: 
 	super type: <word-list-type>Legendary Enchantment Creature</word-list-type>
 	sub type: <word-list-race>Nymph</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rarity: mythic rare
 	rule text:
-		<kw-A><i-auto><nospellcheck>Constellation</nospellcheck></i-auto></kw-A> — Whenever <atom-cardname><nospellcheck>ComGUB01-Derek, Miller</nospellcheck></atom-cardname> or another enchantment enters the battlefield under your control <kw-0><nospellcheck>bolster <param-number>3</param-number></nospellcheck></kw-0>
+		<kw-A><i-auto><nospellcheck>Constellation</nospellcheck></i-auto></kw-A> — Whenever <atom-cardname><nospellcheck>MGUB01-Derek, Miller</nospellcheck></atom-cardname> or another enchantment enters the battlefield under your control <kw-0><nospellcheck>bolster <param-number>3</param-number></nospellcheck></kw-0>
 		Remove a +1/+1 counter from a creature you control: Target player puts the top 2 cards from the top of their library into their graveyard.
 	flavor text: <i-flavor></i-flavor>
 	power: 4
@@ -4958,17 +4964,17 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:56:54
-	time modified: 2018-05-30 13:01:14
+	time modified: 2018-05-31 12:52:22
 	card color: blue, black, green, hybrid, horizontal
-	name: ComGUB02-Vorosh, the Hunter
-	casting cost: 3GUB
+	name: MGUB02-Vorosh, the Hunter
+	casting cost: 3BGU
 	image: 
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Dragon</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rarity: mythic rare
 	rule text:
 		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>
-		<error-spelling:en_us:/magic.mse-game/magic-words>Whenenver</error-spelling:en_us:/magic.mse-game/magic-words> <atom-cardname><nospellcheck>ComGUB02-Vorosh, the Hunter</nospellcheck></atom-cardname> does combat damage to a player you may pay <sym-auto>2G</sym-auto>. If you do, put six +1/+1 counters on <error-spelling:en_us:/magic.mse-game/magic-words>Vorosh</error-spelling:en_us:/magic.mse-game/magic-words>
+		<error-spelling:en_us:/magic.mse-game/magic-words>Whenenver</error-spelling:en_us:/magic.mse-game/magic-words> <atom-cardname><nospellcheck>MGUB02-Vorosh, the Hunter</nospellcheck></atom-cardname> does combat damage to a player you may pay <sym-auto>2G</sym-auto>. If you do, put six +1/+1 counters on <error-spelling:en_us:/magic.mse-game/magic-words>Vorosh</error-spelling:en_us:/magic.mse-game/magic-words>
 	flavor text: <i-flavor></i-flavor>
 	power: 6
 	toughness: 6
@@ -4983,10 +4989,10 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:57:10
-	time modified: 2018-05-30 19:00:55
+	time modified: 2018-05-31 12:51:52
 	card color: white, blue, red, hybrid, horizontal
-	name: ComRWU01-Ben
-	casting cost: 2RWU
+	name: MRWU01-Ben
+	casting cost: 2URW
 	image: 
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Wizard</word-list-class><soft> </soft><word-list-class></word-list-class>
@@ -5009,10 +5015,10 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:57:45
-	time modified: 2018-05-30 19:04:51
+	time modified: 2018-05-31 12:51:48
 	card color: white, blue, red, hybrid, horizontal
-	name: ComRWU02-Enchantment Copier
-	casting cost: 1RWU
+	name: MRWU02-Enchantment Copier
+	casting cost: 1URW
 	image: 
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race></word-list-race>
@@ -5032,19 +5038,19 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:58:15
-	time modified: 2018-05-30 18:45:48
+	time modified: 2018-05-31 12:52:04
 	card color: white, red, green, hybrid, horizontal
-	name: ComRGW01-Marath, Will of the Wild
-	casting cost: RGW
+	name: MRGW01-Marath, Will of the Wild
+	casting cost: GRW
 	image: 
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race></word-list-race>
 	rarity: mythic rare
 	rule text:
-		<atom-cardname><nospellcheck>ComRGW01-Marath, Will of the Wild</nospellcheck></atom-cardname> enters the battlefield with a number of +1/+1 counters on it equal to the amount of mana spent to cast it.
-		Variable Colorless, Remove X +1/+1 counters from <atom-cardname><nospellcheck>ComRGW01-Marath, Will of the Wild</nospellcheck></atom-cardname>: Choose one —
+		<atom-cardname><nospellcheck>MRGW01-Marath, Will of the Wild</nospellcheck></atom-cardname> enters the battlefield with a number of +1/+1 counters on it equal to the amount of mana spent to cast it.
+		Variable Colorless, Remove X +1/+1 counters from <atom-cardname><nospellcheck>MRGW01-Marath, Will of the Wild</nospellcheck></atom-cardname>: Choose one —
 		<error-spelling:en_us:/magic.mse-game/magic-words>•</error-spelling:en_us:/magic.mse-game/magic-words> Put X +1/+1 counters on target creature. X can’t be 0.
-		<error-spelling:en_us:/magic.mse-game/magic-words>•</error-spelling:en_us:/magic.mse-game/magic-words> <atom-cardname><nospellcheck>ComRGW01-Marath, Will of the Wild</nospellcheck></atom-cardname> deals X damage to any target. X can’t be 0.
+		<error-spelling:en_us:/magic.mse-game/magic-words>•</error-spelling:en_us:/magic.mse-game/magic-words> <atom-cardname><nospellcheck>MRGW01-Marath, Will of the Wild</nospellcheck></atom-cardname> deals X damage to any target. X can’t be 0.
 		<error-spelling:en_us:/magic.mse-game/magic-words>•</error-spelling:en_us:/magic.mse-game/magic-words> Create an X/X green Elemental creature token. X can’t be 0.
 	flavor text: <i-flavor></i-flavor>
 	card code text: 
@@ -5058,17 +5064,17 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:59:58
-	time modified: 2018-05-30 18:22:02
+	time modified: 2018-05-31 12:51:58
 	card color: white, red, green, hybrid, horizontal
-	name: ComRGW02-Hadayosh, Endbringer
-	casting cost: 4RGW
+	name: MRGW02-Hadayosh, Endbringer
+	casting cost: 4GRW
 	image: 
 	super type: <word-list-type>Legendary Enchantment Creature</word-list-type>
 	sub type: <word-list-race>God</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rarity: mythic rare
 	rule text:
 		<kw-a><nospellcheck>Trample</nospellcheck></kw-a>, <kw-a><nospellcheck>Indestructible</nospellcheck></kw-a>
-		As long as your <kw-0><nospellcheck>devotion to <param-action>red, green and white is less than ten, <atom-cardname><nospellcheck>ComRGW02-Hadayosh, Endbringer</nospellcheck></atom-cardname> isn’t a creature</param-action>.</nospellcheck></kw-0>
+		As long as your <kw-0><nospellcheck>devotion to <param-action>red, green and white is less than ten, <atom-cardname><nospellcheck>MRGW02-Hadayosh, Endbringer</nospellcheck></atom-cardname> isn’t a creature</param-action>.</nospellcheck></kw-0>
 		Tap three untapped creatures you control: Create a 5/5 green Beast creature token.
 	flavor text: <i-flavor></i-flavor>
 	power: 10
@@ -5084,17 +5090,17 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 22:00:18
-	time modified: 2018-05-30 18:26:32
+	time modified: 2018-05-31 12:51:08
 	card color: white, blue, black, hybrid, horizontal
-	name: ComWUB01-Khonsu, Endbringer
-	casting cost: 4WUB
+	name: MWUB01-Khonsu, Endbringer
+	casting cost: 4UWB
 	image: 
 	super type: <word-list-type>Legendary Enchantment Creature</word-list-type>
 	sub type: <word-list-race>God</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rarity: mythic rare
 	rule text:
 		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>, <kw-a><nospellcheck>Indestructible</nospellcheck></kw-a>
-		As long as your <kw-0><nospellcheck>devotion to <param-action>white, blue, and black is less than ten, <atom-cardname><nospellcheck>ComWUB01-Khonsu, Endbringer</nospellcheck></atom-cardname> isn’t a creature</param-action>.</nospellcheck></kw-0>
+		As long as your <kw-0><nospellcheck>devotion to <param-action>white, blue, and black is less than ten, <atom-cardname><nospellcheck>MWUB01-Khonsu, Endbringer</nospellcheck></atom-cardname> isn’t a creature</param-action>.</nospellcheck></kw-0>
 		<sym>WUB</sym>: Exile target enchantment you control, then return it to the battlefield under its owner’s control.
 	flavor text: <i-flavor></i-flavor>
 	power: 10
@@ -5110,10 +5116,10 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 22:00:55
-	time modified: 2018-05-30 18:16:37
+	time modified: 2018-05-31 12:51:02
 	card color: white, blue, black, hybrid, horizontal
-	name: ComWUB02-Nathan, The Traveller
-	casting cost: 3WUB
+	name: MWUB02-Nathan, The Traveller
+	casting cost: 3UWB
 	image: 
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Wizard</word-list-class><soft> </soft><word-list-class></word-list-class>
@@ -5122,7 +5128,7 @@ card:
 		<kw-a><nospellcheck>Flash</nospellcheck></kw-a>
 		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>
 		Enchantment spells you own have <kw-a><nospellcheck>flash</nospellcheck></kw-a>.
-		Whenever you cast an enchantment spell, you may pay <sym-auto>1UB</sym-auto>. If you do, counter target spell unless its controller pays <sym-auto>3</sym-auto>.
+		Whenever you cast an enchantment spell, you may pay <sym-auto>1BU</sym-auto>. If you do, counter target spell unless its controller pays <sym-auto>3</sym-auto>.
 	flavor text: <i-flavor></i-flavor>
 	power: 4
 	toughness: 4
@@ -5137,17 +5143,17 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 22:01:26
-	time modified: 2018-05-31 09:18:07
+	time modified: 2018-05-31 12:51:43
 	card color: blue, black, red, hybrid, horizontal
-	name: ComUBR01-Charles
-	casting cost: 2UBR
+	name: MUBR01-Charles
+	casting cost: 2BUR
 	image: 
 	super type: <word-list-type>Legendary Enchantment Creature</word-list-type>
 	sub type: <word-list-race>Clown</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rarity: mythic rare
 	rule text:
 		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>
-		<kw-A><i-auto><nospellcheck>Constellation</nospellcheck></i-auto></kw-A> — Whenever <atom-cardname><nospellcheck>ComUBR01-Charles</nospellcheck></atom-cardname> or another enchantment enters the battlefield under your control you may cast target creature card in a graveyard until end of turn.
+		<kw-A><i-auto><nospellcheck>Constellation</nospellcheck></i-auto></kw-A> — Whenever <atom-cardname><nospellcheck>MUBR01-Charles</nospellcheck></atom-cardname> or another enchantment enters the battlefield under your control you may cast target creature card in a graveyard until end of turn.
 	flavor text: <i-flavor></i-flavor>
 	power: 4
 	toughness: 4
@@ -5162,19 +5168,19 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 22:01:49
-	time modified: 2018-05-30 18:09:11
+	time modified: 2018-05-31 12:51:33
 	card color: blue, black, red, hybrid, horizontal
-	name: ComUBR02-Simurgh, Endbringer
-	casting cost: 4UBR
+	name: MUBR02-Simurgh, Endbringer
+	casting cost: 4BUR
 	image: 
 	super type: <word-list-type>Legendary Enchantment Creature</word-list-type>
 	sub type: <word-list-race>God</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rarity: mythic rare
 	rule text:
 		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>, <kw-a><nospellcheck>Indestructible</nospellcheck></kw-a>
-		As long as your <kw-0><nospellcheck>devotion to <param-action>red, blue and black is less than ten, <atom-cardname><nospellcheck>ComUBR02-Simurgh, Endbringer</nospellcheck></atom-cardname> isn’t a creature</param-action>.</nospellcheck></kw-0>
-		<sym-auto>1R</sym-auto>: <atom-cardname><nospellcheck>ComUBR02-Simurgh, Endbringer</nospellcheck></atom-cardname> deals 1 damage to target creature. That creature becomes an enchantment in addition to its other types.
-		<sym-auto>4UB</sym-auto>: Gain control of target enchantment creature.
+		As long as your <kw-0><nospellcheck>devotion to <param-action>red, blue and black is less than ten, <atom-cardname><nospellcheck>MUBR02-Simurgh, Endbringer</nospellcheck></atom-cardname> isn’t a creature</param-action>.</nospellcheck></kw-0>
+		<sym-auto>1R</sym-auto>: <atom-cardname><nospellcheck>MUBR02-Simurgh, Endbringer</nospellcheck></atom-cardname> deals 1 damage to target creature. That creature becomes an enchantment in addition to its other types.
+		<sym-auto>4BU</sym-auto>: Gain control of target enchantment creature.
 	flavor text: <i-flavor></i-flavor>
 	power: 10
 	toughness: 10
@@ -5189,15 +5195,15 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 22:02:47
-	time modified: 2018-05-29 16:09:19
+	time modified: 2018-05-31 12:52:41
 	card color: black, red, green, hybrid, horizontal
-	name: ComBRG01-Kresh the Bloodbraided
-	casting cost: 2BRG
+	name: MBRG01-Kresh the Bloodbraided
+	casting cost: 2RBG
 	image: 
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Warrior</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: mythic rare
-	rule text: Whenever another creature dies, you may put X +1/+1 counters on <atom-cardname><nospellcheck>ComBRG01-Kresh the Bloodbraided</nospellcheck></atom-cardname>, where X is that creature’s power.
+	rule text: Whenever another creature dies, you may put X +1/+1 counters on <atom-cardname><nospellcheck>MBRG01-Kresh the Bloodbraided</nospellcheck></atom-cardname>, where X is that creature’s power.
 	flavor text: <i-flavor></i-flavor>
 	power: 3
 	toughness: 3
@@ -5212,17 +5218,17 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 22:03:09
-	time modified: 2018-05-30 18:25:38
+	time modified: 2018-05-31 12:52:36
 	card color: black, red, green, hybrid, horizontal
-	name: ComBRG02-Tohu and Bohu, Endbringer
-	casting cost: 4BRG
+	name: MBRG02-Tohu and Bohu, Endbringer
+	casting cost: 4RBG
 	image: 
 	super type: <word-list-type>Legendary Enchantment Creature</word-list-type>
 	sub type: <word-list-race>God</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rarity: mythic rare
 	rule text:
 		<kw-a><nospellcheck>Menace</nospellcheck></kw-a>, <kw-a><nospellcheck>Indestructible</nospellcheck></kw-a>
-		As long as your <kw-0><nospellcheck>devotion to <param-action>black, red and green is less than ten, <atom-cardname><nospellcheck>ComBRG02-Tohu and Bohu, Endbringer</nospellcheck></atom-cardname> isn’t a creature</param-action>.</nospellcheck></kw-0>
+		As long as your <kw-0><nospellcheck>devotion to <param-action>black, red and green is less than ten, <atom-cardname><nospellcheck>MBRG02-Tohu and Bohu, Endbringer</nospellcheck></atom-cardname> isn’t a creature</param-action>.</nospellcheck></kw-0>
 		Creatures you control have “<sym-auto>T</sym-auto>: <kw-a><nospellcheck>Bolster <param-number>1</param-number></nospellcheck></kw-a>.”
 		<sym-auto>1</sym-auto>, Remove a +1/+1 counter from a creature you control: Choose <error-spelling:en_us:/magic.mse-game/magic-words>one-</error-spelling:en_us:/magic.mse-game/magic-words> Create a 1/1 red Goblin creature token; or add two mana of any one color.
 	flavor text: <i-flavor></i-flavor>
@@ -5239,15 +5245,15 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 22:03:39
-	time modified: 2018-05-30 18:36:51
+	time modified: 2018-05-31 12:51:13
 	card color: white, black, red, hybrid, horizontal
-	name: ComWRB01-Garrett
-	casting cost: 4WBR
+	name: MWRB01-Garrett
+	casting cost: 4RWB
 	image: 
 	super type: <word-list-type>Legendary Enchantment Creature</word-list-type>
 	sub type: <word-list-race></word-list-race>
 	rarity: mythic rare
-	rule text: <kw-A><i-auto><nospellcheck>Constellation</nospellcheck></i-auto></kw-A> — Whenever <atom-cardname><nospellcheck>ComWRB01-Garrett</nospellcheck></atom-cardname> or another enchantment enters the battlefield under your control reveal cards from the top of your library until you reveal a nonland, nonenchantment permanent card, you may cast that card.
+	rule text: <kw-A><i-auto><nospellcheck>Constellation</nospellcheck></i-auto></kw-A> — Whenever <atom-cardname><nospellcheck>MWRB01-Garrett</nospellcheck></atom-cardname> or another enchantment enters the battlefield under your control reveal cards from the top of your library until you reveal a nonland, nonenchantment permanent card, you may cast that card.
 	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
@@ -5260,19 +5266,19 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 22:04:40
-	time modified: 2018-05-30 18:33:05
+	time modified: 2018-05-31 12:51:19
 	card color: white, black, red, hybrid, horizontal
-	name: ComWRB02-Zurgo Helmsmasher
-	casting cost: WBR
+	name: MWRB02-Zurgo Helmsmasher
+	casting cost: RWB
 	image: 
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race></word-list-race>
 	rarity: mythic rare
 	rule text:
 		<kw-a><nospellcheck>Haste</nospellcheck></kw-a>
-		<atom-cardname><nospellcheck>ComWRB02-Zurgo Helmsmasher</nospellcheck></atom-cardname> attacks each combat if able.
-		<atom-cardname><nospellcheck>ComWRB02-Zurgo Helmsmasher</nospellcheck></atom-cardname> has <kw-a><nospellcheck>indestructible</nospellcheck></kw-a> as long as it’s your turn.
-		Whenever a creature dealt damage by <atom-cardname><nospellcheck>ComWRB02-Zurgo Helmsmasher</nospellcheck></atom-cardname> this turn dies, put a +1/+1 counter on <atom-cardname><nospellcheck>ComWRB02-Zurgo Helmsmasher</nospellcheck></atom-cardname>.
+		<atom-cardname><nospellcheck>MWRB02-Zurgo Helmsmasher</nospellcheck></atom-cardname> attacks each combat if able.
+		<atom-cardname><nospellcheck>MWRB02-Zurgo Helmsmasher</nospellcheck></atom-cardname> has <kw-a><nospellcheck>indestructible</nospellcheck></kw-a> as long as it’s your turn.
+		Whenever a creature dealt damage by <atom-cardname><nospellcheck>MWRB02-Zurgo Helmsmasher</nospellcheck></atom-cardname> this turn dies, put a +1/+1 counter on <atom-cardname><nospellcheck>MWRB02-Zurgo Helmsmasher</nospellcheck></atom-cardname>.
 	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
@@ -5285,17 +5291,17 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 22:05:31
-	time modified: 2018-05-30 18:27:46
+	time modified: 2018-05-31 12:51:28
 	card color: blue, red, green, hybrid, horizontal
-	name: ComUGR01-Animar, Soul of Elements
-	casting cost: URG
+	name: MUGR01-Animar, Soul of Elements
+	casting cost: GUR
 	image: 
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Elemental</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rarity: mythic rare
 	rule text:
-		Whenever you cast a creature spell, put a +1/+1 counter on <atom-cardname><nospellcheck>ComUGR01-Animar, Soul of Elements</nospellcheck></atom-cardname>.
-		Creature spells you cast cost <sym-auto>1</sym-auto> less to cast for each +1/+1 counter on <atom-cardname><nospellcheck>ComUGR01-Animar, Soul of Elements</nospellcheck></atom-cardname>.
+		Whenever you cast a creature spell, put a +1/+1 counter on <atom-cardname><nospellcheck>MUGR01-Animar, Soul of Elements</nospellcheck></atom-cardname>.
+		Creature spells you cast cost <sym-auto>1</sym-auto> less to cast for each +1/+1 counter on <atom-cardname><nospellcheck>MUGR01-Animar, Soul of Elements</nospellcheck></atom-cardname>.
 	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
@@ -5308,10 +5314,10 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 22:05:52
-	time modified: 2018-05-30 18:57:00
+	time modified: 2018-05-31 12:51:23
 	card color: blue, red, green, hybrid, horizontal
-	name: ComUGR02-Joseph
-	casting cost: 2URG
+	name: MUGR02-Joseph
+	casting cost: 2GUR
 	image: 
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race></word-list-race>
@@ -5377,10 +5383,14 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-31 10:21:24
-	time modified: 2018-05-31 10:21:29
-	name: CR17
+	time modified: 2018-05-31 12:00:06
+	name: CR17-Vampiric Rites
 	casting cost: R
 	image: 
+	super type: <word-list-type>Enchantment</word-list-type>
+	sub type: <word-list-enchantment></word-list-enchantment>
+	rule text: Whenever a creature dies you may pay <sym-auto>1</sym-auto>, if you do, put a +1/+1 counter on target creature.
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
@@ -5392,10 +5402,14 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-31 10:21:37
-	time modified: 2018-05-31 10:21:44
-	name: CG17
-	casting cost: G
+	time modified: 2018-05-31 12:03:05
+	name: CG17-Bramblecrush
+	casting cost: 2GG
 	image: 
+	super type: <word-list-type>Sorcery</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rule text: Destroy target noncreature permanent.
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
@@ -5426,158 +5440,15 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-31 10:22:55
-	time modified: 2018-05-31 10:23:34
-	name: CA16
-	casting cost: 1
+	time modified: 2018-05-31 20:18:05
+	name: CA16-Solemn Simulacrum
+	casting cost: 4
 	image: 
 	super type: <word-list-type>Artifact</word-list-type>
 	sub type: <word-list-artifact></word-list-artifact>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2018-05-31 10:22:55
-	time modified: 2018-05-31 10:24:14
-	name: CA17
-	casting cost: 1
-	image: 
-	super type: <word-list-type>Artifact</word-list-type>
-	sub type: <word-list-artifact></word-list-artifact>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2018-05-31 10:22:55
-	time modified: 2018-05-31 10:23:41
-	name: CA18
-	casting cost: 1
-	image: 
-	super type: <word-list-type>Artifact</word-list-type>
-	sub type: <word-list-artifact></word-list-artifact>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2018-05-31 10:22:55
-	time modified: 2018-05-31 10:23:52
-	name: CA19
-	casting cost: 1
-	image: 
-	super type: <word-list-type>Artifact</word-list-type>
-	sub type: <word-list-artifact></word-list-artifact>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2018-05-31 10:22:55
-	time modified: 2018-05-31 10:24:05
-	name: CA20
-	casting cost: 1
-	image: 
-	super type: <word-list-type>Artifact</word-list-type>
-	sub type: <word-list-artifact></word-list-artifact>
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2018-05-31 10:24:45
-	time modified: 2018-05-31 10:24:54
-	name: CWU01
-	casting cost: WU
-	image: 
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2018-05-31 10:25:07
-	time modified: 2018-05-31 10:25:18
-	name: CUB01
-	casting cost: UB
-	image: 
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2018-05-31 10:26:35
-	time modified: 2018-05-31 10:26:45
-	name: CBR01
-	casting cost: BR
-	image: 
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2018-05-31 10:26:49
-	time modified: 2018-05-31 10:26:56
-	name: CRG01
-	casting cost: RG
-	image: 
-	card code text: 
-	copyright: 
-	image 2: 
-	copyright 2: 
-	copyright 3: 
-	mainframe image: 
-	mainframe image 2: 
-card:
-	has styling: false
-	notes: 
-	time created: 2018-05-31 10:27:02
-	time modified: 2018-05-31 10:57:05
-	name: CGW01-Qasali Pridemage
-	casting cost: GW
-	image: 
 	rule text:
-		<kw-A><nospellcheck>Exalted</nospellcheck><atom-reminder-expert> <i-auto>(Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)</i-auto></atom-reminder-expert></kw-A>
-		<sym-auto>1</sym-auto>, Sacrifice <atom-cardname><nospellcheck>CGW01-Qasali Pridemage</nospellcheck></atom-cardname>: Destroy target artifact or enchantment.
+		When <atom-cardname><nospellcheck>CA16-Solemn Simulacrum</nospellcheck></atom-cardname> enters the battlefield, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle your library.
+		When <atom-cardname><nospellcheck>CA16-Solemn Simulacrum</nospellcheck></atom-cardname> dies, you may draw a card.
 	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
@@ -5589,11 +5460,210 @@ card:
 card:
 	has styling: false
 	notes: 
+	time created: 2018-05-31 10:22:55
+	time modified: 2018-05-31 20:19:33
+	name: CA17-Fellwar Stone
+	casting cost: 2
+	image: 
+	super type: <word-list-type>Artifact</word-list-type>
+	sub type: <word-list-artifact></word-list-artifact>
+	rule text: <sym-auto>T</sym-auto>: Add one mana of any color that a land an opponent controls could produce
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-31 10:22:55
+	time modified: 2018-05-31 20:19:06
+	name: CA18-Burnished Hart
+	casting cost: 3
+	image: 
+	super type: <word-list-type>Artifact</word-list-type>
+	sub type: <word-list-artifact></word-list-artifact>
+	rule text: <sym-auto>3</sym-auto>, Sacrifice <atom-cardname><nospellcheck>CA18-Burnished Hart</nospellcheck></atom-cardname>: Search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle your library.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-31 10:22:55
+	time modified: 2018-05-31 20:20:34
+	name: CA19-Swiftfoot Boots
+	casting cost: 2
+	image: 
+	super type: <word-list-type>Artifact</word-list-type>
+	sub type: <word-list-artifact>Equipment</word-list-artifact><soft> </soft><word-list-artifact></word-list-artifact>
+	rule text:
+		Equipped creature has hexproof and haste.
+		<kw-a><nospellcheck>Equip <param-cost><sym-auto>1</sym-auto></param-cost></nospellcheck></kw-a>
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-31 10:22:55
+	time modified: 2018-05-31 20:21:09
+	name: CA20-Lightning Greaves
+	casting cost: 2
+	image: 
+	super type: <word-list-type>Artifact</word-list-type>
+	sub type: <word-list-artifact>Equipment</word-list-artifact><soft> </soft><word-list-artifact></word-list-artifact>
+	rule text:
+		Equipped creature has haste and shroud
+		<kw-a><nospellcheck>Equip <param-cost><sym-auto>0</sym-auto></param-cost></nospellcheck></kw-a>
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-31 10:24:45
+	time modified: 2018-05-31 12:26:49
+	card color: white, blue, hybrid, horizontal
+	name: UWU02-Righteous Authority
+	casting cost: 3WU
+	image: 
+	super type: <word-list-type>Enchantment</word-list-type>
+	sub type: <word-list-enchantment>Aura</word-list-enchantment><soft> </soft><word-list-enchantment></word-list-enchantment>
+	rule text:
+		<kw-a><nospellcheck>Enchant <param-name>creature</param-name></nospellcheck></kw-a>
+		Enchanted creature gets +1/+1 for each card in its controller’s hand.
+		At the beginning of the draw step of enchanted creature’s controller, that player draws an additional card.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-31 10:25:07
+	time modified: 2018-05-31 12:23:21
+	card color: blue, black, hybrid, horizontal
+	name: CUB01-Fate Transfer
+	casting cost: 1U/B
+	image: 
+	super type: <word-list-type>Instant</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rule text: Move all counters from target creature onto another target creature.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-31 10:26:35
+	time modified: 2018-05-31 12:22:00
+	card color: black, red, hybrid, horizontal
+	name: CBR01-Blood Cultist
+	casting cost: 1BR
+	image: 
+	super type: <word-list-type>Creatures</word-list-type>
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Wizard</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rule text:
+		<sym-auto>T</sym-auto>: <atom-cardname><nospellcheck>CBR01-Blood Cultist</nospellcheck></atom-cardname> Deals 1 damage to target creature.
+		Whenever a creature dealt damage by <atom-cardname><nospellcheck>CBR01-Blood Cultist</nospellcheck></atom-cardname> this turn dies, put a +1/+1 counter on <atom-cardname><nospellcheck>CBR01-Blood Cultist</nospellcheck></atom-cardname>.
+	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 1
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-31 10:26:49
+	time modified: 2018-05-31 17:05:41
+	card color: red, green, hybrid, horizontal
+	name: CRG01-Mass Bolsterer
+	casting cost: 1RG
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race>
+	rule text: <sym-auto>XX</sym-auto>, <sym-auto>T</sym-auto>: <kw-1><nospellcheck>Bolster <param-number>1</param-number></nospellcheck> X times.<atom-reminder-action> <i-auto>(Choose a creature with the least toughness among creatures you control and put <param-number>a</param-number> +1/+1 counter on it.)</i-auto></atom-reminder-action></kw-1>
+	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 1
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-05-31 10:27:02
+	time modified: 2018-05-31 12:21:15
+	card color: white, green, hybrid, horizontal
+	name: CGW01-Qasali Pridemage
+	casting cost: GW
+	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race></word-list-race>
+	rule text:
+		<kw-A><nospellcheck>Exalted</nospellcheck><atom-reminder-expert> <i-auto>(Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)</i-auto></atom-reminder-expert></kw-A>
+		<sym-auto>1</sym-auto>, Sacrifice <atom-cardname><nospellcheck>CGW01-Qasali Pridemage</nospellcheck></atom-cardname>: Destroy target artifact or enchantment.
+	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 2
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
 	time created: 2018-05-31 10:28:23
-	time modified: 2018-05-31 10:28:31
-	name: CWB01
+	time modified: 2018-05-31 12:17:11
+	card color: white, black, hybrid, horizontal
+	name: UWB01-Mortify
 	casting cost: WB
 	image: 
+	super type: <word-list-type>Instant</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
+	rarity: uncommon
+	rule text: Destroy target creature or enchantment.
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
@@ -5605,10 +5675,19 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-31 10:28:39
-	time modified: 2018-05-31 10:29:07
-	name: CUR01
+	time modified: 2018-05-31 12:15:19
+	card color: blue, red, hybrid, horizontal
+	name: CUR01-Marchesa’s Smuggler
 	casting cost: UR
 	image: 
+	super type: <word-list-type>Creature</word-list-type>
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Rogue</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rule text:
+		<kw-A><nospellcheck>Dethrone</nospellcheck><atom-reminder-expert> <i-auto>(Whenever this creature attacks the player with the most life or tied for most life, put a +1/+1 counter on it.)</i-auto></atom-reminder-expert></kw-A><error-spelling> </error-spelling>
+		<sym-auto>1UR</sym-auto>: Target creature you control gains <kw-a><nospellcheck>haste</nospellcheck></kw-a> until end of turn and can’t be blocked this turn.
+	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 1
 	card code text: 
 	copyright: 
 	image 2: 
@@ -5620,10 +5699,20 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-31 10:29:20
-	time modified: 2018-05-31 10:29:28
-	name: CBG01
-	casting cost: BG
+	time modified: 2018-05-31 12:09:45
+	card color: black, green, hybrid, horizontal
+	name: UBG01-Varolz, the Scar-Striped.
+	casting cost: 1BG
 	image: 
+	super type: <word-list-type>Legendary Creature</word-list-type>
+	sub type: <word-list-race>Troll</word-list-race> <word-list-class>Warrior</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rarity: uncommon
+	rule text:
+		Each creature card in your graveyard has scavenge. The scavenge cost is equal to its mana cost. <i-auto>(Exile a creature card from your graveyard and pay its mana cost: Put a number of +1/+1 counters equal to that card’s power on target creature. Scavenge only as a sorcery.)</i-auto>
+		Sacrifice another creature: <kw-0><nospellcheck>Regenerate</nospellcheck></kw-0> <atom-cardname><nospellcheck>UBG01-Varolz, the Scar-Striped.</nospellcheck></atom-cardname>
+	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 2
 	card code text: 
 	copyright: 
 	image 2: 
@@ -5635,10 +5724,15 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-31 10:29:34
-	time modified: 2018-05-31 10:29:42
-	name: CRW01
-	casting cost: RW
+	time modified: 2018-05-31 12:10:33
+	card color: white, red, hybrid, horizontal
+	name: CRW01-Gleam of Battle
+	casting cost: 4RW
 	image: 
+	super type: <word-list-type>Enchantment</word-list-type>
+	sub type: <word-list-enchantment></word-list-enchantment>
+	rule text: Whenever a creature you control attacks, put a +1/+1 counter on it.
+	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
@@ -5647,16 +5741,33 @@ card:
 	mainframe image: 
 	mainframe image 2: 
 card:
+	stylesheet: new-doublefaced
 	has styling: false
 	notes: 
 	time created: 2018-05-31 10:29:46
-	time modified: 2018-05-31 10:29:54
-	name: CGU01
+	time modified: 2018-05-31 12:13:33
+	card color: blue, green, hybrid, horizontal
+	name: UGU01-Hadana’s Climb
 	casting cost: GU
 	image: 
+	super type: <word-list-type>Legendary Enchantment</word-list-type>
+	sub type: <word-list-enchantment></word-list-enchantment>
+	rarity: uncommon
+	rule text: 
+	flavor text: <i-flavor>At the beginning of combat on your turn, put a <error-spelling:en_us>+1/+1</error-spelling:en_us> counter on target creature you control. Then if that creature has three or more <error-spelling:en_us>+1/+1</error-spelling:en_us> counters on it, transform <error-spelling:en_us>Hadana’s</error-spelling:en_us> Climb.</i-flavor>
 	card code text: 
 	copyright: 
+	name 2: UG01-Winged Temple of Orazca
 	image 2: 
+	super type 2: <word-list-type>Legendary Land</word-list-type>
+	sub type 2: <word-list-land></word-list-land>
+	rule text 2:
+		<i-auto>(Transforms from <error-spelling:en_us:/magic.mse-game/magic-words>Hadana’s</error-spelling:en_us:/magic.mse-game/magic-words> Climb.)</i-auto><error-spelling>
+		</error-spelling>
+		<sym-auto>T</sym-auto>: Add one mana of any color.<error-spelling>
+		</error-spelling>
+		<sym-auto>1GU</sym-auto>, <sym-auto>T</sym-auto>: Target creature you control gains <kw-a><nospellcheck>flying</nospellcheck></kw-a> and gets +X/+X until end of turn, where X is its power.
+	flavor text 2: <i-flavor></i-flavor>
 	copyright 2: 
 	copyright 3: 
 	mainframe image: 
