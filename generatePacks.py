@@ -15,30 +15,36 @@ cards = [card[:-4] for card in cards]
 
 rarities = ["M", "S", "R", "U", "C"]
 
-rarity_map = {}
-for rarity in rarities:
-    rarity_map[rarity] = [card[1:] for card in cards if card.startswith(rarity)]
+def generate_rarity_map(rarities, cards):
+    result = {}
+    for rarity in rarities:
+        result[rarity] = [card[1:] for card in cards if card.startswith(rarity)]
+        
+    for key, value in result.items():
+        shuffle(value)
     
-for key, value in rarity_map.items():
-    shuffle(value)
-    
-for key, value in rarity_map.items():
-    print(len(value), key)
-    
+    return result
 
-def generate_packs(count,counts, prefix=''):
+        
+def generate_packs(count,counts, rarities, rarity_map, prefix=''):
     packs = []
     for i in range(count):
         pack = []
         for count, rarity in zip(counts, rarities):
+            r = []
             for _ in range(count):
-                pack.append(rarity + rarity_map[rarity][-1])
+                r.append(rarity + rarity_map[rarity][-1])
                 rarity_map[rarity].pop()
+            r.sort()
+            pack += r
         with open(str(i+1) + prefix + "-pack.txt", 'w') as packFile:
             packFile.write('\n'.join(pack))
         packs.append(pack)
     return packs
 
+rarity_map = generate_rarity_map(rarities, cards)
+generate_packs(5, [4], rarities, rarity_map, prefix='-commander')
+generate_packs(15, [0, 1, 2, 4, 8], rarities, rarity_map)
 
-generate_packs(5, [4], prefix='-commander')
-generate_packs(15, [0, 1, 2, 4, 8])
+rarity_map = generate_rarity_map(rarities, cards)
+generate_packs(3, [6, 5, 10, 20, 40], rarities, rarity_map, "-sealed")

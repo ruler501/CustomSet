@@ -3933,7 +3933,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:12:34
-	time modified: 2018-05-29 16:27:43
+	time modified: 2018-05-31 20:33:37
 	name: RA03-Steel Overseer
 	casting cost: 1
 	image: 
@@ -3942,6 +3942,8 @@ card:
 	rarity: rare
 	rule text: <sym-auto>T</sym-auto>: Put a +1/+1 counter on each artifact creature you control
 	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 1
 	card code text: 
 	copyright: 
 	image 2: 
@@ -4739,7 +4741,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:42:52
-	time modified: 2018-05-31 00:04:02
+	time modified: 2018-05-31 20:33:07
 	card color: red, green, hybrid, horizontal
 	name: RRG02-Ulasht, the Hate Seed
 	casting cost: 2RG
@@ -4756,6 +4758,8 @@ card:
 		</error-spelling>
 		<error-spelling:en_us:/magic.mse-game/magic-words>•</error-spelling:en_us:/magic.mse-game/magic-words> Create a 1/1 green Saproling creature token.
 	flavor text: <i-flavor></i-flavor>
+	power: 0
+	toughness: 0
 	card code text: 
 	copyright: 
 	image 2: 
@@ -4767,7 +4771,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:43:25
-	time modified: 2018-05-31 00:02:14
+	time modified: 2018-05-31 20:32:45
 	card color: blue, black, hybrid, horizontal
 	name: RUB01-Land miller
 	casting cost: 2UB
@@ -4777,6 +4781,8 @@ card:
 	rarity: rare
 	rule text: <kw-A><i-auto><nospellcheck>Constellation</nospellcheck></i-auto></kw-A> — Whenever <atom-cardname><nospellcheck>RUB01-Land miller</nospellcheck></atom-cardname> or another enchantment enters the battlefield under your control each opponent puts card from the top of their library into their graveyard until they hit a land.
 	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 4
 	card code text: 
 	copyright: 
 	image 2: 
@@ -5362,9 +5368,9 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-31 10:21:06
-	time modified: 2018-05-31 10:33:14
+	time modified: 2018-05-31 20:32:15
 	name: CU17-Void Shatter
-	casting cost: U
+	casting cost: 1UU
 	image: 
 	super type: <word-list-type>Instant</word-list-type>
 	sub type: <word-list-spell></word-list-spell>
@@ -5383,9 +5389,9 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-31 10:21:24
-	time modified: 2018-05-31 12:00:06
+	time modified: 2018-05-31 20:32:06
 	name: CR17-Vampiric Rites
-	casting cost: R
+	casting cost: 2R
 	image: 
 	super type: <word-list-type>Enchantment</word-list-type>
 	sub type: <word-list-enchantment></word-list-enchantment>
