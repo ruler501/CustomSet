@@ -62,13 +62,13 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-12 21:38:55
-	time modified: 2018-05-26 20:49:17
-	name: CG02-Naturalize
-	casting cost: 1G
+	time modified: 2018-06-04 10:16:26
+	name: CG02-Fade into Antiquity
+	casting cost: 2G
 	image: 
 	super type: <word-list-type>Instant</word-list-type>
 	sub type: <word-list-spell></word-list-spell>
-	rule text: Destroy target artifact or enchantment.
+	rule text: Exile target artifact or enchantment.
 	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
@@ -299,7 +299,7 @@ card:
 	has styling: false
 	notes: Creature
 	time created: 2018-05-13 07:43:18
-	time modified: 2018-05-26 20:33:50
+	time modified: 2018-06-04 09:02:26
 	name: CW03-Tragic Poet
 	casting cost: W
 	image: 
@@ -307,6 +307,8 @@ card:
 	sub type: <word-list-race>Human</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rule text: <sym-auto>T</sym-auto>, Sacrifice <atom-cardname><nospellcheck>CW03-Tragic Poet</nospellcheck></atom-cardname>: Return target enchantment card from your graveyard to your hand.
 	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 1
 	card code text: 
 	copyright: 
 	image 2: 
@@ -678,7 +680,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-27 19:44:06
+	time modified: 2018-06-04 09:02:57
 	name: CU09-Aven Surveyor
 	casting cost: 3UU
 	image: 
@@ -690,6 +692,8 @@ card:
 		<error-spelling:en_us:/magic.mse-game/magic-words>•</error-spelling:en_us:/magic.mse-game/magic-words> Put a +1/+1 counter on <atom-cardname><nospellcheck>CU09-Aven Surveyor</nospellcheck></atom-cardname>.
 		<error-spelling:en_us:/magic.mse-game/magic-words>•</error-spelling:en_us:/magic.mse-game/magic-words> Return target creature to its owner’s hand.
 	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 2
 	card code text: 
 	copyright: 
 	image 2: 
@@ -831,8 +835,8 @@ card:
 	has styling: false
 	notes: Creature
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-30 09:14:00
-	name: CU03-Counterfall Tapper
+	time modified: 2018-06-03 23:46:43
+	name: CU03-Counterfall Freezer
 	casting cost: 1UU
 	image: 
 	super type: <word-list-type>Enchantment Creature</word-list-type>
@@ -1231,7 +1235,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-27 21:43:00
+	time modified: 2018-06-04 10:28:44
 	name: CR13-Cartouche of Zeal
 	casting cost: R
 	image: 
@@ -1239,7 +1243,8 @@ card:
 	sub type: <word-list-enchantment>Aura</word-list-enchantment> <word-list-enchantment>Cartouche</word-list-enchantment><soft> </soft><word-list-enchantment></word-list-enchantment>
 	rule text:
 		<kw-a><nospellcheck>Enchant <param-name>creature you control</param-name></nospellcheck></kw-a>
-		When <atom-cardname><nospellcheck>CR13-Cartouche of Zeal</nospellcheck></atom-cardname> enters the battlefield, target creature can’t block this turn,<error-spelling> </error-spelling>
+		When <atom-cardname><nospellcheck>CR13-Cartouche of Zeal</nospellcheck></atom-cardname> enters the battlefield, target creature can’t block this turn
+		Enchanted creature gets +1/+1 and has <kw-a><nospellcheck>haste</nospellcheck></kw-a>
 	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
@@ -2429,10 +2434,10 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 08:32:58
-	time modified: 2018-05-31 10:58:29
+	time modified: 2018-06-04 08:57:53
 	card color: white, green, hybrid, horizontal
 	name: UGW01-Enduring Scalelord
-	casting cost: GW
+	casting cost: 4GW
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
 	sub type: <word-list-race></word-list-race>
@@ -2441,8 +2446,8 @@ card:
 		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>
 		Whenever one or more +1/+1 counters are put on another creature you control, you may put a +1/+1 counter on <atom-cardname><nospellcheck>UGW01-Enduring Scalelord</nospellcheck></atom-cardname>.
 	flavor text: <i-flavor></i-flavor>
-	power: 2
-	toughness: 2
+	power: 4
+	toughness: 4
 	card code text: 
 	copyright: 
 	image 2: 
@@ -2500,17 +2505,17 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 08:32:58
-	time modified: 2018-05-30 17:45:01
+	time modified: 2018-06-04 10:13:48
 	card color: white, black, hybrid, horizontal
-	name: UWB02-Treasury Thrull
-	casting cost: WB
+	name: UWB02-Lifeline Thrull
+	casting cost: 4WB
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
 	sub type: <word-list-race>Thrull</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rarity: uncommon
 	rule text:
-		<kw-0><nospellcheck>Extort</nospellcheck></kw-0>
-		Whenever <atom-cardname><nospellcheck>UWB02-Treasury Thrull</nospellcheck></atom-cardname> attacks, you may return target artifact, creature, or enchantment card from your graveyard to your hand.
+		<kw-a><nospellcheck>Lifelink</nospellcheck></kw-a>
+		Whenever <atom-cardname><nospellcheck>UWB02-Lifeline Thrull</nospellcheck></atom-cardname> attacks, you may return target artifact, creature, or enchantment card from your graveyard to your hand.
 	flavor text: <i-flavor></i-flavor>
 	power: 4
 	toughness: 4
@@ -4002,9 +4007,9 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:14:05
-	time modified: 2018-05-31 00:02:50
+	time modified: 2018-05-31 21:49:09
 	card color: white, black, hybrid, horizontal
-	name: RWB01-Daxos the Returned
+	name: RWB02-Daxos the Returned
 	casting cost: 1WB
 	image: 
 	super type: <word-list-type>Legendary Creature</word-list-type>
@@ -4611,10 +4616,10 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:28:05
-	time modified: 2018-05-31 10:39:01
+	time modified: 2018-05-31 21:44:40
 	card color: white, blue, hybrid, horizontal
-	name: RWU01-Hanna, Ship’s Navigator
-	casting cost: WU
+	name: RWU02-Hanna, Ship’s Navigator
+	casting cost: 1WU
 	image: 
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Artificer</word-list-class><soft> </soft><word-list-class></word-list-class>
@@ -4820,7 +4825,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:52:55
-	time modified: 2018-05-30 13:40:28
+	time modified: 2018-05-31 21:13:43
 	card color: black, red, hybrid, horizontal
 	name: RBR01-Honkboss Tony
 	casting cost: 3BR
@@ -4829,13 +4834,12 @@ card:
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Clown</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: rare
 	rule text:
-		<kw-a><nospellcheck>First Strike</nospellcheck></kw-a><error-spelling>
-		</error-spelling><error-spelling>
+		<kw-a><nospellcheck>Deathtouch</nospellcheck></kw-a>, <kw-a><nospellcheck>menace</nospellcheck></kw-a>
+		Whenever <atom-cardname><nospellcheck>RBR01-Honkboss Tony</nospellcheck></atom-cardname> attacks create a tapped and attacking 1/1<error-spelling> </error-spelling> <kw-a><nospellcheck>flying</nospellcheck></kw-a> <kw-a><nospellcheck>first strike</nospellcheck></kw-a> black Insect creature token onto the battlefield with “Whenever this creature deals combat damage to a player put a +1/+1 counter on each other creature you control”<error-spelling>
 		</error-spelling>
-		Worshiper of the Mirthful Messiahs.
 	flavor text: <i-flavor></i-flavor>
-	power: 4
-	toughness: 4
+	power: 5
+	toughness: 2
 	card code text: 
 	copyright: 
 	image 2: 
@@ -5044,7 +5048,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:58:15
-	time modified: 2018-05-31 12:52:04
+	time modified: 2018-06-04 09:06:17
 	card color: white, red, green, hybrid, horizontal
 	name: MRGW01-Marath, Will of the Wild
 	casting cost: GRW
@@ -5059,6 +5063,8 @@ card:
 		<error-spelling:en_us:/magic.mse-game/magic-words>•</error-spelling:en_us:/magic.mse-game/magic-words> <atom-cardname><nospellcheck>MRGW01-Marath, Will of the Wild</nospellcheck></atom-cardname> deals X damage to any target. X can’t be 0.
 		<error-spelling:en_us:/magic.mse-game/magic-words>•</error-spelling:en_us:/magic.mse-game/magic-words> Create an X/X green Elemental creature token. X can’t be 0.
 	flavor text: <i-flavor></i-flavor>
+	power: 0
+	toughness: 0
 	card code text: 
 	copyright: 
 	image 2: 
@@ -5251,7 +5257,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 22:03:39
-	time modified: 2018-05-31 12:51:13
+	time modified: 2018-06-04 09:06:01
 	card color: white, black, red, hybrid, horizontal
 	name: MWRB01-Garrett
 	casting cost: 4RWB
@@ -5261,6 +5267,8 @@ card:
 	rarity: mythic rare
 	rule text: <kw-A><i-auto><nospellcheck>Constellation</nospellcheck></i-auto></kw-A> — Whenever <atom-cardname><nospellcheck>MWRB01-Garrett</nospellcheck></atom-cardname> or another enchantment enters the battlefield under your control reveal cards from the top of your library until you reveal a nonland, nonenchantment permanent card, you may cast that card.
 	flavor text: <i-flavor></i-flavor>
+	power: 7
+	toughness: 5
 	card code text: 
 	copyright: 
 	image 2: 
@@ -5272,10 +5280,10 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 22:04:40
-	time modified: 2018-05-31 12:51:19
+	time modified: 2018-06-04 09:05:51
 	card color: white, black, red, hybrid, horizontal
 	name: MWRB02-Zurgo Helmsmasher
-	casting cost: RWB
+	casting cost: 2RWB
 	image: 
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race></word-list-race>
@@ -5286,6 +5294,8 @@ card:
 		<atom-cardname><nospellcheck>MWRB02-Zurgo Helmsmasher</nospellcheck></atom-cardname> has <kw-a><nospellcheck>indestructible</nospellcheck></kw-a> as long as it’s your turn.
 		Whenever a creature dealt damage by <atom-cardname><nospellcheck>MWRB02-Zurgo Helmsmasher</nospellcheck></atom-cardname> this turn dies, put a +1/+1 counter on <atom-cardname><nospellcheck>MWRB02-Zurgo Helmsmasher</nospellcheck></atom-cardname>.
 	flavor text: <i-flavor></i-flavor>
+	power: 7
+	toughness: 2
 	card code text: 
 	copyright: 
 	image 2: 
@@ -5297,7 +5307,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 22:05:31
-	time modified: 2018-05-31 12:51:28
+	time modified: 2018-06-04 09:06:10
 	card color: blue, red, green, hybrid, horizontal
 	name: MUGR01-Animar, Soul of Elements
 	casting cost: GUR
@@ -5309,6 +5319,8 @@ card:
 		Whenever you cast a creature spell, put a +1/+1 counter on <atom-cardname><nospellcheck>MUGR01-Animar, Soul of Elements</nospellcheck></atom-cardname>.
 		Creature spells you cast cost <sym-auto>1</sym-auto> less to cast for each +1/+1 counter on <atom-cardname><nospellcheck>MUGR01-Animar, Soul of Elements</nospellcheck></atom-cardname>.
 	flavor text: <i-flavor></i-flavor>
+	power: 1
+	toughness: 1
 	card code text: 
 	copyright: 
 	image 2: 
@@ -5347,15 +5359,16 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-31 10:20:12
-	time modified: 2018-05-31 10:39:59
+	time modified: 2018-06-03 23:34:13
 	name: CW17-Sneaky Salve
-	casting cost: 2W
+	casting cost: W
 	image: 
 	super type: <word-list-type>Enchantment</word-list-type>
 	sub type: <word-list-enchantment></word-list-enchantment>
 	rule text:
+		<kw-a><nospellcheck>Flash</nospellcheck></kw-a>
 		When <atom-cardname><nospellcheck>CW17-Sneaky Salve</nospellcheck></atom-cardname> enters the battlefield you gain 3 life
-		<sym-auto>W</sym-auto>, Return an enchantment you control to it’s owner’s hand: Prevent the next 3 damage that would be dealt to any target.
+		<sym-auto>2W</sym-auto>, Return an enchantment you control to it’s owner’s hand: Prevent the next 3 damage that would be dealt to any target.
 	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
@@ -5486,14 +5499,16 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-31 10:22:55
-	time modified: 2018-05-31 20:19:06
+	time modified: 2018-06-04 09:01:03
 	name: CA18-Burnished Hart
 	casting cost: 3
 	image: 
-	super type: <word-list-type>Artifact</word-list-type>
-	sub type: <word-list-artifact></word-list-artifact>
+	super type: <word-list-type>Artifact Creature</word-list-type>
+	sub type: <word-list-race></word-list-race>
 	rule text: <sym-auto>3</sym-auto>, Sacrifice <atom-cardname><nospellcheck>CA18-Burnished Hart</nospellcheck></atom-cardname>: Search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle your library.
 	flavor text: <i-flavor></i-flavor>
+	power: 2
+	toughness: 2
 	card code text: 
 	copyright: 
 	image 2: 
@@ -5774,6 +5789,216 @@ card:
 		</error-spelling>
 		<sym-auto>1GU</sym-auto>, <sym-auto>T</sym-auto>: Target creature you control gains <kw-a><nospellcheck>flying</nospellcheck></kw-a> and gets +X/+X until end of turn, where X is its power.
 	flavor text 2: <i-flavor></i-flavor>
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-06-05 13:31:12
+	time modified: 2018-06-05 13:34:37
+	name: SL24-Gruul Turf
+	image: 
+	super type: <word-list-type>Land</word-list-type>
+	sub type: <word-list-land></word-list-land>
+	rule text:
+		<atom-cardname><nospellcheck>SL24-Gruul Turf</nospellcheck></atom-cardname> enters the battlefield tapped.
+		When <atom-cardname><nospellcheck>SL24-Gruul Turf</nospellcheck></atom-cardname> enters the battlefield, return a land you control to its owner’s hand.
+		<sym-auto>T</sym-auto>: Add <sym-auto>RG</sym-auto>.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-06-05 13:31:12
+	time modified: 2018-06-05 13:33:37
+	name: SL22-Dimir Aqueduct
+	image: 
+	super type: <word-list-type>Land</word-list-type>
+	sub type: <word-list-land></word-list-land>
+	rule text:
+		<atom-cardname><nospellcheck>SL22-Dimir Aqueduct</nospellcheck></atom-cardname> enters the battlefield tapped.
+		When <atom-cardname><nospellcheck>SL22-Dimir Aqueduct</nospellcheck></atom-cardname> enters the battlefield, return a land you control to its owner’s hand.
+		<sym-auto>T</sym-auto>: Add <sym-auto>UB</sym-auto>.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-06-05 13:31:12
+	time modified: 2018-06-05 13:34:17
+	name: SL23-Rakdos Carnarium
+	image: 
+	super type: <word-list-type>Land</word-list-type>
+	sub type: <word-list-land></word-list-land>
+	rule text:
+		<atom-cardname><nospellcheck>SL23-Rakdos Carnarium</nospellcheck></atom-cardname> enters the battlefield tapped.
+		When <atom-cardname><nospellcheck>SL23-Rakdos Carnarium</nospellcheck></atom-cardname> enters the battlefield, return a land you control to its owner’s hand.
+		<sym-auto>T</sym-auto>: Add <sym-auto>BR</sym-auto>.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-06-05 13:31:12
+	time modified: 2018-06-05 13:35:15
+	name: SL25-Selesnya Sanctuary
+	image: 
+	super type: <word-list-type>Land</word-list-type>
+	sub type: <word-list-land></word-list-land>
+	rule text:
+		<atom-cardname><nospellcheck>SL25-Selesnya Sanctuary</nospellcheck></atom-cardname> enters the battlefield tapped.
+		When <atom-cardname><nospellcheck>SL25-Selesnya Sanctuary</nospellcheck></atom-cardname> enters the battlefield, return a land you control to its owner’s hand.
+		<sym-auto>T</sym-auto>: Add <sym-auto>GW</sym-auto>.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-06-05 13:31:12
+	time modified: 2018-06-05 13:32:49
+	name: SL21-Azorious Chancery
+	image: 
+	super type: <word-list-type>Land</word-list-type>
+	sub type: <word-list-land></word-list-land>
+	rule text:
+		<atom-cardname><nospellcheck>SL21-Azorious Chancery</nospellcheck></atom-cardname> enters the battlefield tapped.
+		When <atom-cardname><nospellcheck>SL21-Azorious Chancery</nospellcheck></atom-cardname> enters the battlefield, return a land you control to its owner’s hand.
+		<sym-auto>T</sym-auto>: Add <sym-auto>WU</sym-auto>.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-06-05 13:31:12
+	time modified: 2018-06-05 13:35:35
+	name: SL26-Orzhov Basilica
+	image: 
+	super type: <word-list-type>Land</word-list-type>
+	sub type: <word-list-land></word-list-land>
+	rule text:
+		<atom-cardname><nospellcheck>SL26-Orzhov Basilica</nospellcheck></atom-cardname> enters the battlefield tapped.
+		When <atom-cardname><nospellcheck>SL26-Orzhov Basilica</nospellcheck></atom-cardname> enters the battlefield, return a land you control to its owner’s hand.
+		<sym-auto>T</sym-auto>: Add <sym-auto>WB</sym-auto>.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-06-05 13:31:12
+	time modified: 2018-06-05 13:36:24
+	name: SL28-Golgari Rot Farm
+	image: 
+	super type: <word-list-type>Land</word-list-type>
+	sub type: <word-list-land></word-list-land>
+	rule text:
+		<atom-cardname><nospellcheck>SL28-Golgari Rot Farm</nospellcheck></atom-cardname> enters the battlefield tapped.
+		When <atom-cardname><nospellcheck>SL28-Golgari Rot Farm</nospellcheck></atom-cardname> enters the battlefield, return a land you control to its owner’s hand.
+		<sym-auto>T</sym-auto>: Add <sym-auto>BG</sym-auto>.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-06-05 13:31:12
+	time modified: 2018-06-05 13:35:56
+	name: SL27-Izzet Boilerworks
+	image: 
+	super type: <word-list-type>Land</word-list-type>
+	sub type: <word-list-land></word-list-land>
+	rule text:
+		<atom-cardname><nospellcheck>SL27-Izzet Boilerworks</nospellcheck></atom-cardname> enters the battlefield tapped.
+		When <atom-cardname><nospellcheck>SL27-Izzet Boilerworks</nospellcheck></atom-cardname> enters the battlefield, return a land you control to its owner’s hand.
+		<sym-auto>T</sym-auto>: Add <sym-auto>UR</sym-auto>.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-06-05 13:31:12
+	time modified: 2018-06-05 13:37:07
+	name: SL30-Simic Growth Chamber
+	image: 
+	super type: <word-list-type>Land</word-list-type>
+	sub type: <word-list-land></word-list-land>
+	rule text:
+		<atom-cardname><nospellcheck>SL30-Simic Growth Chamber</nospellcheck></atom-cardname> enters the battlefield tapped.
+		When <atom-cardname><nospellcheck>SL30-Simic Growth Chamber</nospellcheck></atom-cardname> enters the battlefield, return a land you control to its owner’s hand.
+		<sym-auto>T</sym-auto>: Add <sym-auto>GU</sym-auto>.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
+	copyright 2: 
+	copyright 3: 
+	mainframe image: 
+	mainframe image 2: 
+card:
+	has styling: false
+	notes: 
+	time created: 2018-06-05 13:31:12
+	time modified: 2018-06-05 13:36:43
+	name: SL29-Boros Garrison
+	image: 
+	super type: <word-list-type>Land</word-list-type>
+	sub type: <word-list-land></word-list-land>
+	rule text:
+		<atom-cardname><nospellcheck>SL29-Boros Garrison</nospellcheck></atom-cardname> enters the battlefield tapped.
+		When <atom-cardname><nospellcheck>SL29-Boros Garrison</nospellcheck></atom-cardname> enters the battlefield, return a land you control to its owner’s hand.
+		<sym-auto>T</sym-auto>: Add <sym-auto>RW</sym-auto>.
+	flavor text: <i-flavor></i-flavor>
+	card code text: 
+	copyright: 
+	image 2: 
 	copyright 2: 
 	copyright 3: 
 	mainframe image: 

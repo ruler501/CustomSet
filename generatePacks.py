@@ -47,4 +47,4 @@ generate_packs(5, [4], rarities, rarity_map, prefix='-commander')
 generate_packs(15, [0, 1, 2, 4, 8], rarities, rarity_map)
 
 rarity_map = generate_rarity_map(rarities, cards)
-generate_packs(3, [6, 5, 10, 20, 40], rarities, rarity_map, "-sealed")
+generate_packs(3, [5, 10, 10, 20, 40], rarities, rarity_map, "-sealed")
