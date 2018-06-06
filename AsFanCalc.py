@@ -54,8 +54,27 @@ def calc_as_fan(fun):
     return as_fan
 
 counterfalls = calc_as_fan(lambda c: '+1/+1 counter' in (c['text'] or '').lower())
-print(counterfalls)
+print(counterfalls, "Counters")
+enchantments = calc_as_fan(lambda c: 'enchantment' in (c['text'] or '').lower())  # or 'Enchantment' in c['type_line'])
+print(enchantments, "Enchantments")
 
-for i in range(8):
-    as_fan = calc_as_fan(lambda c: 'Land' not in c['type_line'] and cost_to_cmc(c['cost']) == i)
-    print(i, as_fan)
+creatures = calc_as_fan(lambda c: 'Creature' in c['type_line'])
+print("Creatures", creatures)
+
+artifact_creatures = calc_as_fan(lambda c: 'Artifact Creature' in c['type_line'])
+print("Artifact Creatures", artifact_creatures)
+
+spells = calc_as_fan(lambda c: "Sorcery" in c['type_line'] or 'Instant' in c['type_line'])
+print("Spells", spells)
+
+auras = calc_as_fan(lambda c: "Aura" in c['type_line'])
+print("Auras", auras)
+# for i in range(8):
+#    as_fan = calc_as_fan(lambda c: 'Land' not in c['type_line'] and cost_to_cmc(c['cost']) == i)
+#    print(i, as_fan)
+
+# for color in ['W', 'U', 'B', 'R', 'G']:
+#    for i in range(1, 8):
+#        as_fan = calc_as_fan(lambda c: 'Land' not in c['type_line'] and cost_to_cmc(c['cost']) == i
+#                             and color in c['cost'])
+#        print(color, i, as_fan*5)
