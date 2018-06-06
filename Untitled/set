@@ -1212,15 +1212,17 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-27 22:01:26
-	name: CR15-Curse of the Pierced Heart
-	casting cost: 1R
+	time modified: 2018-06-06 17:11:14
+	name: CR15-Abrading poke
+	casting cost: R
 	image: 
-	super type: <word-list-type>Enchantment</word-list-type>
-	sub type: <word-list-enchantment>Aura</word-list-enchantment> <word-list-enchantment>Curse</word-list-enchantment><soft> </soft><word-list-enchantment></word-list-enchantment>
+	super type: <word-list-type>Instant</word-list-type>
+	sub type: <word-list-spell></word-list-spell>
 	rule text:
-		<kw-a><nospellcheck>Enchant <param-name>Player</param-name></nospellcheck></kw-a>
-		At the beginning of enchanted player’s upkeep, <atom-cardname><nospellcheck>CR15-Curse of the Pierced Heart</nospellcheck></atom-cardname> deals 1 damage to that player.
+		This spell costs <sym-auto>1</sym-auto> more to cast for each opponent.
+		For each opponent choose 1
+		<error-spelling:en_us:/magic.mse-game/magic-words>-</error-spelling:en_us:/magic.mse-game/magic-words> <atom-cardname><nospellcheck>CR15-Abrading poke</nospellcheck></atom-cardname> deals 4 damage to target creature they control
+		<error-spelling:en_us:/magic.mse-game/magic-words>-</error-spelling:en_us:/magic.mse-game/magic-words> <atom-cardname><nospellcheck>CR15-Abrading poke</nospellcheck></atom-cardname> deals 2 damage to that player
 	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
