@@ -1539,13 +1539,15 @@ card:
 	has styling: false
 	notes: Creature
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-27 20:33:14
-	name: CG05-Protector
+	time modified: 2018-06-06 18:03:22
+	name: CG05-Anthropogoyf
 	casting cost: 3G
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
-	sub type: <word-list-race></word-list-race>
-	rule text: As long as you control an enchantment <atom-cardname><nospellcheck>CG05-Protector</nospellcheck></atom-cardname> must be blocked.
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Lhurgoyf</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rule text:
+		<sym-auto>2G</sym-auto>, <sym-auto>T</sym-auto>: Put a +1/+1 counter on target creature you control. Then that creature fights target creature you don’t control.
+		A deviation from all
 	flavor text: <i-flavor></i-flavor>
 	power: 4
 	toughness: 4
