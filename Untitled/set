@@ -807,15 +807,15 @@ card:
 	has styling: false
 	notes: Creature
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-30 09:14:21
-	name: CU06-Big Defender
+	time modified: 2018-06-06 18:15:59
+	name: CU06-Towering Turterror
 	casting cost: 5U
 	image: 
-	super type: <word-list-type>Enchantment Creature</word-list-type>
+	super type: <word-list-type>Creature</word-list-type>
 	sub type: <word-list-race>Turtle</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rule text:
 		<kw-a><nospellcheck>Defender</nospellcheck></kw-a>, <kw-a><nospellcheck>Hexproof</nospellcheck></kw-a>
-		As long as you control an enchantment <atom-cardname><nospellcheck>CU06-Big Defender</nospellcheck></atom-cardname></nospellcheck></kw-a> gets +3/+2 and loses <kw-a><nospellcheck>defender</nospellcheck></kw-a>.
+		As long as you control an enchantment <atom-cardname><nospellcheck>CU06-Towering Turterror</nospellcheck></atom-cardname> gets +3/+2 and loses <kw-a><nospellcheck>defender</nospellcheck></kw-a>.
 	flavor text: <i-flavor></i-flavor>
 	power: 3
 	toughness: 6
