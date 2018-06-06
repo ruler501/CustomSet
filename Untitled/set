@@ -2641,13 +2641,13 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 08:32:58
-	time modified: 2018-05-31 12:11:28
+	time modified: 2018-06-06 18:35:27
 	card color: blue, green, hybrid, horizontal
 	name: CGU01-Zameck Guildmage
 	casting cost: GU
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
-	sub type: <word-list-race></word-list-race>
+	sub type: <word-list-race>Elf</word-list-race> <word-list-class>Wizard</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: common
 	rule text:
 		<sym-auto>GU</sym-auto>: This turn, each creature you control enters the battlefield with an additional +1/+1 counter on it.
@@ -5628,12 +5628,12 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-31 10:26:35
-	time modified: 2018-05-31 12:22:00
+	time modified: 2018-06-06 18:34:45
 	card color: black, red, hybrid, horizontal
 	name: CBR01-Blood Cultist
 	casting cost: 1BR
 	image: 
-	super type: <word-list-type>Creatures</word-list-type>
+	super type: <word-list-type>Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Wizard</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rule text:
 		<sym-auto>T</sym-auto>: <atom-cardname><nospellcheck>CBR01-Blood Cultist</nospellcheck></atom-cardname> Deals 1 damage to target creature.
@@ -5674,13 +5674,13 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-31 10:27:02
-	time modified: 2018-05-31 12:21:15
+	time modified: 2018-06-06 18:35:09
 	card color: white, green, hybrid, horizontal
 	name: CGW01-Qasali Pridemage
 	casting cost: GW
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
-	sub type: <word-list-race></word-list-race>
+	sub type: <word-list-race>Cat</word-list-race> <word-list-class>Wizard</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rule text:
 		<kw-A><nospellcheck>Exalted</nospellcheck><atom-reminder-expert> <i-auto>(Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)</i-auto></atom-reminder-expert></kw-A>
 		<sym-auto>1</sym-auto>, Sacrifice <atom-cardname><nospellcheck>CGW01-Qasali Pridemage</nospellcheck></atom-cardname>: Destroy target artifact or enchantment.
