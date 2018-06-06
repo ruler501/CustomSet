@@ -3709,11 +3709,11 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:04:55
-	time modified: 2018-05-30 09:21:40
+	time modified: 2018-06-06 17:56:34
 	name: UR05-Fireball Juggler
 	casting cost: 2RR
 	image: 
-	super type: <word-list-type>Enchantment Creature</word-list-type>
+	super type: <word-list-type>Creature</word-list-type>
 	sub type: <word-list-race>Dragon</word-list-race> <word-list-class>Clown</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: uncommon
 	rule text:
