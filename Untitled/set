@@ -4767,7 +4767,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:42:52
-	time modified: 2018-05-31 20:33:07
+	time modified: 2018-06-06 17:51:23
 	card color: red, green, hybrid, horizontal
 	name: RRG02-Ulasht, the Hate Seed
 	casting cost: 2RG
@@ -4776,12 +4776,9 @@ card:
 	sub type: <word-list-race></word-list-race>
 	rarity: rare
 	rule text:
-		<atom-cardname><nospellcheck>RRG02-Ulasht, the Hate Seed</nospellcheck></atom-cardname> enters the battlefield with a +1/+1 counter on it for each other red creature you control and a +1/+1 counter on it for each other green creature you control.<error-spelling>
-		</error-spelling>
-		<sym-auto>1</sym-auto>, Remove a +1/+1 counter from <atom-cardname><nospellcheck>RRG02-Ulasht, the Hate Seed</nospellcheck></atom-cardname>: Choose one —<error-spelling>
-		</error-spelling>
-		<error-spelling:en_us:/magic.mse-game/magic-words>•</error-spelling:en_us:/magic.mse-game/magic-words> <atom-cardname><nospellcheck>RRG02-Ulasht, the Hate Seed</nospellcheck></atom-cardname> deals 1 damage to target creature.<error-spelling>
-		</error-spelling>
+		<atom-cardname><nospellcheck>RRG02-Ulasht, the Hate Seed</nospellcheck></atom-cardname> enters the battlefield with a +1/+1 counter on it for each other red creature you control and a +1/+1 counter on it for each other green creature you control.
+		<sym-auto>1</sym-auto>, Remove a +1/+1 counter from <atom-cardname><nospellcheck>RRG02-Ulasht, the Hate Seed</nospellcheck></atom-cardname>: Choose one —
+		<error-spelling:en_us:/magic.mse-game/magic-words>•</error-spelling:en_us:/magic.mse-game/magic-words> <atom-cardname><nospellcheck>RRG02-Ulasht, the Hate Seed</nospellcheck></atom-cardname> deals 1 damage to target creature.
 		<error-spelling:en_us:/magic.mse-game/magic-words>•</error-spelling:en_us:/magic.mse-game/magic-words> Create a 1/1 green Saproling creature token.
 	flavor text: <i-flavor></i-flavor>
 	power: 0
