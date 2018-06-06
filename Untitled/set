@@ -1337,11 +1337,11 @@ card:
 	has styling: false
 	notes: Creature
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-31 11:58:57
+	time modified: 2018-06-06 18:05:27
 	name: CR09-Clown Mobster
 	casting cost: 2R
 	image: 
-	super type: <word-list-type>Enchantment Creature</word-list-type>
+	super type: <word-list-type>Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Clown</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rule text:
 		As long as you control an enchantment, <atom-cardname><nospellcheck>CR09-Clown Mobster</nospellcheck></atom-cardname> gets +1/+1 and has <kw-a><nospellcheck>haste</nospellcheck></kw-a>.
@@ -1539,15 +1539,15 @@ card:
 	has styling: false
 	notes: Creature
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-06-06 18:03:22
-	name: CG05-Anthropogoyf
+	time modified: 2018-06-06 18:06:48
+	name: CG05-Wurmosapien
 	casting cost: 3G
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
-	sub type: <word-list-race>Human</word-list-race> <word-list-class>Lhurgoyf</word-list-class><soft> </soft><word-list-class></word-list-class>
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Wurm</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rule text:
 		<sym-auto>2G</sym-auto>, <sym-auto>T</sym-auto>: Put a +1/+1 counter on target creature you control. Then that creature fights target creature you don’t control.
-		A deviation from all
+		A deviation from all that is natural.
 	flavor text: <i-flavor></i-flavor>
 	power: 4
 	toughness: 4
