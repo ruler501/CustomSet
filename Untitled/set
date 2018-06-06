@@ -915,13 +915,15 @@ card:
 	has styling: false
 	notes: Creature
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-26 22:01:32
+	time modified: 2018-06-06 17:57:58
 	name: CB07-Attack Beetle
 	casting cost: 2B
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
 	sub type: <word-list-race>Insect</word-list-race><soft> </soft><word-list-class></word-list-class>
-	rule text: As long as you control an enchantment, <atom-cardname><nospellcheck>CB07-Attack Beetle</nospellcheck></atom-cardname> has <kw-a><nospellcheck>deathtouch</nospellcheck></kw-a>.<error-spelling> </error-spelling>
+	rule text:
+		<kw-a><nospellcheck>Deathtouch</nospellcheck></kw-a>
+		Whenever a creature dies, put a +1/+1 counter on <atom-cardname><nospellcheck>CB07-Attack Beetle</nospellcheck></atom-cardname>.
 	flavor text: <i-flavor></i-flavor>
 	power: 1
 	toughness: 3
@@ -1539,13 +1541,15 @@ card:
 	has styling: false
 	notes: Creature
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-27 20:33:14
-	name: CG05-Protector
+	time modified: 2018-06-06 18:03:22
+	name: CG05-Anthropogoyf
 	casting cost: 3G
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
-	sub type: <word-list-race></word-list-race>
-	rule text: As long as you control an enchantment <atom-cardname><nospellcheck>CG05-Protector</nospellcheck></atom-cardname> must be blocked.
+	sub type: <word-list-race>Human</word-list-race> <word-list-class>Lhurgoyf</word-list-class><soft> </soft><word-list-class></word-list-class>
+	rule text:
+		<sym-auto>2G</sym-auto>, <sym-auto>T</sym-auto>: Put a +1/+1 counter on target creature you control. Then that creature fights target creature you don’t control.
+		A deviation from all
 	flavor text: <i-flavor></i-flavor>
 	power: 4
 	toughness: 4
@@ -3711,11 +3715,11 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:04:55
-	time modified: 2018-05-30 09:21:40
+	time modified: 2018-06-06 17:56:34
 	name: UR05-Fireball Juggler
 	casting cost: 2RR
 	image: 
-	super type: <word-list-type>Enchantment Creature</word-list-type>
+	super type: <word-list-type>Creature</word-list-type>
 	sub type: <word-list-race>Dragon</word-list-race> <word-list-class>Clown</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: uncommon
 	rule text:
@@ -4769,7 +4773,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:42:52
-	time modified: 2018-05-31 20:33:07
+	time modified: 2018-06-06 17:51:23
 	card color: red, green, hybrid, horizontal
 	name: RRG02-Ulasht, the Hate Seed
 	casting cost: 2RG
@@ -4778,12 +4782,9 @@ card:
 	sub type: <word-list-race></word-list-race>
 	rarity: rare
 	rule text:
-		<atom-cardname><nospellcheck>RRG02-Ulasht, the Hate Seed</nospellcheck></atom-cardname> enters the battlefield with a +1/+1 counter on it for each other red creature you control and a +1/+1 counter on it for each other green creature you control.<error-spelling>
-		</error-spelling>
-		<sym-auto>1</sym-auto>, Remove a +1/+1 counter from <atom-cardname><nospellcheck>RRG02-Ulasht, the Hate Seed</nospellcheck></atom-cardname>: Choose one —<error-spelling>
-		</error-spelling>
-		<error-spelling:en_us:/magic.mse-game/magic-words>•</error-spelling:en_us:/magic.mse-game/magic-words> <atom-cardname><nospellcheck>RRG02-Ulasht, the Hate Seed</nospellcheck></atom-cardname> deals 1 damage to target creature.<error-spelling>
-		</error-spelling>
+		<atom-cardname><nospellcheck>RRG02-Ulasht, the Hate Seed</nospellcheck></atom-cardname> enters the battlefield with a +1/+1 counter on it for each other red creature you control and a +1/+1 counter on it for each other green creature you control.
+		<sym-auto>1</sym-auto>, Remove a +1/+1 counter from <atom-cardname><nospellcheck>RRG02-Ulasht, the Hate Seed</nospellcheck></atom-cardname>: Choose one —
+		<error-spelling:en_us:/magic.mse-game/magic-words>•</error-spelling:en_us:/magic.mse-game/magic-words> <atom-cardname><nospellcheck>RRG02-Ulasht, the Hate Seed</nospellcheck></atom-cardname> deals 1 damage to target creature.
 		<error-spelling:en_us:/magic.mse-game/magic-words>•</error-spelling:en_us:/magic.mse-game/magic-words> Create a 1/1 green Saproling creature token.
 	flavor text: <i-flavor></i-flavor>
 	power: 0
