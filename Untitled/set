@@ -1649,12 +1649,12 @@ card:
 	has styling: false
 	notes: Creature
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-30 17:32:12
+	time modified: 2018-06-06 18:33:46
 	name: CG12-Ainok Survivalists
-	casting cost: G
+	casting cost: 1G
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
-	sub type: <word-list-race></word-list-race>
+	sub type: <word-list-race>Hound</word-list-race> <word-list-class>Shaman</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rule text:
 		<kw-A><nospellcheck>Megamorph <param-cost><sym-auto>1G</sym-auto></param-cost></nospellcheck><atom-reminder-expert> <i-auto>(You may cast this face down as a 2/2 creature for <sym>3</sym>. Turn it face up any time for its <error-spelling:en_us:/magic.mse-game/magic-words>megamorph</error-spelling:en_us:/magic.mse-game/magic-words> cost and put a +1/+1 counter on it.)</i-auto></atom-reminder-expert></kw-A>
 		When <error-spelling:en_us:/magic.mse-game/magic-words>Ainok</error-spelling:en_us:/magic.mse-game/magic-words> Survivalist is turned face up, destroy target artifact or enchantment an opponent controls.
@@ -5480,12 +5480,12 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-31 10:22:55
-	time modified: 2018-06-06 10:50:16
+	time modified: 2018-06-06 18:33:00
 	name: CA16-Solemn Simulacrum
 	casting cost: 4
 	image: 
 	super type: <word-list-type>Artifact Creature</word-list-type>
-	sub type: <word-list-race></word-list-race>
+	sub type: <word-list-race>Construct</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rule text:
 		When <atom-cardname><nospellcheck>CA16-Solemn Simulacrum</nospellcheck></atom-cardname> enters the battlefield, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle your library.
 		When <atom-cardname><nospellcheck>CA16-Solemn Simulacrum</nospellcheck></atom-cardname> dies, you may draw a card.
@@ -5522,12 +5522,12 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-31 10:22:55
-	time modified: 2018-06-04 09:01:03
+	time modified: 2018-06-06 18:33:05
 	name: CA18-Burnished Hart
 	casting cost: 3
 	image: 
 	super type: <word-list-type>Artifact Creature</word-list-type>
-	sub type: <word-list-race></word-list-race>
+	sub type: <word-list-race>Elk</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rule text: <sym-auto>3</sym-auto>, Sacrifice <atom-cardname><nospellcheck>CA18-Burnished Hart</nospellcheck></atom-cardname>: Search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle your library.
 	flavor text: <i-flavor></i-flavor>
 	power: 2
