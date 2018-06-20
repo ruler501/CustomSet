@@ -1974,14 +1974,14 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-31 10:22:31
+	time modified: 2018-06-20 17:38:07
 	name: CA14-Armory of Iroas
 	casting cost: 2
 	image: 
 	super type: <word-list-type>Artifact</word-list-type>
 	sub type: <word-list-artifact>Equipment</word-list-artifact><soft> </soft><word-list-artifact></word-list-artifact>
 	rule text:
-		Whenever equipped creature attacks put a +1/+1 counter on it.
+		Whenever equipped creature attacks, put a +1/+1 counter on it.
 		<kw-a><nospellcheck>Equip <param-cost><sym-auto>2</sym-auto></param-cost></nospellcheck></kw-a>
 	flavor text: <i-flavor></i-flavor>
 	card code text: 
@@ -5505,13 +5505,13 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-31 10:22:55
-	time modified: 2018-05-31 20:19:33
+	time modified: 2018-06-20 17:38:18
 	name: CA17-Fellwar Stone
 	casting cost: 2
 	image: 
 	super type: <word-list-type>Artifact</word-list-type>
 	sub type: <word-list-artifact></word-list-artifact>
-	rule text: <sym-auto>T</sym-auto>: Add one mana of any color that a land an opponent controls could produce
+	rule text: <sym-auto>T</sym-auto>: Add one mana of any color that a land an opponent controls could produce.
 	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
@@ -5566,13 +5566,13 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-31 10:22:55
-	time modified: 2018-06-06 11:30:53
-	name: CA20-Font of Counters
+	time modified: 2018-06-20 17:39:09
+	name: CA20-Gymbot
 	casting cost: 3
 	image: 
 	super type: <word-list-type>Artifact Creature</word-list-type>
 	sub type: <word-list-race>Construct</word-list-race><soft> </soft><word-list-class></word-list-class>
-	rule text: At the beginning of your upkeep put a +1/+1 counter on target creature.
+	rule text: At the beginning of your upkeep, put a +1/+1 counter on target creature.
 	flavor text: <i-flavor></i-flavor>
 	power: 1
 	toughness: 1
