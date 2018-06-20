@@ -787,16 +787,16 @@ card:
 	has styling: false
 	notes: Creature
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-06-06 18:39:13
-	name: CU07-Flashy Flier
+	time modified: 2018-06-20 18:22:29
+	name: CU07-Aerial Hazard
 	casting cost: 4U
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
 	sub type: <word-list-race>Drake</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rule text:
 		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>
-		You may cast <atom-cardname><nospellcheck>CU07-Flashy Flier</nospellcheck></atom-cardname> as if it had <kw-a><nospellcheck>flash</nospellcheck></kw-a> as long as you control an enchantment.
-	flavor text: <i-flavor></i-flavor>
+		You may cast <atom-cardname><nospellcheck>CU07-Aerial Hazard</nospellcheck></atom-cardname> as if it had <kw-a><nospellcheck>flash</nospellcheck></kw-a> as long as you control an enchantment.
+	flavor text: <i-flavor>The bane of insurance agent and shipping merchant alike.</i-flavor>
 	power: 3
 	toughness: 4
 	card code text: 
