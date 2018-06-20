@@ -5786,7 +5786,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-31 10:29:34
-	time modified: 2018-05-31 12:10:33
+	time modified: 2018-06-20 18:15:27
 	card color: white, red, hybrid, horizontal
 	name: CRW01-Gleam of Battle
 	casting cost: 4RW
@@ -5794,7 +5794,9 @@ card:
 	super type: <word-list-type>Enchantment</word-list-type>
 	sub type: <word-list-enchantment></word-list-enchantment>
 	rule text: Whenever a creature you control attacks, put a +1/+1 counter on it.
-	flavor text: <i-flavor></i-flavor>
+	flavor text:
+		<i-flavor>“<error-spelling:en_us>AAAAAAAAAAAAAAAHHHHHH</error-spelling:en_us>!!!”<soft-line>
+		<error-spelling:en_us>-Entry</error-spelling:en_us> <error-spelling:en_us>#10</error-spelling:en_us> in “Annual List of Most Popular Final Words”<error-spelling> </soft-line></i-flavor></error-spelling>
 	card code text: 
 	copyright: 
 	image 2: 
