@@ -487,8 +487,8 @@ card:
 	has styling: false
 	notes: Creature
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-06-06 18:41:45
-	name: CW13-Flying Bolster
+	time modified: 2018-06-20 18:40:59
+	name: CW13-Angel of Structures
 	casting cost: 4W
 	image: 
 	super type: <word-list-type>Enchantment Creature</word-list-type>
@@ -496,6 +496,7 @@ card:
 	rule text:
 		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>
 		<kw-1><nospellcheck>Bolster <param-number>2</param-number></nospellcheck>.<atom-reminder-action> <i-auto>(Choose a creature with the least toughness among creatures you control and put <param-number>two</param-number> +1/+1 counters on it.)</i-auto></atom-reminder-action></kw-1>
+		It studies the architecture that defines the universe.
 	flavor text: <i-flavor></i-flavor>
 	power: 2
 	toughness: 3
