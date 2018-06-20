@@ -332,16 +332,16 @@ card:
 	has styling: false
 	notes: Creature
 	time created: 2018-05-13 07:43:18
-	time modified: 2018-06-06 18:40:14
-	name: CW05-Flying Disciple
+	time modified: 2018-06-20 18:31:06
+	name: CW05-Hope’s Disciple
 	casting cost: 2W
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
 	sub type: <word-list-race>Bird</word-list-race> <word-list-class>Cleric</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rule text:
 		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>, <kw-a><nospellcheck>First Strike</nospellcheck></kw-a>
-		Whenever you cast an enchantment spell put a +1/+1 counter on <atom-cardname><nospellcheck>CW05-Flying Disciple</nospellcheck></atom-cardname>.
-	flavor text: <i-flavor></i-flavor>
+		Whenever you cast an enchantment spell, put a +1/+1 counter on <atom-cardname><nospellcheck>CW05-Hope’s Disciple</nospellcheck></atom-cardname>.
+	flavor text: <i-flavor>“All will be well.”</i-flavor>
 	power: 1
 	toughness: 1
 	card code text: 
