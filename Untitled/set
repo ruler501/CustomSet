@@ -1036,14 +1036,14 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-26 22:33:25
+	time modified: 2018-06-20 17:52:10
 	name: CB13-Eviscerate
 	casting cost: 3B
 	image: 
 	super type: <word-list-type>Sorcery</word-list-type>
 	sub type: <word-list-spell></word-list-spell>
 	rule text: Destroy target creature.
-	flavor text: <i-flavor></i-flavor>
+	flavor text: <i-flavor>You’d be surprised how many people fall for the old “<error-spelling:en_us>Surprise-Stabbing-Trap</error-spelling:en_us>.”</i-flavor>
 	card code text: 
 	copyright: 
 	image 2: 
