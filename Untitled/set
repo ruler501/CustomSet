@@ -62,17 +62,17 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-12 21:38:55
-	time modified: 2018-06-06 12:53:55
+	time modified: 2018-06-20 17:59:13
 	name: CG02-Fade into Conflict
 	casting cost: GG
 	image: 
 	super type: <word-list-type>Instant</word-list-type>
 	sub type: <word-list-spell></word-list-spell>
 	rule text:
-		This spell costs <sym-auto>1</sym-auto> more to cast for each opponent
-		For each opponent choose 1
-		<error-spelling:en_us:/magic.mse-game/magic-words>-</error-spelling:en_us:/magic.mse-game/magic-words> Exile target artifact or enchantment that player controls
-		<error-spelling:en_us:/magic.mse-game/magic-words>-</error-spelling:en_us:/magic.mse-game/magic-words> Create a 2/2 green beast creature token
+		This spell costs <sym-auto>1</sym-auto> more to cast for each opponent.
+		For each opponent, choose <error-spelling:en_us:/magic.mse-game/magic-words>one-</error-spelling:en_us:/magic.mse-game/magic-words>
+		<error-spelling:en_us:/magic.mse-game/magic-words>-</error-spelling:en_us:/magic.mse-game/magic-words> Exile target artifact or enchantment that player controls.
+		<error-spelling:en_us:/magic.mse-game/magic-words>-</error-spelling:en_us:/magic.mse-game/magic-words> Create a 2/2 green beast creature token.
 	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
