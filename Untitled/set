@@ -397,14 +397,16 @@ card:
 	has styling: false
 	notes: Creature
 	time created: 2018-05-13 07:43:18
-	time modified: 2018-05-26 20:46:35
-	name: CW07-Enchant Honor Guard
+	time modified: 2018-06-20 18:34:17
+	name: CW07-City’s Honored Ones
 	casting cost: 1W
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
 	sub type: <word-list-race>Knight</word-list-race><soft> </soft><word-list-class></word-list-class>
-	rule text: <atom-cardname><nospellcheck>CW07-Enchant Honor Guard</nospellcheck></atom-cardname> gets +1/+0 for each enchantment you control
-	flavor text: <i-flavor></i-flavor>
+	rule text: <atom-cardname><nospellcheck>CW07-City’s Honored Ones</nospellcheck></atom-cardname> gets +1/+0 for each enchantment you control.
+	flavor text:
+		<i-flavor>“How do we rise up, rise up, rise up? How do we rise up, rise up high? <soft-line>We rise with heads up, heads up, heads up <error-spelling:en_us>/</error-spelling:en_us> We rise with heads up, heads up high!”
+		<error-spelling:en_us>-Children’s</error-spelling:en_us> song</soft-line></i-flavor>
 	power: 1
 	toughness: 2
 	card code text: 
