@@ -1227,17 +1227,17 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-06-06 17:11:14
-	name: CR15-Abrading poke
+	time modified: 2018-06-20 18:10:08
+	name: CR15-Fire In The Hole
 	casting cost: R
 	image: 
 	super type: <word-list-type>Instant</word-list-type>
 	sub type: <word-list-spell></word-list-spell>
 	rule text:
 		This spell costs <sym-auto>1</sym-auto> more to cast for each opponent.
-		For each opponent choose 1
-		<error-spelling:en_us:/magic.mse-game/magic-words>-</error-spelling:en_us:/magic.mse-game/magic-words> <atom-cardname><nospellcheck>CR15-Abrading poke</nospellcheck></atom-cardname> deals 4 damage to target creature they control
-		<error-spelling:en_us:/magic.mse-game/magic-words>-</error-spelling:en_us:/magic.mse-game/magic-words> <atom-cardname><nospellcheck>CR15-Abrading poke</nospellcheck></atom-cardname> deals 2 damage to that player
+		For each opponent choose <error-spelling:en_us:/magic.mse-game/magic-words>one-</error-spelling:en_us:/magic.mse-game/magic-words>
+		<error-spelling:en_us:/magic.mse-game/magic-words>-</error-spelling:en_us:/magic.mse-game/magic-words> <atom-cardname><nospellcheck>CR15-Fire In The Hole</nospellcheck></atom-cardname> deals 4 damage to target creature they control.
+		<error-spelling:en_us:/magic.mse-game/magic-words>-</error-spelling:en_us:/magic.mse-game/magic-words> <atom-cardname><nospellcheck>CR15-Fire In The Hole</nospellcheck></atom-cardname> deals 2 damage to that player.
 	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
