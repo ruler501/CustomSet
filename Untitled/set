@@ -1291,13 +1291,15 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-27 21:41:57
+	time modified: 2018-06-20 18:06:47
 	name: CR12-Wake Up
 	casting cost: 1R
 	image: 
 	super type: <word-list-type>Instant</word-list-type>
 	sub type: <word-list-spell></word-list-spell>
-	rule text: Target creature you control with one or more +1/+1 counters on it or enchanted with an Aura gains <kw-a><nospellcheck>double strike</nospellcheck></kw-a> until end of turn.
+	rule text:
+		Target creature you control with one or more +1/+1 counters on it or enchanted with an Aura gains <kw-a><nospellcheck>double strike</nospellcheck></kw-a> until end of turn.
+		“Rise and shine. We’ve got rival clowns raiding our territory.”
 	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
