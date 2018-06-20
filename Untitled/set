@@ -1577,15 +1577,14 @@ card:
 	has styling: false
 	notes: Creature
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-27 20:48:18
+	time modified: 2018-06-20 17:59:41
 	name: CG07-Obsessive Skinner
 	casting cost: 1G
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Rogue</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rule text:
-		When Obsessive Skinner enters the battlefield, put a +1/+1 counter on target creature.<error-spelling>
-		</error-spelling>
+		When Obsessive Skinner enters the battlefield, put a +1/+1 counter on target creature.
 		<kw-A><i-auto><nospellcheck>Delirium</nospellcheck></i-auto></kw-A> — At the beginning of each opponent’s upkeep, if there are four or more card types among cards in your graveyard, put a +1/+1 counter on target creature.
 	flavor text: <i-flavor></i-flavor>
 	power: 1
