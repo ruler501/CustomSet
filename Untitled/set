@@ -1331,14 +1331,14 @@ card:
 	has styling: false
 	notes: Creature
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-30 09:13:26
+	time modified: 2018-06-20 18:05:30
 	name: CR10-Enraged Honkbrother
 	casting cost: 5R
 	image: 
 	super type: <word-list-type>Enchantment Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Clown</word-list-class> <word-list-class>Warrior</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rule text: As long as <atom-cardname><nospellcheck>CR10-Enraged Honkbrother</nospellcheck></atom-cardname> has one or more +1/+1 counters on it, it has <kw-a><nospellcheck>menace</nospellcheck></kw-a>.
-	flavor text: <i-flavor></i-flavor>
+	flavor text: <i-flavor>It regards people who dress up in clown costumes for parties as utter blasphemy.</i-flavor>
 	power: 5
 	toughness: 5
 	card code text: 
