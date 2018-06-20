@@ -677,13 +677,15 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-31 10:48:49
-	name: CU12-Glimmer of Enchantments
+	time modified: 2018-06-20 18:25:06
+	name: CU12-Comb the Beach
 	casting cost: 3U
 	image: 
 	super type: <word-list-type>Instant</word-list-type>
 	sub type: <word-list-spell></word-list-spell>
-	rule text: If you control an enchantment, <kw-a><nospellcheck>scry <param-number>3</param-number></nospellcheck></kw-a>. Draw two cards
+	rule text:
+		If you control an enchantment, <kw-a><nospellcheck>scry <param-number>3</param-number></nospellcheck></kw-a>. Draw two cards.
+		“Hey, I found something!”
 	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
