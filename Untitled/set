@@ -464,14 +464,16 @@ card:
 	has styling: false
 	notes: Creature
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-27 17:37:09
-	name: CW12-Better Luminid
+	time modified: 2018-06-20 18:38:02
+	name: CW12-Tranquility Seeker
 	casting cost: 3WW
 	image: 
 	super type: <word-list-type>Enchantment Creature</word-list-type>
 	sub type: <word-list-race>Elemental</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rule text: <kw-a><nospellcheck>Flying</nospellcheck></kw-a>
-	flavor text: <i-flavor></i-flavor>
+	flavor text:
+		<i-flavor>“The ancestors are in their heaven. <error-spelling:en_us>All’s</error-spelling:en_us> right with the world.”
+		<error-spelling:en_us>-Traditional</error-spelling:en_us> <error-spelling:en_us>Ymathi</error-spelling:en_us> blessing</i-flavor>
 	power: 4
 	toughness: 4
 	card code text: 
