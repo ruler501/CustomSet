@@ -5407,15 +5407,15 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-31 10:20:12
-	time modified: 2018-06-03 23:34:13
-	name: CW17-Sneaky Salve
+	time modified: 2018-06-20 18:42:43
+	name: CW17-Fast-Acting Salve
 	casting cost: W
 	image: 
 	super type: <word-list-type>Enchantment</word-list-type>
 	sub type: <word-list-enchantment></word-list-enchantment>
 	rule text:
 		<kw-a><nospellcheck>Flash</nospellcheck></kw-a>
-		When <atom-cardname><nospellcheck>CW17-Sneaky Salve</nospellcheck></atom-cardname> enters the battlefield you gain 3 life
+		When <atom-cardname><nospellcheck>CW17-Fast-Acting Salve</nospellcheck></atom-cardname> enters the battlefield, you gain 3 life.
 		<sym-auto>2W</sym-auto>, Return an enchantment you control to it’s owner’s hand: Prevent the next 3 damage that would be dealt to any target.
 	flavor text: <i-flavor></i-flavor>
 	card code text: 
