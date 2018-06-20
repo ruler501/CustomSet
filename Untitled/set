@@ -1208,13 +1208,13 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-27 22:09:00
-	name: CR14-Ping Anthem
+	time modified: 2018-06-20 18:08:48
+	name: CR14-Clown Parade
 	casting cost: 2R
 	image: 
 	super type: <word-list-type>Enchantment</word-list-type>
 	sub type: <word-list-enchantment></word-list-enchantment>
-	rule text: Whenever a creature you control with a +1/+1 counter on it attacks <atom-cardname><nospellcheck>CR14-Ping Anthem</nospellcheck></atom-cardname> deals one damage to target player.
+	rule text: Whenever a creature you control with a +1/+1 counter on it attacks, <atom-cardname><nospellcheck>CR14-Clown Parade</nospellcheck></atom-cardname> deals one damage to target player.
 	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
