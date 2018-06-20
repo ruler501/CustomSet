@@ -918,7 +918,7 @@ card:
 	has styling: false
 	notes: Creature
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-06-06 17:57:58
+	time modified: 2018-06-20 17:47:32
 	name: CB07-Attack Beetle
 	casting cost: 2B
 	image: 
@@ -927,6 +927,7 @@ card:
 	rule text:
 		<kw-a><nospellcheck>Deathtouch</nospellcheck></kw-a>
 		Whenever a creature dies, put a +1/+1 counter on <atom-cardname><nospellcheck>CB07-Attack Beetle</nospellcheck></atom-cardname>.
+		The fashionable elite use them as guard dogs.
 	flavor text: <i-flavor></i-flavor>
 	power: 1
 	toughness: 3
