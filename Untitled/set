@@ -1119,13 +1119,15 @@ card:
 		
 		Uncommon shift?
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-30 09:09:30
+	time modified: 2018-06-20 17:49:22
 	name: CB10-Diamond Defiler
 	casting cost: 1B
 	image: 
 	super type: <word-list-type>Enchantment Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Rogue</word-list-class><soft> </soft><word-list-class></word-list-class>
-	rule text: <kw-A><i-auto><nospellcheck>Counterfall <param-number>2</param-number></nospellcheck></i-auto></kw-A> <error-spelling:en_us:/magic.mse-game/magic-words>-</error-spelling:en_us:/magic.mse-game/magic-words> Whenever 1 or more +1/+1 counters are placed on a creature you control, if it has 2 or more +1/+1 counters on it, each opponent loses 2 life and you gain 2 life.
+	rule text:
+		<kw-A><i-auto><nospellcheck>Counterfall <param-number>2</param-number></nospellcheck></i-auto></kw-A> <error-spelling:en_us:/magic.mse-game/magic-words>-</error-spelling:en_us:/magic.mse-game/magic-words> Whenever 1 or more +1/+1 counters are placed on a creature you control, if it has 2 or more +1/+1 counters on it, each opponent loses 2 life and you gain 2 life.
+		There’s always a tall and quiet one in every group.
 	flavor text: <i-flavor></i-flavor>
 	power: 1
 	toughness: 1
