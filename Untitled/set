@@ -1175,7 +1175,7 @@ card:
 	has styling: false
 	notes: Creature
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-27 17:53:32
+	time modified: 2018-06-20 17:46:07
 	name: CB05-Aimless Renegade
 	casting cost: 2B
 	image: 
@@ -1184,6 +1184,7 @@ card:
 	rule text:
 		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>
 		As long as you control an enchantment, <atom-cardname><nospellcheck>CB05-Aimless Renegade</nospellcheck></atom-cardname> has <kw-a><nospellcheck>lifelink</nospellcheck></kw-a>.
+		He used to care about dispensing the law. Now he cares about dispensing violence.
 	flavor text: <i-flavor></i-flavor>
 	power: 2
 	toughness: 1
