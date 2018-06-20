@@ -611,8 +611,8 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-31 10:49:25
-	name: CU16-Deeper Freeze
+	time modified: 2018-06-20 18:28:22
+	name: CU16-Freeze-Dry
 	casting cost: 3U
 	image: 
 	super type: <word-list-type>Enchantment</word-list-type>
@@ -620,7 +620,7 @@ card:
 	rule text:
 		<kw-a><nospellcheck>Flash</nospellcheck></kw-a>
 		<kw-a><nospellcheck>Enchant <param-name>creature</param-name></nospellcheck></kw-a>
-		Enchanted creature has base power and toughness 0/2 has <kw-a><nospellcheck>defender</nospellcheck></kw-a>, loses all other abilities, and is a blue Wall in addition to its other colors and types.
+		Enchanted creature has <kw-a><nospellcheck>defender</nospellcheck></kw-a> and base power and toughness 0/2 <error-spelling>,</error-spelling> loses all other abilities, and is a blue Wall in addition to its other colors and types.
 	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
