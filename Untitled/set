@@ -766,13 +766,13 @@ card:
 	has styling: false
 	notes: Creature
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-06-06 19:06:36
-	name: CU08-Trampoline
+	time modified: 2018-06-20 18:23:14
+	name: CU08-Stream Trampolinist
 	casting cost: 1U
 	image: 
 	super type: <word-list-type>Enchment Creature</word-list-type>
 	sub type: <word-list-race>Merfolk</word-list-race> <word-list-class>Clown</word-list-class><soft> </soft><word-list-class></word-list-class>
-	rule text: <kw-A><i-auto><nospellcheck>Constellation</nospellcheck></i-auto></kw-A> — Whenever <atom-cardname><nospellcheck>CU08-Trampoline</nospellcheck></atom-cardname> or another enchantment enters the battlefield under your control target creature gains <kw-a><nospellcheck>flying</nospellcheck></kw-a> until end of turn.
+	rule text: <kw-A><i-auto><nospellcheck>Constellation</nospellcheck></i-auto></kw-A> — Whenever <atom-cardname><nospellcheck>CU08-Stream Trampolinist</nospellcheck></atom-cardname> or another enchantment enters the battlefield under your control, target creature gains <kw-a><nospellcheck>flying</nospellcheck></kw-a> until end of turn.
 	flavor text: <i-flavor></i-flavor>
 	power: 1
 	toughness: 3
