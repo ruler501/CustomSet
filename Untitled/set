@@ -269,13 +269,13 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-12 22:46:10
-	time modified: 2018-05-26 20:48:39
-	name: CR01-Steal with Counters
+	time modified: 2018-06-20 18:02:55
+	name: CR01-Harlequin Hijacking
 	casting cost: 3R
 	image: 
 	super type: <word-list-type>Sorcery</word-list-type>
 	sub type: <word-list-spell></word-list-spell>
-	rule text: Gain control of target creature until end of turn, that creatures gains <kw-a><nospellcheck>haste</nospellcheck></kw-a>. <kw-1><nospellcheck>Bolster <param-number>1</param-number></nospellcheck>.<atom-reminder-action> <i-auto>(Choose a creature with the least toughness among creatures you control and put <param-number>a</param-number> +1/+1 counter on it.)</i-auto></atom-reminder-action></kw-1>
+	rule text: Gain control of target creature until end of turn. Untap it. That creature gains <kw-a><nospellcheck>haste</nospellcheck></kw-a>. <kw-1><nospellcheck>Bolster <param-number>1</param-number></nospellcheck>.<atom-reminder-action> <i-auto>(Choose a creature with the least toughness among creatures you control and put <param-number>a</param-number> +1/+1 counter on it.)</i-auto></atom-reminder-action></kw-1>
 	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
