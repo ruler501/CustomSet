@@ -895,13 +895,15 @@ card:
 	has styling: false
 	notes: Creature
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-26 21:39:08
+	time modified: 2018-06-20 17:46:51
 	name: CB06-Eye of Ultimate Evil
 	casting cost: 4B
 	image: 
 	super type: <word-list-type>Enchantment Creature</word-list-type>
 	sub type: <word-list-race>Eye</word-list-race><soft> </soft><word-list-class></word-list-class>
-	rule text: <kw-1><i-auto><nospellcheck><error-spelling:en_us:/magic.mse-game/magic-words>Constellation</nospellcheck></i-auto></kw-1>-</error-spelling:en_us:/magic.mse-game/magic-words> When <atom-cardname><nospellcheck>CB06-Eye of Ultimate Evil</nospellcheck></atom-cardname> or another enchantment enters the battlefield under your control, target creature gets -1/-1 until end of turn.
+	rule text:
+		<kw-1><i-auto><nospellcheck><error-spelling:en_us:/magic.mse-game/magic-words>Constellation</nospellcheck></i-auto></kw-1>-</error-spelling:en_us:/magic.mse-game/magic-words> When <atom-cardname><nospellcheck>CB06-Eye of Ultimate Evil</nospellcheck></atom-cardname> or another enchantment enters the battlefield under your control, target creature gets -1/-1 until end of turn.
+		“<error-spelling:en_us:/magic.mse-game/magic-words>Eye’m</error-spelling:en_us:/magic.mse-game/magic-words> very glad to see you.”
 	flavor text: <i-flavor></i-flavor>
 	power: 4
 	toughness: 4
