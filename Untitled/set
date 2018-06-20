@@ -553,13 +553,15 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-27 17:39:32
-	name: CW16-Rewarding honor
+	time modified: 2018-06-20 18:41:54
+	name: CW16-Rewarding Honor
 	casting cost: 1W
 	image: 
 	super type: <word-list-type>Instant</word-list-type>
 	sub type: <word-list-spell></word-list-spell>
-	rule text: You gain 4 life, then if you control an enchantment, <kw-A><nospellcheck>bolster <param-number>2</param-number></nospellcheck>.<atom-reminder-action> <i-auto>(Choose a creature with the least toughness among creatures you control and put <param-number>two</param-number> +1/+1 counters on it.)</i-auto></atom-reminder-action></kw-A>
+	rule text:
+		You gain 4 life. Then, if you control an enchantment, <kw-A><nospellcheck>bolster <param-number>2</param-number></nospellcheck>.<atom-reminder-action> <i-auto>(Choose a creature with the least toughness among creatures you control and put <param-number>two</param-number> +1/+1 counters on it.)</i-auto></atom-reminder-action></kw-A>
+		A medal for your troubles.
 	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
