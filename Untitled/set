@@ -4926,15 +4926,15 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:54:35
-	time modified: 2018-06-06 18:43:06
+	time modified: 2018-06-20 18:46:29
 	card color: white, blue, green, hybrid, horizontal
-	name: MGWU02-Miles
+	name: MGWU02-Miles, Truthseer
 	casting cost: 1WGU
 	image: 
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Human</word-list-race> <word-list-class>Wizard</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: mythic rare
-	rule text: <kw-A><i-auto><nospellcheck>Constellation</nospellcheck></i-auto></kw-A> — Whenever <atom-cardname><nospellcheck>MGWU02-Miles</nospellcheck></atom-cardname> or another enchantment enters the battlefield under your control up to two target players draw a card and distribute 2 +1/+1 counters between up to two target creatures
+	rule text: <kw-A><i-auto><nospellcheck>Constellation</nospellcheck></i-auto></kw-A> — Whenever <atom-cardname><nospellcheck>MGWU02-Miles, Truthseer</nospellcheck></atom-cardname> or another enchantment enters the battlefield under your <error-spelling:en_us:/magic.mse-game/magic-words>contro,l</error-spelling:en_us:/magic.mse-game/magic-words> up to two target players draw a card and distribute 2 +1/+1 counters between up to two target creatures.
 	flavor text: <i-flavor></i-flavor>
 	power: 2
 	toughness: 2
