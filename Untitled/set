@@ -5308,15 +5308,15 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 22:03:39
-	time modified: 2018-06-06 18:44:56
+	time modified: 2018-06-20 18:50:30
 	card color: white, black, red, hybrid, horizontal
-	name: MWRB01-Garrett
+	name: MWRB01-Honkboss Garrett
 	casting cost: 4RWB
 	image: 
 	super type: <word-list-type>Legendary Enchantment Creature</word-list-type>
 	sub type: <word-list-race>Clown</word-list-race><soft> </soft><word-list-class></word-list-class>
 	rarity: mythic rare
-	rule text: <kw-A><i-auto><nospellcheck>Constellation</nospellcheck></i-auto></kw-A> — Whenever <atom-cardname><nospellcheck>MWRB01-Garrett</nospellcheck></atom-cardname> or another enchantment enters the battlefield under your control reveal cards from the top of your library until you reveal a nonland, nonenchantment permanent card, you may cast that card without paying its mana cost.
+	rule text: <kw-A><i-auto><nospellcheck>Constellation</nospellcheck></i-auto></kw-A> — Whenever <atom-cardname><nospellcheck>MWRB01-Honkboss Garrett</nospellcheck></atom-cardname> or another enchantment enters the battlefield under your control, reveal cards from the top of your library until you reveal a nonland, nonenchantment permanent card. You may cast that card without paying its mana cost.
 	flavor text: <i-flavor></i-flavor>
 	power: 7
 	toughness: 5
