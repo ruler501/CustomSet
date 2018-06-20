@@ -5439,13 +5439,15 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-31 10:21:24
-	time modified: 2018-05-31 20:32:06
+	time modified: 2018-06-20 18:13:35
 	name: CR17-Vampiric Rites
 	casting cost: 2R
 	image: 
 	super type: <word-list-type>Enchantment</word-list-type>
 	sub type: <word-list-enchantment></word-list-enchantment>
-	rule text: Whenever a creature dies you may pay <sym-auto>1</sym-auto>, if you do, put a +1/+1 counter on target creature.
+	rule text:
+		Whenever a creature dies, you may pay <sym-auto>1</sym-auto>. If you do, put a +1/+1 counter on target creature.
+		The most jubilant of parties involve no clowns at all.
 	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
