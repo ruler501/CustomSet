@@ -1088,13 +1088,15 @@ card:
 	has styling: false
 	notes: Creature
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-26 21:38:48
+	time modified: 2018-06-20 17:45:20
 	name: CB04-Grim Guardian
 	casting cost: 2B
 	image: 
 	super type: <word-list-type>Enchantment Creature</word-list-type>
 	sub type: <word-list-race>Zombie</word-list-race><soft> </soft><word-list-class></word-list-class>
-	rule text: <kw-A><i-auto><nospellcheck>Constellation</nospellcheck></i-auto></kw-A> — Whenever <atom-cardname><nospellcheck>CB04-Grim Guardian</nospellcheck></atom-cardname> or another enchantment enters the battlefield under your control, each opponent loses 1 life.
+	rule text:
+		<kw-A><i-auto><nospellcheck>Constellation</nospellcheck></i-auto></kw-A> — Whenever <atom-cardname><nospellcheck>CB04-Grim Guardian</nospellcheck></atom-cardname> or another enchantment enters the battlefield under your control, each opponent loses 1 life.
+		The best witness intimidation money can buy.
 	flavor text: <i-flavor></i-flavor>
 	power: 1
 	toughness: 4
