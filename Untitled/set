@@ -1686,7 +1686,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-27 21:03:30
+	time modified: 2018-06-20 18:00:36
 	name: CG13-Karametra’s Favor
 	casting cost: 2G
 	image: 
@@ -1694,8 +1694,8 @@ card:
 	sub type: <word-list-enchantment>Aura</word-list-enchantment><soft> </soft><word-list-enchantment></word-list-enchantment>
 	rule text:
 		<kw-a><nospellcheck>Enchant <param-name>creature</param-name></nospellcheck></kw-a>
-		When <error-spelling:en_us:/magic.mse-game/magic-words>Karametra’s</error-spelling:en_us:/magic.mse-game/magic-words> Favor enters the battlefield draw a card.
-		Enchanted creature has “<sym-auto>T</sym-auto>: Add one mana of any color”
+		When <error-spelling:en_us:/magic.mse-game/magic-words>Karametra’s</error-spelling:en_us:/magic.mse-game/magic-words> Favor enters the battlefield, draw a card.
+		Enchanted creature has “<sym-auto>T</sym-auto>: Add one mana of any color.”
 	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
