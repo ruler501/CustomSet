@@ -85,18 +85,17 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-12 21:40:18
-	time modified: 2018-06-06 12:48:33
+	time modified: 2018-06-20 17:41:13
 	name: CB02-Pain Blade
 	casting cost: BB
 	image: 
 	super type: <word-list-type>Instant</word-list-type>
 	sub type: <word-list-spell></word-list-spell>
 	rule text:
-		This spell costs <sym-auto>1</sym-auto> more for each opponent
-		For each opponent choose 1
-		<error-spelling:en_us:/magic.mse-game/magic-words>-</error-spelling:en_us:/magic.mse-game/magic-words> Destroy target creature that player controls
-		<error-spelling:en_us:/magic.mse-game/magic-words>-</error-spelling:en_us:/magic.mse-game/magic-words> That player discards a card<error-spelling>
-		</error-spelling>
+		This spell costs <sym-auto>1</sym-auto> more to cast for each opponent.
+		For each opponent, choose <error-spelling:en_us:/magic.mse-game/magic-words>1-</error-spelling:en_us:/magic.mse-game/magic-words>
+		<error-spelling:en_us:/magic.mse-game/magic-words>-</error-spelling:en_us:/magic.mse-game/magic-words> Destroy target creature that player controls.
+		<error-spelling:en_us:/magic.mse-game/magic-words>-</error-spelling:en_us:/magic.mse-game/magic-words> That player discards a card.
 	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
@@ -210,13 +209,15 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-12 22:40:35
-	time modified: 2018-05-31 09:58:08
-	name: CB01-Sign in Counters
+	time modified: 2018-06-20 17:41:57
+	name: CB01-Insidious Query
 	casting cost: 2B
 	image: 
 	super type: <word-list-type>Instant</word-list-type>
 	sub type: <word-list-spell></word-list-spell>
-	rule text: Target players draws 2 cards and loses 2 life. <kw-1><nospellcheck>Bolster <param-number>1</param-number></nospellcheck>.<atom-reminder-action> <i-auto>(Choose a creature with the least toughness among creatures you control and put <param-number>a</param-number> +1/+1 counter on it.)</i-auto></atom-reminder-action></kw-1>
+	rule text:
+		Target players draws 2 cards and loses 2 life. <kw-1><nospellcheck>Bolster <param-number>1</param-number></nospellcheck>.<atom-reminder-action> <i-auto>(Choose a creature with the least toughness among creatures you control and put <param-number>a</param-number> +1/+1 counter on it.)</i-auto></atom-reminder-action></kw-1>
+		Some questions shouldn’t be asked.
 	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
