@@ -967,14 +967,16 @@ card:
 		Creature
 		Uncommon shift?
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-26 22:21:17
+	time modified: 2018-06-20 17:48:23
 	name: CB09-Slick Slaughterer
 	casting cost: 3B
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
 	sub type: <word-list-race>Vampire</word-list-race> <word-list-class>Assassin</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rule text: <kw-a><nospellcheck>Flying</nospellcheck></kw-a>, <kw-a><nospellcheck>lifelink</nospellcheck></kw-a>
-	flavor text: <i-flavor>At the beginning of your upkeep, sacrifice <error-spelling:en_us>CARDNAME</error-spelling:en_us> unless you control an enchantment.</i-flavor>
+	flavor text:
+		<i-flavor>At the beginning of your upkeep, sacrifice <error-spelling:en_us>CARDNAME</error-spelling:en_us> unless you control an enchantment.
+		He has constructive, <error-spelling:en_us>knife-based</error-spelling:en_us> input on the world around him.<error-spelling> </i-flavor></error-spelling>
 	power: 3
 	toughness: 3
 	card code text: 
