@@ -5476,11 +5476,11 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-31 10:21:49
-	time modified: 2018-05-31 10:34:24
-	name: CB17-Exile Removal
+	time modified: 2018-06-20 17:54:55
+	name: CB17-Final Reward
 	casting cost: 4B
 	image: 
-	super type: <word-list-type>Sorcery</word-list-type>
+	super type: <word-list-type>Instant</word-list-type>
 	sub type: <word-list-spell></word-list-spell>
 	rule text: Exile target creature
 	flavor text: <i-flavor></i-flavor>
