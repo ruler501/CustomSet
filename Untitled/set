@@ -743,17 +743,17 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-06-06 17:08:34
-	name: CU11-Enchantment Machinations
+	time modified: 2018-06-20 18:24:12
+	name: CU11-Memetic Sabotage
 	casting cost: UU
 	image: 
 	super type: <word-list-type>Instant</word-list-type>
 	sub type: <word-list-spell></word-list-spell>
 	rule text:
 		This spell costs <sym-auto>1</sym-auto> more to cast for each opponent.
-		For each opponent choose 1
+		For each opponent, choose <error-spelling:en_us:/magic.mse-game/magic-words>one-</error-spelling:en_us:/magic.mse-game/magic-words>
 		<error-spelling:en_us:/magic.mse-game/magic-words>-</error-spelling:en_us:/magic.mse-game/magic-words> Return target nonland permanent that player controls to their hand.
-		<error-spelling:en_us:/magic.mse-game/magic-words>-</error-spelling:en_us:/magic.mse-game/magic-words> <kw-0><nospellcheck>Scry <param-number>2</param-number></nospellcheck></kw-0>
+		<error-spelling:en_us:/magic.mse-game/magic-words>-</error-spelling:en_us:/magic.mse-game/magic-words> <kw-0><nospellcheck>Scry <param-number>2</param-number></nospellcheck></kw-0>.
 	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
