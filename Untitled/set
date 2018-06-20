@@ -1269,7 +1269,7 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-06-04 10:28:44
+	time modified: 2018-06-20 18:07:12
 	name: CR13-Cartouche of Zeal
 	casting cost: R
 	image: 
@@ -1277,8 +1277,8 @@ card:
 	sub type: <word-list-enchantment>Aura</word-list-enchantment> <word-list-enchantment>Cartouche</word-list-enchantment><soft> </soft><word-list-enchantment></word-list-enchantment>
 	rule text:
 		<kw-a><nospellcheck>Enchant <param-name>creature you control</param-name></nospellcheck></kw-a>
-		When <atom-cardname><nospellcheck>CR13-Cartouche of Zeal</nospellcheck></atom-cardname> enters the battlefield, target creature can’t block this turn
-		Enchanted creature gets +1/+1 and has <kw-a><nospellcheck>haste</nospellcheck></kw-a>
+		When <atom-cardname><nospellcheck>CR13-Cartouche of Zeal</nospellcheck></atom-cardname> enters the battlefield, target creature can’t block this turn.
+		Enchanted creature gets +1/+1 and has <kw-a><nospellcheck>haste</nospellcheck></kw-a>.
 	flavor text: <i-flavor></i-flavor>
 	card code text: 
 	copyright: 
