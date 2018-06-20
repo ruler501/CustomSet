@@ -5206,9 +5206,9 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 22:01:26
-	time modified: 2018-05-31 12:51:43
+	time modified: 2018-06-20 18:49:12
 	card color: blue, black, red, hybrid, horizontal
-	name: MUBR01-Charles
+	name: MUBR01-Honkboss Charles
 	casting cost: 2BUR
 	image: 
 	super type: <word-list-type>Legendary Enchantment Creature</word-list-type>
@@ -5216,7 +5216,7 @@ card:
 	rarity: mythic rare
 	rule text:
 		<kw-a><nospellcheck>Flying</nospellcheck></kw-a>
-		<kw-A><i-auto><nospellcheck>Constellation</nospellcheck></i-auto></kw-A> — Whenever <atom-cardname><nospellcheck>MUBR01-Charles</nospellcheck></atom-cardname> or another enchantment enters the battlefield under your control you may cast target creature card in a graveyard until end of turn.
+		<kw-A><i-auto><nospellcheck>Constellation</nospellcheck></i-auto></kw-A> — Whenever <atom-cardname><nospellcheck>MUBR01-Honkboss Charles</nospellcheck></atom-cardname> or another enchantment enters the battlefield under your control, you may cast target creature card in a graveyard until end of turn.
 	flavor text: <i-flavor></i-flavor>
 	power: 4
 	toughness: 4
