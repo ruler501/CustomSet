@@ -5382,9 +5382,9 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 22:05:52
-	time modified: 2018-06-06 18:44:42
+	time modified: 2018-06-20 18:49:45
 	card color: blue, red, green, hybrid, horizontal
-	name: MUGR02-Joseph
+	name: MUGR02-Joseph, the Enigma
 	casting cost: 2GUR
 	image: 
 	super type: <word-list-type>Legendary Creature</word-list-type>
@@ -5392,9 +5392,9 @@ card:
 	rarity: mythic rare
 	rule text:
 		<kw-A><i-auto><nospellcheck>Counterfall <param-number>2</param-number></nospellcheck></i-auto></kw-A> — Choose one:
-		<error-spelling:en_us:/magic.mse-game/magic-words>-</error-spelling:en_us:/magic.mse-game/magic-words> Draw a card
-		<error-spelling:en_us:/magic.mse-game/magic-words>-</error-spelling:en_us:/magic.mse-game/magic-words> Add two mana in any combination of colors
-		<error-spelling:en_us:/magic.mse-game/magic-words>-</error-spelling:en_us:/magic.mse-game/magic-words> <error-spelling:en_us:/magic.mse-game/magic-words>ComUGR02-Joseph</error-spelling:en_us:/magic.mse-game/magic-words> deals 3 damage to any target
+		<error-spelling:en_us:/magic.mse-game/magic-words>-</error-spelling:en_us:/magic.mse-game/magic-words> Draw a card.
+		<error-spelling:en_us:/magic.mse-game/magic-words>-</error-spelling:en_us:/magic.mse-game/magic-words> Add two mana in any combination of colors.
+		<error-spelling:en_us:/magic.mse-game/magic-words>-</error-spelling:en_us:/magic.mse-game/magic-words> <error-spelling:en_us:/magic.mse-game/magic-words>ComUGR02-Joseph</error-spelling:en_us:/magic.mse-game/magic-words> deals 3 damage to any target.
 	flavor text: <i-flavor></i-flavor>
 	power: 3
 	toughness: 3
