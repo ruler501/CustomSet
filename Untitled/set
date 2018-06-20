@@ -4975,15 +4975,17 @@ card:
 	has styling: false
 	notes: 
 	time created: 2018-05-22 21:55:32
-	time modified: 2018-06-06 18:42:45
+	time modified: 2018-06-20 18:44:33
 	card color: white, black, green, hybrid, horizontal
-	name: MBGW02-Panharmonicon Ripoff
+	name: MBGW02-Devon, Sandspeaker
 	casting cost: 2WBG
 	image: 
 	super type: <word-list-type>Legendary Creature</word-list-type>
 	sub type: <word-list-race>Rat</word-list-race> <word-list-class>Cleric</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rarity: mythic rare
-	rule text: If a permanent entering the battlefield or a counter being placed on a permanent would trigger an ability, instead trigger that ability twice.
+	rule text:
+		If a permanent entering the battlefield or a counter being placed on a permanent would trigger an ability, instead trigger that ability twice.
+		“We care not for the clowns in the city. Real truth can be found here, in the desert.”
 	flavor text: <i-flavor></i-flavor>
 	power: 3
 	toughness: 4
