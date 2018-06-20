@@ -1013,14 +1013,16 @@ card:
 	has styling: false
 	notes: Creature
 	time created: 2018-05-13 07:43:01
-	time modified: 2018-05-30 09:10:29
+	time modified: 2018-06-20 17:50:47
 	name: CB12-Brain-Clubber
 	casting cost: BB
 	image: 
 	super type: <word-list-type>Creature</word-list-type>
 	sub type: <word-list-race>Aetherborn</word-list-race> <word-list-class>Clown</word-list-class><soft> </soft><word-list-class></word-list-class>
 	rule text: <kw-a><nospellcheck>Deathtouch</nospellcheck></kw-a>, <kw-a><nospellcheck>lifelink</nospellcheck></kw-a>
-	flavor text: <i-flavor></i-flavor>
+	flavor text:
+		<i-flavor>
+		“Honk honk!”</i-flavor>
 	power: 2
 	toughness: 3
 	card code text: 
